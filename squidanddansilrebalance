@@ -1,0 +1,97 @@
+SquidTheSid & Dansil92's unit rebalance mod
+
+#The goal of this mod is to rebalance the units of problematic civilizations. This is aimed to encourage greater unit diversity and bring underperforming units up to par by often giving them new/interesting roles.
+
+Aztec: 
+
+Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
+- HP: Lowered to 200 from 230
+- Armor: Changed from 10% melee to 10% ranged
+- 0.5x multiplier vs cavalry and light infantry added, 2.0x light cavalry multiplier added
+- Heavy infantry unit tag removed
+
+Skull Knight - The Skull Knight is now a mini-cuirassier and is classified as light infantry. They're Aztec's shock troopers and their AoE cleave can carve through skirmishers with ease. To compensate for their increased speed, they have lower siege damage and no unit multipliers. 
+- Armor: Changed from 20% melee to 20% ranged
+- 3x Cavalry and 2x Light Infantry damage multipliers removed (no penalties/strengths vs. any unit now)
+- Speed: Increased from 4 to 6.25
+- Siege: Reduced to 30 damage from 72
+- Infantry and Heavy Infantry unit tags removed, Light Infantry and CoyoteMan unit tags added
+
+Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down. 
+- Armor: Reduced from 30% ranged to 20% 
+
+Arrow Knights - Incorporated ESOC changes
+- Population: Reduced from 2 to 1
+- Movement Speed: Increased from 3.75 to 4 
+
+Puman Spearmen - Incorporated ESOC changes
+- Siege trooper unit tag removed. 
+
+Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with Jaguar Prowl Knights, Puma Spearmen, Skull Knights, and Eagle Runner Knights all fulfilling this role. Generally, a late-game Aztec player would build their army out of almost entirely ERKs due to their significant overall strength, leaving Skull Knights and JPK by the wayside. Now, Aztec have 2 proper cavalry units, 2 skirmisher units, 2 anti-cav units, and 1 artillery unit. 
+
+Sioux (WIP):
+
+Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
+- HP: Increased to 200 from 170
+- Armor: Ranged armor increased to 30% from 10%
+- Damage: Base attack increased to 20 from 15
+- 10x Hero, 5x mercenary, and 2.5x native unit damage multipliers added. 
+- LOS increased to 18 from 12
+
+War Club - War Clubs are the Sioux's equivalent of pikemen, except they're not particularly great vs. cavalry or buildings. Since Sioux have access to Bow Riders age 2, anti-cav isn't usually a problem, but the lack of siege is. Therefore, I've made them deal far more siege damage, in addition to being a bit tankier and hit harder. Now, they're roughly equivalent to the Aztec's Puma Spearmen, but with slightly less damage and slightly more HP
+-HP: Increased from 120 to 140
+- Damage: Base attack increased to 11 from 10
+- Siege: Increased to 44 damage from 27
+- Cavalry and light infantry multipliers increased to 5x and 3.5x, respectively
+- XP bounty: Increased to 10 from 9
+
+Cetan Bow: Incorporated ESOC Changes
+- HP: Increased to 100 from 90
+- Speed: Increased to 4.5 from 4.0
+
+Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a splash attack and an aura gimmick. They still require heavy resource investment to maximize, but they should be usable in small numbers, no longer being completely outclassed by the cheap steppe rider. While they might not see use in every game, they're no longer a joke unit. War Clubs help provide the raw siege damage that Sioux lacks early on, and Cetan Bows are more versatile archer units. 
+
+Iroquois (WIP):
+
+Mantlet: They're fantastic units, but their slow movement speed really hampers their use. Bumping it up to 4.0 makes them much more versatile units.
+- Speed: Increased to 4.0 from 3.5
+
+Ram: They're niche units, and the slow movement speed doesn't help. Normalizing it to 4 alongside mantlets makes Iro's army far more mobile
+- Speed: Increased to 4.0 from 3.5
+
+India (WIP):
+
+Rajput: Infamously terrible on vanilla, they're pretty much a worse version of Sepoy. To help them out, I've improved their anti-cavalry abilities and greatly buffed their siege damage to be on par with other pikemen units. 
+- Siege: Increased to 54 damage up from 20
+- Cost: Food cost reduced by 20 to 80F
+
+Siege Elephant: Siege elephants struggled greatly on vanilla due to being easily overwhelmed by infantry. With the removal of their light cav tag, they should be more versatile units.
+- Light cavalry unit tag removed
+- Population Cost: Reduced to 6 from 7
+- Honored upgrade increases artillery multiplier to 3.5x from 2.5x
+- Honored upgrade increases range to 30 from 28
+- LOS increased to 34 from 29
+- Removed villager damage penalty
+- Mansabdar population cost reduced to 9 from 14
+
+Mahout Lancer: In vanilla, Mahout are easily kited, making them very hard to use. They've been buffed to make them better at chasing down skirmishers.
+- Population Cost: Reduced to 6 from 7
+- Speed: Increased to 6.25 from 6
+- Range: Melee range increased to 2
+- Removed villager damage penalty
+- Mansabdar population cost reduced to 9 from 14
+
+Howdah: Howdah, much like Mahout, as slow and are population inefficient. They've been adjusted as such
+- Population Cost: Reduced to 5 from 6
+- Speed: Increased to 6 from 5.5
+- Mansabdar population cost reduced to 8 from 12
+
+Sowar: They're India's version of cossacks, but with a focus on anti-skirmishers, like Naginata Riders. However, they cost too much population for what they do. 
+- Population Cost: Reduced to 1 from 2
+
+France:
+
+Cuirassier: It's not secret that Gendarmes are hilariously broken lategame. Alongside Thoroughbreds no longer reducing train time (to prevent instant spawns), their base stats have been reduced to make them more reasonable.
+- HP: Reduced to 400 from 500
+- Damage: Reduced to 24 from 30
+- Upgrades: Veteran Upgrade now increases HP/Damage by 20% up from 0%
