@@ -2,6 +2,11 @@ SquidTheSid & Dansil92's unit rebalance mod
 
 #The goal of this mod is to rebalance the units of problematic civilizations. This is aimed to encourage greater unit diversity and bring underperforming units up to par by often giving them new/interesting roles.
 
+General:
+- All damage bonuses vs. AbstractCoyoteMan have been changed to AbstractLightInfantry. This fixes some weird balancing issues with Tiger Claws and Eagle Runner Knights, for example
+- Tiger Claw's "AbstractInfantry" tag removed
+- Grenadier's HeavyInfantry tag removed
+
 Aztec: 
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
@@ -95,3 +100,9 @@ Cuirassier: It's not secret that Gendarmes are hilariously broken lategame. Alon
 - HP: Reduced to 400 from 500
 - Damage: Reduced to 24 from 30
 - Upgrades: Veteran Upgrade now increases HP/Damage by 20% up from 0%
+
+Portugal:
+
+Bestieros: 2400 for crossbowmen? Oof.
+- Cost: Reduced to 800 wood from 2400
+- Now ships 12 crossbowmen instead of 22
