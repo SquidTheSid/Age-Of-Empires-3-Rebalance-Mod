@@ -3,8 +3,12 @@ SquidTheSid & Dansil92's unit rebalance mod
 #The goal of this mod is to rebalance the units of problematic civilizations. This is aimed to encourage greater unit diversity and bring underperforming units up to par by often giving them new/interesting roles.
 
 General:
-- All damage bonuses vs. AbstractCoyoteMan have been changed to AbstractLightInfantry. This fixes some weird balancing issues with Tiger Claws and Eagle Runner Knights, for example
-- Tiger Claw's "AbstractInfantry" tag removed
+- (WIP) All skirmisher/archer damage bonuses vs. AbstractCoyoteMan have been changed to AbstractLightInfantry. This fixes some weird balancing issues with Tiger Claws and Eagle Runner Knights.
+
+Native: 
+- Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
+
+Euro: 
 - Grenadier's HeavyInfantry tag removed
 
 Aztec: 
@@ -67,7 +71,8 @@ Ram: They're niche units, and the slow movement speed doesn't help. Normalizing 
 India (WIP):
 
 Rajput: Infamously terrible on vanilla, they're pretty much a worse version of Sepoy. To help them out, I've improved their anti-cavalry abilities and greatly buffed their siege damage to be on par with other pikemen units. 
-- Siege: Increased to 54 damage up from 20
+- Siege: Increased to 25 damage up from 20
+- Speed: Increased to 5.5 from 5.0 
 - Cost: Food cost reduced by 20 to 80F
 
 Siege Elephant: Siege elephants struggled greatly on vanilla due to being easily overwhelmed by infantry. With the removal of their light cav tag, they should be more versatile units.
@@ -93,6 +98,17 @@ Howdah: Howdah, much like Mahout, as slow and are population inefficient. They'v
 
 Sowar: They're India's version of cossacks, but with a focus on anti-skirmishers, like Naginata Riders. However, they cost too much population for what they do. 
 - Population Cost: Reduced to 1 from 2
+
+Japan:
+
+Yabusame: An overall solid unit with ridiculously heavy gold macro. It's been rescaled to more in line with other dragoon units
+- Cost: Rescaled to 100 food and 110 gold from 60 food and 150 gold. 
+
+Samurai: Imagine Germany's dopps, but completely awful due to their pathetic multipliers. I've gone ahead and normalized them to be more on par, having higher base damage, but lower multipliers
+- Cost: Increased to 110 food from 100
+- Cavalry multiplier increased to 2.0 from 1.75, LightInfantry increased to 1.5 from 1.4.
+- AoE increased to 2 from 1
+- Villager and Elephant damage penalties removed. 
 
 France:
 

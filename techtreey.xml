@@ -8179,9 +8179,9 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 			<Effect type ='SetName' proto ='Cuirassier' culture ='none' newName ='24795'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Cuirassier' relativity ='Absolute'>
@@ -9735,7 +9735,7 @@
 	<Tech name ='ChurchBestieros' type ='Normal'>
 		<DBID>340</DBID>
 		<DisplayNameID>23918</DisplayNameID>
-		<Cost resourcetype ='Wood'>2400.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\bestieros\bestieros_64x64</Icon>
@@ -9750,7 +9750,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
-			<Effect type ='Data' amount ='22.00' subtype ='FreeHomeCityUnit' unittype ='Crossbowman' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Crossbowman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
@@ -12155,10 +12155,10 @@
 			<TechStatus status ='Active'>RGGendarmes</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.60' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 			<Effect type ='SetName' proto ='Cuirassier' culture ='none' newName ='30964'></Effect>
-			<Effect type ='Data' amount ='1.60' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 		</Effects>
 	</Tech>
@@ -22915,6 +22915,23 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='VeteranCuirassiersShadow' type ='Normal'>
+		<DBID>110</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
+			<Effect type ='SetName' proto ='Cuirassier' culture ='none' newName ='22981'></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Cuirassier' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='VeteranDragoonsShadow' type ='Normal'>
