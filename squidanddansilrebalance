@@ -26,8 +26,9 @@ Skull Knight - The Skull Knight is now a mini-cuirassier and is classified as li
 - Siege: Reduced to 30 damage from 72
 - Infantry and Heavy Infantry unit tags removed, Light Infantry and CoyoteMan unit tags added
 
-Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down. 
+Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down. (Incorporating Garja's changes)
 - Armor: Reduced from 30% ranged to 20% 
+- Speed: Increased to 6.25 from 6.00
 
 Arrow Knights - Incorporated ESOC changes
 - Population: Reduced from 2 to 1
@@ -101,14 +102,20 @@ Sowar: They're India's version of cossacks, but with a focus on anti-skirmishers
 
 Japan:
 
+- Ending Japanese isolation no longer has a permanent damage penalty 
+
 Yabusame: An overall solid unit with ridiculously heavy gold macro. It's been rescaled to more in line with other dragoon units
 - Cost: Rescaled to 100 food and 110 gold from 60 food and 150 gold. 
 
-Samurai: Imagine Germany's dopps, but completely awful due to their pathetic multipliers. I've gone ahead and normalized them to be more on par, having higher base damage, but lower multipliers
-- Cost: Increased to 110 food from 100
-- Cavalry multiplier increased to 2.0 from 1.75, LightInfantry increased to 1.5 from 1.4.
-- AoE increased to 2 from 1
-- Villager and Elephant damage penalties removed. 
+Samurai: Samurai have always been iffy cav units, now they're just a generic melee unit without weird AoE or multipliers. 
+- HP: Increased to 235 from 230
+- Cost: Reduced to 50 food, 60 coin from 100/100, shipments adjusted accordingly, build bountry adjusted accordingly (20 --> 12)
+- Train Points: Reduced to 36 from 45
+- All multipliers removed
+- AoE removed
+- Population: Reduced to 1 from 2
+- Siege Damage: Reduced to 42 from 67
+- Sword Saint: No longer increases unit cost, but adds in a 0.8x damage multiplier vs infantry
 
 France:
 
@@ -117,6 +124,10 @@ Cuirassier: It's not secret that Gendarmes are hilariously broken lategame. Alon
 - Damage: Reduced to 24 from 30
 - Upgrades: Veteran Upgrade now increases HP/Damage by 20% up from 0%
 
+China:
+
+Qiang Pikeman: They've got a terribly low light infantry multiplier for a pike, so I've gone ahead and fixed it
+- Light Infantry damage multiplier increased to 3.5x from 2.25x
 Portugal:
 
 Bestieros: 2400 for crossbowmen? Oof.

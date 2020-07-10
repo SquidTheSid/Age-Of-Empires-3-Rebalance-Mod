@@ -37456,7 +37456,7 @@
 		<Icon>ui\techs\asians\chuck\hc_samurai_shipment</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCShipSamurai3' type ='Normal'>
@@ -37468,7 +37468,7 @@
 		<Icon>ui\techs\asians\chuck\hc_samurai_shipment</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCShipSamurai2' type ='Normal'>
@@ -37481,7 +37481,7 @@
 		<RolloverTextID>69383</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='14.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
@@ -38947,10 +38947,14 @@
 			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
 			<Effect type ='TextOutput'>70359</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' action ='CoverHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCSamuraiDamage' type ='Normal'>
@@ -41739,7 +41743,7 @@
 		<Icon>ui\techs\asians\chuck\hc_infinite_samurai</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCShipNaginataRider4' type ='Normal'>
@@ -42730,7 +42734,7 @@
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToshoguShrine2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseShogunate2</Effect>
@@ -42755,7 +42759,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPMilitaryRickshaw' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
@@ -42781,7 +42785,7 @@
 		<Effects>
 			<Effect type ='SetAge'>Age3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
@@ -42806,7 +42810,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='25.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
@@ -47775,11 +47779,11 @@
 			<Effect civ ='Japanese' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRelationsJapanese</Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
@@ -47837,7 +47841,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' action ='SpawnSamurai' amount ='1.00' subtype ='ActionAdd' unittype ='ypCastle' relativity ='Absolute'>
+			<Effect type ='Data' action ='SpawnSamurai' amount ='2.00' subtype ='ActionAdd' unittype ='ypCastle' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='ypConsulateJapaneseMeijiRestoration' type ='Normal'>
