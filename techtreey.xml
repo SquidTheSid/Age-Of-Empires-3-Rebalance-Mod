@@ -37707,7 +37707,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypChuKoNu' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypChuKoNu' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -37722,10 +37722,12 @@
 		<RolloverTextID>63698</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlameThrower</Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCShipEmperorsArmy' type ='Normal'>
@@ -37748,7 +37750,7 @@
 	<Tech name ='YPHCShipEverVictoriousArmy' type ='Normal'>
 		<DBID>3938</DBID>
 		<DisplayNameID>61524</DisplayNameID>
-		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Food'>1500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -37781,10 +37783,14 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\chinese\flame_thrower\flame_thrower_icon_64</Icon>
+		<RolloverTextID>70525</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlameThrower</Effect>
+
+			
 	</Tech>
 	<Tech name ='YPHCShipFlameThrower3' type ='Normal'>
 		<DBID>3941</DBID>
@@ -37797,6 +37803,9 @@
 		<Effects>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='TechStatus' status ='active'>YPHonoredFlameThrower</Effect>
+
+						
 	</Tech>
 	<Tech name ='YPHCShipHandMortar1' type ='Normal'>
 		<DBID>3942</DBID>
@@ -37947,7 +37956,6 @@
 	<Tech name ='YPHCOldHanArmyReforms' type ='Normal'>
 		<DBID>3954</DBID>
 		<DisplayNameID>61558</DisplayNameID>
-		<Cost resourcetype ='Food'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -37955,37 +37963,66 @@
 		<RolloverTextID>61557</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypOldHanArmy</Target></Effect>
 			<Effect type ='TextOutput'>70482</Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypOldHanArmy</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypMingArmy</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypMingArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypStandardArmy</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypStandardArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
+			<Effect type ='Data' amount ='1.10' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypMongolianArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
+			
+
+
+
+
+
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCBannerReforms' type ='Normal'>
 		<DBID>3955</DBID>
 		<DisplayNameID>61562</DisplayNameID>
-		<Cost resourcetype ='Food'>200.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -39497,7 +39534,7 @@
 	<Tech name ='YPHCShipBeiyangArmy' type ='Normal'>
 		<DBID>4158</DBID>
 		<DisplayNameID>62319</DisplayNameID>
-		<Cost resourcetype ='Food'>1000.0000</Cost>
+		<Cost resourcetype ='Food'>750.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
