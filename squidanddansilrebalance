@@ -115,14 +115,15 @@ Samurai: Samurai have always been iffy cav units, now they're just a generic mel
 - AoE removed
 - Population: Reduced to 1 from 2
 - Siege Damage: Reduced to 42 from 67
-- Sword Saint: No longer increases unit cost, but adds in a 0.8x damage multiplier vs infantry
+- Sword Saint: No longer increases unit cost, but adds in a 0.75x damage multiplier vs infantry
 
 France:
 
 Cuirassier: It's not secret that Gendarmes are hilariously broken lategame. Alongside Thoroughbreds no longer reducing train time (to prevent instant spawns), their base stats have been reduced to make them more reasonable.
 - HP: Reduced to 400 from 500
 - Damage: Reduced to 24 from 30
-- Upgrades: Veteran Upgrade now increases HP/Damage by 20% up from 0%
+- Cost: Food/Coin cost reduced to 130/130 from 150/150
+- Thoroughbreds: No longer reduces train points. Now increases Cuirassier health and damage by 25% each. 
 
 China:
 

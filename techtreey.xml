@@ -9735,7 +9735,7 @@
 	<Tech name ='ChurchBestieros' type ='Normal'>
 		<DBID>340</DBID>
 		<DisplayNameID>23918</DisplayNameID>
-		<Cost resourcetype ='Wood'>2400.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\bestieros\bestieros_64x64</Icon>
@@ -9750,7 +9750,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
-			<Effect type ='Data' amount ='22.00' subtype ='FreeHomeCityUnit' unittype ='Crossbowman' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Crossbowman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
@@ -33717,12 +33717,11 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47038</Effect>
-			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipCulverins2' type ='Normal'>
@@ -37441,7 +37440,7 @@
 		<Icon>ui\techs\asians\chuck\hc_samurai_shipment</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCShipSamurai3' type ='Normal'>
@@ -37453,7 +37452,7 @@
 		<Icon>ui\techs\asians\chuck\hc_samurai_shipment</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCShipSamurai2' type ='Normal'>
@@ -37466,7 +37465,7 @@
 		<RolloverTextID>69383</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='14.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
@@ -38932,10 +38931,13 @@
 			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
 			<Effect type ='TextOutput'>70359</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' action ='CoverHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCSamuraiDamage' type ='Normal'>
@@ -46136,6 +46138,12 @@
 				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
+			<Effect type ='Data' action ='CannonAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredFlamingArrow' type ='Normal'>
@@ -47754,11 +47762,11 @@
 			<Effect civ ='Japanese' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRelationsJapanese</Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
