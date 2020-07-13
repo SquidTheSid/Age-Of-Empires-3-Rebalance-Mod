@@ -26647,6 +26647,11 @@
 				<Target type ='ProtoUnit'>xpEagleKnight</Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpJaguarKnight</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
+
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPKnightDamage' type ='Normal'>
@@ -27100,7 +27105,7 @@
 	<Tech name ='HCXPTempleCenteotl' type ='Normal'>
 		<DBID>2968</DBID>
 		<DisplayNameID>44326</DisplayNameID>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -27108,16 +27113,25 @@
 		<RolloverTextID>44327</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='18.00' subtype ='FreeHomeCityUnit' unittype ='xpMacehualtin' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='xpMacehualtin' relativity ='BasePercent'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPTempleXipeTotec' type ='Normal'>
 		<DBID>2969</DBID>
 		<DisplayNameID>44329</DisplayNameID>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -27125,7 +27139,7 @@
 		<RolloverTextID>44328</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='xpCoyoteMan' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='xpCoyoteMan' relativity ='BasePercent'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
@@ -32763,14 +32777,14 @@
 		<RolloverTextID>46900</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.20' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='TextOutput'>69791</Effect>
-			<Effect type ='Data' action ='CoverHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='CoverHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
-			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 		</Effects>
 	</Tech>
@@ -38931,11 +38945,11 @@
 			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
 			<Effect type ='TextOutput'>70359</Effect>
-			<Effect type ='Data' action ='CoverHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='CoverHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
-			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.20' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
 
 		</Effects>
@@ -41726,7 +41740,7 @@
 		<Icon>ui\techs\asians\chuck\hc_infinite_samurai</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCShipNaginataRider4' type ='Normal'>
@@ -42717,7 +42731,7 @@
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToshoguShrine2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseShogunate2</Effect>
@@ -42742,7 +42756,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPMilitaryRickshaw' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
@@ -42768,7 +42782,7 @@
 		<Effects>
 			<Effect type ='SetAge'>Age3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
@@ -42793,7 +42807,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
+			<Effect type ='Data' amount ='25.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>

@@ -3,7 +3,7 @@ SquidTheSid & Dansil92's unit rebalance mod
 #The goal of this mod is to rebalance the units of problematic civilizations. This is aimed to encourage greater unit diversity and bring underperforming units up to par by often giving them new/interesting roles.
 
 General:
-- (WIP) All skirmisher/archer damage bonuses vs. AbstractCoyoteMan have been changed to AbstractLightInfantry. This fixes some weird balancing issues with Tiger Claws and Eagle Runner Knights.
+- (WIP) All skirmisher/archers now possess a 0.75x multiplier against AbstractLightInfantry on top of AbstractCoyoteMan. This makes Coyote Runners and other light infantry more durable against them.
 
 Native: 
 - Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
@@ -11,12 +11,13 @@ Native:
 Euro: 
 - Grenadier's HeavyInfantry tag removed
 - Gatling gun's Damage raised to 33, LOS increased to 30, and range increased to 26 to have parity with Organ guns. 
+- Halberdier speed increased to 4.5 from 4.0.
 
 Aztec: 
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
-- Armor: Changed from 10% melee to 10% ranged
+- Armor: Changed from 10% melee to 20% ranged
 - 0.5x multiplier vs cavalry and light infantry added, 2.0x light cavalry multiplier added
 - Heavy infantry unit tag removed
 
@@ -24,7 +25,7 @@ Skull Knight - The Skull Knight is now a mini-cuirassier and is classified as li
 - Armor: Changed from 20% melee to 20% ranged
 - 3x Cavalry and 2x Light Infantry damage multipliers removed (no penalties/strengths vs. any unit now)
 - Speed: Increased from 4 to 6.25
-- Siege: Reduced to 30 damage from 72
+- Siege: Reduced to 20 damage from 72; now affected by Scorched Earth shipment
 - Infantry and Heavy Infantry unit tags removed, Light Infantry and CoyoteMan unit tags added
 
 Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down. (Incorporating Garja's changes)
@@ -35,8 +36,17 @@ Arrow Knights - Incorporated ESOC changes
 - Population: Reduced from 2 to 1
 - Movement Speed: Increased from 3.75 to 4 
 
-Puman Spearmen - Incorporated ESOC changes
+Puma Spearmen - Incorporated ESOC changes
 - Siege trooper unit tag removed. 
+- Light Infantry damage multiplier improved to 3.5x
+
+Macehaultin - Incorporated ESOC changes
+- Centeotl Support now additionally increases range and LOS by 2 each. 
+- Centeotl Support now ships 11 Macehaultin instead of 18; cost reduced to 500 gold. 
+
+Coyote Runner: Coyotes Struggle later on, so I've made their temple card cheaper to help them out. Due to unit tag changes, they should also be a bit more durable to skirmishers now. 
+- Xipe Totec Support now ships 6 Coyote Runners instead of 11; cost reduced to 500 gold. 
+
 
 Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with Jaguar Prowl Knights, Puma Spearmen, Skull Knights, and Eagle Runner Knights all fulfilling this role. Generally, a late-game Aztec player would build their army out of almost entirely ERKs due to their significant overall strength, leaving Skull Knights and JPK by the wayside. Now, Aztec have 2 proper cavalry units, 2 skirmisher units, 2 anti-cav units, and 1 artillery unit. 
 
@@ -115,17 +125,18 @@ Samurai: Samurai have always been iffy cav units, now they're just a generic mel
 - AoE removed
 - Population: Reduced to 1 from 2
 - Siege Damage: Reduced to 42 from 67
-- Sword Saint: No longer increases unit cost, but adds in a 0.75x damage multiplier vs infantry
+- Sword Saint: No longer increases unit cost, but adds in a 0.8x damage multiplier vs infantry
 
 France:
 
-Cuirassier: It's not secret that Gendarmes are hilariously broken lategame. Alongside Thoroughbreds no longer reducing train time (to prevent instant spawns), their base stats have been reduced to make them more reasonable.
+Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so instant spawning has been removed. Additionally, their base stats have been lowered to prevent the scaling issues. 
 - HP: Reduced to 400 from 500
 - Damage: Reduced to 24 from 30
-- Cost: Food/Coin cost reduced to 130/130 from 150/150
-- Thoroughbreds: No longer reduces train points. Now increases Cuirassier health and damage by 25% each. 
+- Cost: Food/Coin cost reduced to 130/130 from 150/150, trainpoints reduced to 50 from 60
+- Thoroughbreds: No longer reduces train points or cost. Now increases Cuirassier health and damage by 25% each. 
+- Bounty: reduced to 27 from 30
 
-China:
+China (TBA):
 
 Qiang Pikeman: They've got a terribly low light infantry multiplier for a pike, so I've gone ahead and fixed it
 - Light Infantry damage multiplier increased to 3.5x from 2.25x
@@ -160,7 +171,10 @@ Banner Armies:
 - Mandarin Duck Squad now ships 10 Chu Ko Nus, up from 8
 - Emperor's Army now ships 10 hand mortars, up from 8
 
+Dutch:
 
+Halberdier: 
+- Military Reforms speed increase reduced to 10% from 20%; infantry penalty reduced to 20% from 25%
 
 Portugal:
 
