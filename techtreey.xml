@@ -5454,7 +5454,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ArmorPlating</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypImperialMonitors</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='Data2' action ='Gather' amount ='0.90' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+			<Effect type ='Data2' action ='Gather' amount ='1.00' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Monitor</Target></Effect>
@@ -37724,6 +37724,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlameThrower</Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCShipEmperorsArmy' type ='Normal'>
@@ -37779,10 +37781,13 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\chinese\flame_thrower\flame_thrower_icon_64</Icon>
+		<RolloverTextID>70525</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlameThrower</Effect>
+
 	</Tech>
 	<Tech name ='YPHCShipFlameThrower3' type ='Normal'>
 		<DBID>3941</DBID>
@@ -37791,10 +37796,14 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\chinese\flame_thrower\flame_thrower_icon_64</Icon>
+		<RolloverTextID>70526</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlameThrower</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredFlameThrower</Effect>
+
 	</Tech>
 	<Tech name ='YPHCShipHandMortar1' type ='Normal'>
 		<DBID>3942</DBID>
