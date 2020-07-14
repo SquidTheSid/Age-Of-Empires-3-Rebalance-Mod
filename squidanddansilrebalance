@@ -8,6 +8,9 @@ General:
 Native: 
 - Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
 
+Asian:
+- Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
+
 Euro: 
 - Grenadier's HeavyInfantry tag removed
 - Gatling gun's Damage raised to 33, LOS increased to 30, and range increased to 26 to have parity with Organ guns. 
@@ -136,7 +139,7 @@ Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so 
 - Thoroughbreds: No longer reduces train points or cost. Now increases Cuirassier health and damage by 25% each. 
 - Bounty: reduced to 27 from 30
 
-China (TBA):
+China:
 
 Qiang Pikeman: They've got a terribly low light infantry multiplier for a pike, so I've gone ahead and fixed it
 - Light Infantry damage multiplier increased to 3.5x from 2.25x
