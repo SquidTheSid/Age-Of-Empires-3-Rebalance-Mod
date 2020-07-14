@@ -3,7 +3,7 @@ SquidTheSid & Dansil92's unit rebalance mod
 #The goal of this mod is to rebalance the units of problematic civilizations. This is aimed to encourage greater unit diversity and bring underperforming units up to par by often giving them new/interesting roles.
 
 General:
-- (WIP) All skirmisher/archers now possess a 0.75x multiplier against AbstractLightInfantry on top of AbstractCoyoteMan. This makes Coyote Runners and other light infantry more durable against them.
+- All skirmisher/archers now possess a 0.75x multiplier against AbstractLightInfantry on top of AbstractCoyoteMan. This makes Coyote Runners and other light infantry more durable against them.
 
 Native: 
 - Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
@@ -13,8 +13,15 @@ Asian:
 
 Euro: 
 - Grenadier's HeavyInfantry tag removed
-- Gatling gun's Damage raised to 33, LOS increased to 30, and range increased to 26 to have parity with Organ guns. 
-- Halberdier speed increased to 4.5 from 4.0.
+
+Gatling gun: In RE, it's just a worse organ gun. I've buffed it to have parity with that.
+- Damage: raised to 33 from 30
+- LOS: increased to 30 from 26
+- Range: increased to 26 from 24 
+
+Halberdier: Great meatshields, but their slow movement speeds limits their utility. It's been raised to make them more versatile, alongside an armor buff to help them out. 
+- Speed: increased to 4.5 from 4.0.
+- Armor: Increased to 20% hand from 10% hand 
 
 Aztec: 
 
