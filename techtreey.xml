@@ -37705,7 +37705,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypChuKoNu' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypChuKoNu' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -37720,7 +37720,7 @@
 		<RolloverTextID>63698</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -37737,7 +37737,7 @@
 		<RolloverTextID>63697</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypHandMortar' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypHandMortar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='22.00' subtype ='FreeHomeCityUnit' unittype ='ypArquebusier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -37746,7 +37746,7 @@
 	<Tech name ='YPHCShipEverVictoriousArmy' type ='Normal'>
 		<DBID>3938</DBID>
 		<DisplayNameID>61524</DisplayNameID>
-		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Food'>1500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -37983,7 +37983,6 @@
 	<Tech name ='YPHCBannerReforms' type ='Normal'>
 		<DBID>3955</DBID>
 		<DisplayNameID>61562</DisplayNameID>
-		<Cost resourcetype ='Food'>200.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -39494,7 +39493,7 @@
 	<Tech name ='YPHCShipBeiyangArmy' type ='Normal'>
 		<DBID>4158</DBID>
 		<DisplayNameID>62319</DisplayNameID>
-		<Cost resourcetype ='Food'>1000.0000</Cost>
+		<Cost resourcetype ='Food'>750.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
