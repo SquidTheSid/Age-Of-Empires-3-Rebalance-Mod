@@ -28647,7 +28647,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpRifleRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineMan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>44695</Effect>
 		</Effects>
