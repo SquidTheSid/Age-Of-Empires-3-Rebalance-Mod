@@ -19530,6 +19530,10 @@
 			<Effect type ='TextOutput'>49044</Effect>
 			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Imam</Target></Effect>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Priest</Target></Effect>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Imam</Target></Effect>
 			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -19538,7 +19542,7 @@
 				<Target type ='ProtoUnit'>Imam</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Priest</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
 			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
@@ -32574,12 +32578,15 @@
 		<RolloverTextID>46855</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='StaggerRangedAttack' amount ='6.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='4.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
-			<Effect type ='Data' action ='DefendRangedAttack' amount ='6.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='4.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
+			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
+
 			<Effect type ='TextOutput'>46858</Effect>
 		</Effects>
 	</Tech>
@@ -33648,7 +33655,7 @@
 		<RolloverTextID>47005</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.50' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>60890</Effect>
 		</Effects>
@@ -33663,7 +33670,7 @@
 		<RolloverTextID>47009</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.50' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>47012</Effect>
 		</Effects>
@@ -34259,6 +34266,9 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='BuildLimit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+
 			<Effect type ='TextOutput'>47170</Effect>
 		</Effects>
 	</Tech>
@@ -34541,6 +34551,7 @@
 	<Tech name ='HCXPUprising' type ='Normal'>
 		<DBID>3493</DBID>
 		<DisplayNameID>47219</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -34549,12 +34560,11 @@
 		<Flag>HomeCity</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpWarBow' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpWarClub' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpWarRifle' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>47220</Effect>
+			<Effect type ='TransformUnit' toprotoid ='xpWarRifle' fromprotoid ='SettlerNative'></Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionWarRifles</Effect>
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPEarthBounty' type ='Normal'>
@@ -34567,6 +34577,8 @@
 		<RolloverTextID>47222</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.65' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.65' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>69793</Effect>
