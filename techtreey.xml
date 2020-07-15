@@ -28494,10 +28494,18 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\outlaws\outlaw_shotgun_icon</Icon>
+		<RolloverTextID>70529</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRifleman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+
 	</Tech>
 	<Tech name ='HCXPPistoleroAllies' type ='Normal'>
 		<DBID>3065</DBID>
@@ -28507,10 +28515,18 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>nuggets\outlaw_kidnap\outlaw_icon_64x64</Icon>
+		<RolloverTextID>70528</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawPistol' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+
 	</Tech>
 	<Tech name ='HCXPComancheroAllies' type ='Normal'>
 		<DBID>3066</DBID>
@@ -28520,10 +28536,18 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\outlaws\outlaw_rider_icon_64x64</Icon>
+		<RolloverTextID>70529</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+
 	</Tech>
 	<Tech name ='HCXPBanditGang' type ='Normal'>
 		<DBID>3067</DBID>
@@ -28542,6 +28566,13 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawPistol' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPSiouxDakotaSupport' type ='Normal'>
@@ -28555,9 +28586,9 @@
 		<RolloverTextID>44674</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
 			<Effect type ='TextOutput'>44673</Effect>
 		</Effects>
@@ -28573,9 +28604,9 @@
 		<RolloverTextID>44675</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpAxeRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpAxeRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>44678</Effect>
 		</Effects>
@@ -28591,7 +28622,7 @@
 		<RolloverTextID>44679</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpDogSoldier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpDogSoldier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
@@ -28611,8 +28642,9 @@
 		<Effects>
 			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='xpWarClub' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpWarClub</Target></Effect>
+
 			<Effect type ='TextOutput'>44712</Effect>
 		</Effects>
 	</Tech>
@@ -28629,8 +28661,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='14.00' subtype ='FreeHomeCityUnit' unittype ='xpWarBow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpWarBow</Target></Effect>
 			<Effect type ='TextOutput'>44691</Effect>
 		</Effects>
 	</Tech>
@@ -28645,7 +28677,7 @@
 		<RolloverTextID>44692</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpRifleRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpRifleRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -33545,11 +33577,11 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPInfiniteTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRifleman' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRifleman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawPistol' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawPistol' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>

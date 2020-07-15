@@ -48,6 +48,8 @@ Imam/Priest: Do you ever see them? Healing as a mechanic in AoE3 is pretty terri
 
 Aztec: 
 
+Warrior Priest - no longer costs population (gives more flexibility for Aztec's lategame army) 
+
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
 - Armor: Changed from 10% melee to 20% ranged
@@ -85,7 +87,15 @@ Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with 
 
 Sioux (WIP):
 
-Earth Bounty shipment now provides 0.65 Food, Wood, and Gold trickles instead of 0.65 Wood and Gold trickles
+Shipments: 
+- Earth Bounty shipment now provides 0.65 Food, Wood, and Gold trickles instead of 0.65 Wood and Gold trickles
+- Burnt Thigh Support Shipment now sends 8 Rifle Riders (up from 7) and 2 warrior priests instead of medicine men
+- Lakota Support now ships 8 axe riders (up from 7) and 15 bison (up from 9)
+- Nakota Support now ships 5 Dog Soldiers instead of 4
+- San Arc Support no longer ships wood, but increases the damage of all War Clubs by 20%
+- Oglala Support no longer ships food, but increases the hitpoints of all Cetan Bows by 20%
+- Dakota Support now ships 6 Tashunke Prowlers (up from 5) and increases the hitpoints of all Tashunke Prowlers by 30% (up from 25%)
+
 
 Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
 - HP: Increased to 200 from 170
@@ -104,6 +114,7 @@ War Club - War Clubs are the Sioux's equivalent of pikemen, except they're not p
 Cetan Bow: Incorporated ESOC Changes
 - HP: Increased to 100 from 90
 - Speed: Increased to 4.5 from 4.0
+
 
 Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a splash attack and an aura gimmick. They still require heavy resource investment to maximize, but they should be usable in small numbers, no longer being completely outclassed by the cheap steppe rider. While they might not see use in every game, they're no longer a joke unit. War Clubs help provide the raw siege damage that Sioux lacks early on, and Cetan Bows are more versatile archer units. 
 
