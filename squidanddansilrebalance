@@ -13,6 +13,17 @@ Asian:
 
 Euro: 
 - Grenadier's HeavyInfantry tag removed
+- Ironclad HP buffed to 2500, up from 2000
+
+Revolution bonuses rebalanced (thanks to Jotunir on ESOC):
+- Argentina: Now ships 5 mortars (instead of 6)
+- Haiti: Now ships 16 colonial milita on top of a 10% HP boost
+- Chile: Now ships 7 Imperial Hussars (instead of 10)
+- Columbia: No changes
+- Peru: All unit HP boost increased to 15% from 5%
+- Brazil: Now ships 25 Blackwood Archers instead of 20
+- Mexico: Now additionally ships 10 Outlaw Riflemen on top of 10 Outlaw Pistoleros and Riders. 
+- US: Now ships 4 Gatling Guns on top of a 25% HP boost
 
 Gatling gun: In RE, it's just a worse organ gun. I've buffed it to have parity with that.
 - Damage: raised to 33 from 30
@@ -123,6 +134,7 @@ Sowar: They're India's version of cossacks, but with a focus on anti-skirmishers
 Japan:
 
 - Ending Japanese isolation no longer has a permanent damage penalty 
+- Meiji Restoration Tech now additionally ships 6 Gatling Guns on ageup
 
 Yabusame: An overall solid unit with ridiculously heavy gold macro. It's been rescaled to more in line with other dragoon units
 - Cost: Rescaled to 100 food and 110 gold from 60 food and 150 gold. 
