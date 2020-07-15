@@ -19525,12 +19525,12 @@
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Priest</Target></Effect>
 			<Effect type ='TextOutput'>49044</Effect>
-			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Imam</Target></Effect>
-			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
@@ -30879,7 +30879,7 @@
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpColonialMilitia</Target></Effect>
 			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='xpColonialMilitia' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>XPRevolution</Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SettlerWagon</Target></Effect>
