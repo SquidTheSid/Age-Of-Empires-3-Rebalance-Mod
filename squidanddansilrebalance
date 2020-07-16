@@ -14,6 +14,42 @@ Non-wood trickle cards have been improved.
 Native: 
 - Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
 
+Unit Buffs: Many native units were underperforming, so they've gotten buffs to make them more viable (dansil92):
+Carib - LOS and range increased to 16 and 14, from 12 and 10 respectively.
+Cherokee/Klamath - Wood cost reduced to 50 from 60
+Comanche - Melee armor increased to 30% from 10%
+Cree Tracker - Ranged attack increased to 11 from 10, hand attack increased to 6 from 4
+Inca Huaminca - Cav multiplier increased to 4.0 from 3.0, light infantry multiplier increased to 3.0 from 2.25
+Inca Bolas - LOS and range improved to 16 and 14, from 12 and 10 respectively. ROF improved to 1.5 from 3.0. Damage cap raised to 24 from 20. Cost increased to 50F/60W from 40F/60W
+Maya Holcan Spearman - Cav multiplier increased to 4.0 from 3.0, light infantry multiplier increased to 3.0 from 2.25
+Nootka Clubman - Cav multiplier increased to 3.0 from 2.0, light infantry multiplier increased to 2.0 from 1.5
+Seminole - range increased to 16 from 12; LOS increased to 18 from 12
+Tupi - Ranged armor increased to 30% from 10%
+Cheyenne Rider - cost rescaled to 70F/80W from 40F/110W
+Huron Mantlet - Ranged armor increased to 50% from 40%. Speed increased to 4 from 3.5
+Mapuche Clubman: (incorporating ESOC's rework with some of my ideas)
+- HP increased to 200 from 165
+- Melee Armor increased to 20% from 10%
+- Damage increased to 20 from 12
+- 2 AoE Splash Damage added to melee attack
+- Cav multiplier increased to 2.5x from 2.0. Light Infantry multiplier increased to 2.0 from 1.5x
+- 0.8x Infantry damage penalty added 
+- Train time increased to 35 seconds from 20
+- Build limit reduced to 12 from 15
+- Cost increased to 110F/60W from 85F/15W
+Navajo - range increased to 14 from 12
+Zapotec Lightning Warrior: (incorporated ESOC's rework)
+- Damage increased to 12 from 11
+- Cav multiplier increased to 2.5x from 2.0, Light Infantry multiplier increased to 2.0 from 1.5x.
+- 2.5x Heavy Infantry multiplier added
+- Train time increased to 30 seconds from 20 
+- Siege damage reduced to 24 from 30
+Jesuit - Ranged attack increased to 20 from 17
+Sufi War Elephant - Build limit increased to 9 from 6
+Udasi Chakram - LOS and range increased to 16 and 14; siege damage improved to 30 from 15
+
+
+
 Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
 
@@ -95,6 +131,8 @@ Shipments:
 - San Arc Support no longer ships wood, but increases the damage of all War Clubs by 20%
 - Oglala Support no longer ships food, but increases the hitpoints of all Cetan Bows by 20%
 - Dakota Support now ships 6 Tashunke Prowlers (up from 5) and increases the hitpoints of all Tashunke Prowlers by 30% (up from 25%)
+- Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and reduced their population cost by 2
+
 
 
 Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
@@ -116,7 +154,7 @@ Cetan Bow: Incorporated ESOC Changes
 - Speed: Increased to 4.5 from 4.0
 
 
-Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a splash attack and an aura gimmick. They still require heavy resource investment to maximize, but they should be usable in small numbers, no longer being completely outclassed by the cheap steppe rider. While they might not see use in every game, they're no longer a joke unit. War Clubs help provide the raw siege damage that Sioux lacks early on, and Cetan Bows are more versatile archer units. 
+Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a splash attack and an aura gimmick. They still require heavy resource investment to maximize, but they should be usable in small numbers, no longer being completely outclassed by the cheap steppe rider. While they might not see use in every game, they're no longer a joke unit. War Clubs help provide the raw siege damage that Sioux lacks early on, and Cetan Bows are more versatile archer units, especially with their reworked mercenary shipments. Outlaw units are situationally more useful in lategame now, thanks to a buffed repeatable Bandit Gang, and Outlaw Combat replacing the non repeatable variant (combining the effects of European's Wild West saloon tech and Dance Hall population reduction)
 
 Iroquois (WIP):
 

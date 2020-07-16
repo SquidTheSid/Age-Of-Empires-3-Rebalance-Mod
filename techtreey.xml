@@ -28552,7 +28552,6 @@
 	<Tech name ='HCXPBanditGang' type ='Normal'>
 		<DBID>3067</DBID>
 		<DisplayNameID>44670</DisplayNameID>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -28560,17 +28559,23 @@
 		<RolloverTextID>44671</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRifleman' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRider' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawPistol' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.35' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='1.35' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='1.35' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='Data' amount ='1.35' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 
 		</Effects>
@@ -36598,8 +36603,8 @@
 	<Tech name ='YPNatUdasiArmyOfThePure' type ='Normal'>
 		<DBID>3738</DBID>
 		<DisplayNameID>61129</DisplayNameID>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<Cost resourcetype ='Wood'>125.0000</Cost>
+		<Cost resourcetype ='Gold'>125.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\army_of_the_pure</Icon>
@@ -36607,13 +36612,13 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNativeImprovement</Flag>
 		<Effects>
-			<Effect type ='Data' action ='RingAttack' amount ='4.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='RingAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNatChakram</Target></Effect>
-			<Effect type ='Data' action ='RingAttack' amount ='4.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='RingAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNatMercChakram</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNatMercChakram</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNatChakram</Target></Effect>
 		</Effects>
 	</Tech>
