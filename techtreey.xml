@@ -51359,12 +51359,12 @@
 	<Tech name ='RGBallestero' type ='Normal'>
 		<DBID>9998</DBID>
 		<DisplayNameID>70527</DisplayNameID>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
-		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
-		<RolloverTextID>23263</RolloverTextID>
+		<RolloverTextID>70529</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
@@ -51386,7 +51386,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\imperial_infantry</Icon>
-		<RolloverTextID>23263</RolloverTextID>
+		<RolloverTextID>70532</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
@@ -51395,7 +51395,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
-			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70529'></Effect>
+			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70531'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 		</Effects>
