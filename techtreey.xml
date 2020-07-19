@@ -1192,6 +1192,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>RGTercio</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranPikemen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranCrossbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>RGBallestero</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialBallestero</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialGarrochistas</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHussars</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1304,7 +1306,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='Data' amount ='25.00' subtype ='ResearchPoints' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.250' subtype ='ResearchPoints' relativity ='Percent'>
 				<Target type ='techWithFlag'>HomeCity</Target></Effect>
 
 		</Effects>
@@ -28516,17 +28518,10 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\outlaws\outlaw_shotgun_icon</Icon>
-		<RolloverTextID>70529</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRifleman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 
 	</Tech>
 	<Tech name ='HCXPPistoleroAllies' type ='Normal'>
@@ -28537,17 +28532,10 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>nuggets\outlaw_kidnap\outlaw_icon_64x64</Icon>
-		<RolloverTextID>70528</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawPistol' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 
 	</Tech>
 	<Tech name ='HCXPComancheroAllies' type ='Normal'>
@@ -28563,12 +28551,6 @@
 		<Effects>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='SaloonOutlawRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='PopulationCount' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 
 	</Tech>
 	<Tech name ='HCXPBanditGang' type ='Normal'>
@@ -38175,7 +38157,7 @@
 				<Target type ='techWithFlag'>YPConsulateTech</Target></Effect>
 			<Effect type ='Data' amount ='100.00' subtype ='ResearchPoints' relativity ='Percent'>
 				<Target type ='techWithFlag'>YPSequesterTech</Target></Effect>
-			<Effect type ='Data' amount ='25.00' subtype ='ResearchPoints' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.250' subtype ='ResearchPoints' relativity ='Percent'>
 				<Target type ='techWithFlag'>HomeCity</Target></Effect>
 		</Effects>
 	</Tech>
@@ -51373,5 +51355,49 @@
 		<Effects>
 			<Effect type ='Data' action ='AutoGather' amount ='0.40' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
+	</Tech>
+	<Tech name ='RGBallestero' type ='Normal'>
+		<DBID>9998</DBID>
+		<DisplayNameID>70527</DisplayNameID>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
+		<RolloverTextID>23263</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>VeteranCrossbowmen</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70528'></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialBallestero' type ='Normal'>
+		<DBID>9999</DBID>
+		<DisplayNameID>70530</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_infantry\imperial_infantry</Icon>
+		<RolloverTextID>23263</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>RGBallestero</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70529'></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+		</Effects>
 	</Tech>
 </TechTree>
