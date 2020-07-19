@@ -289,7 +289,11 @@ Spain:
 
 New civ bonus: Shipments now additionally arrive 25% faster 
 
+Crossbowmen: Due to Spain's focus on archaic units (Imperial Tercios), I've added Royal Guard and Imperial Upgrades for Crossbowmen.
+- Added Ballestero Royal Guard and Imperial Ballestero upgrades.
+
 Missionary: Now gains the Unction aura upon Colonial age
+
 Shipments:
 - Hand Infantry Combat renamed to Archaic Infantry combat. Now additionally boosts AbstractArcher (Crossbowmen + Native Archers) HP/Attack by 15%
 - Hand Infantry Hitpoints renamed to Archaic Infantry Hitpoints. Now additionally boosts AbstractArcher HP by 15%.

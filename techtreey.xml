@@ -51368,14 +51368,24 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
-			<TechStatus status ='Active'>VeteranCrossbowmen</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>VeteranCrossbowmen</TechStatus>
+		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70528'></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialBallestero' type ='Normal'>
@@ -51385,19 +51395,23 @@
 		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\guard_infantry\imperial_infantry</Icon>
+		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
 		<RolloverTextID>70532</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
-			<TechStatus status ='Active'>RGBallestero</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>RGBallestero</TechStatus>
+		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70531'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+
 		</Effects>
 	</Tech>
 </TechTree>
