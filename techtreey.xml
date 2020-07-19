@@ -10882,6 +10882,13 @@
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='SetName' proto ='Pikeman' culture ='none' newName ='38288'></Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
+			<Effect type ='Data' action ='CoverHandAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='NatHuntingGrounds' type ='Normal'>
@@ -51372,10 +51379,10 @@
 			<TechStatus status ='Active'>VeteranCrossbowmen</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70528'></Effect>
-			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
@@ -51409,7 +51416,7 @@
 			<Effect type ='SetName' proto ='Crossbowman' culture ='none' newName ='70531'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 
 		</Effects>

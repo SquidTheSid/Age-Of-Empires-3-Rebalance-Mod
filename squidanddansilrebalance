@@ -7,6 +7,7 @@ General:
 - Trading post HP reduced to 2000 from 3000; advanced trading post HP bonus reduced to 25% from 50%
 - Ninja population cost reduced from 4 to 2 
 - Pikemen (units with the AbstractPikeman tag) have +1.0 melee range to better chase down cavalry
+- Crossbowmen ranged attack increased to 17 from 16, melee attack increased from 7 to 8, AbstractHeavyInfantry damage multiplier improved to 1.50x
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
