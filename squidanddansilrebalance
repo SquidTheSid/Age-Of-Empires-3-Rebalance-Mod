@@ -6,6 +6,7 @@ General:
 - All skirmisher/archers now possess a 0.75x multiplier against AbstractLightInfantry on top of AbstractCoyoteMan. This makes Coyote Runners and other light infantry more durable against them.
 - Trading post HP reduced to 2000 from 3000
 - Ninja population cost reduced from 4 to 2 
+- Artillery Foundry wood cost reduced to 250 wood from 300
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
@@ -54,7 +55,7 @@ Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
 
 Euro: 
-- Grenadier's HeavyInfantry tag removed
+- Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15). Arsonists adjusted accordingly
 - Ironclad HP buffed to 2500, up from 2000
 - Spy population cost reduced from 2 to 1
 
@@ -79,7 +80,6 @@ Halberdier: Great meatshields, but their slow movement speeds limits their utili
 
 Imam/Priest: Do you ever see them? Healing as a mechanic in AoE3 is pretty terrible, so I'm making Priests cheaper and a bit faster to make them decent meatshields
 - Cost: Reduced to 70 food + 70 gold, down from 200 gold. Bounty adjusted accordingly (20 --> 16); [I've not adjusted Missionaries yet. I don't play much Unction Spain, so I don't know if a cost reduction is warranted]
-- Speed: Increased to 4.5 from 4
 - TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
 
 Aztec: 
@@ -166,6 +166,9 @@ Ram: They're niche units, and the slow movement speed doesn't help. Normalizing 
 
 India (WIP):
 
+Sepoy: The best colonial age musketeer. They're a bit too strong, I find, so their HP has been slightly lowered to adjust Town Center fire breakpoints (7 vills now 3 shot a sepoy instead of 8).
+- HP: Lowered to 185 from 190
+
 Rajput: Infamously terrible on vanilla, they're pretty much a worse version of Sepoy. To help them out, I've improved their anti-cavalry abilities and greatly buffed their siege damage to be on par with other pikemen units. 
 - Siege: Increased to 25 damage up from 20
 - Speed: Increased to 5.5 from 5.0 
@@ -185,6 +188,7 @@ Mahout Lancer: In vanilla, Mahout are easily kited, making them very hard to use
 - Speed: Increased to 6.25 from 6
 - Range: Melee range increased to 2
 - Removed villager damage penalty
+- Damage: Melee attack improved to 35 from 28
 - Mansabdar population cost reduced to 9 from 14
 
 Howdah: Howdah, much like Mahout, as slow and are population inefficient. They've been adjusted as such
@@ -192,7 +196,7 @@ Howdah: Howdah, much like Mahout, as slow and are population inefficient. They'v
 - Speed: Increased to 6 from 5.5
 - Mansabdar population cost reduced to 8 from 12
 
-Sowar: They're India's version of cossacks, but with a focus on anti-skirmishers, like Naginata Riders. However, they cost too much population for what they do. 
+Sowar: They're India's version of cossacks, but with a focus on countering skirms. However, they're paper thin, so I've made them a little beefier
 - HP: Increased to 250 from 225 (might include ESOC's damage multipliers down the line or maybe slightly reduce speed and buff attack).
 
 Japan:
@@ -264,9 +268,14 @@ Halberdier:
 
 Portugal:
 
-Dragoon: 18 range, 7 speed light cav laming...yeah
+Dragoon: 20 range, 7 speed light cav laming...yeah
 - Genitours now provides +4 range/LOS (down from +6/6) and +10% HP
 
 Bestieros: 2400 for crossbowmen? Oof.
 - Cost: Reduced to 800 wood from 2400
 - Now ships 12 crossbowmen instead of 22
+
+Russia:
+
+Strelets: I've fixed a long-standing bug. In the code, Strelets got a 25% discount on gold and food costs. But since they cost wood instead of gold, they receive no discount for that. It's been fixed as such.
+Cost: Wood cost reduced to 75 from 100

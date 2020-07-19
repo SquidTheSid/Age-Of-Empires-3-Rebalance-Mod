@@ -382,7 +382,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
