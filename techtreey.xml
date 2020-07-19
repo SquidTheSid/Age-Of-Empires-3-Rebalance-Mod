@@ -1304,6 +1304,9 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='Data' amount ='25.00' subtype ='ResearchPoints' relativity ='Percent'>
+				<Target type ='techWithFlag'>HomeCity</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='NativeCherokee' type ='Normal'>
@@ -11779,6 +11782,9 @@
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>WarDog</Target></Effect>
+			<Effect type ='Data' action ='ExtraDamage' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Missionary</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializePortuguese' type ='Normal'>
@@ -13970,7 +13976,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
 			<Effect type ='TextOutput'>41794</Effect>
 			<Effect type ='Data' action ='RangedAttack' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
@@ -14563,6 +14569,8 @@
 		<Flag>TeamTech</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractHandInfantry</Target></Effect>
 			<Effect type ='TextOutput'>35995</Effect>
 		</Effects>
@@ -15133,6 +15141,10 @@
 		<RolloverTextID>35128</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -16417,6 +16429,8 @@
 		<RolloverTextID>35587</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -22400,6 +22414,14 @@
 			<Effect type ='Data' action ='TrampleHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Lancer</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
+			<Effect type ='Data' action ='TrampleHandAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
+			<Effect type ='Data' action ='GuardianAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Lancer</Target></Effect>
 		</Effects>
 	</Tech>
@@ -33738,8 +33760,15 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47027</Effect>
-			<Effect type ='Data' action ='ExtraDamage' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Missionary</Target></Effect>
+			<Effect type ='Data' amount ='0.40' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Missionary</Target></Effect>
+
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPTercioTactics' type ='Normal'>
@@ -33754,6 +33783,8 @@
 		<Effects>
 			<Effect type ='TextOutput'>47031</Effect>
 			<Effect type ='TransformUnit' toprotoid ='Rodelero' fromprotoid ='Pikeman'></Effect>
+			<Effect type ='TechStatus' status ='active'>VeteranRodeleros</Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPTirailleurs' type ='Normal'>

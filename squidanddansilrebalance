@@ -4,9 +4,9 @@ SquidTheSid & Dansil92's unit rebalance mod
 
 General:
 - All skirmisher/archers now possess a 0.75x multiplier against AbstractLightInfantry on top of AbstractCoyoteMan. This makes Coyote Runners and other light infantry more durable against them.
-- Trading post HP reduced to 2000 from 3000
+- Trading post HP reduced to 2000 from 3000; advanced trading post HP bonus reduced to 25% from 50%
 - Ninja population cost reduced from 4 to 2 
-- Artillery Foundry wood cost reduced to 250 wood from 300
+- Pikemen (units with the AbstractPikeman tag) have +1.0 melee range to better chase down cavalry
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
@@ -58,6 +58,8 @@ Euro:
 - Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15). Arsonists adjusted accordingly
 - Ironclad HP buffed to 2500, up from 2000
 - Spy population cost reduced from 2 to 1
+- Artillery Foundry wood cost reduced to 250 wood from 300
+
 
 Revolution bonuses rebalanced (thanks to Jotunir on ESOC):
 - Argentina: Now ships 5 mortars (instead of 6)
@@ -79,8 +81,7 @@ Halberdier: Great meatshields, but their slow movement speeds limits their utili
 - Armor: Increased to 20% hand from 10% hand 
 
 Imam/Priest: Do you ever see them? Healing as a mechanic in AoE3 is pretty terrible, so I'm making Priests cheaper and a bit faster to make them decent meatshields
-- Cost: Reduced to 70 food + 70 gold, down from 200 gold. Bounty adjusted accordingly (20 --> 16); [I've not adjusted Missionaries yet. I don't play much Unction Spain, so I don't know if a cost reduction is warranted]
-- TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
+- Cost: Reduced to 70F/G, down from 200 gold. Bounty adjusted accordingly (20 --> 14); Missionary cost reduced to 80W/G from 100W/G. Bounty adjusted accordingly (20 --> 16)
 
 Aztec: 
 
@@ -133,7 +134,8 @@ Shipments:
 - Dakota Support now ships 6 Tashunke Prowlers (up from 5) and increases the hitpoints of all Tashunke Prowlers by 30% (up from 25%)
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and reduced their population cost by 2
 
-
+Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
+- HP: Reduced to 240 from 250
 
 Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
 - HP: Increased to 200 from 170
@@ -277,5 +279,20 @@ Bestieros: 2400 for crossbowmen? Oof.
 
 Russia:
 
+- TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
+
 Strelets: I've fixed a long-standing bug. In the code, Strelets got a 25% discount on gold and food costs. But since they cost wood instead of gold, they receive no discount for that. It's been fixed as such.
 Cost: Wood cost reduced to 75 from 100
+
+Spain:
+
+New civ bonus: Shipments now additionally arrive 25% faster 
+
+Missionary: Now gains the Unction aura upon Colonial age
+Shipments:
+- Hand Infantry Combat renamed to Archaic Infantry combat. Now additionally boosts AbstractArcher (Crossbowmen + Native Archers) HP/Attack by 15%
+- Hand Infantry Hitpoints renamed to Archaic Infantry Hitpoints. Now additionally boosts AbstractArcher HP by 15%.
+- TEAM Hand Infantry Attack renamed to TEAM Archaic Infantry Attack. Now additionally boosts AbstractArcher attack by 15%. 
+- Caballeros additionally increases Lancer melee range by 1
+- Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
+- Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
