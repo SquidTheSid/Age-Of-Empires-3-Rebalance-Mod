@@ -60,7 +60,11 @@ Euro:
 - Ironclad HP buffed to 2500, up from 2000
 - Spy population cost reduced from 2 to 1
 - Artillery Foundry wood cost reduced to 250 wood from 300
-- Crossbowmen ranged damage increased to 17 from 16, hand damage increased to 8 from 7, and HeavyInfantry multiplier increased to 1.5x from 1.25x
+
+Crossbowmen: They're pretty terrible in vanilla, easily losing to stronger mucks like Sepoy. As such, they're better at their roles
+- Ranged damage increased to 17 from 16
+= Hand damage increased to 8 from 7
+- HeavyInfantry multiplier increased to 1.5x from 1.25x
 
 
 Revolution bonuses rebalanced (thanks to Jotunir on ESOC):
@@ -276,8 +280,8 @@ Dragoon: 20 range, 7 speed light cav laming...yeah
 - Genitours now provides +4 range/LOS (down from +6/6) and +10% HP
 
 Bestieros: 2400 for crossbowmen? Oof.
-- Cost: Reduced to 800 wood from 2400
-- Now ships 12 crossbowmen instead of 22
+- Cost: Reduced to 1000 wood from 2400
+- Now ships 10 crossbowmen instead of 22
 
 Russia:
 
@@ -293,6 +297,9 @@ New civ bonus: Shipments now additionally arrive 25% faster
 Crossbowmen: Due to Spain's focus on archaic units (Imperial Tercios), I've added Royal Guard and Imperial Upgrades for Crossbowmen.
 - Added Ballestero Royal Guard and Imperial Ballestero upgrades.
 
+Rodelero: 
+- Damage improved to 11 from 10
+
 Missionary: Now gains the Unction aura upon Colonial age
 
 Shipments:
@@ -302,3 +309,19 @@ Shipments:
 - Caballeros additionally increases Lancer melee range by 1
 - Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
+
+Dutch:
+
+Now has access to Halberdiers in age 2. 
+
+Banks: 
+- Build limit increased to 5 from 4; further increased by 1 in Fortress and Industrial Age (for a total of 7)
+- Build/Kill bounties doubled to 140/280xp (from 70/140)
+
+Shipments:
+- Banks of Amsterdam and Rotterdam no longer increase bank limits, but increase their coin production rate by 5% each
+- Coffee trade no longer decreases military speed, but now increases the cost of banks by 15% and costs 500 food
+- Tulip Speculation trickle buff increased to +20% from 15%
+- Military Reforms now boosts Halberdier speed by 10% (down from 20%) and applies a 0.8x Infantry damage penalty (down from 0.75x)
+- Dutch East India company shipment cost decrease improved to 30% from 15%
+
