@@ -7,7 +7,11 @@ General:
 - Trading post HP reduced to 2000 from 3000; advanced trading post HP bonus reduced to 25% from 50%
 - Ninja population cost reduced from 4 to 2 
 - Pikemen (units with the AbstractPikeman tag) have +1.0 melee range to better chase down cavalry
+<<<<<<< Updated upstream
+=======
 - Crossbowmen ranged attack increased to 17 from 16, melee attack increased from 7 to 8, AbstractHeavyInfantry damage multiplier improved to 1.50x
+- Fast Age up politicians (Messenger, Exiled Prince) now age up in 40 seconds instead of 30. Fortress Age takes 45 seconds instead of 40
+>>>>>>> Stashed changes
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
@@ -60,11 +64,7 @@ Euro:
 - Ironclad HP buffed to 2500, up from 2000
 - Spy population cost reduced from 2 to 1
 - Artillery Foundry wood cost reduced to 250 wood from 300
-
-Crossbowmen: They're pretty terrible in vanilla, easily losing to stronger mucks like Sepoy. As such, they're better at their roles
-- Ranged damage increased to 17 from 16
-= Hand damage increased to 8 from 7
-- HeavyInfantry multiplier increased to 1.5x from 1.25x
+- Crossbowmen ranged damage increased to 17 from 16, hand damage increased to 8 from 7, and HeavyInfantry multiplier increased to 1.5x from 1.25x
 
 
 Revolution bonuses rebalanced (thanks to Jotunir on ESOC):
@@ -130,15 +130,31 @@ Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with 
 
 Sioux (WIP):
 
+Teepee: A very controversial building (given how ESOC added then removed an economic aura a la karni mata). I've decided to take iCourt's idea and make it buff all units.
+- Cost: Reduced to 40W from 50, bounties adjusted accordingly (20/10 --> 16/8)
+- HP: Increased to 500 from 300
+
+Economic buildings (farms, dock, market, plantations) are 25% cheaper but have 20% less health
+- Gun Trade BB cost increased to 500 wood
+
+Sioux can now build regular walls in the Industrial Age (cannot be upgraded)
+Sioux Infantry can now build Teepees by default
+
 Shipments: 
 - Earth Bounty shipment now provides 0.65 Food, Wood, and Gold trickles instead of 0.65 Wood and Gold trickles
 - Burnt Thigh Support Shipment now sends 8 Rifle Riders (up from 7) and 2 warrior priests instead of medicine men
 - Lakota Support now ships 8 axe riders (up from 7) and 15 bison (up from 9)
 - Nakota Support now ships 5 Dog Soldiers instead of 4
-- San Arc Support no longer ships wood, but increases the damage of all War Clubs by 20%
-- Oglala Support no longer ships food, but increases the hitpoints of all Cetan Bows by 20%
+- San Arc Support no longer ships wood, but increases the hitpoints of all War Clubs by 20%
+- Oglala Support no longer ships food, but increases the damage of all Cetan Bows by 20%
 - Dakota Support now ships 6 Tashunke Prowlers (up from 5) and increases the hitpoints of all Tashunke Prowlers by 30% (up from 25%)
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and reduced their population cost by 2
+- Outlaw Loyalty - Age 2 shipment that reduces cost of Outlaws by 30% and reduces population cost by 2 (tba)
+- Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
+- Water dance shipment to be added
+- Cav combat cards affect Tashunke Prowlers by an extra 5% (for a total of 20%)
+- Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 40%, in addition to letting infantry build War Huts and Corrals
+- Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 30% from 50%. Now additionally increases Teepee LOS by 4.
 
 Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
 - HP: Reduced to 240 from 250
@@ -147,15 +163,15 @@ Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overa
 - HP: Increased to 200 from 170
 - Armor: Ranged armor increased to 30% from 10%
 - Damage: Base attack increased to 20 from 15
-- Speed: Increased to 7 from 6.75
-- 10x Hero, 5x mercenary, and 2.5x native unit damage multipliers added. 
+- 5x Hero, 5x mercenary, and 2.5x native unit damage multipliers added. 
 - LOS increased to 18 from 12
 - Marauders shipment additionally increased LOS by 6. 
+- Cavalry Damage/Hitpoint shipments buff Tashunke Prowlers by 20% instead of 15 (like Chinese Flamethrowers)
 
 War Club - War Clubs are the Sioux's equivalent of pikemen, except they're not particularly great vs. cavalry or buildings. Since Sioux have access to Bow Riders age 2, anti-cav isn't usually a problem, but the lack of siege is. Therefore, I've made them deal far more siege damage, in addition to being a bit tankier and hit harder. Now, they're roughly equivalent to the Aztec's Puma Spearmen, but with slightly less damage and slightly more HP
 -HP: Increased from 120 to 140
 - Damage: Base attack increased to 11 from 10
-- Siege: Increased to 40 damage from 27
+- Siege: Increased to 35 damage from 27
 
 Cetan Bow: Incorporated ESOC Changes
 - HP: Increased to 100 from 90
@@ -166,6 +182,8 @@ Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a s
 
 Iroquois (WIP):
 
+Scouting Party Big Button cost changed from 500 food to 200 food/gold.
+
 Mantlet: They're fantastic units, but their slow movement speed really hampers their use. Bumping it up to 4.0 makes them much more versatile units.
 - Speed: Increased to 4.0 from 3.5
 
@@ -173,6 +191,12 @@ Ram: They're niche units, and the slow movement speed doesn't help. Normalizing 
 - Speed: Increased to 4.0 from 3.5
 
 India (WIP):
+
+Flail Elephants: Awful redundant units. needs a complete overhaul, but I've just given them some buffs in the meantime.
+- Infantry multiplier increased to 3.0x from 1.5x
+- Villager damage penalty removed. 
+- Population Cost: Reduced to 4 from 3 (mansabdar reduced to 6)
+- Speed: Increased to 4.5 from 4.0
 
 Sepoy: The best colonial age musketeer. They're a bit too strong, I find, so their HP has been slightly lowered to adjust Town Center fire breakpoints (7 vills now 3 shot a sepoy instead of 8).
 - HP: Lowered to 185 from 190
@@ -280,8 +304,8 @@ Dragoon: 20 range, 7 speed light cav laming...yeah
 - Genitours now provides +4 range/LOS (down from +6/6) and +10% HP
 
 Bestieros: 2400 for crossbowmen? Oof.
-- Cost: Reduced to 1000 wood from 2400
-- Now ships 10 crossbowmen instead of 22
+- Cost: Reduced to 800 wood from 2400
+- Now ships 12 crossbowmen instead of 22
 
 Russia:
 
@@ -297,9 +321,6 @@ New civ bonus: Shipments now additionally arrive 25% faster
 Crossbowmen: Due to Spain's focus on archaic units (Imperial Tercios), I've added Royal Guard and Imperial Upgrades for Crossbowmen.
 - Added Ballestero Royal Guard and Imperial Ballestero upgrades.
 
-Rodelero: 
-- Damage improved to 11 from 10
-
 Missionary: Now gains the Unction aura upon Colonial age
 
 Shipments:
@@ -309,6 +330,9 @@ Shipments:
 - Caballeros additionally increases Lancer melee range by 1
 - Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
+<<<<<<< Updated upstream
+=======
+- Corselet Church tech reworked. Now adds +0.1 armor to heavy infantry, but increases cost by 10%
 
 Dutch:
 
@@ -325,3 +349,4 @@ Shipments:
 - Military Reforms now boosts Halberdier speed by 10% (down from 20%) and applies a 0.8x Infantry damage penalty (down from 0.75x)
 - Dutch East India company shipment cost decrease improved to 30% from 15%
 
+>>>>>>> Stashed changes
