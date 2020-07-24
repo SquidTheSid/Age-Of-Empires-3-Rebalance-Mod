@@ -33024,7 +33024,7 @@
 		<RolloverTextID>46936</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='Gather' amount ='1.50' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.40' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -33191,7 +33191,7 @@
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Teepee</Target>
+				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='TextOutput'>46961</Effect>
 		</Effects>
 	</Tech>
