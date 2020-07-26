@@ -8,7 +8,7 @@ General:
 - Ninja population cost reduced from 4 to 2 
 - Pikemen (units with the AbstractPikeman tag) have +1.0 melee range to better chase down cavalry
 - Crossbowmen ranged attack increased to 17 from 16, melee attack increased from 7 to 8, AbstractHeavyInfantry damage multiplier improved to 1.50x
-- Fast Age up politicians (Messenger, Exiled Prince) now age up in 40 seconds instead of 30. Fortress Age takes 45 seconds instead of 40
+- Fast Age up politicians (Messenger, Exiled Prince) now age up in 35 seconds instead of 30. Fortress Age takes 45 seconds instead of 40
 - Wall HP reduced to 2000 from 3000
 - Town Center wood cost reduced to 500 from 600 (ESOC)
 
@@ -56,12 +56,12 @@ Sufi War Elephant - Build limit increased to 9 from 6
 Udasi Chakram - LOS and range increased to 16 and 14; siege damage improved to 30 from 15
 
 Mercenary changes:
-Fusilier - Cost reduced to 250 from 300; armor increased to 20% from 10%
+Fusilier - Cost reduced to 250 from 300; range increased to 14 from 12; armor increased to 20% from 10%; melee multipliers increased to 2.5x cav from 2.0 and 2.0x AbstractLightInfantry from 1.5x
 Landsknecht - Speed increased to 4.5 from 4.0
 Swiss Pikemen - Melee range increased to 1.0
 Jaeger - Ranged armor reduced to 30% from 40%
-Li'l Bombard - Cost reduced to 1000 gold from 1200; Limber speed increased to 3.5 from 2.5
-Arsonist - LOS increased to 20 from 15
+Li'l Bombard - Cost reduced to 900 gold from 1200; Limber speed increased to 3.5 from 2.5
+Arsonist - LOS increased to 20 from 15; range increased to 14 from 12; HP increased to 300 from 250; damage cap raised to 56 from 48
 
 
 
@@ -69,7 +69,7 @@ Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
 
 Euro: 
-- Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15). Arsonists adjusted accordingly
+- Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15); range increased to 14 from 12. Arsonists adjusted accordingly
 - Ironclad HP buffed to 2500, up from 2000
 - Spy population cost reduced from 2 to 1
 - Artillery Foundry wood cost reduced to 250 wood from 300
@@ -90,6 +90,7 @@ Gatling gun: In RE, it's just a worse organ gun. I've buffed it to have parity w
 - Damage: raised to 33 from 30
 - LOS: increased to 30 from 26
 - Range: increased to 26 from 24 
+- HP: increased to 200 from 150
 
 Halberdier: Great meatshields, but their slow movement speeds limits their utility. It's been raised to make them more versatile, alongside an armor buff to help them out. 
 - Speed: increased to 4.5 from 4.0.
@@ -100,7 +101,10 @@ Imam/Priest: Do you ever see them? Healing as a mechanic in AoE3 is pretty terri
 
 Aztec: 
 
+Nobles' Huts can now be built in age 2 (but units are not available until age 3)
 Warrior Priest - no longer costs population (gives more flexibility for Aztec's lategame army) 
+
+Shaman Politician reworked - instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1/2/4/8 in Colonial through Imperial Ages. 
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
@@ -119,12 +123,15 @@ Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs h
 - Armor: Reduced from 30% ranged to 20% 
 - Speed: Increased to 6.25 from 6.00
 
-Arrow Knights - Incorporated ESOC changes
-- Population: Reduced from 2 to 1
+Arrow Knights - Very underwhelming as anti-artillery and anti-building units.
+- Armor: Ranged armor improved to 50% from 40%
+- Damage: Ranged damage improved to 13 from 10 and damage type changed to siege
+- Siege: Siege damage improved to 39 from 36.
+- Artillery multiplier reduced to 3.0x from 5.0x
 - Movement Speed: Increased from 3.75 to 4 
 
 Puma Spearmen - Incorporated ESOC changes
-- Siege trooper unit tag removed. 
+- Melee range increased to 1.0
 - Light Infantry damage multiplier improved to 3.5x
 
 Macehaultin - Incorporated ESOC changes
@@ -132,8 +139,11 @@ Macehaultin - Incorporated ESOC changes
 - Centeotl Support now ships 11 Macehaultin instead of 18; cost reduced to 500 gold. 
 
 Coyote Runner: Coyotes Struggle later on, so I've made their temple card cheaper to help them out. Due to unit tag changes, they should also be a bit more durable to skirmishers now. 
+- HP: Increased to 160 from 150
 - Xipe Totec Support now ships 6 Coyote Runners instead of 11; cost reduced to 500 gold. 
 
+Janey Jaguars: The temple shipment is way too expensive for an age 4 card, especially since Janeys aren't amazing cav. 
+- Tezcatlipoca Temple shipment cost reduced to 750 gold from 1500; Religious Unity shipment reduces cost to 500
 
 Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with Jaguar Prowl Knights, Puma Spearmen, Skull Knights, and Eagle Runner Knights all fulfilling this role. Generally, a late-game Aztec player would build their army out of almost entirely ERKs due to their significant overall strength, leaving Skull Knights and JPK by the wayside. Now, Aztec have 2 proper cavalry units, 2 skirmisher units, 2 anti-cav units, and 1 artillery unit. 
 
@@ -147,7 +157,6 @@ Sioux get free bison every Age (4 colonial, 8 fortress, 16 industrial, 30 imperi
 - Wise woman politician now ships more bison (8,15,25, 40 up from 6,12,20,30) and grants a larger buff to hunting (20/30/40/50% up from 10/20/30/40%)
 
 Sioux can now build regular walls in the Industrial Age (cannot be upgraded)
-Sioux Infantry can now build Teepees by default (tba)
 Sioux's town centers cost 400 wood instead of 500
 
 Shipments: 
@@ -159,10 +168,9 @@ Shipments:
 - Oglala Support no longer ships food, but increases the damage of all Cetan Bows by 20%
 - Dakota Support now ships 6 Tashunke Prowlers (up from 5) and increases the hitpoints of all Tashunke Prowlers by 30% (up from 25%)
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and reduced their population cost by 2
-- Outlaw Loyalty - Age 2 shipment that reduces cost of Outlaws by 30% and reduces population cost by 2 (tba)
 - Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
 - Cav combat cards affect Tashunke Prowlers by an extra 5% (for a total of 20%)
-- Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 40%, in addition to letting infantry build War Huts and Corrals
+- Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 40%, in addition to letting infantry build War Huts, Teepees, and Corrals
 - Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 30% from 50%. Now additionally increases Teepee LOS by 4.
 
 Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
@@ -192,6 +200,7 @@ Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a s
 Iroquois (WIP):
 
 Scouting Party Big Button cost changed from 500 food to 200 food/gold.
+Siege Drill Big Button cost reduced to 350 food/gold from 500 food/gold.
 
 Mantlet: They're fantastic units, but their slow movement speed really hampers their use. Bumping it up to 4.0 makes them much more versatile units.
 - Speed: Increased to 4.0 from 3.5
@@ -200,6 +209,8 @@ Ram: They're niche units, and the slow movement speed doesn't help. Normalizing 
 - Speed: Increased to 4.0 from 3.5
 
 India (WIP):
+
+Sacred Field wood cost reduced to 200 from 250
 
 Flail Elephants: Awful redundant units. needs a complete overhaul, but I've just given them some buffs in the meantime.
 - Infantry multiplier increased to 3.0x from 1.5x
@@ -247,6 +258,7 @@ Japan:
 
 Yabusame: An overall solid unit with ridiculously heavy gold macro. It's been rescaled to more in line with other dragoon units
 - Cost: Rescaled to 80 food and 130 gold from 60 food and 150 gold. 
+- Damage: Increased to 9 from 8
 
 Samurai: Samurai have always been iffy anti-cav units, now they're just a generic melee unit without weird AoE or multipliers. 
 - HP: Increased to 235 from 230
@@ -311,12 +323,18 @@ Halberdier:
 
 Portugal:
 
+Guerreiros Royal Guard upgrade now additionally increases range and LOS by 2.
+
+Organ Gun: Very squishy for artillery, and they can even be sniped by falconets. 
+HP: Increased to 200 from 150
+
 Dragoon: 20 range, 7 speed light cav laming...yeah
 - Genitours now provides +4 range/LOS (down from +6/6) and +10% HP
 
 Bestieros: 2400 for crossbowmen? Oof.
-- Cost: Reduced to 800 wood from 2400
+- Cost: Reduced to 1000 wood from 2400
 - Now ships 12 crossbowmen instead of 22
+
 
 Russia:
 
@@ -324,6 +342,11 @@ Russia:
 
 Strelets: I've fixed a long-standing bug. In the code, Strelets got a 25% discount on gold and food costs. But since they cost wood instead of gold, they receive no discount for that. It's been fixed as such.
 Cost: Wood cost reduced to 75 from 100
+
+Halberdier HP/Damage penalties reduced to 15% from 20%
+
+Shipments:
+- Strelet Horde now additionally increases Strelet range by 2. 
 
 Spain:
 
@@ -360,7 +383,18 @@ Shipments:
 
 Ottoman:
 
+[ESOC] All church villager techs have had their cost halved (they're punitively expensive in RE)
+
+[Garja] Mosque now generates 0.7xp/s
+[Garja] 
+
+Spahi: Great units, but low armor for cav, been adjusted as such.
+- Armor: Increased to 20% from 10%
+
 Abus Guns: Absolutely ridiculous for Age 2 units. 
 - Range: Base range and LOS reduced to 16/20 from 18/22.
 - Veteran/Guard upgrades now increase range and LOS by 2 each, for a maximum of 20 range and 24 LOS
 - Abuse Guns now have 0.5x multipliers vs AbstractCoyoteMan and AbstractSiegeTrooper. Artillery damage penalty increased to 0.5x from 0.75x
+
+Shipments:
+- Acemi Olglan School now additionally reduces Janissary train points by 20%

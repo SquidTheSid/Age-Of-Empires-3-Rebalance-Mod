@@ -394,11 +394,11 @@
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranCavalryArchersShadow</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -9771,7 +9771,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='Crossbowman' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Crossbowman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
@@ -9808,7 +9808,7 @@
 		<DBID>352</DBID>
 		<DisplayNameID>23959</DisplayNameID>
 		<Cost resourcetype ='Food'>0.0000</Cost>
-		<Cost resourcetype ='Wood'>100.0000</Cost>
+		<Cost resourcetype ='Wood'>50.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\millet_system\millet_system_64x64</Icon>
@@ -11364,6 +11364,15 @@
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
 			<Effect type ='SetName' proto ='Musketeer' culture ='none' newName ='32322'></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='NatHorseTrading' type ='Normal'>
@@ -13451,7 +13460,7 @@
 		<DBID>1669</DBID>
 		<DisplayNameID>32343</DisplayNameID>
 		<Cost resourcetype ='Food'>0.0000</Cost>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>300.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\abbasid_common_market\abbasid_common_market_64x64</Icon>
@@ -13469,8 +13478,8 @@
 	<Tech name ='ChurchTopkapi' type ='Normal'>
 		<DBID>1670</DBID>
 		<DisplayNameID>32346</DisplayNameID>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\topkapi\topkapi</Icon>
@@ -14403,24 +14412,24 @@
 		<RolloverTextID>33492</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='67.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchMilletSystem</Target></Effect>
-			<Effect type ='Data' amount ='400.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchAbbassidMarket</Target></Effect>
 			<Effect type ='TextOutput'>41876</Effect>
-			<Effect type ='Data' amount ='268.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='268.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='268.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='268.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopkapi</Target></Effect>
-			<Effect type ='Data' amount ='268.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopkapi</Target></Effect>
-			<Effect type ='Data' amount ='134.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchGalataTowerDistrict</Target></Effect>
-			<Effect type ='Data' amount ='172.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchKopruluViziers</Target></Effect>
 			<Effect type ='Data' amount ='1000.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopcuCorps</Target></Effect>
@@ -21958,6 +21967,15 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCUnicorne' type ='Normal'>
@@ -22186,6 +22204,8 @@
 		<RolloverTextID>37299</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='TextOutput'>41867</Effect>
@@ -23048,7 +23068,7 @@
 	<Tech name ='ChurchKopruluViziers' type ='Normal'>
 		<DBID>2666</DBID>
 		<DisplayNameID>41958</DisplayNameID>
-		<Cost resourcetype ='Wood'>250.0000</Cost>
+		<Cost resourcetype ='Wood'>125.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\koprulu_viziers\koprulu_viziers_icon_64x64</Icon>
@@ -23056,7 +23076,6 @@
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Colonialize</TechStatus>
 			<TechStatus status ='Active'>ChurchMilletSystem</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -23066,7 +23085,7 @@
 	<Tech name ='ChurchGalataTowerDistrict' type ='Normal'>
 		<DBID>2667</DBID>
 		<DisplayNameID>41960</DisplayNameID>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>100.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\galata_tower_district\galata_tower_district_icon_64x64</Icon>
@@ -23082,9 +23101,9 @@
 	<Tech name ='ChurchTanzimat' type ='Normal'>
 		<DBID>2668</DBID>
 		<DisplayNameID>41962</DisplayNameID>
-		<Cost resourcetype ='Food'>400.0000</Cost>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<Cost resourcetype ='Food'>200.0000</Cost>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\tanzimat\tanzimat_icon_64x64</Icon>
@@ -23093,7 +23112,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>ChurchTopkapi</TechStatus>
-			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='29.00' subtype ='BuildLimit' relativity ='Absolute'>
@@ -24219,8 +24238,8 @@
 	<Tech name ='BigSiegeshopSiegeDrill' type ='Normal'>
 		<DBID>2769</DBID>
 		<DisplayNameID>43659</DisplayNameID>
-		<Cost resourcetype ='Food'>500.0000</Cost>
-		<Cost resourcetype ='Wood'>500.0000</Cost>
+		<Cost resourcetype ='Food'>350.0000</Cost>
+		<Cost resourcetype ='Wood'>350.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -24461,7 +24480,7 @@
 		<DBID>2784</DBID>
 		<DisplayNameID>43721</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>35.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
 		<RolloverTextID>43720</RolloverTextID>
@@ -24502,7 +24521,7 @@
 		<DisplayNameID>43725</DisplayNameID>
 		<Cost resourcetype ='Food'>2000.0000</Cost>
 		<Cost resourcetype ='Gold'>1200.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>35.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
 		<RolloverTextID>43724</RolloverTextID>
@@ -24521,7 +24540,7 @@
 		<DisplayNameID>43727</DisplayNameID>
 		<Cost resourcetype ='Food'>4000.0000</Cost>
 		<Cost resourcetype ='Gold'>4000.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>35.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
 		<RolloverTextID>43726</RolloverTextID>
@@ -27380,7 +27399,7 @@
 	<Tech name ='HCXPGreatTempleTezcatlipoca' type ='Normal'>
 		<DBID>2976</DBID>
 		<DisplayNameID>44343</DisplayNameID>
-		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>750.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -29146,18 +29165,11 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age1</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman3</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WarHutTravois' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -29333,7 +29345,7 @@
 		<DBID>3152</DBID>
 		<DisplayNameID>45115</DisplayNameID>
 		<Cost resourcetype ='Food'>800.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>35.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
 		<RolloverTextID>45114</RolloverTextID>
@@ -29370,7 +29382,7 @@
 		<DisplayNameID>45119</DisplayNameID>
 		<Cost resourcetype ='Food'>2000.0000</Cost>
 		<Cost resourcetype ='Gold'>1200.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>35.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
 		<RolloverTextID>45118</RolloverTextID>
@@ -29387,7 +29399,7 @@
 		<DisplayNameID>45121</DisplayNameID>
 		<Cost resourcetype ='Food'>4000.0000</Cost>
 		<Cost resourcetype ='Gold'>4000.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
+		<ResearchPoints>35.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
 		<RolloverTextID>45120</RolloverTextID>
@@ -29427,18 +29439,12 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age2</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman4</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
+
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecShaman4' type ='Normal'>
@@ -29455,17 +29461,12 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age3</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman5</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecShaman5' type ='Normal'>
@@ -29482,16 +29483,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarHut</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NoblesHut</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
+
 		</Effects>
 	</Tech>
 	<Tech name ='TribalSiouxChief2' type ='Normal'>
@@ -31988,7 +31983,7 @@
 		<RolloverTextID>46343</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='MercGreatCannon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='MercGreatCannon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='EliteSkullKnightShadow' type ='Normal'>
@@ -32221,7 +32216,7 @@
 		<RolloverTextID>46541</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='MercFusilier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='MercFusilier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPMercsNinja' type ='Normal'>
@@ -32249,7 +32244,7 @@
 		<RolloverTextID>46545</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='MercFusilier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='MercFusilier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPMercsElmetiGerman' type ='Normal'>
@@ -33979,7 +33974,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPInfiniteTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='MercFusilier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='MercFusilier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPMercsHessiansRepeatTeam' type ='Normal'>
@@ -34486,7 +34481,7 @@
 			<Effect type ='TextOutput'>47184</Effect>
 			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPBuccaneers</Target></Effect>
-			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPGreatTempleTezcatlipoca</Target></Effect>
 			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPBuccaneers2</Target></Effect>
@@ -51440,7 +51435,7 @@
 		<RolloverTextID>70512</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='0.40' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+			<Effect type ='Data' action ='AutoGather' amount ='0.70' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='RGBallestero' type ='Normal'>
