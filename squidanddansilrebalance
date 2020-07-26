@@ -7,15 +7,16 @@ General:
 - Trading post HP reduced to 2000 from 3000; advanced trading post HP bonus reduced to 25% from 50%
 - Ninja population cost reduced from 4 to 2 
 - Pikemen (units with the AbstractPikeman tag) have +1.0 melee range to better chase down cavalry
-<<<<<<< Updated upstream
-=======
 - Crossbowmen ranged attack increased to 17 from 16, melee attack increased from 7 to 8, AbstractHeavyInfantry damage multiplier improved to 1.50x
 - Fast Age up politicians (Messenger, Exiled Prince) now age up in 40 seconds instead of 30. Fortress Age takes 45 seconds instead of 40
->>>>>>> Stashed changes
+- Wall HP reduced to 2000 from 3000
+- Town Center wood cost reduced to 500 from 600 (ESOC)
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
 - Capitalism: Increased to 1.5 gold/s up from 1.25
+
+Siege Trooper tag rework: This tag is very inconsistent, so I've reduced the number of arbitrary units on there (Shinobi, Puma Spearman, Mongol Scout) to primarily focus on units that mostly deal siege damage (Rams, Failiphants, Flamethrowers, etc.)
 
 Native: 
 - Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
@@ -53,6 +54,14 @@ Zapotec Lightning Warrior: (incorporated ESOC's rework)
 Jesuit - Ranged attack increased to 20 from 17
 Sufi War Elephant - Build limit increased to 9 from 6
 Udasi Chakram - LOS and range increased to 16 and 14; siege damage improved to 30 from 15
+
+Mercenary changes:
+Fusilier - Cost reduced to 250 from 300; armor increased to 20% from 10%
+Landsknecht - Speed increased to 4.5 from 4.0
+Swiss Pikemen - Melee range increased to 1.0
+Jaeger - Ranged armor reduced to 30% from 40%
+Li'l Bombard - Cost reduced to 1000 gold from 1200; Limber speed increased to 3.5 from 2.5
+Arsonist - LOS increased to 20 from 15
 
 
 
@@ -128,17 +137,18 @@ Coyote Runner: Coyotes Struggle later on, so I've made their temple card cheaper
 
 Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with Jaguar Prowl Knights, Puma Spearmen, Skull Knights, and Eagle Runner Knights all fulfilling this role. Generally, a late-game Aztec player would build their army out of almost entirely ERKs due to their significant overall strength, leaving Skull Knights and JPK by the wayside. Now, Aztec have 2 proper cavalry units, 2 skirmisher units, 2 anti-cav units, and 1 artillery unit. 
 
-Sioux (WIP):
+Sioux :
 
 Teepee: A very controversial building (given how ESOC added then removed an economic aura a la karni mata). I've decided to take iCourt's idea and make it buff all units.
 - Cost: Reduced to 40W from 50, bounties adjusted accordingly (20/10 --> 16/8)
 - HP: Increased to 500 from 300
 
-Economic buildings (farms, dock, market, plantations) are 25% cheaper but have 20% less health
-- Gun Trade BB cost increased to 500 wood
+Sioux get free bison every Age (4 colonial, 8 fortress, 16 industrial, 30 imperial)
+- Wise woman politician now ships more bison (8,15,25, 40 up from 6,12,20,30) and grants a larger buff to hunting (20/30/40/50% up from 10/20/30/40%)
 
 Sioux can now build regular walls in the Industrial Age (cannot be upgraded)
-Sioux Infantry can now build Teepees by default
+Sioux Infantry can now build Teepees by default (tba)
+Sioux's town centers cost 400 wood instead of 500
 
 Shipments: 
 - Earth Bounty shipment now provides 0.65 Food, Wood, and Gold trickles instead of 0.65 Wood and Gold trickles
@@ -151,7 +161,6 @@ Shipments:
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and reduced their population cost by 2
 - Outlaw Loyalty - Age 2 shipment that reduces cost of Outlaws by 30% and reduces population cost by 2 (tba)
 - Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
-- Water dance shipment to be added
 - Cav combat cards affect Tashunke Prowlers by an extra 5% (for a total of 20%)
 - Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 40%, in addition to letting infantry build War Huts and Corrals
 - Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 30% from 50%. Now additionally increases Teepee LOS by 4.
@@ -249,6 +258,8 @@ Samurai: Samurai have always been iffy anti-cav units, now they're just a generi
 - Siege Damage: Reduced to 42 from 67
 - Sword Saint: No longer increases unit cost, but adds in a 0.8x damage multiplier vs infantry
 
+Yojimbo shipment increased to 5 from 4.
+
 France:
 
 Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so instant spawning has been removed. Additionally, their base stats have been lowered to prevent the scaling issues. 
@@ -330,8 +341,6 @@ Shipments:
 - Caballeros additionally increases Lancer melee range by 1
 - Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
-<<<<<<< Updated upstream
-=======
 - Corselet Church tech reworked. Now adds +0.1 armor to heavy infantry, but increases cost by 10%
 
 Dutch:
@@ -349,4 +358,9 @@ Shipments:
 - Military Reforms now boosts Halberdier speed by 10% (down from 20%) and applies a 0.8x Infantry damage penalty (down from 0.75x)
 - Dutch East India company shipment cost decrease improved to 30% from 15%
 
->>>>>>> Stashed changes
+Ottoman:
+
+Abus Guns: Absolutely ridiculous for Age 2 units. 
+- Range: Base range and LOS reduced to 16/20 from 18/22.
+- Veteran/Guard upgrades now increase range and LOS by 2 each, for a maximum of 20 range and 24 LOS
+- Abuse Guns now have 0.5x multipliers vs AbstractCoyoteMan and AbstractSiegeTrooper. Artillery damage penalty increased to 0.5x from 0.75x

@@ -4238,22 +4238,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChampionDogSoldierShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>LegendaryDogSoldierShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>BigDockFlamingArrows</Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Farm</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Farm</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Dock</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Dock</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Market</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Market</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 
 
 
@@ -13405,6 +13391,15 @@
 			<Effect type ='SetName' proto ='AbusGun' culture ='none' newName ='36747'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='AbusGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialAbusGun' type ='Normal'>
@@ -13428,6 +13423,7 @@
 				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			
 		</Effects>
 	</Tech>
 	<Tech name ='ChurchTowerAndSword' type ='Normal'>
@@ -21320,7 +21316,6 @@
 	<Tech name ='GuardAbusGuns' type ='Normal'>
 		<DBID>2560</DBID>
 		<DisplayNameID>36749</DisplayNameID>
-		<Cost resourcetype ='Food'>450.0000</Cost>
 		<Cost resourcetype ='Wood'>600.0000</Cost>
 		<Cost resourcetype ='Gold'>600.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -21341,6 +21336,15 @@
 			<Effect type ='SetName' proto ='AbusGun' culture ='none' newName ='36751'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='AbusGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCShipLancers4' type ='Normal'>
@@ -24077,6 +24081,9 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeXPAztec' type ='Normal'>
@@ -24113,6 +24120,9 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='2.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeXPAztec' type ='Normal'>
@@ -24149,6 +24159,9 @@
 				<Target type ='ProtoUnit'>WallStraight5</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CWallGate</Target></Effect>
+			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 
 		</Effects>
 	</Tech>
@@ -24180,6 +24193,9 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
+			<Effect type ='Data' amount ='30.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='BigCorralBonepipeArmor' type ='Normal'>
@@ -29728,12 +29744,12 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age1</Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalSiouxWisewoman5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalSiouxWisewoman4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalSiouxWisewoman3</Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -29751,11 +29767,11 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age2</Effect>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalSiouxWisewoman5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalSiouxWisewoman4</Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -29773,10 +29789,10 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age3</Effect>
-			<Effect type ='Data' amount ='20.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+			<Effect type ='Data' amount ='25.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalSiouxWisewoman5</Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.40' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -29794,9 +29810,9 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='Data' amount ='30.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
+			<Effect type ='Data' amount ='40.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.40' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.50' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -39420,7 +39436,7 @@
 		<RolloverTextID>62044</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypMercYojimbo' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypMercYojimbo' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCMercsJapaneseArmy' type ='Normal'>
