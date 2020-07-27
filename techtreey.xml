@@ -1154,7 +1154,9 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchSalah</Effect>
 			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
+			
 		</Effects>
 	</Tech>
 	<Tech name ='Age0Spanish' type ='Normal'>
@@ -10423,7 +10425,7 @@
 				<Target type ='Tech'>HCMercsMediterranean</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsManchu</Target></Effect>
-			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='600.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsMamelukes</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCMercsLandsknecht2</Target></Effect>
@@ -11623,6 +11625,9 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
+
 	</Tech>
 	<Tech name ='ColonializeFrench' type ='Normal'>
 		<DBID>1125</DBID>
@@ -11892,6 +11897,9 @@
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Spahi</Target></Effect>
 			<Effect type ='SetName' proto ='Spahi' culture ='none' newName ='70503'></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='FortifiedBlockhouse' type ='Normal'>
@@ -12909,6 +12917,9 @@
 				<Target type ='ProtoUnit'>Spahi</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionOHiggins</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionSanMartin</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializePortuguese' type ='Normal'>
@@ -14825,6 +14836,9 @@
 			<Effect type ='TechStatus' status ='active'>Fortressize</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizePortuguese' type ='Normal'>
@@ -16074,6 +16088,9 @@
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SpyglassRevealer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 			<Effect type ='TextOutput'>41835</Effect>
 		</Effects>
 	</Tech>
@@ -18585,9 +18602,9 @@
 		<RolloverTextID>36024</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Janissary</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='TextOutput'>41866</Effect>
 		</Effects>
@@ -18906,6 +18923,8 @@
 		<Icon>units\infantry_ranged\cacadore\cacadore_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Cacadore' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -18918,6 +18937,8 @@
 		<Icon>units\infantry_ranged\cacadore\cacadore_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='Cacadore' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -18930,7 +18951,9 @@
 		<Icon>units\infantry_ranged\cacadore\cacadore_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Cacadore' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Cacadore' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipCacadores4' type ='Normal'>
@@ -18942,6 +18965,8 @@
 		<Icon>units\infantry_ranged\cacadore\cacadore_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Cacadore' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -18975,6 +19000,9 @@
 				<Target type ='ProtoUnit'>Cacadore</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 			<Effect type ='TextOutput'>41893</Effect>
 		</Effects>
 	</Tech>
@@ -18996,6 +19024,9 @@
 				<Target type ='ProtoUnit'>Cacadore</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 			<Effect type ='TextOutput'>41892</Effect>
 		</Effects>
 	</Tech>
@@ -19042,6 +19073,10 @@
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCAdvancedArtilleryPortuguese' type ='Normal'>
@@ -19056,6 +19091,9 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Howitzer</Effect>
 			<Effect type ='TechStatus' status ='active'>Rabauld</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 			<Effect type ='TextOutput'>37243</Effect>
 		</Effects>
 	</Tech>
@@ -19136,7 +19174,10 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='OrganGun' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+
 	</Tech>
 	<Tech name ='HCShipOrganGuns2' type ='Normal'>
 		<DBID>2385</DBID>
@@ -19148,7 +19189,10 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='OrganGun' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+
 	</Tech>
 	<Tech name ='HCCheapOutpostsTeam' type ='Normal'>
 		<DBID>2386</DBID>
@@ -21297,7 +21341,7 @@
 	<Tech name ='HCMercsMamelukes' type ='Normal'>
 		<DBID>2554</DBID>
 		<DisplayNameID>36727</DisplayNameID>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -21305,7 +21349,7 @@
 		<RolloverTextID>36726</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='MercMameluke' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='MercMameluke' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCMercsCorsairs' type ='Normal'>
@@ -22564,6 +22608,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>41823</Effect>
 		</Effects>
 	</Tech>
@@ -22597,6 +22643,9 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='Dragoon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCSpawnFishingBoats' type ='Normal'>
@@ -22611,6 +22660,8 @@
 		<Effects>
 			<Effect type ='Data' action ='SpawnBoat' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>41925</Effect>
 		</Effects>
 	</Tech>
@@ -22890,6 +22941,9 @@
 		<Flag>HomeCity</Flag>
 		<Flag>OrPrereqs</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 			<Effect type ='TextOutput'>46633</Effect></Effects>
 	</Tech>
 	<Tech name ='HCAdvancedArtilleryGerman' type ='Normal'>
@@ -22963,6 +23017,8 @@
 		<RolloverTextID>41553</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -29169,6 +29225,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman3</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='WarHutTravois' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -29444,7 +29501,7 @@
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
-
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecShaman4' type ='Normal'>
@@ -29464,8 +29521,10 @@
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman5</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
-
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 
 		</Effects>
 	</Tech>
@@ -29485,7 +29544,10 @@
 			<Effect type ='SetAge'>Age4</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 
 		</Effects>
 	</Tech>
@@ -32604,8 +32666,11 @@
 		<Icon>units\artillery\organ_gun\organ_gun_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='OrganGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+
 	</Tech>
 	<Tech name ='HCShipDopplesoldners6' type ='Normal'>
 		<DBID>3379</DBID>
@@ -32719,7 +32784,8 @@
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
-
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>46858</Effect>
 		</Effects>
 	</Tech>
@@ -32735,6 +32801,9 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractLightCavalry</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
+
 			<Effect type ='TextOutput'>46864</Effect>
 		</Effects>
 	</Tech>
@@ -32877,6 +32946,9 @@
 			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mortar</Target></Effect>
 			<Effect type ='TextOutput'>46888</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPBankWagon' type ='Normal'>
@@ -34090,6 +34162,9 @@
 				<Target type ='Tech'>ypTradeRouteUpgrade1</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ypTradeRouteUpgrade2</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPNationalRedoubt' type ='Normal'>
@@ -51435,9 +51510,23 @@
 		<RolloverTextID>70512</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='0.70' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+			<Effect type ='Data' action ='AutoGather' amount ='0.60' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
 	</Tech>
+	<Tech name ='OttomanChurchXPBoost' type ='Normal'>
+		<DBID>9997</DBID>
+		<DisplayNameID>70533</DisplayNameID>
+		<Cost resourcetype ='Gold'>450.0000</Cost>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>70534</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+			<Effect type ='Data' action ='AutoGather' amount ='1.33' subtype ='WorkRate' unittype ='XP' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
+	</Tech>
+
 	<Tech name ='RGBallestero' type ='Normal'>
 		<DBID>9998</DBID>
 		<DisplayNameID>70527</DisplayNameID>

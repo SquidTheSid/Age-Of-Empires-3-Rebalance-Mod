@@ -74,6 +74,8 @@ Euro:
 - Spy population cost reduced from 2 to 1
 - Artillery Foundry wood cost reduced to 250 wood from 300
 - Crossbowmen ranged damage increased to 17 from 16, hand damage increased to 8 from 7, and HeavyInfantry multiplier increased to 1.5x from 1.25x
+- Cavalry Archer speed increased to 7.25 from 6.75
+- Mameluke shipment reduced to 4 units from 5; cost reduced to 800 gold from 1000
 
 
 Revolution bonuses rebalanced (thanks to Jotunir on ESOC):
@@ -104,7 +106,7 @@ Aztec:
 Nobles' Huts can now be built in age 2 (but units are not available until age 3)
 Warrior Priest - no longer costs population (gives more flexibility for Aztec's lategame army) 
 
-Shaman Politician reworked - instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1/2/4/8 in Colonial through Imperial Ages. 
+Shaman Politician reworked - instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1/2 in Colonial and Fortress ages. Industrial and Imperial ages additionally provide +15/30% gather rates to fire pits. 
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
@@ -202,6 +204,8 @@ Iroquois (WIP):
 Scouting Party Big Button cost changed from 500 food to 200 food/gold.
 Siege Drill Big Button cost reduced to 350 food/gold from 500 food/gold.
 
+[Garja] Aenna and Forest Prowler HP reduced to 100 from 110 
+
 Mantlet: They're fantastic units, but their slow movement speed really hampers their use. Bumping it up to 4.0 makes them much more versatile units.
 - Speed: Increased to 4.0 from 3.5
 
@@ -259,6 +263,7 @@ Japan:
 Yabusame: An overall solid unit with ridiculously heavy gold macro. It's been rescaled to more in line with other dragoon units
 - Cost: Rescaled to 80 food and 130 gold from 60 food and 150 gold. 
 - Damage: Increased to 9 from 8
+- Speed: Increased to 7.25 from 6.8
 
 Samurai: Samurai have always been iffy anti-cav units, now they're just a generic melee unit without weird AoE or multipliers. 
 - HP: Increased to 235 from 230
@@ -316,12 +321,11 @@ Banner Armies:
 - Mandarin Duck Squad now ships 10 Chu Ko Nus, up from 8
 - Emperor's Army now ships 10 hand mortars, up from 8
 
-Dutch:
-
-Halberdier: 
-- Military Reforms speed increase reduced to 10% from 20%; infantry penalty reduced to 20% from 25%
-
 Portugal:
+
+Every home city shipment now comes with a free cow. Shipments requires 2% more exp. 
+
+Gunpower infantry TEAM hitpoints and attack moved to colonial age; infantry combat moved to fortress age, all from Industrial
 
 Guerreiros Royal Guard upgrade now additionally increases range and LOS by 2.
 
@@ -335,6 +339,7 @@ Bestieros: 2400 for crossbowmen? Oof.
 - Cost: Reduced to 1000 wood from 2400
 - Now ships 12 crossbowmen instead of 22
 
+8 Cassadore shipment increased to 9
 
 Russia:
 
@@ -385,16 +390,29 @@ Ottoman:
 
 [ESOC] All church villager techs have had their cost halved (they're punitively expensive in RE)
 
-[Garja] Mosque now generates 0.7xp/s
-[Garja] 
+Church build limit is increased by 1 in every age. 
 
-Spahi: Great units, but low armor for cav, been adjusted as such.
+Mosque improvements:
+- Mosque now generates 0.6xp/s up from 0.4xp/s;
+- Mosque build limit increased by 1 each Age, for a total of 5 in Imperial.
+- 450 coin Fortress Age Salah tech added. Improves XP trickle by 33%
+
+[Garja] Mosque construction shipment now removes the cost of all villager-techs at the mosque; reduces Church Card costs by 33%.
+
+Spahi: Great units, but low armor for cav, been adjusted as such. [ESOC]
 - Armor: Increased to 20% from 10%
+
+Great Bombard: Powerful artillery, but they train too slowly [ESOC]
+- Train time reduced to 100 seconds from 115
 
 Abus Guns: Absolutely ridiculous for Age 2 units. 
 - Range: Base range and LOS reduced to 16/20 from 18/22.
 - Veteran/Guard upgrades now increase range and LOS by 2 each, for a maximum of 20 range and 24 LOS
 - Abuse Guns now have 0.5x multipliers vs AbstractCoyoteMan and AbstractSiegeTrooper. Artillery damage penalty increased to 0.5x from 0.75x
 
-Shipments:
+Janissary: Exceptionally beefy musks, a bit too much so. Their HP has been lowered to adjust breakpoints, but Janissary combat has been buffed to compensate
+- HP: Lowered from 235 to 225
+- Janissary Combat improved to +20% HP/Damage from +15% each
 - Acemi Olglan School now additionally reduces Janissary train points by 20%
+
+Irregulars shipment now additionally increases Cavalry Archers' attack by 15%
