@@ -1154,7 +1154,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChurchSalah</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchOttomanXPBoost</Effect>
 			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 			
 		</Effects>
@@ -11624,10 +11624,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>Colonialize</Effect></Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect>
-
+			<Effect type ='TechStatus' status ='active'>Colonialize</Effect></Effects>
 	</Tech>
 	<Tech name ='ColonializeFrench' type ='Normal'>
 		<DBID>1125</DBID>
@@ -14446,7 +14445,8 @@
 				<Target type ='Tech'>ChurchTopcuCorps</Target></Effect>
 			<Effect type ='Data' amount ='670.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTufanciCorps</Target></Effect>
-		</Effects>
+			<Effect type ='Data' amount ='300.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ChurchOttomanXPBoost</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='ColonializeSPCAct1' type ='Normal'>
 		<DBID>1827</DBID>
@@ -29525,7 +29525,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecShaman5' type ='Normal'>
@@ -29548,7 +29549,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='TribalSiouxChief2' type ='Normal'>
@@ -51513,16 +51515,19 @@
 			<Effect type ='Data' action ='AutoGather' amount ='0.60' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
 	</Tech>
-	<Tech name ='OttomanChurchXPBoost' type ='Normal'>
+	<Tech name ='ChurchOttomanXPBoost' type ='Normal'>
 		<DBID>9997</DBID>
 		<DisplayNameID>70533</DisplayNameID>
 		<Cost resourcetype ='Gold'>450.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_mosque_construction\hc_mosque_construction</Icon>
 		<RolloverTextID>70534</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
+		<Effects>
 			<Effect type ='Data' action ='AutoGather' amount ='1.33' subtype ='WorkRate' unittype ='XP' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
 	</Tech>
