@@ -288,7 +288,7 @@
 				<Target type ='ProtoUnit'>Falconet</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
-			<Effect type ='Data' amount ='2.12' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='2.04' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Settler</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Stable</Target></Effect>
@@ -450,6 +450,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranPikemen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranLongbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardLongbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialLongbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialDragoons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialRedcoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialLifeGuard</Effect>
@@ -8791,8 +8793,8 @@
 	<Tech name ='RGVoltigeur' type ='Normal'>
 		<DBID>168</DBID>
 		<DisplayNameID>23476</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
@@ -8813,8 +8815,8 @@
 	<Tech name ='RGGendarmes' type ='Normal'>
 		<DBID>169</DBID>
 		<DisplayNameID>23479</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -9296,8 +9298,8 @@
 	<Tech name ='RGRedcoats' type ='Normal'>
 		<DBID>244</DBID>
 		<DisplayNameID>23716</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
@@ -9424,8 +9426,8 @@
 	<Tech name ='RGBaratcuCorps' type ='Normal'>
 		<DBID>277</DBID>
 		<DisplayNameID>23777</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_grenadier_artillery\guard_grenadier_artillery</Icon>
@@ -9448,8 +9450,8 @@
 	<Tech name ='RGPrussianNeedleGun' type ='Normal'>
 		<DBID>305</DBID>
 		<DisplayNameID>23831</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
@@ -9470,8 +9472,8 @@
 	<Tech name ='RGLifeGuardHussars' type ='Normal'>
 		<DBID>306</DBID>
 		<DisplayNameID>23834</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -9540,8 +9542,8 @@
 	<Tech name ='RGGarrochista' type ='Normal'>
 		<DBID>313</DBID>
 		<DisplayNameID>23846</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -9631,8 +9633,8 @@
 	<Tech name ='RGNassausLinearTactics' type ='Normal'>
 		<DBID>321</DBID>
 		<DisplayNameID>23876</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_spear_infantry\guard_spear_infantry</Icon>
@@ -9691,8 +9693,8 @@
 	<Tech name ='RGCarabineer' type ='Normal'>
 		<DBID>325</DBID>
 		<DisplayNameID>23888</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -9736,8 +9738,8 @@
 	<Tech name ='RGJinetes' type ='Normal'>
 		<DBID>335</DBID>
 		<DisplayNameID>23915</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -9785,8 +9787,8 @@
 	<Tech name ='RGGardener' type ='Normal'>
 		<DBID>351</DBID>
 		<DisplayNameID>23956</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -9948,8 +9950,8 @@
 	<Tech name ='RGTartarLoyalists' type ='Normal'>
 		<DBID>377</DBID>
 		<DisplayNameID>24138</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -9970,8 +9972,8 @@
 	<Tech name ='RGPavlovGrenadiers' type ='Normal'>
 		<DBID>383</DBID>
 		<DisplayNameID>24160</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_grenadier_artillery\guard_grenadier_artillery</Icon>
@@ -10881,8 +10883,8 @@
 	<Tech name ='RGTercio' type ='Normal'>
 		<DBID>649</DBID>
 		<DisplayNameID>26139</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_spear_infantry\guard_spear_infantry</Icon>
@@ -11109,8 +11111,8 @@
 	<Tech name ='RGCzapkaUhlans' type ='Normal'>
 		<DBID>782</DBID>
 		<DisplayNameID>27679</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
@@ -11347,8 +11349,8 @@
 	<Tech name ='RGGuerreiros' type ='Normal'>
 		<DBID>1026</DBID>
 		<DisplayNameID>29209</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
@@ -15516,8 +15518,8 @@
 	<Tech name ='RGEspadachins' type ='Normal'>
 		<DBID>2047</DBID>
 		<DisplayNameID>35179</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_sword_infantry\guard_sword_infantry</Icon>
@@ -15717,9 +15719,9 @@
 		<RolloverTextID>35308</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialLongbowmen</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardLongbowmen</Effect>
-			<Effect type ='Data' action ='RangedAttack' amount ='4.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
+				<Effect type ='Data' action ='RangedAttack' amount ='4.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
 			<Effect type ='Data' action ='VolleyRangedAttack' amount ='4.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
@@ -26593,7 +26595,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
 			<Effect type ='TextOutput'>44233</Effect>
 		</Effects>
@@ -26710,7 +26712,7 @@
 		<Icon>ui\units\az_arrow_knight_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='xpArrowKnight' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpArrowKnight' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipArrowKnightsRepeat' type ='Normal'>
@@ -26722,7 +26724,7 @@
 		<Icon>ui\techs\infinite_arrow_knight</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='xpArrowKnight' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpArrowKnight' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipEagleKnights1' type ='Normal'>
@@ -51535,8 +51537,8 @@
 	<Tech name ='RGBallestero' type ='Normal'>
 		<DBID>9998</DBID>
 		<DisplayNameID>70527</DisplayNameID>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
@@ -51589,6 +51591,218 @@
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 
 		</Effects>
+	</Tech>	
+<Tech name ='HCShipFoodCrates2Portuguese' type ='Normal'>
+		<DBID>9000</DBID>
+		<DisplayNameID>70535</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_food_crate_128</Icon>
+		<RolloverTextID>42109</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
-	
+<Tech name ='HCShipFoodCrates3Portuguese' type ='Normal'>
+		<DBID>9001</DBID>
+		<DisplayNameID>70536</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_food_crate_128</Icon>
+		<RolloverTextID>42111</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+<Tech name ='HCShipFoodCrates4Portuguese' type ='Normal'>
+		<DBID>9002</DBID>
+		<DisplayNameID>70537</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_food_crate_128</Icon>
+		<RolloverTextID>42111</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+<Tech name ='HCShipFoodCrates5Portuguese' type ='Normal'>
+		<DBID>9003</DBID>
+		<DisplayNameID>70538</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_food_crate_128</Icon>
+		<RolloverTextID>42114</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+
+<Tech name ='HCShipWoodCrates2Portuguese' type ='Normal'>
+		<DBID>9004</DBID>
+		<DisplayNameID>70539</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<RolloverTextID>42117</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+<Tech name ='HCShipWoodCrates3Portuguese' type ='Normal'>
+		<DBID>9005</DBID>
+		<DisplayNameID>70540</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<RolloverTextID>42118</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+<Tech name ='HCShipWoodCrates4Portuguese' type ='Normal'>
+		<DBID>9006</DBID>
+		<DisplayNameID>70541</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<RolloverTextID>42119</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+<Tech name ='HCShipWoodCrates5Portuguese' type ='Normal'>
+		<DBID>9007</DBID>
+		<DisplayNameID>70542</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<RolloverTextID>42120</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+
+<Tech name ='HCShipCoinCrates2Portuguese' type ='Normal'>
+		<DBID>9008</DBID>
+		<DisplayNameID>70543</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<RolloverTextID>42124</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+<Tech name ='HCShipCoinCrates3Portuguese' type ='Normal'>
+		<DBID>9009</DBID>
+		<DisplayNameID>70544</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<RolloverTextID>42125</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+<Tech name ='HCShipCoinCrates4Portuguese' type ='Normal'>
+		<DBID>9010</DBID>
+		<DisplayNameID>70545</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<RolloverTextID>42126</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+<Tech name ='HCShipWoodCrates5Portuguese' type ='Normal'>
+		<DBID>9011</DBID>
+		<DisplayNameID>70546</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<RolloverTextID>42127</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+
+
+
+
 </TechTree>

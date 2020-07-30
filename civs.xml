@@ -52,7 +52,10 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityspanish.xml</homecityfilename>
     <homecityflagtexture>objects\flags\spanish</homecityflagtexture>
     <homecityflagbuttonset>spanishFlagBtn</homecityflagbuttonset>
@@ -127,8 +130,11 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecitybritish.xml</homecityfilename>
     <homecityflagtexture>objects\flags\british</homecityflagtexture>
     <homecityflagbuttonset>britishFlagBtn</homecityflagbuttonset>
@@ -199,7 +205,10 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityfrench.xml</homecityfilename>
     <homecityflagtexture>objects\flags\french</homecityflagtexture>
     <homecityflagbuttonset>frenchFlagBtn</homecityflagbuttonset>
@@ -271,7 +280,10 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityportuguese.xml</homecityfilename>
     <homecityflagtexture>objects\flags\portuguese</homecityflagtexture>
     <homecityflagbuttonset>portugueseFlagBtn</homecityflagbuttonset>
@@ -344,7 +356,10 @@
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
+    <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecitydutch.xml</homecityfilename>
     <homecityflagtexture>objects\flags\dutch</homecityflagtexture>
     <homecityflagbuttonset>dutchFlagBtn</homecityflagbuttonset>
@@ -416,7 +431,10 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityrussians.xml</homecityfilename>
     <homecityflagtexture>objects\flags\russians</homecityflagtexture>
     <homecityflagbuttonset>russianFlagBtn</homecityflagbuttonset>
@@ -504,7 +522,10 @@
     <townstartingunit>SettlerWagon</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofCoin</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecitygerman.xml</homecityfilename>
     <homecityflagtexture>objects\flags\germans</homecityflagtexture>
     <homecityflagbuttonset>germanFlagBtn</homecityflagbuttonset>
@@ -575,6 +596,9 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityottomans.xml</homecityfilename>
     <homecityflagtexture>objects\flags\ottomans</homecityflagtexture>
     <homecityflagbuttonset>ottomanFlagBtn</homecityflagbuttonset>
@@ -1057,8 +1081,11 @@
     <townstartingunit>xpBuilderStart</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityxpiroquois.xml</homecityfilename>
     <homecityflagtexture>objects\flags\iroquois</homecityflagtexture>
     <homecityflagbuttonset>iroquoisFlagBtn</homecityflagbuttonset>
@@ -1129,6 +1156,9 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityxpsioux.xml</homecityfilename>
     <homecityflagtexture>objects\flags\sioux</homecityflagtexture>
     <homecityflagbuttonset>siouxFlagBtn</homecityflagbuttonset>
@@ -1200,8 +1230,11 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityxpaztec.xml</homecityfilename>
     <homecityflagtexture>objects\flags\aztec</homecityflagtexture>
     <homecityflagbuttonset>AztecFlagBtn</homecityflagbuttonset>
@@ -1340,8 +1373,11 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityjapanese.xml</homecityfilename>
     <homecityflagtexture>objects\flags\japan</homecityflagtexture>
     <homecityflagbuttonset>JapaneseFlagBtn</homecityflagbuttonset>
@@ -2829,7 +2865,10 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityindians.xml</homecityfilename>
     <homecityflagtexture>objects\flags\india</homecityflagtexture>
     <homecityflagbuttonset>IndianFlagBtn</homecityflagbuttonset>
