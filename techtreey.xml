@@ -51627,6 +51627,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
+</Tech>
+
 <Tech name ='HCShipFoodCrates4Portuguese' type ='Normal'>
 		<DBID>9002</DBID>
 		<DisplayNameID>70537</DisplayNameID>
@@ -51642,6 +51644,8 @@
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
+</Tech>
+
 <Tech name ='HCShipFoodCrates5Portuguese' type ='Normal'>
 		<DBID>9003</DBID>
 		<DisplayNameID>70538</DisplayNameID>
@@ -51697,6 +51701,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
+</Tech>
+
 <Tech name ='HCShipWoodCrates4Portuguese' type ='Normal'>
 		<DBID>9006</DBID>
 		<DisplayNameID>70541</DisplayNameID>
@@ -51712,6 +51718,8 @@
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
+</Tech>
+
 <Tech name ='HCShipWoodCrates5Portuguese' type ='Normal'>
 		<DBID>9007</DBID>
 		<DisplayNameID>70542</DisplayNameID>
@@ -51767,6 +51775,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
+</Tech>
+
 <Tech name ='HCShipCoinCrates4Portuguese' type ='Normal'>
 		<DBID>9010</DBID>
 		<DisplayNameID>70545</DisplayNameID>
@@ -51782,6 +51792,8 @@
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
+</Tech>
+
 <Tech name ='HCShipWoodCrates5Portuguese' type ='Normal'>
 		<DBID>9011</DBID>
 		<DisplayNameID>70546</DisplayNameID>
