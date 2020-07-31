@@ -52357,6 +52357,7 @@
 				<Target type ='Player'></Target></Effect>
 
 		</Effects>
+	</Tech>
 	<Tech name ='HCXPRanchingLlamaPortuguese' type ='Normal'>
 		<DBID>9045</DBID>
 		<DisplayNameID>70588</DisplayNameID>
