@@ -51672,7 +51672,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<Icon>ui\techs\hc_wood_crate\hc_wood_crate_128</Icon>
 		<RolloverTextID>42117</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -51690,7 +51690,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<Icon>ui\techs\hc_wood_crate\hc_wood_crate_128</Icon>
 		<RolloverTextID>42118</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -51709,7 +51709,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<Icon>ui\techs\hc_wood_crate\hc_wood_crate_128</Icon>
 		<RolloverTextID>42119</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -51726,7 +51726,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_wood_crate_128</Icon>
+		<Icon>ui\techs\hc_wood_crate\hc_wood_crate_128</Icon>
 		<RolloverTextID>42120</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -51746,7 +51746,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<Icon>ui\techs\hc_coin_crate\hc_coin_crate_128</Icon>
 		<RolloverTextID>42124</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -51764,7 +51764,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<Icon>ui\techs\hc_coin_crate\hc_coin_crate_128</Icon>
 		<RolloverTextID>42125</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -51783,7 +51783,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<Icon>ui\techs\hc_coin_crate\hc_coin_crate_128</Icon>
 		<RolloverTextID>42126</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -51800,7 +51800,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_food_crate\hc_coin_crate_128</Icon>
+		<Icon>ui\techs\hc_coin_crate\hc_coin_crate_128</Icon>
 		<RolloverTextID>42127</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
