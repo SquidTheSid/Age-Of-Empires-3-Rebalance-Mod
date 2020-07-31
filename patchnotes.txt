@@ -85,7 +85,7 @@ Arsonist - LOS increased to 20 from 15; range increased to 14 from 12; HP increa
 Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
 
-Euro: 
+European: 
 - Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15); range increased to 14 from 12. Arsonists adjusted accordingly
 - Ironclad HP buffed to 2500, up from 2000
 - Spy population cost reduced from 2 to 1
@@ -93,6 +93,8 @@ Euro:
 - Crossbowmen ranged damage increased to 17 from 16, hand damage increased to 8 from 7, and HeavyInfantry multiplier increased to 1.5x from 1.25x
 - Cavalry Archer speed increased to 7.25 from 6.75
 - Mameluke shipment reduced to 4 units from 5; cost reduced to 800 gold from 1000
+- Bayonet Arsenal tech cost reduced to 150 Wood/Coin from 400 Wood/Coin
+- Advanced Arsenal shipment now affects culverins and horse artillery
 
 
 Revolution bonuses rebalanced (thanks to Jotunir on ESOC):
@@ -102,7 +104,7 @@ Revolution bonuses rebalanced (thanks to Jotunir on ESOC):
 - Columbia: No changes (Ironclad's buffed HP compensates, might add in fishing ships)
 - Peru: All unit HP boost increased to 15% from 5%
 - Brazil: Now ships 25 Blackwood Archers instead of 20
-- Mexico: Now additionally ships 10 Outlaw Riflemen on top of 10 Outlaw Pistoleros and Riders. 
+- Mexico: Now additionally ships 10 Outlaw Riflemen on top of 10 Outlaw Pistoleros and Riders (Currently not changed due to how hilarious 7 speed pistolero guardians are). 
 - US: Now ships 4 Gatling Guns on top of a 25% HP boost
 
 Gatling gun: In RE, it's just a worse organ gun. I've buffed it to have parity with that.
@@ -447,6 +449,8 @@ Janissary: Exceptionally beefy musks, a bit too much so. Their HP has been lower
 
 Irregulars shipment now additionally increases Cavalry Archers' attack by 15% [Garja]
 
+Britain:
 
-Germany:
+Longbowmen: Considering that longbowmen are Britain's main anti-infantry unit, it doesn't make sense that their guard and imperial upgrades are locked behind cards. I've made it innate and buffed Yeomen to help out.
+- Yeomen: Now grants a 0.25x AbstractHeavyInfantry damage multiplier on top of increasing range by 4.
 

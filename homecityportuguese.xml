@@ -206,7 +206,7 @@
       <level>0</level>
       <prereqtech>HCShipSheep1Portuguese</prereqtech>
       <age>1</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -280,7 +280,7 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCShipCrossbowmen1</name>
+      <name>HCShipCrossbowmen1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -289,16 +289,16 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCrossbowmen2</name>
+      <name>HCShipCrossbowmen2Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipCrossbowmen1</prereqtech>
+      <prereqtech>HCShipCrossbowmen1Portuguese</prereqtech>
       <age>2</age>
       <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipPikemen2</name>
+      <name>HCShipPikemen2Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -307,16 +307,16 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipPikemen3</name>
+      <name>HCShipPikemen3Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipPikemen2</prereqtech>
+      <prereqtech>HCShipPikemen2Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>24</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipHalberdiers1</name>
+      <name>HCShipHalberdiers1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -325,25 +325,25 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipHalberdiers2</name>
+      <name>HCShipHalberdiers2Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipHalberdiers1</prereqtech>
+      <prereqtech>HCShipHalberdiers1Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipHalberdiers3</name>
+      <name>HCShipHalberdiers3Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipHalberdiers2</prereqtech>
+      <prereqtech>HCShipHalberdiers2Portuguese</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers1</name>
+      <name>HCShipMusketeers1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -352,19 +352,19 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers2</name>
+      <name>HCShipMusketeers2Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipMusketeers1</prereqtech>
+      <prereqtech>HCShipMusketeers1Portuguese</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers3</name>
+      <name>HCShipMusketeers3Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipMusketeers2</prereqtech>
+      <prereqtech>HCShipMusketeers2Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>14</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -379,19 +379,19 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers4</name>
+      <name>HCShipMusketeers4Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipMusketeers3</prereqtech>
+      <prereqtech>HCShipMusketeers3Portuguese</prereqtech>
       <age>2</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers5</name>
+      <name>HCShipMusketeers5Portuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipMusketeers4</prereqtech>
+      <prereqtech>HCShipMusketeers4Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>16</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -454,7 +454,7 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipDragoons1</name>
+      <name>HCShipDragoons1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -463,28 +463,28 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipDragoons2</name>
+      <name>HCShipDragoons2Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipDragoons1</prereqtech>
+      <prereqtech>HCShipDragoons1Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipDragoons3</name>
+      <name>HCShipDragoons3Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipDragoons2</prereqtech>
+      <prereqtech>HCShipDragoons2Portuguese</prereqtech>
       <age>2</age>
       <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipDragoons4</name>
+      <name>HCShipDragoons4Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipDragoons3</prereqtech>
+      <prereqtech>HCShipDragoons3Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -493,14 +493,14 @@
       <name>HCXPGenitours</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCShipDragoons4</prereqtech>
+      <prereqtech>HCShipDragoons4Portuguese</prereqtech>
       <age>3</age>
     </card>
     <card>
       <name>HCShipPortugueseExpForce</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipDragoons4</prereqtech>
+      <prereqtech>HCShipDragoons4Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -509,7 +509,7 @@
       <name>HCDragoonCombatPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipDragoons2</prereqtech>
+      <prereqtech>HCShipDragoons2Portuguese</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -554,7 +554,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCulverins1</name>
+      <name>HCShipCulverins1Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCArtilleryHitpointsPortugueseTeam</prereqtech>
@@ -570,7 +570,7 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCShipMortars1</name>
+      <name>HCShipMortars1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -579,10 +579,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMortars2</name>
+      <name>HCShipMortars2Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipMortars1</prereqtech>
+      <prereqtech>HCShipMortars1Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -591,11 +591,11 @@
       <name>HCXPRangefinding</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipCannons1</prereqtech>
+      <prereqtech>HCShipCannons1Portuguese</prereqtech>
       <age>3</age>
     </card>
     <card>
-      <name>HCShipCannons1</name>
+      <name>HCShipCannons1Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipMortars2</prereqtech>
@@ -604,7 +604,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPShipHorseArtillery1</name>
+      <name>HCXPShipHorseArtillery1Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
@@ -613,10 +613,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPShipHorseArtillery2</name>
+      <name>HCXPShipHorseArtillery2Portuguese</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCXPShipHorseArtillery1</prereqtech>
+      <prereqtech>HCXPShipHorseArtillery1Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1145,7 +1145,7 @@
       <level>10</level>
       <prereqtech>HCMercsCorsairs</prereqtech>
       <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1252,13 +1252,13 @@
         <card>HCFrontierDefenses</card>
         <card>HCCheapOutpostsTeam</card>
         <card>HCShipCaravels1</card>
-        <card>HCShipCrossbowmen1</card>
-        <card>HCShipMusketeers1</card>
-        <card>HCShipMusketeers2</card>
+        <card>HCShipCrossbowmen1Portuguese</card>
+        <card>HCShipMusketeers1Portuguese</card>
+        <card>HCShipMusketeers2Portuguese</card>
         <card>HCShipCacadores1</card>
         <card>HCShipCacadores2</card>
-        <card>HCShipDragoons1</card>
-        <card>HCShipDragoons2</card>
+        <card>HCShipDragoons1Portuguese</card>
+        <card>HCShipDragoons2Portuguese</card>
         <card>HCShipOrganGuns1</card>
         <card>HCAdvancedArtilleryPortuguese</card>
         <card>HCUnlockFort</card>
@@ -1273,13 +1273,13 @@
         <card>HCFrontierDefenses</card>
         <card>HCCheapOutpostsTeam</card>
         <card>HCShipCaravels1</card>
-        <card>HCShipCrossbowmen1</card>
-        <card>HCShipMusketeers1</card>
-        <card>HCShipMusketeers2</card>
+        <card>HCShipCrossbowmen1Portuguese</card>
+        <card>HCShipMusketeers1Portuguese</card>
+        <card>HCShipMusketeers2Portuguese</card>
         <card>HCShipCacadores1</card>
         <card>HCShipCacadores2</card>
-        <card>HCShipDragoons1</card>
-        <card>HCShipDragoons2</card>
+        <card>HCShipDragoons1Portuguese</card>
+        <card>HCShipDragoons2Portuguese</card>
         <card>HCShipOrganGuns1</card>
         <card>HCAdvancedArtilleryPortuguese</card>
         <card>HCUnlockFort</card>
@@ -1382,19 +1382,19 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="2.0">HCShipPikemen2</tech>
-      <tech x="0.0" y="3.0">HCShipPikemen3</tech>
-      <tech x="0.7" y="1.0">HCShipCrossbowmen1</tech>
-      <tech x="0.7" y="2.0">HCShipCrossbowmen2</tech>
-      <tech x="1.6" y="1.0">HCShipHalberdiers1</tech>
-      <tech x="1.6" y="2.0">HCShipHalberdiers2</tech>
-      <tech x="1.6" y="3.0">HCShipHalberdiers3</tech>
-      <tech x="2.3" y="1.0">HCShipMusketeers1</tech>
-      <tech x="2.3" y="2.0">HCShipMusketeers2</tech>
-      <tech x="2.3" y="3.0">HCShipMusketeers3</tech>
+      <tech x="0.0" y="2.0">HCShipPikemen2Portuguese</tech>
+      <tech x="0.0" y="3.0">HCShipPikemen3Portuguese</tech>
+      <tech x="0.7" y="1.0">HCShipCrossbowmen1Portuguese</tech>
+      <tech x="0.7" y="2.0">HCShipCrossbowmen2Portuguese</tech>
+      <tech x="1.6" y="1.0">HCShipHalberdiers1Portuguese</tech>
+      <tech x="1.6" y="2.0">HCShipHalberdiers2Portuguese</tech>
+      <tech x="1.6" y="3.0">HCShipHalberdiers3Portuguese</tech>
+      <tech x="2.3" y="1.0">HCShipMusketeers1Portuguese</tech>
+      <tech x="2.3" y="2.0">HCShipMusketeers2Portuguese</tech>
+      <tech x="2.3" y="3.0">HCShipMusketeers3Portuguese</tech>
       <tech x="1.6" y="4.0">HCXPShipMusketeersRepeat</tech>
-      <tech x="2.3" y="4.0">HCShipMusketeers4</tech>
-      <tech x="2.3" y="5.0">HCShipMusketeers5</tech>
+      <tech x="2.3" y="4.0">HCShipMusketeers4Portuguese</tech>
+      <tech x="2.3" y="5.0">HCShipMusketeers5Portuguese</tech>
       <tech x="3.3" y="1.0">HCShipCacadores1</tech>
       <tech x="3.3" y="2.0">HCShipCacadores2</tech>
       <tech x="3.0" y="3.0">HCShipCacadores3</tech>
@@ -1402,35 +1402,35 @@
       <tech x="3.7" y="3.0">HCRangedInfantryHitpointsPortugueseTeam</tech>
       <tech x="3.7" y="4.0">HCRangedInfantryDamagePortuguese</tech>
       <tech x="3.7" y="5.0">HCRangedInfantryCombatPortuguese</tech>
-      <tech x="4.8" y="1.0">HCShipDragoons1</tech>
-      <tech x="4.8" y="2.0">HCShipDragoons2</tech>
-      <tech x="4.5" y="3.0">HCShipDragoons3</tech>
-      <tech x="4.5" y="4.0">HCShipDragoons4</tech>
+      <tech x="4.8" y="1.0">HCShipDragoons1Portuguese</tech>
+      <tech x="4.8" y="2.0">HCShipDragoons2Portuguese</tech>
+      <tech x="4.5" y="3.0">HCShipDragoons3Portuguese</tech>
+      <tech x="4.5" y="4.0">HCShipDragoons4Portuguese</tech>
       <tech x="4.5" y="7.0">HCXPGenitours</tech>
       <tech x="5.2" y="5.0">HCShipPortugueseExpForce</tech>
       <tech x="5.2" y="3.0">HCDragoonCombatPortuguese</tech>
       <tech x="5.2" y="4.0">HCEarlyDragoonsTeam</tech>
-      <tech x="5.9" y="4.0">HCXPShipHorseArtillery1</tech>
-      <tech x="5.9" y="7.0">HCXPShipHorseArtillery2</tech>
+      <tech x="5.9" y="4.0">HCXPShipHorseArtillery1Portuguese</tech>
+      <tech x="5.9" y="7.0">HCXPShipHorseArtillery2Portuguese</tech>
       <tech x="6.3" y="1.0">HCShipOrganGuns1</tech>
       <tech x="6.3" y="2.0">HCShipOrganGuns2</tech>
       <tech x="6.3" y="3.0">HCArtilleryHitpointsPortugueseTeam</tech>
-      <tech x="6.3" y="5.0">HCShipCulverins1</tech>
+      <tech x="6.3" y="5.0">HCShipCulverins1Portuguese</tech>
       <tech x="6.6" y="7.0">HCShipOrganGuns3</tech>
       <tech x="7.0" y="1.0">HCAdvancedArtilleryPortuguese</tech>
-      <tech x="7.0" y="2.0">HCShipMortars1</tech>
-      <tech x="7.0" y="3.0">HCShipMortars2</tech>
-      <tech x="7.0" y="4.0">HCShipCannons1</tech>
+      <tech x="7.0" y="2.0">HCShipMortars1Portuguese</tech>
+      <tech x="7.0" y="3.0">HCShipMortars2Portuguese</tech>
+      <tech x="7.0" y="4.0">HCShipCannons1Portuguese</tech>
       <tech x="7.0" y="5.0">HCXPRangefinding</tech>
     </obtainabletechs>
     <activetechs>
-      <tech>HCShipCrossbowmen1</tech>
-      <tech>HCShipMusketeers1</tech>
-      <tech>HCShipMusketeers2</tech>
+      <tech>HCShipCrossbowmen1Portuguese</tech>
+      <tech>HCShipMusketeers1Portuguese</tech>
+      <tech>HCShipMusketeers2Portuguese</tech>
       <tech>HCShipCacadores1</tech>
       <tech>HCShipCacadores2</tech>
-      <tech>HCShipDragoons1</tech>
-      <tech>HCShipDragoons2</tech>
+      <tech>HCShipDragoons1Portuguese</tech>
+      <tech>HCShipDragoons2Portuguese</tech>
       <tech>HCShipOrganGuns1</tech>
       <tech>HCAdvancedArtilleryPortuguese</tech>
     </activetechs>
