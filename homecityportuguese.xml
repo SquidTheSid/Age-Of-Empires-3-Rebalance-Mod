@@ -598,7 +598,7 @@
       <name>HCShipCannons1Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipMortars2</prereqtech>
+      <prereqtech>HCShipMortars2Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -622,59 +622,59 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCNativeLore</name>
+      <name>HCNativeLorePortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCNativeTreaties</name>
+      <name>HCNativeTreatiesPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCNativeLore</prereqtech>
+      <prereqtech>HCNativeLorePortuguese</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCNativeWarriors</name>
+      <name>HCNativeWarriorsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCNativeTreaties</prereqtech>
+      <prereqtech>HCNativeTreatiesPortuguese</prereqtech>
       <age>2</age>
     </card>
     <card>
-      <name>HCXPBloodBrothers</name>
+      <name>HCXPBloodBrothersPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCNativeWarriors</prereqtech>
+      <prereqtech>HCNativeWarriorsPortuguese</prereqtech>
       <age>3</age>
     </card>
     <card>
-      <name>HCAdvancedTradingPost</name>
+      <name>HCAdvancedTradingPostPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCNativeWarriors</prereqtech>
+      <prereqtech>HCNativeWarriorsPortuguese</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCCheapOutpostsTeam</name>
+      <name>HCCheapOutpostsTeamPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCColonialMilitia</name>
+      <name>HCColonialMilitiaPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCPioneers</name>
+      <name>HCPioneersPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCColonialMilitia</prereqtech>
+      <prereqtech>HCColonialMilitiaPortuguese</prereqtech>
       <age>0</age>
     </card>
     <card>
@@ -685,14 +685,14 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCImprovedBuildings</name>
+      <name>HCImprovedBuildingsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCImprovedWallsTeam</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCFrontierDefenses</name>
+      <name>HCFrontierDefensesPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCCheapOutpostsTeam</prereqtech>
@@ -700,29 +700,29 @@
       <displayunitcount>2</displayunitcount>
     </card>
     <card>
-      <name>HCHeavyFortifications</name>
+      <name>HCHeavyFortificationsPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCFrontierDefenses</prereqtech>
+      <prereqtech>HCFrontierDefensesPortuguese</prereqtech>
       <age>3</age>
     </card>
     <card>
-      <name>HCAdvancedArsenal</name>
+      <name>HCAdvancedArsenalPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCUnlockFort</prereqtech>
+      <prereqtech>HCUnlockFortPortuguese</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCXPUnlockFort2</name>
+      <name>HCXPUnlockFort2Portuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCAdvancedArsenal</prereqtech>
+      <prereqtech>HCAdvancedArsenalPortuguese</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCUnlockFort</name>
+      <name>HCUnlockFortPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -730,28 +730,28 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCFencingSchool</name>
+      <name>HCFencingSchoolPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCRidingSchool</name>
+      <name>HCRidingSchoolPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCEngineeringSchool</name>
+      <name>HCEngineeringSchoolPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCNavigationSchool</name>
+      <name>HCNavigationSchoolPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>-1</prereqtech>
@@ -765,35 +765,35 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCAdvancedMill</name>
+      <name>HCAdvancedMillPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCAdvancedMarket</name>
+      <name>HCAdvancedMarketPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCAdvancedPlantations</name>
+      <name>HCAdvancedPlantationsPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCAdvancedDock</name>
+      <name>HCAdvancedDockPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCUnlockFactory</name>
+      <name>HCUnlockFactoryPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -801,7 +801,7 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCRobberBarons</name>
+      <name>HCRobberBaronsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCUnlockFactory</prereqtech>
@@ -809,21 +809,21 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCXPRanchingLlama</name>
+      <name>HCXPRanchingLlamaPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCXPAgents</name>
+      <name>HCXPAgentsPortuguese</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCXPShipSpies1</name>
+      <name>HCXPShipSpies1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -832,7 +832,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPShipSpies2</name>
+      <name>HCXPShipSpies2Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCXPShipSpies1</prereqtech>
@@ -1170,7 +1170,7 @@
       <level>25</level>
       <prereqtech>HCMercenaryLoyalty</prereqtech>
       <age>3</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1249,7 +1249,7 @@
       <cards>
         <card>HCShipFoodCrates1</card>
         <card>HCFishMarketTeam</card>
-        <card>HCFrontierDefenses</card>
+        <card>HCFrontierDefensesPortuguese</card>
         <card>HCCheapOutpostsTeam</card>
         <card>HCShipCaravels1</card>
         <card>HCShipCrossbowmen1Portuguese</card>
@@ -1261,7 +1261,7 @@
         <card>HCShipDragoons2Portuguese</card>
         <card>HCShipOrganGuns1</card>
         <card>HCAdvancedArtilleryPortuguese</card>
-        <card>HCUnlockFort</card>
+        <card>HCUnlockFortPortuguese</card>
       </cards>
     </deck>
     <deck>
@@ -1270,7 +1270,7 @@
       <cards>
         <card>HCShipFoodCrates1</card>
         <card>HCFishMarketTeam</card>
-        <card>HCFrontierDefenses</card>
+        <card>HCFrontierDefensesPortuguese</card>
         <card>HCCheapOutpostsTeam</card>
         <card>HCShipCaravels1</card>
         <card>HCShipCrossbowmen1Portuguese</card>
@@ -1282,7 +1282,7 @@
         <card>HCShipDragoons2Portuguese</card>
         <card>HCShipOrganGuns1</card>
         <card>HCAdvancedArtilleryPortuguese</card>
-        <card>HCUnlockFort</card>
+        <card>HCUnlockFortPortuguese</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1453,41 +1453,41 @@
     <displaynamestringid>24969</displaynamestringid>
     <rolloverstringid>25538</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="1.0">HCNativeLore</tech>
-      <tech x="0.0" y="2.0">HCNativeTreaties</tech>
-      <tech x="0.0" y="3.0">HCNativeWarriors</tech>
-      <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
-      <tech x="0.9" y="1.0">HCXPRanchingLlama</tech>
-      <tech x="0.9" y="3.0">HCFencingSchool</tech>
-      <tech x="1.6" y="3.0">HCRidingSchool</tech>
-      <tech x="0.9" y="6.0">HCEngineeringSchool</tech>
-      <tech x="1.6" y="5.0">HCNavigationSchool</tech>
-      <tech x="2.5" y="1.0">HCColonialMilitia</tech>
-      <tech x="2.5" y="2.0">HCPioneers</tech>
+      <tech x="0.0" y="1.0">HCNativeLorePortuguese</tech>
+      <tech x="0.0" y="2.0">HCNativeTreatiesPortuguese</tech>
+      <tech x="0.0" y="3.0">HCNativeWarriorsPortuguese</tech>
+      <tech x="0.0" y="5.0">HCAdvancedTradingPostPortuguese</tech>
+      <tech x="0.9" y="5.0">HCXPBloodBrothersPortuguese</tech>
+      <tech x="0.9" y="1.0">HCXPRanchingLlamaPortuguese</tech>
+      <tech x="0.9" y="3.0">HCFencingSchoolPortuguese</tech>
+      <tech x="1.6" y="3.0">HCRidingSchoolPortuguese</tech>
+      <tech x="0.9" y="6.0">HCEngineeringSchoolPortuguese</tech>
+      <tech x="1.6" y="5.0">HCNavigationSchoolPortuguese</tech>
+      <tech x="2.5" y="1.0">HCColonialMilitiaPortuguese</tech>
+      <tech x="2.5" y="2.0">HCPioneersPortuguese</tech>
       <tech x="2.5" y="3.0">HCImprovedWallsTeam</tech>
-      <tech x="2.5" y="4.0">HCImprovedBuildings</tech>
-      <tech x="3.2" y="1.0">HCUnlockFort</tech>
-      <tech x="3.2" y="3.0">HCAdvancedArsenal</tech>
-      <tech x="3.2" y="5.0">HCXPUnlockFort2</tech>
+      <tech x="2.5" y="4.0">HCImprovedBuildingsPortuguese</tech>
+      <tech x="3.2" y="1.0">HCUnlockFortPortuguese</tech>
+      <tech x="3.2" y="3.0">HCAdvancedArsenalPortuguese</tech>
+      <tech x="3.2" y="5.0">HCXPUnlockFort2Portuguese</tech>
       <tech x="3.9" y="1.0">HCCheapOutpostsTeam</tech>
-      <tech x="3.9" y="2.0">HCFrontierDefenses</tech>
-      <tech x="3.9" y="5.0">HCHeavyFortifications</tech>
-      <tech x="4.6" y="1.0">HCXPShipSpies1</tech>
-      <tech x="4.6" y="3.0">HCXPShipSpies2</tech>
-      <tech x="4.6" y="7.0">HCXPAgents</tech>
+      <tech x="3.9" y="2.0">HCFrontierDefensesPortuguese</tech>
+      <tech x="3.9" y="5.0">HCHeavyFortificationsPortuguese</tech>
+      <tech x="4.6" y="1.0">HCXPShipSpies1Portuguese</tech>
+      <tech x="4.6" y="3.0">HCXPShipSpies2Portuguese</tech>
+      <tech x="4.6" y="7.0">HCXPAgentsPortuguese</tech>
       <tech x="5.3" y="3.0">HCRoyalDecreePortuguese</tech>
-      <tech x="6.0" y="1.0">HCAdvancedMill</tech>
-      <tech x="6.7" y="1.0">HCAdvancedMarket</tech>
-      <tech x="6.0" y="5.0">HCAdvancedPlantations</tech>
-      <tech x="6.7" y="3.0">HCAdvancedDock</tech>
-      <tech x="7.4" y="1.0">HCUnlockFactory</tech>
-      <tech x="7.4" y="3.0">HCRobberBarons</tech>
+      <tech x="6.0" y="1.0">HCAdvancedMillPortuguese</tech>
+      <tech x="6.7" y="1.0">HCAdvancedMarketPortuguese</tech>
+      <tech x="6.0" y="5.0">HCAdvancedPlantationsPortuguese</tech>
+      <tech x="6.7" y="3.0">HCAdvancedDockPortuguese</tech>
+      <tech x="7.4" y="1.0">HCUnlockFactoryPortuguese</tech>
+      <tech x="7.4" y="3.0">HCRobberBaronsPortuguese</tech>
     </obtainabletechs>
     <activetechs>
       <tech>HCCheapOutpostsTeam</tech>
-      <tech>HCFrontierDefenses</tech>
-      <tech>HCUnlockFort</tech>
+      <tech>HCFrontierDefensesPortuguese</tech>
+      <tech>HCUnlockFortPortuguese</tech>
     </activetechs>
     <validunits/>
     <units/>

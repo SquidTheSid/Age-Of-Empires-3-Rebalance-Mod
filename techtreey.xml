@@ -15418,8 +15418,6 @@
 			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 			<Effect type ='TextOutput'>41839</Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCRidingSchool' type ='Normal'>
@@ -16092,6 +16090,8 @@
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SpyglassRevealer</Target></Effect>
+			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Hero</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
@@ -52064,7 +52064,7 @@
 	</Tech>
 <Tech name ='HCShipMusketeers3Portuguese' type ='Normal'>
 		<DBID>9029</DBID>
-		<DisplayNameID>70566</DisplayNameID>
+		<DisplayNameID>70567</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -52078,7 +52078,7 @@
 	</Tech>
 	<Tech name ='HCShipMusketeers4Portuguese' type ='Normal'>
 		<DBID>9030</DBID>
-		<DisplayNameID>70567</DisplayNameID>
+		<DisplayNameID>70566</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -52246,5 +52246,573 @@
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
+	<Tech name ='HCNativeLorePortuguese' type ='Normal'>
+		<DBID>9042</DBID>
+		<DisplayNameID>70580</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_native_diplomacy1\hc_native_diplomacy1</Icon>
+		<RolloverTextID>70579</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>HCNativeLore</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCNativeTreatiesPortuguese' type ='Normal'>
+		<DBID>9043</DBID>
+		<DisplayNameID>70582</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\treaty\treaty</Icon>
+		<RolloverTextID>70581</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>HCNativeTreaties</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCNativeWarriorsPortuguese' type ='Normal'>
+		<DBID>9044</DBID>
+		<DisplayNameID>70584</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_native_warriors\hc_native_warriors</Icon>
+		<RolloverTextID>70583</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='TextOutput'>69038</Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPBloodBrothersPortuguese' type ='Normal'>
+		<DBID>9044</DBID>
+		<DisplayNameID>70586</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Blood Brothers</Icon>
+		<RolloverTextID>70585</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyApache</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyCaribs</Effect>
+			<Effect type ='TextOutput'>46989</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionApache</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionCaribs</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyCheyenne</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionCheyenne</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyComanche</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionComanche</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyCree</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionCree</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionZapotec</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyZapotec</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionNootka</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyNootka</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionNavajo</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyNavajo</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionMapuche</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyMapuche</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionKlamath</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyKlamath</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionInca</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyInca</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionHuron</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyHuron</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedBhakti</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatHonoredBhakti</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedJesuit</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatHonoredJesuit</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedZen</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatHonoredZen</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedShaolin</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatHonoredShaolin</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedSufi</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatHonoredSufi</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedUdasi</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatHonoredUdasi</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	<Tech name ='HCXPRanchingLlamaPortuguese' type ='Normal'>
+		<DBID>9045</DBID>
+		<DisplayNameID>70588</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Llama_Ranching</Icon>
+		<RolloverTextID>70587</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Llama' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+			<Effect type ='TextOutput'>46816</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Llama</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCRidingSchoolPortuguese' type ='Normal'>
+		<DBID>9046</DBID>
+		<DisplayNameID>70592</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_riding_school\hc_riding_school</Icon>
+		<RolloverTextID>70591</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>41902</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCFencingSchoolPortuguese' type ='Normal'>
+		<DBID>9047</DBID>
+		<DisplayNameID>70590</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_fencing_school\hc_fencing_school</Icon>
+		<RolloverTextID>70589</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>41839</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCEngineeringSchoolPortuguese' type ='Normal'>
+		<DBID>9048</DBID>
+		<DisplayNameID>70594</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_engineering_school\hc_engineering_school</Icon>
+		<RolloverTextID>70593</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TextOutput'>41826</Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cannon</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Culverin</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Falconet</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>GreatBombard</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mortar</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>OrganGun</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Rocket</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpMantlet</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpRam</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpLightCannon</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpHorseArtillery</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSiegeElephant</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypMorutaru</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFlamingArrow</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFlyingCrow</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypHandMortar</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFlameThrower</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+<Tech name ='HCNavigationSchoolPortuguese' type ='Normal'>
+		<DBID>9049</DBID>
+		<DisplayNameID>70596</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_navigation_school\hc_navigation_school</Icon>
+		<RolloverTextID>70595</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
+			<Effect type ='TextOutput'>41888</Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+<Tech name ='HCColonialMilitiaPortuguese' type ='Normal'>
+		<DBID>9050</DBID>
+		<DisplayNameID>70597</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\levy\levy</Icon>
+		<RolloverTextID>70598</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>Conscription</Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='TextOutput'>41822</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCPioneersPortuguese' type ='Normal'>
+		<DBID>9051</DBID>
+		<DisplayNameID>70599</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_pioneers\hc_pioneers</Icon>
+		<RolloverTextID>70600</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.65' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41891</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCImprovedBuildingsPortuguese' type ='Normal'>
+		<DBID>9052</DBID>
+		<DisplayNameID>70601</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_improved_buildings\hc_improved_buildings</Icon>
+		<RolloverTextID>70602</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Building</Target></Effect>
+			<Effect type ='TextOutput'>41860</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+<Tech name ='HCUnlockFortPortuguese' type ='Normal'>
+		<DBID>9053</DBID>
+		<DisplayNameID>70604</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\fort\fort_icon</Icon>
+		<RolloverTextID>70603</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FortWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCAdvancedArsenalPortuguese' type ='Normal'>
+		<DBID>9054</DBID>
+		<DisplayNameID>70606</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_advanced_arsenal\hc_advanced_arsenal</Icon>
+		<RolloverTextID>70605</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='obtainable'>ProfessionalGunners</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Trunion</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Pillage</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>MilitaryDrummers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Flintlock</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PaperCartridge</Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Arsenal</Target></Effect>
+			<Effect type ='TextOutput'>37236</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPUnlockFort2Portuguese' type ='Normal'>
+		<DBID>9055</DBID>
+		<DisplayNameID>70608</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\castramentation</Icon>
+		<RolloverTextID>70607</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FortWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCFrontierDefensesPortuguese' type ='Normal'>
+		<DBID>9056</DBID>
+		<DisplayNameID>70610</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\outpost\outpost_icon_64x64</Icon>
+		<RolloverTextID>70609</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='OutpostWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCHeavyFortificationsPortuguese' type ='Normal'>
+		<DBID>9057</DBID>
+		<DisplayNameID>70611</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_heavy_fortifications\hc_heavy_fortifications</Icon>
+		<RolloverTextID>70612</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>StarFort</Effect>
+			<Effect type ='TechStatus' status ='active'>FortifiedOutpost</Effect>
+			<Effect type ='TechStatus' status ='active'>FortifiedBlockhouse</Effect>
+			<Effect type ='TechStatus' status ='active'>FrontierBlockhouse</Effect>
+			<Effect type ='TechStatus' status ='active'>FrontierOutpost</Effect>
+			<Effect type ='TechStatus' status ='active'>Bastion</Effect>
+			<Effect type ='TextOutput'>41855</Effect>
+			<Effect type ='TechStatus' status ='active'>MightyWarHut</Effect>
+			<Effect type ='TechStatus' status ='active'>StrongWarHut</Effect>
+			<Effect type ='TechStatus' status ='active'>StrongNoblesHut</Effect>
+			<Effect type ='TechStatus' status ='active'>MightyNoblesHut</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPShipSpies1Portuguese' type ='Normal'>
+		<DBID>9058</DBID>
+		<DisplayNameID>46822</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\spy_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpSpy' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+	</Tech>
+	<Tech name ='HCXPShipSpies2Portuguese' type ='Normal'>
+		<DBID>9059</DBID>
+		<DisplayNameID>46823</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\spy_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpSpy' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+	</Tech>
+	<Tech name ='HCXPAgentsPortuguese' type ='Normal'>
+		<DBID>9060</DBID>
+		<DisplayNameID>70614</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Informants</Icon>
+		<RolloverTextID>70613</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
+			<Effect type ='SetName' proto ='xpSpy' culture ='none' newName ='46830'></Effect>
+			<Effect type ='Data' amount ='15.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+<Tech name ='HCAdvancedMillPortuguese' type ='Normal'>
+		<DBID>9061</DBID>
+		<DisplayNameID>70616</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_advanced_mill\hc_advanced_mill</Icon>
+		<RolloverTextID>70615</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='SetName' proto ='Mill' culture ='none' newName ='35366'></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='TextOutput'>41789</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+<Tech name ='HCAdvancedPlantationsPortuguese' type ='Normal'>
+		<DBID>9062</DBID>
+		<DisplayNameID>70618</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_advanced_plantation\hc_advanced_plantation</Icon>
+		<RolloverTextID>70617</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.69' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='SetName' proto ='Plantation' culture ='none' newName ='35378'></Effect>
+			<Effect type ='TextOutput'>41792</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+<Tech name ='HCAdvancedMarketPortuguese' type ='Normal'>
+		<DBID>9063</DBID>
+		<DisplayNameID>70620</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_advanced_market\hc_advanced_market</Icon>
+		<RolloverTextID>70619</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='SetName' proto ='Market' culture ='none' newName ='35392'></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Market' component ='BuyFactor' relativity ='Percent'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Market' component ='SellFactor' relativity ='Percent'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>41786</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+<Tech name ='HCAdvancedDockPortuguese' type ='Normal'>
+		<DBID>9064</DBID>
+		<DisplayNameID>70622</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_advanced_dock\hc_advanced_dock</Icon>
+		<RolloverTextID>70621</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='SetName' proto ='Dock' culture ='none' newName ='35377'></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='TextOutput'>41784</Effect>
+			<Effect type ='Data' action ='Heal' amount ='2.00' subtype ='WorkRate' unittype ='Ship' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='0.67' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ship</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
+			<Effect type ='Data' action ='Heal' amount ='2.00' subtype ='WorkRate' unittype ='Ship' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>YPDockAsian</Target></Effect>
+			<Effect type ='SetName' proto ='YPDockAsian' culture ='none' newName ='70427'></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCRobberBaronsPortuguese' type ='Normal'>
+		<DBID>9065</DBID>
+		<DisplayNameID>70625</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_robber_barons\hc_robber_barons</Icon>
+		<RolloverTextID>70626</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FactoryWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>41904</Effect>
+		</Effects>
+	</Tech>
+<Tech name ='HCUnlockFactoryPortuguese' type ='Normal'>
+		<DBID>9066</DBID>
+		<DisplayNameID>70624</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\factory\shared_factory_icon</Icon>
+		<RolloverTextID>70623</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FactoryWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+	</Tech>
 
 </TechTree>
