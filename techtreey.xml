@@ -52651,10 +52651,10 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpSpy' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-
+		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipSpies2Portuguese' type ='Normal'>
 		<DBID>9059</DBID>
@@ -52666,9 +52666,10 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpSpy' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+		</Effects>
 
 	</Tech>
 	<Tech name ='HCXPAgentsPortuguese' type ='Normal'>
@@ -52810,9 +52811,9 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FactoryWagon' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>
