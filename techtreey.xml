@@ -52540,7 +52540,7 @@
 
 		</Effects>
 	</Tech>
-<Tech name ='HCUnlockFortPortuguese' type ='Normal'>
+	<Tech name ='HCUnlockFortPortuguese' type ='Normal'>
 		<DBID>9053</DBID>
 		<DisplayNameID>70604</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -52692,7 +52692,7 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
-<Tech name ='HCAdvancedMillPortuguese' type ='Normal'>
+	<Tech name ='HCAdvancedMillPortuguese' type ='Normal'>
 		<DBID>9061</DBID>
 		<DisplayNameID>70616</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -52713,7 +52713,7 @@
 
 		</Effects>
 	</Tech>
-<Tech name ='HCAdvancedPlantationsPortuguese' type ='Normal'>
+	<Tech name ='HCAdvancedPlantationsPortuguese' type ='Normal'>
 		<DBID>9062</DBID>
 		<DisplayNameID>70618</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -52736,7 +52736,7 @@
 
 		</Effects>
 	</Tech>
-<Tech name ='HCAdvancedMarketPortuguese' type ='Normal'>
+	<Tech name ='HCAdvancedMarketPortuguese' type ='Normal'>
 		<DBID>9063</DBID>
 		<DisplayNameID>70620</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -52757,7 +52757,7 @@
 
 		</Effects>
 	</Tech>
-<Tech name ='HCAdvancedDockPortuguese' type ='Normal'>
+	<Tech name ='HCAdvancedDockPortuguese' type ='Normal'>
 		<DBID>9064</DBID>
 		<DisplayNameID>70622</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -52801,7 +52801,7 @@
 			<Effect type ='TextOutput'>41904</Effect>
 		</Effects>
 	</Tech>
-<Tech name ='HCUnlockFactoryPortuguese' type ='Normal'>
+	<Tech name ='HCUnlockFactoryPortuguese' type ='Normal'>
 		<DBID>9066</DBID>
 		<DisplayNameID>70624</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -52815,6 +52815,28 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCAdvancedTradingPostPortuguese' type ='Normal'>
+		<DBID>9067</DBID>
+		<DisplayNameID>70628</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_advanced_trading_post\hc_advanced_trading_post</Icon>
+		<RolloverTextID>70627</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
+			<Effect type ='TextOutput'>41794</Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
 	</Tech>
 
 </TechTree>
