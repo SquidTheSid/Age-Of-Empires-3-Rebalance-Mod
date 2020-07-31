@@ -183,7 +183,7 @@
       <displayunitcount>1000</displayunitcount>
     </card>
     <card>
-      <name>HCShipSheep1</name>
+      <name>HCShipSheep1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -192,25 +192,25 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipSheep2</name>
+      <name>HCShipSheep2Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipSheep1</prereqtech>
+      <prereqtech>HCShipSheep1Portuguese</prereqtech>
       <age>2</age>
       <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCows</name>
+      <name>HCShipCowsPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipSheep1</prereqtech>
+      <prereqtech>HCShipSheep1Portuguese</prereqtech>
       <age>1</age>
       <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCoveredWagons</name>
+      <name>HCShipCoveredWagonsPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -222,12 +222,12 @@
       <name>HCDonatarios</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCoveredWagons</prereqtech>
+      <prereqtech>HCShipCoveredWagonsPortuguese</prereqtech>
       <age>3</age>
       <displayunitcount>2</displayunitcount>
     </card>
     <card>
-      <name>HCShipCoveredWagons2</name>
+      <name>HCShipCoveredWagons2Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCDonatarios</prereqtech>
@@ -252,7 +252,7 @@
       <displayunitcount>2</displayunitcount>
     </card>
     <card>
-      <name>HCXPMasterSurgeons</name>
+      <name>HCXPMasterSurgeonsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipSurgeons</prereqtech>
@@ -266,17 +266,17 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCShipBalloons</name>
+      <name>HCShipBalloonsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCXPAdvancedBalloon</name>
+      <name>HCXPAdvancedBalloonPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipBalloons</prereqtech>
+      <prereqtech>HCShipBalloonsPortuguese</prereqtech>
       <age>3</age>
     </card>
     <card>
@@ -1347,16 +1347,16 @@
       <tech x="1.7" y="5.0">HCShipWoodCrates5Portuguese</tech>
       <tech x="2.4" y="5.0">HCShipCoinCrates5Portuguese</tech>
       <tech x="0.2" y="3.0">HCTeamWoodCrates</tech>
-      <tech x="3.6" y="1.0">HCShipSheep1</tech>
-      <tech x="3.3" y="2.0">HCShipSheep2</tech>
-      <tech x="4.0" y="2.0">HCShipCows</tech>
+      <tech x="3.6" y="1.0">HCShipSheep1Portuguese</tech>
+      <tech x="3.3" y="2.0">HCShipSheep2Portuguese</tech>
+      <tech x="4.0" y="2.0">HCShipCowsPortuguese</tech>
       <tech x="4.9" y="2.0">HCShipSurgeons</tech>
-      <tech x="4.9" y="3.0">HCXPMasterSurgeons</tech>
-      <tech x="4.9" y="4.0">HCShipBalloons</tech>
-      <tech x="4.9" y="5.0">HCXPAdvancedBalloon</tech>
-      <tech x="5.6" y="1.0">HCShipCoveredWagons</tech>
+      <tech x="4.9" y="3.0">HCXPMasterSurgeonsPortuguese</tech>
+      <tech x="4.9" y="4.0">HCShipBalloonsPortuguese</tech>
+      <tech x="4.9" y="5.0">HCXPAdvancedBalloonPortuguese</tech>
+      <tech x="5.6" y="1.0">HCShipCoveredWagonsPortuguese</tech>
       <tech x="5.6" y="3.0">HCDonatarios</tech>
-      <tech x="5.6" y="4.0">HCShipCoveredWagons2</tech>
+      <tech x="5.6" y="4.0">HCShipCoveredWagons2Portuguese</tech>
       <tech x="6.5" y="1.0">HCExplorerPortuguese</tech>
       <tech x="6.5" y="5.0">HCShipBandeirantes</tech>
     </obtainabletechs>

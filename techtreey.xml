@@ -24052,8 +24052,8 @@
 	<Tech name ='BigWarHutLacrosse' type ='Normal'>
 		<DBID>2745</DBID>
 		<DisplayNameID>43614</DisplayNameID>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
-		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>500.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -24112,8 +24112,8 @@
 	<Tech name ='BigCorralHorseSecrets' type ='Normal'>
 		<DBID>2747</DBID>
 		<DisplayNameID>43618</DisplayNameID>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<Cost resourcetype ='Wood'>350.0000</Cost>
+		<Cost resourcetype ='Gold'>350.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -24319,7 +24319,7 @@
 	<Tech name ='BigFirepitSecretSociety' type ='Normal'>
 		<DBID>2772</DBID>
 		<DisplayNameID>43690</DisplayNameID>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Wood'>100.0000</Cost>
 		<Cost resourcetype ='Gold'>100.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -48150,7 +48150,7 @@
 		<RolloverTextID>68310</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildingWorkRate' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.50' subtype ='BuildingWorkRate' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractDaimyo</Target></Effect>
 			<Effect type ='TextOutput'>68317</Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
@@ -49070,11 +49070,11 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractDaimyo</Target></Effect>
 			<Effect type ='TextOutput'>69895</Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractDaimyo</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypKensei</Target></Effect>
 		</Effects>
 	</Tech>
@@ -51794,7 +51794,7 @@
 		</Effects>
 </Tech>
 
-<Tech name ='HCShipWoodCrates5Portuguese' type ='Normal'>
+<Tech name ='HCShipCoinCrates5Portuguese' type ='Normal'>
 		<DBID>9011</DBID>
 		<DisplayNameID>70546</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -51813,8 +51813,122 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
+<Tech name ='HCShipSheep1Portuguese' type ='Normal'>
+		<DBID>9012</DBID>
+		<DisplayNameID>70547</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\animals\sheep\sheep_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Sheep' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipSheep2Portuguese' type ='Normal'>
+		<DBID>9013</DBID>
+		<DisplayNameID>70548</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\animals\sheep\sheep_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='Sheep' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipCowsPortuguese' type ='Normal'>
+		<DBID>9014</DBID>
+		<DisplayNameID>70549</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\animals\cow\cow_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCXPMasterSurgeonsPortuguese' type ='Normal'>
+		<DBID>9015</DBID>
+		<DisplayNameID>70550</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Master_Surgeons</Icon>
+		<RolloverTextID>46791</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Heal' amount ='1.50' subtype ='WorkRate' unittype ='LogicalTypeHealed' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Tech>
+	<Tech name ='HCShipBalloonsPortuguese' type ='Normal'>
+		<DBID>9016</DBID>
+		<DisplayNameID>70551</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\balloons\hot_air_balloon</Icon>
+		<RolloverTextID>70552</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>42378</Effect></Effects>
+	</Tech>
 
+	<Tech name ='HCXPAdvancedBalloonPortuguese' type ='Normal'>
+		<DBID>9017</DBID>
+		<DisplayNameID>70554</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\advanced_balloon</Icon>
+		<RolloverTextID>70553</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpAdvancedBalloon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
 
+<Tech name ='HCShipCoveredWagonsPortuguese' type ='Normal'>
+		<DBID>9018</DBID>
+		<DisplayNameID>70555</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+<Tech name ='HCShipCoveredWagons2Portuguese' type ='Normal'>
+		<DBID>9019</DBID>
+		<DisplayNameID>70556</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
 
 
 </TechTree>

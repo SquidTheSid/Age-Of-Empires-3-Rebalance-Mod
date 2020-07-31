@@ -144,9 +144,7 @@ Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs h
 
 Arrow Knights - Very underwhelming as anti-artillery and anti-building units.
 - Armor: Ranged armor improved to 50% from 40%
-- Damage: Ranged damage improved to 13 from 10 and damage type changed to siege
-- Siege: Siege damage improved to 39 from 36.
-- Artillery multiplier reduced to 2.0x from 5.0x
+- Damage: Ranged damage improved to 12 from 10
 - Movement Speed: Increased from 3.75 to 4 
 - 6 Arrow knight and 6 Arrow knight INFINITE shipments now provide 7 instead.
 
@@ -225,6 +223,9 @@ Starting 100 wood crate removed, 100 food crate added
 Big Buttons:
 - Scouting Party Big Button cost changed from 500 food to 200 food/gold.
 - Siege Drill Big Button cost reduced to 350 food/gold from 500 food/gold.
+- Lacrosse Big Buttoncost reduced to 500 Wood/Gold from 600.
+- Horse Secrets Big Button cost reduced to 350 Wood/Gold from 400.
+- Secret Society Big Button cost reduced to 100 Wood/Gold from 200 Wood, 100 Gold.
 
 [Garja] Aenna and Forest Prowler HP reduced to 100 from 110 
 
@@ -296,8 +297,13 @@ Samurai: Samurai have always been iffy anti-cav units, now they're just a generi
 - Population: Reduced to 1 from 2
 - Siege Damage: Reduced to 42 from 67
 - Sword Saint: No longer increases unit cost, but adds in a 0.8x damage multiplier vs infantry
+- Warring States: Now increases HP and Attack by 20% instead of 15%
 
 Yojimbo shipment increased to 5 from 4.
+
+Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been toned down a bit 
+- Shogun Tokugawa cost increased to 500 gold from 350 (bounty rescaled accordingly 35 --> 50xp)
+- Bakufu train bonus reduced to 50%
 
 France:
 
@@ -444,4 +450,3 @@ Irregulars shipment now additionally increases Cavalry Archers' attack by 15% [G
 
 Germany:
 
-XP penalty reduced to 5% from 10%
