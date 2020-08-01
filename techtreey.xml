@@ -14445,7 +14445,7 @@
 			<Effect type ='Data' amount ='1000.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopcuCorps</Target></Effect>
 			<Effect type ='Data' amount ='670.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
-				<Target type ='Tech'>ChurchTufanciCorps</Target></Effect>
+				<Target type ='Tech'>ChurchTufanciCorps</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='ColonializeSPCAct1' type ='Normal'>
 		<DBID>1827</DBID>
