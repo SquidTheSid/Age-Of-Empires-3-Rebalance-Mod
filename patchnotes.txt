@@ -443,11 +443,10 @@ Ottoman:
 Church build limit is increased by 1 in every age. 
 
 Mosque improvements:
-- Mosque now generates 0.6xp/s up from 0.4xp/s;
+- Mosque now generates 0.5xp/s up from 0.4xp/s;
 - Mosque build limit increased by 1 each Age, for a total of 5 in Imperial.
-- 450 coin Fortress Age Salah tech added. Improves XP trickle by 33%
 
-[Garja] Mosque construction shipment now removes the cost of all villager-techs at the mosque; reduces Church Card costs by 33%.
+Mosque construction shipment now reduces the cost of all villager-techs at the mosque by 50% in addition to reducing Unique Mosque costs by 33%.
 
 Spahi: Great units, but low armor for cav, been adjusted as such. [ESOC]
 - Armor: Increased to 20% from 10%

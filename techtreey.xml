@@ -1156,7 +1156,6 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChurchOttomanXPBoost</Effect>
 			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 			
 		</Effects>
@@ -1312,7 +1311,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='Data' amount ='0.250' subtype ='ResearchPoints' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.750' subtype ='ResearchPoints' relativity ='Percent'>
 				<Target type ='techWithFlag'>HomeCity</Target></Effect>
 
 		</Effects>
@@ -14426,29 +14425,27 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchMilletSystem</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='150.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchAbbassidMarket</Target></Effect>
 			<Effect type ='TextOutput'>41876</Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopkapi</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopkapi</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='50.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchGalataTowerDistrict</Target></Effect>
-			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='60.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchKopruluViziers</Target></Effect>
 			<Effect type ='Data' amount ='1000.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopcuCorps</Target></Effect>
 			<Effect type ='Data' amount ='670.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTufanciCorps</Target></Effect>
-			<Effect type ='Data' amount ='300.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
-				<Target type ='Tech'>ChurchOttomanXPBoost</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='ColonializeSPCAct1' type ='Normal'>
 		<DBID>1827</DBID>
@@ -51542,26 +51539,10 @@
 		<RolloverTextID>70512</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='0.60' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+			<Effect type ='Data' action ='AutoGather' amount ='0.50' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
 	</Tech>
-	<Tech name ='ChurchOttomanXPBoost' type ='Normal'>
-		<DBID>9997</DBID>
-		<DisplayNameID>70533</DisplayNameID>
-		<Cost resourcetype ='Gold'>450.0000</Cost>
-		<ResearchPoints>15.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_mosque_construction\hc_mosque_construction</Icon>
-		<RolloverTextID>70534</RolloverTextID>
-		<Flag>HomeCity</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='1.33' subtype ='WorkRate' unittype ='XP' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
-	</Tech>
-
+	
 	<Tech name ='RGBallestero' type ='Normal'>
 		<DBID>9998</DBID>
 		<DisplayNameID>70527</DisplayNameID>
