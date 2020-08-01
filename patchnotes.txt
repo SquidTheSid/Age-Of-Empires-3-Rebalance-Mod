@@ -242,6 +242,10 @@ Ram: They're niche units, and the slow movement speed doesn't help. Normalizing 
 
 India (WIP):
 
+Agra Fort: Obscenely powerful for an age 2 building. HP has been nerfed to make it less formidable
+- HP: Reduced to 4000 from 5000
+- Delhi Gate tech now additionally increases Agra Fort HP by 25%
+
 Sacred Field wood cost reduced to 200 from 250
 
 Flail Elephants: Awful redundant units. needs a complete overhaul, but I've just given them some buffs in the meantime.
@@ -291,7 +295,6 @@ Japan:
 Yabusame: An overall solid unit with ridiculously heavy gold macro. It's been rescaled to more in line with other dragoon units
 - Cost: Rescaled to 80 food and 130 gold from 60 food and 150 gold. 
 - Damage: Increased to 9 from 8
-- Speed: Increased to 7.25 from 6.8
 
 Samurai: Samurai have always been iffy anti-cav units, now they're just a generic melee unit without weird AoE or multipliers. 
 - HP: Increased to 235 from 230
@@ -304,11 +307,15 @@ Samurai: Samurai have always been iffy anti-cav units, now they're just a generi
 - Sword Saint: No longer increases unit cost, but adds in a 0.8x damage multiplier vs infantry
 - Warring States: Now increases HP and Attack by 20% instead of 15%
 
+Naginata Riders:
+- Naginata Rider HP card bonus reduced from 30% to 25%
+
 Yojimbo shipment increased to 5 from 4.
 
-Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been toned down a bit 
+Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been toned down a lot 
 - Shogun Tokugawa cost increased to 500 gold from 350 (bounty rescaled accordingly 35 --> 50xp)
 - Bakufu train bonus reduced to 50%
+- Daimyo are no longer HC shipment points (this leads to very dumb cheese like instaspawning 10 ninja or sohei armies to instantly change tempo of a fight)
 
 France:
 

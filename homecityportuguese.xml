@@ -373,7 +373,7 @@
       <name>HCXPShipMusketeersRepeat</name>
       <maxcount>-1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipMusketeers3</prereqtech>
+      <prereqtech>HCShipMusketeers3Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -548,7 +548,7 @@
       <name>HCShipOrganGuns3</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCShipCulverins1</prereqtech>
+      <prereqtech>HCShipCulverins1Portuguese</prereqtech>
       <age>3</age>
       <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>

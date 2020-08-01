@@ -39161,7 +39161,7 @@
 		<RolloverTextID>61902</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypNaginataRider</Target></Effect>
 			<Effect type ='TextOutput'>62957</Effect>
 		</Effects>
@@ -46625,6 +46625,14 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='SetName' proto ='ypWIAgraFort2' culture ='none' newName ='70068'></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypWIAgraFort5</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypWIAgraFort4</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypWIAgraFort3</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypWIAgraFort2</Target></Effect>
 			<Effect type ='Data' action ='CannonAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort2</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='ypWIAgraFort2' relativity ='Absolute'>
