@@ -293,6 +293,8 @@ Howdah: Howdah, much like Mahout, as slow and are population inefficient. They'v
 Sowar: They're India's version of cossacks, but with a focus on countering skirms. However, they're paper thin, so I've made them a little beefier
 - HP: Increased to 250 from 225 (might include ESOC's damage multipliers down the line or maybe slightly reduce speed and buff attack).
 
+Shipments:
+- British East India company now provides +15% HP/Damage instead of +10%
 Japan:
 
 - Ending Japanese isolation no longer has a permanent damage penalty 

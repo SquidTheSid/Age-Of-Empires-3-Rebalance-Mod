@@ -49680,18 +49680,18 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 			<Effect type ='TextOutput'>69132</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
