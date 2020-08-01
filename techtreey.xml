@@ -22287,10 +22287,10 @@
 		<RolloverTextID>37305</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
 			<Effect type ='TextOutput'>41920</Effect>
-			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
 		</Effects>
 	</Tech>
@@ -41194,7 +41194,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
 		</Effects>
 	</Tech>
@@ -46700,7 +46700,7 @@
 			<Effect type ='TextOutput'>69062</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPDockWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
 		</Effects>
 	</Tech>
@@ -52833,6 +52833,462 @@
 			<Effect type ='TextOutput'>41794</Effect>
 			<Effect type ='Data' action ='RangedAttack' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCStonemasonsPortuguese' type ='Normal'>
+		<DBID>9068</DBID>
+		<DisplayNameID>70630</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_stone_masons\hc_stone_masons</Icon>
+		<RolloverTextID>70629</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41929</Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='TownCenter' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Outpost' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>OutpostWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='FortFrontier' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FortWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Blockhouse' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>OutpostWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Factory' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FactoryWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpBuilder</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FarmTravois</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='WarHut' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarHutTravois</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='Bank' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>BankWagon</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='TradingPost' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>TradingPostTravois</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.65' subtype ='WorkRate' unittype ='NoblesHut' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NoblesHutTravois</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.50' subtype ='WorkRate' unittype ='Dock' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>YPDockWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPLandGrabPortuguese' type ='Normal'>
+		<DBID>9069</DBID>
+		<DisplayNameID>70632</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Land_Grab</Icon>
+		<RolloverTextID>70631</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='TextOutput'>46872</Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
+			<Effect type ='Data' amount ='0.40' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+			<Effect type ='Data' amount ='0.70' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSacredField</Target></Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>ypSacredField</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCRenderingPlantPortuguese' type ='Normal'>
+		<DBID>9070</DBID>
+		<DisplayNameID>70634</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_rendering_plant\hc_rendering_plant</Icon>
+		<RolloverTextID>70633</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='AbstractFish' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractFishingBoat</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='AbstractWhale' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractFishingBoat</Target></Effect>
+			<Effect type ='TextOutput'>41899</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCSchoonersPortuguese' type ='Normal'>
+		<DBID>9071</DBID>
+		<DisplayNameID>70636</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_schooners\hc_schooners</Icon>
+		<RolloverTextID>70635</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='TextOutput'>41920</Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypFishingBoatAsian</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPWhaleOilPortuguese' type ='Normal'>
+		<DBID>9072</DBID>
+		<DisplayNameID>70638</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\AdvancedWhaling</Icon>
+		<RolloverTextID>70637</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.35' subtype ='WorkRate' unittype ='AbstractWhale' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractFishingBoat</Target></Effect>
+			<Effect type ='TextOutput'>46882</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCSawmillsPortuguese' type ='Normal'>
+		<DBID>9073</DBID>
+		<DisplayNameID>70640</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_sawmills\hc_sawmills</Icon>
+		<RolloverTextID>70639</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41918</Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='ypGroveBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCExoticHardwoodsPortuguese' type ='Normal'>
+		<DBID>9074</DBID>
+		<DisplayNameID>70642</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_exotic_hardwoods\hc_exotic_hardwoods</Icon>
+		<RolloverTextID>70641</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41827</Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='ypGroveBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCRoyalMintPortuguese' type ='Normal'>
+		<DBID>9075</DBID>
+		<DisplayNameID>70644</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_establish_royal_mint\hc_establish_royal_mint</Icon>
+		<RolloverTextID>70643</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41914</Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.25' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCIronmongerPortuguese' type ='Normal'>
+		<DBID>9076</DBID>
+		<DisplayNameID>70645</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_iron_monger\hc_iron_monger</Icon>
+		<RolloverTextID>70646</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41865</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCSilversmithPortuguese' type ='Normal'>
+		<DBID>9077</DBID>
+		<DisplayNameID>70648</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_silver_smith\hc_silver_smith</Icon>
+		<RolloverTextID>70647</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41921</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCSustainableAgriculturePortuguese' type ='Normal'>
+		<DBID>9078</DBID>
+		<DisplayNameID>70650</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_sustainable_agriculture\hc_sustainable_agriculture</Icon>
+		<RolloverTextID>70649</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41932</Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.15' subtype ='WorkRateSpecific' resource ='Food' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCRefrigerationPortuguese' type ='Normal'>
+		<DBID>9079</DBID>
+		<DisplayNameID>70652</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_refrigeration\hc_refrigeration</Icon>
+		<RolloverTextID>70651</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Herdable' relativity ='BasePercent'>
+				<Target type ='AbstractVillager'></Target></Effect>
+			<Effect type ='TextOutput'>41897</Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='ypBerryBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.20' subtype ='WorkRateSpecific' resource ='Food' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCFurrierPortuguese' type ='Normal'>
+		<DBID>9080</DBID>
+		<DisplayNameID>70654</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_furrier\hc_furrier</Icon>
+		<RolloverTextID>70653</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41846</Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='ypBerryBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCSpiceTradePortuguese' type ='Normal'>
+		<DBID>9081</DBID>
+		<DisplayNameID>70656</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_spice_trade\hc_spice_trade</Icon>
+		<RolloverTextID>70655</RolloverTextID>
+		<PrereqsNotMetRolloverTextID>35372</PrereqsNotMetRolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41926</Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='ypBerryBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCMedicinePortuguese' type ='Normal'>
+		<DBID>9082</DBID>
+		<DisplayNameID>70657</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_medicine\hc_medicine</Icon>
+		<RolloverTextID>70658</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41870</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPEconomicTheoryPortuguese' type ='Normal'>
+		<DBID>9083</DBID>
+		<DisplayNameID>70660</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Economic_Theory</Icon>
+		<RolloverTextID>70659</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>46868</Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Herdable' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractWhale' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractFishingBoat</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractFish' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractFishingBoat</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.10' subtype ='WorkRateSpecific' resource ='Food' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.10' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='ypBerryBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='ypGroveBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCRumDistilleryPortuguese' type ='Normal'>
+		<DBID>9084</DBID>
+		<DisplayNameID>70662</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_rum_distillery\hc_rum_distillery</Icon>
+		<RolloverTextID>70661</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41916</Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.20' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCTextileMillsPortuguese' type ='Normal'>
+		<DBID>9085</DBID>
+		<DisplayNameID>70664</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_textile_mill\hc_textile_mill</Icon>
+		<RolloverTextID>70663</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41934</Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.25' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCCigarRollerPortuguese' type ='Normal'>
+		<DBID>9086</DBID>
+		<DisplayNameID>70666</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_cigar_roller\hc_cigar_roller</Icon>
+		<RolloverTextID>70655</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>41820</Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.20' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 

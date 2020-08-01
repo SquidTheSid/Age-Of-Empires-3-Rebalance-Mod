@@ -120,6 +120,11 @@ Halberdier: Great meatshields, but their slow movement speeds limits their utili
 Imam/Priest: Do you ever see them? Healing as a mechanic in AoE3 is pretty terrible, so I'm making Priests cheaper and a bit faster to make them decent meatshields
 - Cost: Reduced to 70F/G, down from 200 gold. Bounty adjusted accordingly (20 --> 14); Missionary cost reduced to 80W/G from 100W/G. Bounty adjusted accordingly (20 --> 16)
 
+Water Changes:
+
+Fishing boat cost reduced to 80W from 100W. 
+- Schooners cost reduction lowered to 50% from 60%
+- Asian Schooners cost reduction lowered to 25% from 30%
 Aztec: 
 
 Nobles' Huts can now be built in age 2 (but units are not available until age 3)
