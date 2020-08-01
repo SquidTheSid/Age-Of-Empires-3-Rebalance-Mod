@@ -29147,6 +29147,9 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecChief3' type ='Normal'>
@@ -29171,6 +29174,9 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecChief4' type ='Normal'>
@@ -29194,6 +29200,9 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecChief5' type ='Normal'>
@@ -29216,6 +29225,9 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecShaman2' type ='Normal'>
@@ -29533,9 +29545,9 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
 		</Effects>
 	</Tech>
@@ -29557,9 +29569,9 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='FirePit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMedicineManAztec</Target></Effect>
 		</Effects>
 	</Tech>

@@ -131,7 +131,8 @@ Aztec can now build a single Nobles' Hut in colonial age (but it cannot train an
 
 Warrior Priest - no longer costs population (gives more flexibility for Aztec's lategame army) 
 
-Shaman Politician reworked - instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1/2 in Colonial and Fortress ages. Industrial and Imperial ages additionally provide +15/30% gather rates to fire pits. 
+Shaman Politician reworked - instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1/2 in Colonial and Fortress ages. Industrial and Imperial ages additionally provide +5/10% gather rates to fire pits. 
+Chief Politician reworked - now additionally ships 4/7/10/15 pet jaguars on Age up
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
@@ -154,7 +155,7 @@ Arrow Knights - Very underwhelming as anti-artillery and anti-building units. Th
 - HP: Increased to 160 from 150
 - Artillery Damage multiplier increased to 8x from 5x
 - Movement Speed: Increased from 3.75 to 4 
-- Temple shipment now increases siege damage by 50 up from 20%
+- Temple shipment now increases additionally siege damage by 50%
 - 6 Arrow knight and 6 Arrow knight INFINITE shipments now provide 7 instead.
 
 Puma Spearmen - Incorporated ESOC changes
@@ -171,7 +172,8 @@ Coyote Runner: Coyotes Struggle later on, so I've made their temple card cheaper
 - Xipe Totec Support now ships 6 Coyote Runners instead of 11; cost reduced to 500 gold. 
 
 Janey Jaguars: The temple shipment is way too expensive for an age 4 card, especially since Janeys aren't amazing cav. 
-- Tezcatlipoca Temple shipment cost reduced to 750 gold from 1500; Religious Unity shipment reduces cost to 500
+- Tezcatlipoca Temple shipment cost reduced to 1000 gold from 1500; Religious Unity shipment reduces cost to 500
+- Tezcatlipoca Temple shipment now increases HP/damage by 50% up from 35%
 
 Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with Jaguar Prowl Knights, Puma Spearmen, Skull Knights, and Eagle Runner Knights all fulfilling this role. Generally, a late-game Aztec player would build their army out of almost entirely ERKs due to their significant overall strength, leaving Skull Knights and JPK by the wayside. Now, Aztec have 2 proper cavalry units, 2 skirmisher units, 2 anti-cav units, and 1 artillery unit. 
 
