@@ -124,9 +124,11 @@ Water Changes:
 Fishing boat cost reduced to 80W from 100W. 
 - Schooners cost reduction lowered to 50% from 60%
 - Asian Schooners cost reduction lowered to 25% from 30%
+
 Aztec: 
 
-Nobles' Huts can now be built in age 2 (but units are not available until age 3)
+Aztec can now build a single Nobles' Hut in colonial age (but it cannot train any units)
+
 Warrior Priest - no longer costs population (gives more flexibility for Aztec's lategame army) 
 
 Shaman Politician reworked - instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1/2 in Colonial and Fortress ages. Industrial and Imperial ages additionally provide +15/30% gather rates to fire pits. 
@@ -148,10 +150,11 @@ Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs h
 - Armor: Reduced from 30% ranged to 20% 
 - Speed: Increased to 6.25 from 6.00
 
-Arrow Knights - Very underwhelming as anti-artillery and anti-building units.
-- Armor: Ranged armor improved to 50% from 40%
-- Damage: Ranged damage improved to 12 from 10
+Arrow Knights - Very underwhelming as anti-artillery and anti-building units. They're now tanky enough to facetank a falconet shot and snipe them more easily
+- HP: Increased to 160 from 150
+- Artillery Damage multiplier increased to 8x from 5x
 - Movement Speed: Increased from 3.75 to 4 
+- Temple shipment now increases siege damage by 50 up from 20%
 - 6 Arrow knight and 6 Arrow knight INFINITE shipments now provide 7 instead.
 
 Puma Spearmen - Incorporated ESOC changes
@@ -197,6 +200,7 @@ Shipments:
 - Cav combat cards affect Tashunke Prowlers by an extra 5% (for a total of 20%)
 - Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 40%, in addition to letting infantry build War Huts, Teepees, and Corrals
 - Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 30% from 50%. Now additionally increases Teepee LOS by 4.
+- Sioux now has access to the water dance shipment
 
 Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
 - HP: Reduced to 240 from 250
@@ -242,7 +246,7 @@ Ram: They're niche units, and the slow movement speed doesn't help. Normalizing 
 
 India (WIP):
 
-Agra Fort: Obscenely powerful for an age 2 building. HP has been nerfed to make it less formidable
+Agra Fort: Obscenely powerful for an age 2 building. HP has been nerfed to make it less formidable (i.e. you can defeat it without resorting to grenade/flamethrower spam)
 - HP: Reduced to 4000 from 5000
 - Delhi Gate tech now additionally increases Agra Fort HP by 25%
 
@@ -400,7 +404,7 @@ Spain:
 New civ bonus: Shipments now additionally arrive 25% faster 
 
 Crossbowmen: Due to Spain's focus on archaic units (Imperial Tercios), I've added Royal Guard and Imperial Upgrades for Crossbowmen.
-- Added Ballestero Royal Guard and Imperial Ballestero upgrades.
+- Added Ballestero Royal Guard (increases range by 2) and Imperial Ballestero upgrades (adds 0.5x heavy infantry multiplier).
 
 Missionary: Now gains the Unction aura upon Colonial age
 
