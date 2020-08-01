@@ -24097,8 +24097,7 @@
 	<Tech name ='BigIroquoisScoutingParty' type ='Normal'>
 		<DBID>2746</DBID>
 		<DisplayNameID>43616</DisplayNameID>
-		<Cost resourcetype ='Food'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<Cost resourcetype ='Food'>500.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>

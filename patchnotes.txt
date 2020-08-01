@@ -24,7 +24,6 @@ Incoporated ESOC's fixed starting crates:
 - Trading post HP reduced to 2000 from 3000; advanced trading post HP bonus reduced to 25% from 50%
 - Ninja population cost reduced from 4 to 2 
 - Pikemen (units with the AbstractPikeman tag) have +1.0 melee range to better chase down cavalry
-- Crossbowmen ranged attack increased to 17 from 16, melee attack increased from 7 to 8, AbstractHeavyInfantry damage multiplier improved to 1.50x
 - Fast Age up politicians (Messenger, Exiled Prince) now age up in 35 seconds instead of 30. Fortress Age takes 45 seconds instead of 40
 - Wall HP reduced to 2000 from 3000
 - Town Center wood cost reduced to 500 from 600 (ESOC)
@@ -73,7 +72,7 @@ Sufi War Elephant - Build limit increased to 9 from 6
 Udasi Chakram - LOS and range increased to 16 and 14; siege damage improved to 30 from 15
 
 Mercenary changes:
-Fusilier - Cost reduced to 250 from 300; range increased to 14 from 12; armor increased to 20% from 10%; melee multipliers increased to 2.5x cav from 2.0 and 2.0x AbstractLightInfantry from 1.5x
+Fusilier - Cost reduced to 250 from 300; range increased to 14 from 12; armor increased to 20% from 10%; 
 Landsknecht - Speed increased to 4.5 from 4.0
 Swiss Pikemen - Melee range increased to 1.0
 Jaeger - Ranged armor reduced to 30% from 40%
@@ -228,7 +227,6 @@ Iroquois (WIP):
 Starting 100 wood crate removed, 100 food crate added
 
 Big Buttons:
-- Scouting Party Big Button cost changed from 500 food to 200 food/gold.
 - Siege Drill Big Button cost reduced to 350 food/gold from 500 food/gold.
 - Lacrosse Big Buttoncost reduced to 500 Wood/Gold from 600.
 - Horse Secrets Big Button cost reduced to 350 Wood/Gold from 400.

@@ -848,143 +848,143 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCRenderingPlant</name>
+      <name>HCRenderingPlantPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCFishMarketTeam</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCSchooners</name>
+      <name>HCSchoonersPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCRenderingPlant</prereqtech>
+      <prereqtech>HCRenderingPlantPortuguese</prereqtech>
       <age>0</age>
     </card>
     <card>
       <name>HCSpawnFishingBoats</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCSchooners</prereqtech>
+      <prereqtech>HCSchoonersPortuguese</prereqtech>
       <age>3</age>
     </card>
     <card>
-      <name>HCXPWhaleOil</name>
+      <name>HCXPWhaleOilPortuguese</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCSpawnFishingBoats</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCSawmills</name>
+      <name>HCSawmillsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCExoticHardwoods</name>
+      <name>HCExoticHardwoodsPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCSawmills</prereqtech>
+      <prereqtech>HCSawmillsPortuguese</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCIronmonger</name>
+      <name>HCIronmongerPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCSilversmith</name>
+      <name>HCSilversmithPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCIronmonger</prereqtech>
+      <prereqtech>HCIronmongerPortuguese</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCRoyalMint</name>
+      <name>HCRoyalMintPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCSilversmith</prereqtech>
+      <prereqtech>HCSilversmithPortuguese</prereqtech>
       <age>2</age>
     </card>
     <card>
-      <name>HCSustainableAgriculture</name>
+      <name>HCSustainableAgriculturePortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCRefrigeration</name>
+      <name>HCRefrigerationPortguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCSustainableAgriculture</prereqtech>
+      <prereqtech>HCSustainableAgriculturePortuguese</prereqtech>
       <age>2</age>
     </card>
     <card>
-      <name>HCFurrier</name>
+      <name>HCFurrierPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCSpiceTrade</name>
+      <name>HCSpiceTradePortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCFurrier</prereqtech>
+      <prereqtech>HCFurrierPortuguese</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCMedicine</name>
+      <name>HCMedicinePortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCXPEconomicTheory</name>
+      <name>HCXPEconomicTheoryPortuguese</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCMedicine</prereqtech>
+      <prereqtech>HCMedicinePortuguese</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCRumDistillery</name>
+      <name>HCRumDistilleryPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCCigarRoller</name>
+      <name>HCCigarRollerPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCRumDistillery</prereqtech>
+      <prereqtech>HCRumDistilleryPortuguese</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCTextileMills</name>
+      <name>HCTextileMillsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCCigarRoller</prereqtech>
+      <prereqtech>HCCigarRollerPortuguese</prereqtech>
       <age>2</age>
     </card>
     <card>
-      <name>HCStonemasons</name>
+      <name>HCStonemasonsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCXPLandGrab</name>
+      <name>HCXPLandGrabPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCStonemasons</prereqtech>
+      <prereqtech>HCStonemasonsPortuguese</prereqtech>
       <age>0</age>
     </card>
     <card>
@@ -1508,28 +1508,28 @@
     <displaynamestringid>24972</displaynamestringid>
     <rolloverstringid>25535</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="3.0">HCStonemasons</tech>
-      <tech x="0.0" y="5.0">HCXPLandGrab</tech>
+      <tech x="0.0" y="3.0">HCStonemasonsPortuguese</tech>
+      <tech x="0.0" y="5.0">HCXPLandGrabPortuguese</tech>
       <tech x="0.9" y="1.0">HCFishMarketTeam</tech>
-      <tech x="0.9" y="3.0">HCRenderingPlant</tech>
-      <tech x="0.9" y="4.0">HCSchooners</tech>
+      <tech x="0.9" y="3.0">HCRenderingPlantPortuguese</tech>
+      <tech x="0.9" y="4.0">HCSchoonersPortuguese</tech>
       <tech x="0.9" y="5.0">HCSpawnFishingBoats</tech>
-      <tech x="0.9" y="7.0">HCXPWhaleOil</tech>
-      <tech x="1.8" y="3.0">HCSawmills</tech>
-      <tech x="1.8" y="5.0">HCExoticHardwoods</tech>
-      <tech x="2.7" y="1.0">HCIronmonger</tech>
-      <tech x="2.7" y="3.0">HCSilversmith</tech>
-      <tech x="2.7" y="5.0">HCRoyalMint</tech>
+      <tech x="0.9" y="7.0">HCXPWhaleOilPortuguese</tech>
+      <tech x="1.8" y="3.0">HCSawmillsPortuguese</tech>
+      <tech x="1.8" y="5.0">HCExoticHardwoodsPortuguese</tech>
+      <tech x="2.7" y="1.0">HCIronmongerPortuguese</tech>
+      <tech x="2.7" y="3.0">HCSilversmithPortuguese</tech>
+      <tech x="2.7" y="5.0">HCRoyalMintPortuguese</tech>
       <tech x="2.7" y="7.0">HCXPHouseofBraganca</tech>
-      <tech x="3.6" y="3.0">HCSustainableAgriculture</tech>
-      <tech x="3.6" y="5.0">HCRefrigeration</tech>
-      <tech x="4.5" y="1.0">HCFurrier</tech>
-      <tech x="4.5" y="3.0">HCSpiceTrade</tech>
-      <tech x="4.5" y="5.0">HCMedicine</tech>
+      <tech x="3.6" y="3.0">HCSustainableAgriculturePortuguese</tech>
+      <tech x="3.6" y="5.0">HCRefrigerationPortguese</tech>
+      <tech x="4.5" y="1.0">HCFurrierPortuguese</tech>
+      <tech x="4.5" y="3.0">HCSpiceTradePortuguese</tech>
+      <tech x="4.5" y="5.0">HCMedicinePortuguese</tech>
       <tech x="4.5" y="7.0">HCXPEconomicTheory</tech>
-      <tech x="5.4" y="1.0">HCRumDistillery</tech>
-      <tech x="5.4" y="2.0">HCCigarRoller</tech>
-      <tech x="5.4" y="3.0">HCTextileMills</tech>
+      <tech x="5.4" y="1.0">HCRumDistilleryPortuguese</tech>
+      <tech x="5.4" y="2.0">HCCigarRollerPortuguese</tech>
+      <tech x="5.4" y="3.0">HCTextileMillsPortuguese</tech>
     </obtainabletechs>
     <activetechs>
       <tech>HCFishMarketTeam</tech>
