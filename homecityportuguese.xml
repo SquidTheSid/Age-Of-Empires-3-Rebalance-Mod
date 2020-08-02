@@ -995,7 +995,7 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipCaravels1</name>
+      <name>HCShipCaravels1Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1004,19 +1004,19 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCaravels2</name>
+      <name>HCShipCaravels2Portuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipCaravels1</prereqtech>
+      <prereqtech>HCShipCaravels1Portuguese</prereqtech>
       <age>1</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCaravels3</name>
+      <name>HCShipCaravels3Portuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCaravels2</prereqtech>
+      <prereqtech>HCShipCaravels2Portuguese</prereqtech>
       <age>2</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1029,35 +1029,35 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCShipGalleons</name>
+      <name>HCShipGalleonsPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipCaravels1</prereqtech>
+      <prereqtech>HCShipCaravels1Portuguese</prereqtech>
       <age>1</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFrigates</name>
+      <name>HCShipFrigatesPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipGalleons</prereqtech>
+      <prereqtech>HCShipGalleonsPortuguese</prereqtech>
       <age>2</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCNavalCombat</name>
+      <name>HCNavalCombatPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipFrigates</prereqtech>
+      <prereqtech>HCShipFrigatesPortuguese</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCShipMonitors</name>
+      <name>HCShipMonitorsPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipFrigates</prereqtech>
+      <prereqtech>HCShipFrigatesPortuguese</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1066,12 +1066,12 @@
       <name>HCXPShipMonitorsTeam</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCShipMonitors</prereqtech>
+      <prereqtech>HCShipMonitorsPortuguese</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCAdmirality</name>
+      <name>HCAdmiralityPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1158,7 +1158,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCMercenaryLoyalty</name>
+      <name>HCMercenaryLoyaltyPortuguese</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>-1</prereqtech>
@@ -1168,7 +1168,7 @@
       <name>HCXPMercsGreatCannon</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCMercenaryLoyalty</prereqtech>
+      <prereqtech>HCMercenaryLoyaltyPortuguese</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1192,7 +1192,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPDanceHall</name>
+      <name>HCXPDanceHallPortuguese</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1251,7 +1251,7 @@
         <card>HCFishMarketTeam</card>
         <card>HCFrontierDefensesPortuguese</card>
         <card>HCCheapOutpostsTeam</card>
-        <card>HCShipCaravels1</card>
+        <card>HCShipCaravels1Portuguese</card>
         <card>HCShipCrossbowmen1Portuguese</card>
         <card>HCShipMusketeers1Portuguese</card>
         <card>HCShipMusketeers2Portuguese</card>
@@ -1272,7 +1272,7 @@
         <card>HCFishMarketTeam</card>
         <card>HCFrontierDefensesPortuguese</card>
         <card>HCCheapOutpostsTeam</card>
-        <card>HCShipCaravels1</card>
+        <card>HCShipCaravels1Portuguese</card>
         <card>HCShipCrossbowmen1Portuguese</card>
         <card>HCShipMusketeers1Portuguese</card>
         <card>HCShipMusketeers2Portuguese</card>
@@ -1552,17 +1552,17 @@
     <displaynamestringid>35745</displaynamestringid>
     <rolloverstringid>35746</rolloverstringid>
     <obtainabletechs>
-      <tech x="1.3" y="1.0">HCShipCaravels1</tech>
-      <tech x="1.0" y="2.0">HCShipCaravels2</tech>
-      <tech x="1.0" y="3.0">HCShipCaravels3</tech>
+      <tech x="1.3" y="1.0">HCShipCaravels1Portuguese</tech>
+      <tech x="1.0" y="2.0">HCShipCaravels2Portuguese</tech>
+      <tech x="1.0" y="3.0">HCShipCaravels3Portuguese</tech>
       <tech x="1.0" y="4.0">HCCoastalDefensesTeam</tech>
-      <tech x="1.7" y="2.0">HCShipGalleons</tech>
-      <tech x="1.7" y="3.0">HCShipFrigates</tech>
-      <tech x="2.4" y="4.0">HCNavalCombat</tech>
-      <tech x="1.7" y="4.0">HCShipMonitors</tech>
+      <tech x="1.7" y="2.0">HCShipGalleonsPortuguese</tech>
+      <tech x="1.7" y="3.0">HCShipFrigatesPortuguese</tech>
+      <tech x="2.4" y="4.0">HCNavalCombatPortuguese</tech>
+      <tech x="1.7" y="4.0">HCShipMonitorsPortuguese</tech>
       <tech x="1.7" y="7.0">HCXPShipMonitorsTeam</tech>
-      <tech x="3.1" y="1.0">HCAdmirality</tech>
-      <tech x="4.4" y="1.0">HCXPDanceHall</tech>
+      <tech x="3.1" y="1.0">HCAdmiralityPortuguese</tech>
+      <tech x="4.4" y="1.0">HCXPDanceHallPortuguese</tech>
       <tech x="3.5" y="4.0">HCXPMercsElmeti</tech>
       <tech x="4.4" y="3.0">HCMercsCorsairs</tech>
       <tech x="4.4" y="4.0">HCMercsMamelukes</tech>
@@ -1573,13 +1573,13 @@
       <tech x="4.4" y="5.0">HCMercsMediterranean</tech>
       <tech x="4.4" y="7.0">HCXPMercsCorsairsRepeat</tech>
       <tech x="5.1" y="5.0">HCMercsAsian</tech>
-      <tech x="5.8" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="5.8" y="5.0">HCMercenaryLoyaltyPortuguese</tech>
       <tech x="5.8" y="6.0">HCXPMercsGreatCannon</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="6.5" y="3.0">HCPrivateers2</tech>
     </obtainabletechs>
     <activetechs>
-      <tech>HCShipCaravels1</tech>
+      <tech>HCShipCaravels1Portuguese</tech>
     </activetechs>
     <validunits/>
     <units/>

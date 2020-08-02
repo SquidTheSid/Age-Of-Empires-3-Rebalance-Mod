@@ -295,6 +295,7 @@ Sowar: They're India's version of cossacks, but with a focus on countering skirm
 
 Shipments:
 - British East India company now provides +15% HP/Damage instead of +10%
+
 Japan:
 
 - Ending Japanese isolation no longer has a permanent damage penalty 
@@ -399,6 +400,8 @@ Strelets: I've fixed a long-standing bug. In the code, Strelets got a 25% discou
 Cost: Wood cost reduced to 75 from 100
 
 Halberdier HP/Damage penalties reduced to 15% from 20%
+
+Oprichniks no longer have access to Defend mode. 
 
 Shipments:
 - Strelet Horde now additionally increases Strelet range by 2. 

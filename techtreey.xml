@@ -53286,7 +53286,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_cigar_roller\hc_cigar_roller</Icon>
-		<RolloverTextID>70655</RolloverTextID>
+		<RolloverTextID>70665</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
@@ -53294,6 +53294,371 @@
 			<Effect type ='TextOutput'>41820</Effect>
 			<Effect type ='Data2' action ='Gather' amount ='1.20' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCShipCaravels1Portuguese' type ='Normal'>
+		<DBID>9087</DBID>
+		<DisplayNameID>35657</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\caravel_ship\caravel_ship_icon</Icon>
+		<RolloverTextID>70667</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Caravel' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+	</Tech>
+	<Tech name ='HCShipCaravels2Portuguese' type ='Normal'>
+		<DBID>9088</DBID>
+		<DisplayNameID>35723</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\caravel_ship\caravel_ship_icon</Icon>
+		<RolloverTextID>70668</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Caravel' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+	</Tech>
+	<Tech name ='HCShipCaravels3Portuguese' type ='Normal'>
+		<DBID>9089</DBID>
+		<DisplayNameID>36096</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\caravel_ship\caravel_ship_icon</Icon>
+		<RolloverTextID>70669</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Caravel' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+
+	<Tech name ='HCShipGalleonsPortuguese' type ='Normal'>
+		<DBID>9090</DBID>
+		<DisplayNameID>35724</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\galleon\galleon_icon_64x64</Icon>
+		<RolloverTextID>70670</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Galleon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+	</Tech>
+	<Tech name ='HCShipFrigatesPortuguese' type ='Normal'>
+		<DBID>9091</DBID>
+		<DisplayNameID>35725</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\frigate\frigate_icon_64x64</Icon>
+		<RolloverTextID>70671</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Frigate' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+	</Tech>
+	<Tech name ='HCShipMonitorsPortuguese' type ='Normal'>
+		<DBID>9092</DBID>
+		<DisplayNameID>35726</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\naval\monitor\monitor_icon_64x64</Icon>
+		<RolloverTextID>70672</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Monitor' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+	</Tech>
+	<Tech name ='HCNavalCombatPortuguese' type ='Normal'>
+		<DBID>9093</DBID>
+		<DisplayNameID>70674</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\carronade\carronade</Icon>
+		<RolloverTextID>70673</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
+			<Effect type ='TextOutput'>41885</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCAdmiralityPortuguese' type ='Normal'>
+		<DBID>9094</DBID>
+		<DisplayNameID>70678</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_admirality\hc_admirality</Icon>
+		<RolloverTextID>70677</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Galleon</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Caravel</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Galley</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Frigate</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Monitor</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Fluyt</Target></Effect>
+			<Effect type ='TextOutput'>42171</Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Canoe</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpTlalocCanoe</Target></Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpWarCanoe</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypAtakabune</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMarathanCatamaran</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypTekkousen</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypFune</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWarJunk</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypFuchuan</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouJunk</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypFireship</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPDanceHallPortuguese' type ='Normal'>
+		<DBID>9095</DBID>
+		<DisplayNameID>70676</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Dance_Hall</Icon>
+		<RolloverTextID>70675</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='SetName' proto ='Saloon' culture ='none' newName ='46789'></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawPistol</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
+			<Effect type ='TextOutput'>46860</Effect>
+			<Effect type ='TechStatus' status ='active'>SaloonRonin</Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypThuggee</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWanderingHorseman</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouWaywardRonin</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouBlindMonk</Target></Effect>
+			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCMercenaryLoyaltyPortuguese' type ='Normal'>
+		<DBID>9096</DBID>
+		<DisplayNameID>70680</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_mercenary_loyalty\hc_mercenary_loyalty</Icon>
+		<RolloverTextID>70679</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsAsian</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsHackapells</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsCorsairs</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsBlackRiders</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsHessians</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsHighlanders</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsHighland</Target></Effect>
+			<Effect type ='Data' amount ='1125.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsHessians2</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsSwissPikemen</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsStradiots</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsRonin</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsMediterranean</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsManchu</Target></Effect>
+			<Effect type ='Data' amount ='600.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsMamelukes</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsLandsknecht2</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCMercsHolyRoman</Target></Effect>
+			<Effect type ='TextOutput'>41873</Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCPrivateers</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCPrivateersTeam</Target></Effect>
+			<Effect type ='Data' amount ='637.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCPrivateers3</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCPrivateers2</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMercsCorsairsRepeat</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPCherokeeAllies1</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMercsFusiliersRepeat</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMercsNinja</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMercsGreatCannon</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMercsFusiliers</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMercsElmeti</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPCherokeeAllies2</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPCherokeeAlliesRepeat</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMayanAlliesRepeat</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMayanAllies2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMayanAllies1</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPHuronAllies1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPHuronAllies2</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPHuronAlliesRepeat</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPNootkaAlliesRepeat</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPTupiAlliesRepeat</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPCreeAlliesTeam</Target></Effect>
+			<Effect type ='Data' amount ='900.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCXPMercsHessiansRepeatTeam</Target></Effect>
+			<Effect type ='Data' amount ='450.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>HCPrivateersRepeat</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsChakram3</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouJapanese3</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouJapanese2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouJapanese1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsSohei3</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsSohei2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Fame' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsSohei1</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsJapaneseArmy</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsYojimbo1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsRonin1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsNinja2</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsNinja1</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsWarElephant1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsTigerClaw3</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsTigerClaw2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsTigerClaw1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsChakram2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsChakram1</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsIndianArmy</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsArsonist1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsJatLancer1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouIndians3Double</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouIndians2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouIndians1</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsMandarinArmy1</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsIronTroop1</Target></Effect>
+			<Effect type ='Data' amount ='1800.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsRattanShield3</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsRattanShield2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsRattanShield1</Target></Effect>
+			<Effect type ='Data' amount ='900.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouChinese3</Target></Effect>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouChinese2</Target></Effect>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCWokouChinese1</Target></Effect>
+			<Effect type ='Data' amount ='3000.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCMercsRonin2</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>YPHCShipManchuTeam</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
