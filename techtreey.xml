@@ -10545,7 +10545,7 @@
 				<Target type ='Tech'>YPHCWokouChinese2</Target></Effect>
 			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>YPHCWokouChinese1</Target></Effect>
-			<Effect type ='Data' amount ='3000.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>YPHCMercsRonin2</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>YPHCShipManchuTeam</Target></Effect>
@@ -50172,7 +50172,7 @@
 	<Tech name ='YPHCMercsRonin2' type ='Normal'>
 		<DBID>5151</DBID>
 		<DisplayNameID>69415</DisplayNameID>
-		<Cost resourcetype ='Gold'>4500.0000</Cost>
+		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
