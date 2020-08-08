@@ -53672,22 +53672,4 @@
 
 		</Effects>
 	</Tech>
-<Tech name ='PoliticianExiledPrinceGerman' type ='Normal'>
-		<DBID>1865</DBID>
-		<DisplayNameID>34194</DisplayNameID>
-		<Cost resourcetype ='Food'>1200.0000</Cost>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<ResearchPoints>60.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\ingame\icon_age_iii</Icon>
-		<RolloverTextID>34193</RolloverTextID>
-		<Flag>Shadow</Flag>
-		<Flag>AgeUpgrade</Flag>
-		<Flag>CountsTowardEconomicScore</Flag>
-		<Effects>
-			<Effect type ='SetAge'>Age2</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
-				<Target type ='Player'></Target>
-		</Effects>
-	</Tech>
 </TechTree>
