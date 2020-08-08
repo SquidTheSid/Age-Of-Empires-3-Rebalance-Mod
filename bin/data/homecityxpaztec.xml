@@ -1144,7 +1144,7 @@
       <level>25</level>
       <prereqtech>HCXPTempleCoatlicue</prereqtech>
       <age>3</age>
-      <displayunitcount>11</displayunitcount>
+      <displayunitcount>7</displayunitcount>
     </card>
     <card>
       <name>HCXPTempleXipetotec</name>
@@ -1168,7 +1168,7 @@
       <level>25</level>
       <prereqtech>HCXPTempleXolotl</prereqtech>
       <age>3</age>
-      <displayunitcount>18</displayunitcount>
+      <displayunitcount>11</displayunitcount>
     </card>
     <card>
       <name>HCXPTempleXochipilli</name>
@@ -1176,7 +1176,7 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>7</displayunitcount>
     </card>
     <card>
       <name>HCXPTempleTlaloc</name>

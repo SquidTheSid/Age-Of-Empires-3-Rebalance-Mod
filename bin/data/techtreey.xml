@@ -14813,6 +14813,10 @@
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeGerman' type ='Normal'>
@@ -19694,8 +19698,6 @@
 			<Effect type ='TextOutput'>36349</Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
 			<Effect type ='Data' amount ='0.88' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypBlackFlagArmy</Target></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -20117,7 +20119,7 @@
 		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -20147,7 +20149,7 @@
 		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -25306,7 +25308,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='xpHorseman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineMan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -27343,7 +27345,7 @@
 	<Tech name ='HCXPTempleXochipilli' type ='Normal'>
 		<DBID>2970</DBID>
 		<DisplayNameID>44331</DisplayNameID>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -27351,7 +27353,7 @@
 		<RolloverTextID>44330</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='xpPumaMan' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpPumaMan' relativity ='BasePercent'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpPumaMan</Target></Effect>
@@ -27424,7 +27426,7 @@
 	<Tech name ='HCXPGreatTempleHuitzilopochtli' type ='Normal'>
 		<DBID>2974</DBID>
 		<DisplayNameID>44339</DisplayNameID>
-		<Cost resourcetype ='Gold'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -27432,7 +27434,7 @@
 		<RolloverTextID>44338</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='xpSkullKnight' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpSkullKnight' relativity ='BasePercent'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
@@ -27445,7 +27447,7 @@
 	<Tech name ='HCXPGreatTempleQuetzalcoatl' type ='Normal'>
 		<DBID>2975</DBID>
 		<DisplayNameID>44341</DisplayNameID>
-		<Cost resourcetype ='Gold'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -27453,7 +27455,7 @@
 		<RolloverTextID>44340</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='18.00' subtype ='FreeHomeCityUnit' unittype ='xpJaguarKnight' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='xpJaguarKnight' relativity ='BasePercent'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpJaguarKnight</Target></Effect>
@@ -27903,7 +27905,7 @@
 		<RolloverTextID>44451</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>44454</Effect>
 		</Effects>
@@ -28269,6 +28271,9 @@
 				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='GreatFeast' type ='Normal'>
@@ -33957,11 +33962,10 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47038</Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipCulverins2' type ='Normal'>
@@ -34564,20 +34568,20 @@
 				<Target type ='Tech'>HCXPTempleCoatlicue</Target></Effect>
 			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPTempleCenteotl</Target></Effect>
-			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPGreatTempleQuetzalcoatl</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPSpanishAllies2</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPTempleXolotl</Target></Effect>
-			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPTempleXochipilli</Target></Effect>
 			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPTempleXipeTotec</Target></Effect>
 			<Effect type ='TextOutput'>47184</Effect>
 			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPBuccaneers</Target></Effect>
-			<Effect type ='Data' amount ='500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPGreatTempleTezcatlipoca</Target></Effect>
 			<Effect type ='Data' amount ='375.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPBuccaneers2</Target></Effect>
@@ -34585,7 +34589,7 @@
 				<Target type ='Tech'>HCXPMayanAllies2</Target></Effect>
 			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPZapotecAllies2</Target></Effect>
-			<Effect type ='Data' amount ='1500.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>HCXPGreatTempleHuitzilopochtli</Target></Effect>
 		</Effects>
 	</Tech>
@@ -34626,7 +34630,7 @@
 				<Target type ='ProtoUnit'>xpWarClub</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
-			<Effect type ='Data' amount ='0.40' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='Data' amount ='0.60' subtype ='BuildPoints' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
@@ -38678,6 +38682,8 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCamel</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 			<Effect type ='TextOutput'>70356</Effect>
@@ -39191,6 +39197,8 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>70432</Effect>
+			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypNaginataRider</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNaginataRider</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.27' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
@@ -53664,5 +53672,22 @@
 
 		</Effects>
 	</Tech>
-
+<Tech name ='PoliticianExiledPrinceGerman' type ='Normal'>
+		<DBID>1865</DBID>
+		<DisplayNameID>34194</DisplayNameID>
+		<Cost resourcetype ='Food'>1200.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>34193</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age2</Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='Player'></Target>
+		</Effects>
+	</Tech>
 </TechTree>
