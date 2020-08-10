@@ -27442,6 +27442,12 @@
 				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.33' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
+			<Effect type ='Data' action ='CoverHandAttack' amount ='1.33' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='1.33' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPGreatTempleQuetzalcoatl' type ='Normal'>
@@ -35402,6 +35408,16 @@
 				<Target type ='ProtoUnit'>ypZamburak</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypZamburakMansabdar</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypZamburak</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypZamburak</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypZamburakMansabdar</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypZamburakMansabdar</Target></Effect>
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCJapaneseMonkCombat' type ='Normal'>
@@ -36354,6 +36370,9 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPSacredFieldWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSacredCow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCShipTigers1' type ='Normal'>
@@ -36543,6 +36562,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='-25.00' subtype ='Cost' resource ='Food' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypSacredCow</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSacredCow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCChonindoTeam' type ='Normal'>
@@ -38702,7 +38723,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCamel</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 			<Effect type ='TextOutput'>70356</Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
@@ -38711,8 +38732,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.17' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
 			<Effect type ='Data' action ='TrampleHandAttack' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
@@ -38723,8 +38742,6 @@
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
-			<Effect type ='Data' action ='BuildingAttack' amount ='-0.50' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCElephantTrampling' type ='Normal'>
@@ -44610,7 +44627,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyOttoman3</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyOttoman1</Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateOttomansSettlerCombat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateOttomansInfantrySpeed</Effect>
@@ -44624,13 +44641,13 @@
 			<Effect civ ='Ottomans' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateRelationsOttomans</Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
@@ -45020,7 +45037,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyOttoman3</Target></Effect>
 			<Effect type ='Data' amount ='-1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyOttoman1</Target></Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateOttomansSettlerCombat</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateOttomansGunpowderSiege</Effect>
@@ -45031,13 +45048,13 @@
 			<Effect civ ='none' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRelationsOttomans</Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
-			<Effect type ='Data' amount ='-10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
@@ -50911,7 +50928,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyOttoman3</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyOttoman1</Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateOttomansSettlerCombat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateOttomansInfantrySpeed</Effect>
@@ -50924,7 +50941,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateRelationsOttomans</Effect>
 			<Effect type ='TechStatus' status ='active'>ypBigTradeTaxEnable</Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 		</Effects>
 	</Tech>
