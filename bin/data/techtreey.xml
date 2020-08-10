@@ -28996,7 +28996,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>48876</Effect>
-			<Effect type ='Data' amount ='1.35' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.40' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' action ='HandAttack' amount ='2.00' subtype ='DamageArea' relativity ='Assign'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
@@ -29288,6 +29288,8 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age2</Effect>
+			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='xpSkullKnight' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecWarrior5</Effect>
@@ -29308,6 +29310,8 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age3</Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpSkullKnight' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecWarrior5</Effect>
@@ -29327,6 +29331,8 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
+			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpSkullKnight' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -32532,6 +32538,14 @@
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Cow</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='LivestockPen' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='ypVillage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='YPLivestockPenAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPRanchingLlama' type ='Normal'>
@@ -32549,6 +32563,8 @@
 			<Effect type ='TextOutput'>46816</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Llama</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='LivestockPen' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPKinshipTies' type ='Normal'>
@@ -38394,6 +38410,8 @@
 			<Effect type ='TextOutput'>61613</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypWaterBuffalo</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='ypVillage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCAdvancedConsulate' type ='Normal'>
@@ -43153,7 +43171,7 @@
 				<Target type ='ProtoUnit'>ypDaimyoMasamune</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypDaimyoMasamune' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='300.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='400.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>LogicalTypeLandMilitary</Target></Effect>
@@ -43195,7 +43213,7 @@
 				<Target type ='ProtoUnit'>LogicalTypeLandMilitary</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypDaimyoMasamune' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1600.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1000.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseGiantBuddha4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseGoldenPavillion4</Effect>
@@ -52388,6 +52406,8 @@
 				<Target type ='ProtoUnit'>Llama</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='LivestockPen' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCRidingSchoolPortuguese' type ='Normal'>
