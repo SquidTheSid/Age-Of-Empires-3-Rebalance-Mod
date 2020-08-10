@@ -8497,6 +8497,11 @@
 				<Target type ='ProtoUnit'>NatMercTracker</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatMercRifleman</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NatMercGurkha</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypNatMercGurkhaJemadar</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='GunnersQuadrant' type ='Normal'>
@@ -24885,9 +24890,9 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -53709,4 +53714,78 @@
 
 		</Effects>
 	</Tech>
+	<Tech name ='HCXPCavalryCombatIroquois' type ='Normal'>
+		<DBID>9097</DBID>
+		<DisplayNameID>43777</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_cavalry_combat\hc_cavalry_combat</Icon>
+		<RolloverTextID>43776</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpHorseman</Target></Effect>
+			<Effect type ='TextOutput'>43778</Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpMusketRider</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCMercsGurkhas' type ='Normal'>
+		<DBID>9098</DBID>
+		<DisplayNameID>70681</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\natives\gurkha\gurkha_icon_64</Icon>
+		<RolloverTextID>70682</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='13.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedGurkha</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCMercsGurkhas2' type ='Normal'>
+		<DBID>9099</DBID>
+		<DisplayNameID>70683</DisplayNameID>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\indians\mansabdar\gurkha_mansabdar_icon_portrait</Icon>
+		<RolloverTextID>70684</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='18.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkhaJemadar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedGurkha</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredGurkha</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCMercsElephants' type ='Normal'>
+		<DBID>9100</DBID>
+		<DisplayNameID>70685</DisplayNameID>
+		<Cost resourcetype ='Gold'>2000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\tech_terror_charge_icon_64</Icon>
+		<RolloverTextID>70686</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdah' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSiegeElephant' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>
