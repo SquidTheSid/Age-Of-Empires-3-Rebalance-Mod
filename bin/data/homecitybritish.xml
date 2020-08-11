@@ -1077,15 +1077,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCMercsHighland</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCMercsHighlanders</prereqtech>
-      <age>3</age>
-      <displayunitcount>18</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCMercsHighlanders</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1122,12 +1113,48 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCMercsGurkhas3Repeat</name>
+      <maxcount>-1</maxcount>
+      <level>40</level>
+      <prereqtech>HCMercsGurkhas2</prereqtech>
+      <age>2</age>
+      <displayunitcount>16</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipGroveWagonsBritish</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>SacredFieldBritish</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipGroveWagonsBritish</prereqtech>
+      <age>1</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCMercsCamels</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>22</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCMercsElephants</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCMercsGurkhas2</prereqtech>
+      <prereqtech>HCMercsCamels</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1139,15 +1166,34 @@
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
-    <card>
-      <name>HCMercsMediterranean</name>
+<card>
+      <name>HCBeiyangArmyBritish</name>
       <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCMercsCorsairs</prereqtech>
-      <age>3</age>
-      <displayunitcount>13</displayunitcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>16</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
+    <card>
+      <name>HCGreenStandardArmyBritish</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCBeiyangArmyBritish</prereqtech>
+      <age>2</age>
+      <displayunitcount>15</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+<card>
+      <name>HCIronCapPrincesArmyBritish</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCGreenStandardArmyBritish</prereqtech>
+      <age>3</age>
+      <displayunitcount>15</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
     <card>
       <name>HCMercenaryLoyalty</name>
       <maxcount>1</maxcount>
@@ -1592,22 +1638,27 @@
       <tech x="3.1" y="5.0">HCNavalGunners</tech>
       <tech x="4.1" y="3.0">HCXPMercsElmeti</tech>
       <tech x="4.1" y="4.0">HCMercsHighlanders</tech>
-      <tech x="5.5" y="3.0">HCMercsHessians</tech>
-      <tech x="4.8" y="1.0">HCXPDanceHall</tech>
-      <tech x="4.8" y="3.0">HCMercsCorsairs</tech>
-      <tech x="4.1" y="5.0">HCMercsHighland</tech>
-      <tech x="4.8" y="5.0">HCMercsMediterranean</tech>
-      <tech x="5.5" y="5.0">HCMercenaryLoyalty</tech>
-      <tech x="5.5" y="6.0">HCXPMercsGreatCannon</tech>
-      <tech x="6.3" y="1.0">HCXPCherokeeAllies1</tech>
-      <tech x="6.3" y="2.0">HCXPCherokeeAllies2</tech>
-      <tech x="6.3" y="4.0">HCXPCherokeeAlliesRepeat</tech>
-      <tech x="6.3" y="5.0">HCMercsGurkhas</tech>
-      <tech x="6.3" y="6.0">HCMercsGurkhas2</tech>
-      <tech x="6.3" y="7.0">HCMercsElephants</tech>
-      <tech x="7.0" y="1.0">HCPrivateers</tech>
-      <tech x="7.0" y="3.0">HCPrivateers2</tech>
-      <tech x="7.0" y="5.0">HCPrivateers3</tech>
+      <tech x="4.8" y="3.0">HCMercsHessians</tech>
+      <tech x="4.1" y="1.0">HCXPDanceHall</tech>
+      <tech x="4.1" y="5.0">HCMercsCorsairs</tech>
+      <tech x="4.8" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="4.8" y="6.0">HCXPMercsGreatCannon</tech>
+      <tech x="5.5" y="1.0">HCXPCherokeeAllies1</tech>
+      <tech x="5.5" y="2.0">HCXPCherokeeAllies2</tech>
+      <tech x="5.5" y="4.0">HCXPCherokeeAlliesRepeat</tech>
+      <tech x="6.3" y="1.0">HCMercsGurkhas</tech>
+      <tech x="6.3" y="2.0">HCMercsGurkhas2</tech>
+      <tech x="6.3" y="4.0">HCMercsGurkhas3Repeat</tech>
+      <tech x="6.3" y="5.0">HCBeiyangArmyBritish</tech>
+      <tech x="6.3" y="6.0">HCGreenStandardArmyBritish</tech>
+      <tech x="6.3" y="7.0">HCIronCapPrincesArmyBritish</tech>
+      <tech x="7.0" y="1.0">HCShipGroveWagonsBritish</tech>
+      <tech x="7.0" y="2.0">SacredFieldBritish</tech>
+      <tech x="7.0" y="3.0">HCMercsCamels</tech>
+      <tech x="7.0" y="4.0">HCMercsElephants</tech>
+      <tech x="2.4" y="1.0">HCPrivateers</tech>
+      <tech x="2.4" y="2.0">HCPrivateers2</tech>
+      <tech x="2.4" y="3.0">HCPrivateers3</tech>
     </obtainabletechs>
     <activetechs/>
     <validunits/>

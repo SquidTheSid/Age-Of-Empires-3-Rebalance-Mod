@@ -22315,6 +22315,8 @@
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='ypVillage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='AutoGatherXP' amount ='1.30' subtype ='WorkRate' unittype ='ypSacredField' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCShipDutchRaidingFleet' type ='Normal'>
@@ -48095,7 +48097,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateJapaneseMasterTraining</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateJapaneseMilitaryRickshaw</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateJapaneseMeijiRestoration</Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypPickConsulateTech</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateJapaneseKoujou</Effect>
@@ -53756,11 +53758,11 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\asians\indians\mansabdar\gurkha_mansabdar_icon_portrait</Icon>
+		<Icon>units\asians\natives\gurkha\gurkha_icon_64</Icon>
 		<RolloverTextID>70684</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='18.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
+			<Effect type ='Data' amount ='19.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkhaJemadar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -53771,21 +53773,181 @@
 	<Tech name ='HCMercsElephants' type ='Normal'>
 		<DBID>9100</DBID>
 		<DisplayNameID>70685</DisplayNameID>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_howda_regimin</Icon>
+		<RolloverTextID>70686</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdah' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypSiegeElephant' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMercFlailiphant' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMahoutMansabdar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdahMansabdar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypSiegeElephantMansabdar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMercFlailiphantMansabdar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>ypDisciplinedMahoutShadow</Effect>
+			<Effect type ='TechStatus' status ='active'>ypDisciplinedHowdahShadow</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredMahout</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredHowdah</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredSiegeElephant</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredFlailElephant</Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlailElephant</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='SacredFieldBritish' type ='Normal'>
+		<DBID>9101</DBID>
+		<DisplayNameID>70688</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\HC_indian_sacred_field_healing_icon_64</Icon>
+		<RolloverTextID>70687</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TextOutput'>70366</Effect>
+			<Effect type ='Data' action ='Heal' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypSacredField</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPSacredFieldWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypSacredCow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypSacredField</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCMercsGurkhas3Repeat' type ='Normal'>
+		<DBID>9102</DBID>
+		<DisplayNameID>70689</DisplayNameID>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\natives\gurkha\gurkha_icon_64</Icon>
+		<RolloverTextID>70690</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedGurkha</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCMercsCamels' type ='Normal'>
+		<DBID>9103</DBID>
+		<DisplayNameID>70691</DisplayNameID>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_sowar_regimin</Icon>
+		<RolloverTextID>70692</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypSowar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypSowarMansabdar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypZamburakMansabdar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypZamburak' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedCamel</Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedCamelGun</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredCamel</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredCamelGun</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCShipGroveWagonsBritish' type ='Normal'>
+		<DBID>9104</DBID>
+		<DisplayNameID>70693</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\shared\wagon\indian_castle_grove_icon_64</Icon>
+		<RolloverTextID>70694</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='YPGroveWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='ypGroveBuilding' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCGreenStandardArmyBritish' type ='Normal'>
+		<DBID>9105</DBID>
+		<DisplayNameID>70695</DisplayNameID>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\chinese\mongolian_army\mongolian_army_icon_64</Icon>
+		<RolloverTextID>70696</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypMeteorHammer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedMeteorHammerShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedChangdaoShadow</Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCBeiyangArmyBritish' type ='Normal'>
+		<DBID>9106</DBID>
+		<DisplayNameID>70697</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_bei_ying_army</Icon>
+		<RolloverTextID>70698</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKeshik' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypSteppeRider' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedSteppeRider</Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedKeshik</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCIronCapPrincesArmyBritish' type ='Normal'>
+		<DBID>9107</DBID>
+		<DisplayNameID>70699</DisplayNameID>
 		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\tech_terror_charge_icon_64</Icon>
-		<RolloverTextID>70686</RolloverTextID>
+		<Icon>ui\home_city\hc_chinese_iron_cap_prince_army</Icon>
+		<RolloverTextID>70708</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdah' relativity ='Absolute'>
+			<Effect type ='Data' amount ='20.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSiegeElephant' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlameThrower</Effect>
+			<Effect type ='TechStatus' status ='active'>ypDisciplinedChangdaoShadow</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredFlameThrower</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredChangdao</Effect>
 		</Effects>
 	</Tech>
+
 
 </TechTree>
