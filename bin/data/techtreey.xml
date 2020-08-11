@@ -53711,8 +53711,6 @@
 
 		</Effects>
 	</Tech>
-<<<<<<< Updated upstream
-=======
 	<Tech name ='HCXPCavalryCombatIroquois' type ='Normal'>
 		<DBID>9097</DBID>
 		<DisplayNameID>43777</DisplayNameID>
@@ -53868,13 +53866,13 @@
 	</Tech>
 	<Tech name ='HCShipGroveWagonsBritish' type ='Normal'>
 		<DBID>9104</DBID>
-		<DisplayNameID>70694</DisplayNameID>
+		<DisplayNameID>70693</DisplayNameID>
 		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\shared\wagon\indian_castle_grove_icon_64</Icon>
-		<RolloverTextID>70693</RolloverTextID>
+		<RolloverTextID>70694</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='YPGroveWagon' relativity ='Absolute'>
@@ -53897,7 +53895,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypMeteorHammer' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedMeteorHammerShadow</Effect>
@@ -53947,5 +53945,4 @@
 	</Tech>
 
 
->>>>>>> Stashed changes
 </TechTree>
