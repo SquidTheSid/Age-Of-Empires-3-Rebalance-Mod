@@ -146,6 +146,23 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>NatMorningWarsFrench</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>NatLacrosseFrench</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChampionIroquoisFrench</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>NatIroquoisLeagueFrench</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyIroquoisFrench</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
+
+
 		</Effects>
 	</Tech>
 	<Tech name ='NativeAztec' type ='Normal'>
@@ -231,11 +248,11 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChampionIroquois</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatIroquoisLeague</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyIroquois</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>NativeTreatyIroquois</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypNativeTradeTreatyIroquois</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypNativeEmbassyEnableShadow</Effect>
 		</Effects>
 	</Tech>
+	
+
 	<Tech name ='Age0Russian' type ='Normal'>
 		<DBID>214</DBID>
 		<Status>UNOBTAINABLE</Status>
@@ -11639,7 +11656,10 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>Colonialize</Effect></Effects>
+			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
+			
+
+		</Effects>
 	</Tech>
 	<Tech name ='VeteranStrelets' type ='Normal'>
 		<DBID>1134</DBID>
@@ -35169,6 +35189,8 @@
 			<Effect type ='SetName' proto ='ypNatSohei' culture ='none' newName ='63623'></Effect>
 			<Effect type ='SetName' proto ='ypNatWarElephant' culture ='none' newName ='61205'></Effect>
 			<Effect type ='SetName' proto ='ypNatChakram' culture ='none' newName ='61206'></Effect>
+			<Effect type ='SetName' proto ='NatMantletFrench' culture ='none' newName ='70708'></Effect>
+			<Effect type ='SetName' proto ='NatMantletFrench' culture ='none' newName ='70709'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCBlockadeNative' type ='Normal'>
@@ -54005,5 +54027,160 @@
 		</Effects>
 	</Tech>
 
+	<Tech name ='FrenchTradingPostTrickle' type ='Normal'>
+		<DBID>9109</DBID>
+		<DisplayNameID>70704</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>70705</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='AutoGather' amount ='0.60' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='InventoryAmount' resource ='XP' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CrateofXP</Target></Effect></Effects>
+	</Tech>
+	<Tech name ='NatLacrosseFrench' type ='Normal'>
+		<DBID>209</DBID>
+		<DisplayNameID>70707</DisplayNameID>
+		<Cost resourcetype ='Wood'>125.0000</Cost>
+		<Cost resourcetype ='Gold'>125.0000</Cost>
+		<ResearchPoints>20.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native_lacrosse\nat_lacrosse</Icon>
+		<RolloverTextID>70706</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractGunpowderTrooper</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='NatIroquoisLeagueFrench' type ='Normal'>
+		<DBID>210</DBID>
+		<DisplayNameID>23615</DisplayNameID>
+		<Cost resourcetype ='Wood'>50.0000</Cost>
+		<Cost resourcetype ='Gold'>50.0000</Cost>
+		<ResearchPoints>10.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native_iroquois_league\nat_iroquois_league</Icon>
+		<RolloverTextID>23614</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus>
+		</Prereqs>
+
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Barracks</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Barracks</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='NatMorningWarsFrench' type ='Normal'>
+		<DBID>211</DBID>
+		<DisplayNameID>23618</DisplayNameID>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native_morning_wars\nat_morning_wars</Icon>
+		<RolloverTextID>26795</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>CheckLandHCGatherPoint</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='-0.90' subtype ='FreeHomeCityUnit' unittype ='NatMantletFrench' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ChampionIroquoisFrench' type ='Normal'>
+		<DBID>213</DBID>
+		<DisplayNameID>29390</DisplayNameID>
+		<Cost resourcetype ='Wood'>500.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\champion_natives\champion_natives</Icon>
+		<RolloverTextID>23624</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>WarriorSocietyIroquoisFrench</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
+			<Effect type ='SetName' proto ='NatTomahawkFrench' culture ='none' newName ='24044'></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
+			<Effect type ='SetName' proto ='NatMantletFrench' culture ='none' newName ='27779'></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='WarriorSocietyIroquoisFrench' type ='Normal'>
+		<DBID>1804</DBID>
+		<DisplayNameID>33368</DisplayNameID>
+		<Cost resourcetype ='Wood'>300.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\warrior_society\warrior_society</Icon>
+		<RolloverTextID>33367</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
+			<Effect type ='SetName' proto ='NatMantletFrench' culture ='none' newName ='36596'></Effect>
+			<Effect type ='SetName' proto ='NatTomahawkFrench' culture ='none' newName ='36597'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='IroquoisSunCeremonyFrench' type ='Normal'>
+		<DBID>3195</DBID>
+		<DisplayNameID>70711</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Sun_Ceremony</Icon>
+		<RolloverTextID>70710</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
+		</Effects>
+	</Tech>
 
 </TechTree>

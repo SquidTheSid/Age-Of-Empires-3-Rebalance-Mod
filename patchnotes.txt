@@ -60,7 +60,16 @@ Mapuche Clubman: (incorporating ESOC's rework with some of my ideas)
 - Train time increased to 35 seconds from 20
 - Build limit reduced to 12 from 15
 - Cost increased to 110F/60W from 85F/15W
-Navajo - range increased to 14 from 12
+Navajo: (ESOC's rework plus dansil)
+- HP reduced to 160 from 200
+- Ranged Armor increased to 20% from 10%
+- Ranged Damage increased to 20 from 11
+- Melee Damage increased to 11 from 20
+- All current multipliers removed
+- 0.75x AbstractVillager damage multiplier added
+- Stealth movement speed multiplier adjusted to 0.7 from 0.5
+- Train time increased to 30 seconds from 20
+- Cost increased to 60F/50W from 60F/40W
 Zapotec Lightning Warrior: (incorporated ESOC's rework)
 - Damage increased to 12 from 11
 - Cav multiplier increased to 2.5x from 2.0, Light Infantry multiplier increased to 2.0 from 1.5x.
@@ -295,11 +304,11 @@ Iro now has access to an Age 4 Cavalry Combat shipment. (helps with their medioc
 
 India:
 
-Agra Fort: A very unbalanced wonder. Obscenely powerful for an age 2 building, yet terrible later on in the game. As a result HP has been nerfed to make it less formidable (i.e. you can defeat it without resorting to grenade/flamethrower spam), and it's more powerful lategame if you delay building it in colonial
-- HP: Reduced to 4000 from 5000; now scales up by 1000 when built each age (5k fortress, 6k industrial, 7k imperial). NOTE: a colonial agra doesn't shadowtech to 7k from 4k. It must be built to transition to imperial for full value.
-- Damage:
-	-- Ranged attack now scales by 25 when built each age (50 fortress, 75 industrial, 100 imperial). NOTE: a colonial agra doesn't shadowtech to 100 damage from 25. It must be built to transition to imperial for full value.
-	-- Anti-Ship attack now scales up to 100/150/225/300 (same rules apply as the ranged attack regarding scaling).
+Agra Fort: A very unbalanced wonder. Obscenely powerful for an age 2 building, yet terrible later on in the game. As a result damage has been nerfed to make it less formidable (letting siege infantry actually have a chance), and it's more powerful lategame if you delay building it in colonial
+- HP: 5000; now scales up by 1000 when built each age, starting from Age IV (6k industrial, 7k imperial). NOTE: a colonial agra doesn't shadowtech to 7k from 5k. It must be built to transition to imperial for full value.
+- Damage: Base damage reduced to 20 from 25. 
+	-- Ranged attack now scales by 30 in fortress age and 25 when built each age thereafter (50 fortress, 75 industrial, 100 imperial). NOTE: a colonial agra doesn't shadowtech to 100 damage from 20. It must be built to transition to imperial for full value.
+	-- Anti-Ship attack now scales up to 80/150/225/300 (same rules apply as the ranged attack regarding scaling).
 - Delhi Gate tech and Red Fort techs now increase attack and HP by 25% in each (as opposed to 50% and 50% each)
 
 Sacred Field: Very underwhelming for India's XP source. Too expensive for what yield it gives.
@@ -395,7 +404,7 @@ Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been tone
 
 France:
 
-Secondary Civ Bonus: All Native Trading Posts generate XP trickles. Has access to the native embassy on any map and can additionally train specific native units from there 
+Secondary Civ Bonus: All Native Trading Posts generate XP trickles. Has access to the native embassy on any map and can train additional native warriors from there 
 
 Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so instant spawning has been removed. Additionally, their base stats have been lowered to prevent the scaling issues. 
 - HP: Reduced to 400 from 500
@@ -463,6 +472,8 @@ Bestieros: 2400 for crossbowmen? Oof.
 8 Cassadore shipment increased to 9
 
 Russia:
+
+Secondary civ bonus: economic buildings now generate resource trickles but are more expensive to construct.
 
 Villager train time reduced to 51 seconds from 53
 
@@ -577,7 +588,6 @@ Canton Trade Shipments:
 
 Germany:
 
-Secondary civ bonus: economic buildings now generate resource trickles but are more expensive to construct.
 
 Politician Changes:
 - Sergeant At Arms Fortress Politician now ships 4 Doppelsoldners instead of 3
