@@ -39770,7 +39770,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
-			<Effect type ='Data' amount ='1.33' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
 			<Effect type ='TextOutput'>69887</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypTradingPostWagon' relativity ='Absolute'>
@@ -46621,11 +46621,17 @@
 			<TechStatus status ='Active'>ypFrontierAgra</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort2</Target></Effect>
 			<Effect type ='SetName' proto ='ypWIAgraFort2' culture ='none' newName ='70075'></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort2</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypWIAgraFort3</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypWIAgraFort4</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypWIAgraFort5</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='ypWIAgraFort2' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='SetName' proto ='ypWIAgraFort5' culture ='none' newName ='70074'></Effect>
@@ -46633,11 +46639,11 @@
 			<Effect type ='SetName' proto ='ypWIAgraFort3' culture ='none' newName ='70072'></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='DamageArea' relativity ='Assign'>
 				<Target type ='ProtoUnit'>AbstractAgraFort</Target></Effect>
-			<Effect type ='Data' action ='AntiShipAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.25' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort3</Target></Effect>
-			<Effect type ='Data' action ='AntiShipAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.25' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort4</Target></Effect>
-			<Effect type ='Data' action ='AntiShipAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='1.25' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort5</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='ypWIAgraFort5' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -46651,11 +46657,11 @@
 				<Target type ='ProtoUnit'>ypWIAgraFort4</Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='DamageArea' relativity ='Assign'>
 				<Target type ='ProtoUnit'>ypWIAgraFort3</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort5</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort4</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort3</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypMercFlailiphant' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypWIAgraFort5</Target></Effect>
@@ -46712,11 +46718,11 @@
 				<Target type ='ProtoUnit'>ypWIAgraFort4</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageArea' relativity ='Assign'>
 				<Target type ='ProtoUnit'>ypWIAgraFort3</Target></Effect>
-			<Effect type ='Data' action ='CannonAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='CannonAttack' amount ='1.25' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort5</Target></Effect>
-			<Effect type ='Data' action ='CannonAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='CannonAttack' amount ='1.25' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort4</Target></Effect>
-			<Effect type ='Data' action ='CannonAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='CannonAttack' amount ='1.25' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypWIAgraFort3</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='ypWIAgraFort5' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -53903,8 +53909,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedMeteorHammerShadow</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedChangdaoShadow</Effect>
+			<Effect type ='TechStatus' status ='active'>ypDisciplinedMeteorHammerShadow</Effect>
+			<Effect type ='TechStatus' status ='active'>ypDisciplinedChangdaoShadow</Effect>
 
 		</Effects>
 	</Tech>
@@ -53935,7 +53941,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_chinese_iron_cap_prince_army</Icon>
-		<RolloverTextID>70708</RolloverTextID>
+		<RolloverTextID>70700</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
@@ -53946,6 +53952,28 @@
 			<Effect type ='TechStatus' status ='active'>ypDisciplinedChangdaoShadow</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHonoredFlameThrower</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHonoredChangdao</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='AsianVillageBritish' type ='Normal'>
+		<DBID>9108</DBID>
+		<DisplayNameID>70701</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_nomadic_settlement</Icon>
+		<RolloverTextID>70702</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='YPVillageWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerAsian' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+
 		</Effects>
 	</Tech>
 
