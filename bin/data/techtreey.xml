@@ -54367,7 +54367,8 @@
 		<RolloverTextID>70721</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' relativity ='BasePercent'>
+			
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
