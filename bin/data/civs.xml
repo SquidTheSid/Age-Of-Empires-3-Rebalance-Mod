@@ -433,7 +433,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <townstartingunit>CrateofCoin</townstartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityrussians.xml</homecityfilename>
     <homecityflagtexture>objects\flags\russians</homecityflagtexture>
@@ -1085,6 +1084,7 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofCoin</townstartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityxpiroquois.xml</homecityfilename>
     <homecityflagtexture>objects\flags\iroquois</homecityflagtexture>
