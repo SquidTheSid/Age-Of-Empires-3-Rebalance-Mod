@@ -55,7 +55,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianMohawk</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianEngineer</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianMusketeerFrench</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalist</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalistFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianMarksman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianQuartermaster</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -23175,7 +23175,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='SettlerWagon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='SetAge'>Age1</Effect>
 		</Effects>
@@ -54373,6 +54373,25 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianNaturalistFrench' type ='Normal'>
+		<DBID>9113</DBID>
+		<DisplayNameID>34148</DisplayNameID>
+		<Cost resourcetype ='Food'>800.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_ii</Icon>
+		<RolloverTextID>70722</RolloverTextID>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age1</Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Coureur' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
