@@ -23418,6 +23418,18 @@
 		<RolloverTextID>42213</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercJaeger</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantJaeger</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBlackRider</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantBlackRider</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercLandsknecht</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantLandsknecht</Target></Effect>
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='MercJaeger' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='MercBlackRider' relativity ='Absolute'>
@@ -23437,6 +23449,18 @@
 		<RolloverTextID>42215</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercHighlander</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantHighlander</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercHackapell</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantHackapell</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercSwissPikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantSwissPikeman</Target></Effect>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='MercHighlander' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='MercSwissPikeman' relativity ='Absolute'>
@@ -23456,6 +23480,18 @@
 		<RolloverTextID>42217</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercMameluke</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantMameluke</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercStradiot</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantStradiot</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBarbaryCorsair</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantBarbaryCorsair</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='MercMameluke' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='MercBarbaryCorsair' relativity ='Absolute'>
