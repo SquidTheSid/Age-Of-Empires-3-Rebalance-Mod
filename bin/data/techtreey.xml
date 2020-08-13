@@ -433,15 +433,10 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Mill</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='1.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Market</Target></Effect>
-			<Effect type ='TechStatus' status ='active'>RussianPlantationTrickle</Effect>
-			<Effect type ='TechStatus' status ='active'>RussianMillTrickle</Effect>
-			<Effect type ='TechStatus' status ='active'>RussianMarketTrickle</Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0British' type ='Normal'>
@@ -3911,8 +3906,14 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImpImmigrantsNative</Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.75' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='1.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>IroquoisPlantationTrickle</Effect>
-			<Effect type ='TechStatus' status ='active'>IroquoisMillTrickle</Effect>
+			<Effect type ='TechStatus' status ='active'>IroquoisFarmTrickle</Effect>
 			<Effect type ='TechStatus' status ='active'>IroquoisMarketTrickle</Effect>
 
 		</Effects>
@@ -11776,6 +11777,11 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>
+			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='FortFrontier' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+
 	</Tech>
 	<Tech name ='ColonializeBritish' type ='Normal'>
 		<DBID>1168</DBID>
@@ -34296,6 +34302,8 @@
 		<RolloverTextID>47083</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='TextOutput'>47086</Effect>
@@ -34938,6 +34946,8 @@
 			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 		</Effects>
 	</Tech>
@@ -54235,6 +54245,22 @@
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCCavalryArcherAntiArtilleryDamage' type ='Normal'>
+		<DBID>9109</DBID>
+		<DisplayNameID>70718</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Irregulars</Icon>
+		<RolloverTextID>70719</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
+		</Effects>
 	</Tech>
 
 </TechTree>
