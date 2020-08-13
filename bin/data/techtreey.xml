@@ -11776,12 +11776,7 @@
 		<Icon>ui\post_game\time_line_age_4</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>
-			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='FortFrontier' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-
+			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>	
 	</Tech>
 	<Tech name ='ColonializeBritish' type ='Normal'>
 		<DBID>1168</DBID>
@@ -11915,7 +11910,10 @@
 		<Icon>ui\post_game\time_line_age_4</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>
+			<Effect type ='TechStatus' status ='active'>Industrialize</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Saloon</Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='IndustrializePortuguese' type ='Normal'>
 		<DBID>1179</DBID>
@@ -12946,6 +12944,8 @@
 			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionSanMartin</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionBolivar</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Saloon</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperializeOttoman' type ='Normal'>
@@ -14915,6 +14915,11 @@
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Oprichnik</Target></Effect>
+			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='FortFrontier' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+
 
 		</Effects>
 	</Tech>
@@ -19299,6 +19304,10 @@
 		<RolloverTextID>36106</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercLandsknecht</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantLandsknecht</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='MercLandsknecht' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -22899,9 +22908,9 @@
 		<RolloverTextID>37522</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -23341,6 +23350,10 @@
 		<RolloverTextID>42205</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercBlackRider</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantBlackRider</Target></Effect>
 			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='MercBlackRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -23355,6 +23368,10 @@
 		<RolloverTextID>42207</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercLandsknecht</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantLandsknecht</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='MercLandsknecht' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -23369,6 +23386,10 @@
 		<RolloverTextID>42209</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercJaeger</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantJaeger</Target></Effect>
 			<Effect type ='Data' amount ='13.00' subtype ='FreeHomeCityUnit' unittype ='MercJaeger' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -25091,7 +25112,7 @@
 		<Icon>ui\units\iro_musket_rider_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='xpMusketRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpMusketRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipLightCannon1' type ='Normal'>
@@ -32422,6 +32443,10 @@
 		<RolloverTextID>46545</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercFusilier</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantFusilier</Target></Effect>
 			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='MercFusilier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -32436,6 +32461,10 @@
 		<RolloverTextID>46547</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercElmeti</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantElmeti</Target></Effect>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='MercElmeti' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -54231,7 +54260,7 @@
 		<Effects>
 			<Effect type ='Data' action ='AutoGather' amount ='1.00' subtype ='WorkRate' unittype ='Food' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
+			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='IroquoisPlantationTrickle' type ='Normal'>
@@ -54261,6 +54290,44 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='HCMercsHackapells2German' type ='Normal'>
+		<DBID>2388</DBID>
+		<DisplayNameID>70720</DisplayNameID>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\mercenaries\landsknecht\landsknect_icon_64x64</Icon>
+		<RolloverTextID>70721</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercHackapell</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantHackapell</Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='MercHackapell' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+
+	</Tech>
+<Tech name ='HCMercsSwissPikemen2German' type ='Normal'>
+		<DBID>2388</DBID>
+		<DisplayNameID>70720</DisplayNameID>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\mercenaries\landsknecht\landsknect_icon_64x64</Icon>
+		<RolloverTextID>70721</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercSwissPikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRepentantSwissPikeman</Target></Effect>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='MercHackapell' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+
 	</Tech>
 
 </TechTree>
