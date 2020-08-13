@@ -183,7 +183,8 @@ Skull Knight - The Skull Knight is now a mini-cuirassier and is classified as li
 - Siege: Reduced to 20 damage from 72; now affected by Scorched Earth shipment
 - Infantry and Heavy Infantry unit tags removed, Light Infantry and CoyoteMan unit tags added
 
-Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down. (Incorporating Garja's changes)
+Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down in general, but are better vs artillery. (Incorporating Garja's changes)
+- 2x AbstractArtillery damage multiplier added.
 - Armor: Reduced from 30% ranged to 20% 
 - Speed: Increased to 6.25 from 6.00
 
@@ -278,6 +279,9 @@ Iroquois:
 
 
 Secondary civ bonus: economic buildings now generate resource trickles but are more expensive to construct.
+- Market cost increased to 175 from 100; built limit set to 5; generates 0.5 Wood/s
+- Plantation cost increased to 625 from 500; build limit set to 5; generates 0.75 Gold/s
+- Farm cost increased to 500 from 400; build limit set to 6; generates 1.0 Food/s
 
 Crates of 200 F/W/C increased to 300 Food and 300 Wood.
 
@@ -298,6 +302,9 @@ Mantlet: They're fantastic units, but their slow movement speed really hampers t
 
 Ram: They're niche units, and the slow movement speed doesn't help. Normalizing it to 4 alongside mantlets makes Iro's army far more mobile
 - Speed: Increased to 4.0 from 3.5
+
+Musket Rider: Excellent units, but some awful shipments. I've buffed the Age IV to not be completely trash
+- 6 Musket Rider shipment increased to 7
 
 Tuscarora Support now ships 2 Warrior priests instead of medicine men
 
@@ -407,7 +414,7 @@ Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been tone
 
 France:
 
-Secondary Civ Bonus: All Native Trading Posts generate XP trickles. Has access to the native embassy on any map and can train additional native warriors from there 
+Secondary Civ Bonus: All Native Trading Posts generate 0.6/s XP trickles. Has access to the native embassy on any map and can train additional native warriors and research native techs at the church
 
 Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so instant spawning has been removed. Additionally, their base stats have been lowered to prevent the scaling issues. 
 - HP: Reduced to 400 from 500
@@ -476,7 +483,7 @@ Bestieros: 2400 for crossbowmen? Oof.
 
 Russia:
 
-
+New civ bonus: Can now train Grenadiers in blockhouses. Cavalry Archers can be trained in age 2, and Musketeers build Forts by default in Fortress Age. 
 Villager train time reduced to 51 seconds from 53
 
 Cavalry Marshall Politician now additionally upgrades Cossacks to Veteran
@@ -492,6 +499,8 @@ Oprichnik Siege damage reduced to 60 from 75, but now shadowtechs by 20% in fort
 
 Shipments:
 - Strelet Horde now additionally increases Strelet range by 2. 
+- Kagul Tactics added: Now increases Cavalry Archer's damage by 15% and their artillery damage multiplier by 50% (3.0)
+- National Redoubt now decreases Fort cost and build points by 10% in addition to increasing build limit by 1.
 
 Spain:
 
@@ -592,7 +601,11 @@ Canton Trade Shipments:
 
 Germany:
 
-New civ bonus: Now has early access to mercenaries. Mercenary shipments enable that unit at the saloon. 
+New civ bonus: Now has early access to mercenaries. Mercenary shipments enable that respective unit at the saloon. 
+
+Can build an additional saloon in the industrial and imperial ages (for a total of 3)
+
+Settler Wagon huntable multiplier increased to 6.0 from 4.0
 
 Politician Changes:
 - Sergeant At Arms Fortress Politician now ships 4 Doppelsoldners instead of 3
@@ -600,6 +613,16 @@ Politician Changes:
 
 Shipments:
 - 8/7 skirmisher + 3 uhlans reduced to 7/6 skirmishers + 3 uhlans
+- Colonial 3 Hackapell for 400 gold shipment added. 
+- Colonial 6 Swiss Pikemen for 400 gold shipment added. 
+- Colonial 8 Cree and Industrial 22 Cree mercenary shipments added.
+- Ranged infantry hitpoints replaced with Skirmisher combat (+15% HP/Damage)
+- Solingen Steel speed reduction decreased to 15% from 33%; HP/Damage bonuses reduced to 30% from 50%
+- Hand Infantry hitpoints/attack/combat cards now affect AbstractHandInfantry 
 
 War Wagon: Very awkward goon units. They help them out, they have slightly faster speed now, so Spanish Riding school lets them outrun hussars
 - Speed: increased to 6.25 from 6.00
+
+Uhlans: Very controversial units due to their breakpoints. Due to the increased strength of colonial germany, I've reduced their HP, but increased their industrial combat card buff to compensate.
+- HP: Reduced to 185 from 190
+- Lipizzaner Cavalry buff increased to +25% HP/Damage from +15%

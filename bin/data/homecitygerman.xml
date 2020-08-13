@@ -426,7 +426,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCRangedInfantryHitpointsGerman</name>
+      <name>HCRangedInfantryCombatGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipCrossbowmen3German</prereqtech>

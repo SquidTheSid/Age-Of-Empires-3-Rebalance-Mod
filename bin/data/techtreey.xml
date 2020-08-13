@@ -17764,9 +17764,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractHandInfanry</Target></Effect>
 			<Effect type ='TextOutput'>41852</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -17783,9 +17781,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractHandInfantry</Target></Effect>
 			<Effect type ='TextOutput'>41853</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -17802,13 +17798,9 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractHandInfantry</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractHandInfantry</Target></Effect>
 			<Effect type ='TextOutput'>41850</Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -22908,9 +22900,9 @@
 		<RolloverTextID>37522</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -33165,12 +33157,12 @@
 		<RolloverTextID>46892</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
 			<Effect type ='TextOutput'>46895</Effect>
-			<Effect type ='Data' amount ='0.67' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -54328,7 +54320,7 @@
 		</Effects>
 	</Tech>
 	<Tech name ='HCMercsHackapells2German' type ='Normal'>
-		<DBID>2388</DBID>
+		<DBID>9110</DBID>
 		<DisplayNameID>70720</DisplayNameID>
 		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -54346,8 +54338,8 @@
 				<Target type ='Player'></Target></Effect></Effects>
 
 	</Tech>
-<Tech name ='HCMercsSwissPikemen2German' type ='Normal'>
-		<DBID>2388</DBID>
+	<Tech name ='HCMercsSwissPikemen2German' type ='Normal'>
+		<DBID>9111</DBID>
 		<DisplayNameID>70720</DisplayNameID>
 		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -54364,6 +54356,24 @@
 			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='MercHackapell' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 
+	</Tech>
+	<Tech name ='HCRangedInfantryCombatGerman' type ='Normal'>
+		<DBID>9112</DBID>
+		<DisplayNameID>70720</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_infantry_combat\hc_infantry_combat</Icon>
+		<RolloverTextID>70721</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 
 </TechTree>
