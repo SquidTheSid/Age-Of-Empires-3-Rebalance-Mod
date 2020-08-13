@@ -54334,7 +54334,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\mercenaries\landsknecht\landsknect_icon_64x64</Icon>
+		<Icon>units\mercenaries\hackapell\hackapell_icon</Icon>
 		<RolloverTextID>70721</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -54353,7 +54353,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\mercenaries\landsknecht\landsknect_icon_64x64</Icon>
+		<Icon>units\mercenaries\swiss_pikeman\swiss_pikeman_icon</Icon>
 		<RolloverTextID>70721</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
