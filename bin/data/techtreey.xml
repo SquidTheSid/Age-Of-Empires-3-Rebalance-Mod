@@ -432,6 +432,15 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='1.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>RussianPlantationTrickle</Effect>
+			<Effect type ='TechStatus' status ='active'>RussianMillTrickle</Effect>
+			<Effect type ='TechStatus' status ='active'>RussianMarketTrickle</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0British' type ='Normal'>
@@ -54181,6 +54190,43 @@
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='RussianMarketTrickle' type ='Normal'>
+		<DBID>5271</DBID>
+		<DisplayNameID>70712</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>70513</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='AutoGather' amount ='0.50' subtype ='WorkRate' unittype ='Wood' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Market</Target></Effect></Effects>
+
+	</Tech>
+	<Tech name ='RussianMillTrickle' type ='Normal'>
+		<DBID>5271</DBID>
+		<DisplayNameID>70714</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>70715</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='AutoGather' amount ='0.50' subtype ='WorkRate' unittype ='Wood' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect></Effects>
+	</Tech>
+	<Tech name ='RussianPlantationTrickle' type ='Normal'>
+		<DBID>5271</DBID>
+		<DisplayNameID>70716</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>70717</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='AutoGather' amount ='0.75' subtype ='WorkRate' unittype ='Gold' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect></Effects>
 	</Tech>
 
 </TechTree>

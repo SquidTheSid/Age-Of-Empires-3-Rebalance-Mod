@@ -10,7 +10,7 @@ Incoporated ESOC's fixed starting crates:
 - France: 400 Food + 200 Wood
 - Portuguese: 300 Food + 200 Wood
 - Dutch: 400 coin + 200 wood
-- Russia: 600 Food + 200 wood
+- Russia: 600 Food + 200 wood + 100 coin
 - Germany: 300 Food + 100 Wood + 100 Coin
 - Ottoman: 100 Food + 400 Wood
 - Iroquois: 500 Food + 100 wood
