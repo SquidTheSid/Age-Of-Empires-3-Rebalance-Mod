@@ -10,10 +10,10 @@ Incoporated ESOC's fixed starting crates:
 - France: 400 Food + 200 Wood
 - Portuguese: 300 Food + 200 Wood
 - Dutch: 400 coin + 200 wood
-- Russia: 600 Food + 200 wood + 100 coin
+- Russia: 600 Food + 200 wood
 - Germany: 300 Food + 100 Wood + 100 Coin
 - Ottoman: 100 Food + 400 Wood
-- Iroquois: 500 Food + 100 wood
+- Iroquois: 500 Food + 100 wood + 100 Coin
 - Sioux: 400 Food + 100 Wood
 - Aztec: 400 Food + 300 Wood (might reduce to 200 wood, feels a bit strong)
 - Japan: 500 Food + 300 Wood
@@ -276,6 +276,9 @@ Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a s
 
 Iroquois:
 
+
+Secondary civ bonus: economic buildings now generate resource trickles but are more expensive to construct.
+
 Crates of 200 F/W/C increased to 300 Food and 300 Wood.
 
 Politician Reworks/Changes: Incorporating some of smackdown's buffs
@@ -473,7 +476,6 @@ Bestieros: 2400 for crossbowmen? Oof.
 
 Russia:
 
-Secondary civ bonus: economic buildings now generate resource trickles but are more expensive to construct.
 
 Villager train time reduced to 51 seconds from 53
 
@@ -485,6 +487,8 @@ Strelets: I've fixed a long-standing bug. In the code, Strelets got a 25% discou
 Cost: Wood cost reduced to 75 from 100
 
 Halberdier HP/Damage penalties reduced to 15% from 20%
+
+Oprichnik Siege damage reduced to 60 from 75, but now shadowtechs by 20% in fortress. 
 
 Shipments:
 - Strelet Horde now additionally increases Strelet range by 2. 
@@ -588,6 +592,7 @@ Canton Trade Shipments:
 
 Germany:
 
+New civ bonus: Now has early access to mercenaries. Mercenary shipments enable that unit at the saloon. 
 
 Politician Changes:
 - Sergeant At Arms Fortress Politician now ships 4 Doppelsoldners instead of 3

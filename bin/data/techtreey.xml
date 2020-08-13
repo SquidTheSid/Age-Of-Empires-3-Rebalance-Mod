@@ -157,6 +157,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChampionIroquoisFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatIroquoisLeagueFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyIroquoisFrench</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>IroquoisSunCeremonyFrench</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
@@ -3910,6 +3911,10 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImpImmigrantsNative</Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.75' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>IroquoisPlantationTrickle</Effect>
+			<Effect type ='TechStatus' status ='active'>IroquoisMillTrickle</Effect>
+			<Effect type ='TechStatus' status ='active'>IroquoisMarketTrickle</Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialXPIroquois' type ='Normal'>
@@ -14902,6 +14907,9 @@
 			<Effect type ='TechStatus' status ='active'>Fortressize</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Oprichnik</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeSPCAct1' type ='Normal'>
@@ -29598,7 +29606,7 @@
 			<Effect type ='SetAge'>Age2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman4</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -29643,7 +29651,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -54191,7 +54199,7 @@
 				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='RussianMarketTrickle' type ='Normal'>
+	<Tech name ='IroquoisMarketTrickle' type ='Normal'>
 		<DBID>5271</DBID>
 		<DisplayNameID>70712</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
@@ -54204,19 +54212,19 @@
 				<Target type ='ProtoUnit'>Market</Target></Effect></Effects>
 
 	</Tech>
-	<Tech name ='RussianMillTrickle' type ='Normal'>
+	<Tech name ='IroquoisFarmTrickle' type ='Normal'>
 		<DBID>5271</DBID>
 		<DisplayNameID>70714</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
 		<RolloverTextID>70715</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='0.50' subtype ='WorkRate' unittype ='Wood' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='Data' action ='AutoGather' amount ='1.00' subtype ='WorkRate' unittype ='Food' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
-				<Target type ='ProtoUnit'>Mill</Target></Effect></Effects>
+				<Target type ='ProtoUnit'>Farm</Target></Effect></Effects>
 	</Tech>
-	<Tech name ='RussianPlantationTrickle' type ='Normal'>
+	<Tech name ='IroquoisPlantationTrickle' type ='Normal'>
 		<DBID>5271</DBID>
 		<DisplayNameID>70716</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
