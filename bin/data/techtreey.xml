@@ -34359,13 +34359,13 @@
 		<RolloverTextID>47083</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
+			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='TextOutput'>47086</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='FortFrontier' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 		</Effects>
