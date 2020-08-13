@@ -1421,7 +1421,7 @@
     <obtainabletechs>
       <tech x="0.0" y="2.0">HCShipCrossbowmen2German</tech>
       <tech x="0.0" y="3.0">HCShipCrossbowmen3German</tech>
-      <tech x="0.0" y="4.0">HCRangedInfantryHitpointsGerman</tech>
+      <tech x="0.0" y="4.0">HCRangedInfantryCombatGerman</tech>
       <tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
       <tech x="1.0" y="2.0">HCShipSkirmishers2German</tech>
       <tech x="1.0" y="3.0">HCShipSkirmishers3German</tech>
