@@ -13944,7 +13944,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='400.00' subtype ='Resource' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='Resource' resource ='Ships' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='SetAge'>Age1</Effect>
 		</Effects>
@@ -54363,14 +54363,14 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_infantry_combat\hc_infantry_combat</Icon>
+		<Icon>ui\techs\hc_gunpowder_infantry_combat\hc_gunpowder_infantry_combat</Icon>
 		<RolloverTextID>70721</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
