@@ -23382,7 +23382,7 @@
 				<Target type ='ProtoUnit'>MercJaeger</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypRepentantJaeger</Target></Effect>
-			<Effect type ='Data' amount ='13.00' subtype ='FreeHomeCityUnit' unittype ='MercJaeger' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='MercJaeger' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCMercsHackapellsGerman' type ='Normal'>

@@ -613,10 +613,11 @@ Politician Changes:
 
 Shipments:
 - 8/7 skirmisher + 3 uhlans reduced to 7/6 skirmishers + 3 uhlans
+- 13 Jaeger shipment reduced to 12
 - Colonial 3 Hackapell for 400 gold shipment added. 
 - Colonial 6 Swiss Pikemen for 400 gold shipment added. 
 - Colonial 8 Cree and Industrial 22 Cree mercenary shipments added.
-- Ranged infantry hitpoints replaced with Skirmisher combat (+15% HP/Damage)
+- Ranged infantry hitpoints replaced with Range Infantry combat (+15% HP/Damage), now affects AbstractRangedInfantry
 - Solingen Steel speed reduction decreased to 15% from 33%; HP/Damage bonuses reduced to 30% from 50%
 - Hand Infantry hitpoints/attack/combat cards now affect AbstractHandInfantry 
 
