@@ -88,6 +88,7 @@ Jaeger - Ranged armor reduced to 30% from 40%
 Li'l Bombard - Cost reduced to 900 gold from 1200; Limber speed increased to 3.5 from 2.5
 Arsonist - LOS increased to 20 from 15; range increased to 14 from 12; HP increased to 300 from 250; damage cap raised to 56 from 48
 Ninja - population cost reduced from 4 to 2 
+Blink Monk - ROF increased to 1.5 from 2.0; villager multiplier reduced to 2.0 from 2.5x 
 
 
 Asian:
@@ -484,6 +485,7 @@ Bestieros: 2400 for crossbowmen? Oof.
 Russia:
 
 New civ bonus: Can now train Grenadiers in blockhouses. Cavalry Archers can be trained in age 2, and Musketeers build Forts by default in Fortress Age. 
+
 Villager train time reduced to 51 seconds from 53
 
 Cavalry Marshall Politician now additionally upgrades Cossacks to Veteran
@@ -500,7 +502,8 @@ Oprichnik Siege damage reduced to 60 from 75, but now shadowtechs by 20% in fort
 Shipments:
 - Strelet Horde now additionally increases Strelet range by 2. 
 - Kagul Tactics added: Now increases Cavalry Archer's damage by 15% and their artillery damage multiplier by 50% (3.0)
-- National Redoubt now decreases Fort cost and build points by 10% in addition to increasing build limit by 1.
+- National Redoubt now decreases Fort cost and build points by 15%.
+- Palace Grenadiers added: Increases Grenadier HP/Damage by 20% and gives them a 1.5x multiplier vs Heavy Infantry
 
 Spain:
 
@@ -539,6 +542,7 @@ Shipments:
 - Tulip Speculation trickle buff increased to +20% from 15%
 - Military Reforms now boosts Halberdier speed by 10% (down from 20%) and applies a 0.8x Infantry damage penalty (down from 0.75x)
 - Dutch East India company shipment cost decrease improved to 30% from 15%
+- Infantry combat cards now affect AbstractInfantry.
 
 Ottoman:
 
@@ -617,7 +621,7 @@ Shipments:
 - Colonial 3 Hackapell for 400 gold shipment added. 
 - Colonial 6 Swiss Pikemen for 400 gold shipment added. 
 - Colonial 8 Cree and Industrial 22 Cree mercenary shipments added.
-- Ranged infantry hitpoints replaced with Range Infantry combat (+15% HP/Damage), now affects AbstractRangedInfantry
+- Ranged infantry hitpoints replaced with Skirmisher combat (+15% HP/Damage, adds a 0.5x bonus versus light cavalry)
 - Solingen Steel speed reduction decreased to 15% from 33%; HP/Damage bonuses reduced to 30% from 50%
 - Hand Infantry hitpoints/attack/combat cards now affect AbstractHandInfantry 
 

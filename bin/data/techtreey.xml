@@ -19375,11 +19375,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 			<Effect type ='TextOutput'>41864</Effect>
 		</Effects>
 	</Tech>
@@ -19410,17 +19406,9 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 			<Effect type ='TextOutput'>41863</Effect>
 		</Effects>
 	</Tech>
@@ -34371,8 +34359,6 @@
 			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='TextOutput'>47086</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipSpiesTeam' type ='Normal'>
@@ -37573,6 +37559,11 @@
 				<Target type ='ProtoUnit'>ypMonkDisciple</Target></Effect>
 			<Effect type ='Data' action ='RoundhouseAttack' amount ='225.00' subtype ='Damage' relativity ='Assign'>
 				<Target type ='ProtoUnit'>AbstractChineseMonk</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='ypFortressizeIndians' type ='Normal'>
@@ -37593,6 +37584,10 @@
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedUrumi</Effect>
 			<Effect type ='Data' action ='sweepDamage' amount ='11.00' subtype ='Damage' relativity ='Assign'>
 				<Target type ='ProtoUnit'>AbstractIndianMonk</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypFortressizeJapanese' type ='Normal'>
@@ -54374,9 +54369,13 @@
 		<Effects>
 			
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractLightCavalry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -54398,6 +54397,24 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCGrenadierCombatRussian' type ='Normal'>
+		<DBID>9114</DBID>
+		<DisplayNameID>70724</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_ottoman_artillery_division\hc_ottoman_artillery_division</Icon>
+		<RolloverTextID>70723</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 		</Effects>
 	</Tech>
 
