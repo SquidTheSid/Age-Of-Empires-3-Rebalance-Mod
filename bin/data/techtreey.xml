@@ -54340,31 +54340,31 @@
 	</Tech>
 	<Tech name ='HCMercsSwissPikemen2German' type ='Normal'>
 		<DBID>9111</DBID>
-		<DisplayNameID>70720</DisplayNameID>
+		<DisplayNameID>70722</DisplayNameID>
 		<Cost resourcetype ='Gold'>400.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\mercenaries\swiss_pikeman\swiss_pikeman_icon</Icon>
-		<RolloverTextID>70721</RolloverTextID>
+		<RolloverTextID>70723</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>MercSwissPikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypRepentantSwissPikeman</Target></Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='MercHackapell' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='MercSwissPikeman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 
 	</Tech>
 	<Tech name ='HCRangedInfantryCombatGerman' type ='Normal'>
 		<DBID>9112</DBID>
-		<DisplayNameID>70720</DisplayNameID>
+		<DisplayNameID>70724</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_gunpowder_infantry_combat\hc_gunpowder_infantry_combat</Icon>
-		<RolloverTextID>70721</RolloverTextID>
+		<RolloverTextID>70725</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			
@@ -54387,7 +54387,7 @@
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
-		<RolloverTextID>70722</RolloverTextID>
+		<RolloverTextID>70726</RolloverTextID>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
@@ -54401,12 +54401,12 @@
 	</Tech>
 	<Tech name ='HCGrenadierCombatRussian' type ='Normal'>
 		<DBID>9114</DBID>
-		<DisplayNameID>70724</DisplayNameID>
+		<DisplayNameID>70728</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_ottoman_artillery_division\hc_ottoman_artillery_division</Icon>
-		<RolloverTextID>70723</RolloverTextID>
+		<RolloverTextID>70727</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
