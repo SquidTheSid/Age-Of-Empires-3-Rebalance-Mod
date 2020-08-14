@@ -558,6 +558,14 @@
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
+   <card>
+      <name>HCGrenadierCombatRussian</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipGrenadiers4</prereqtech>
+      <age>3</age>
+    </card>
+
     <card>
       <name>HCShipFalconets1</name>
       <maxcount>1</maxcount>
@@ -1421,6 +1429,7 @@
       <tech x="6.0" y="2.0">HCShipGrenadiers2</tech>
       <tech x="6.0" y="3.0">HCShipGrenadiers3</tech>
       <tech x="6.0" y="5.0">HCShipGrenadiers4</tech>
+      <tech x="6.0" y="6.0">HCGrenadierCombatRussian</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
       <tech x="6.7" y="3.0">HCShipFalconets3</tech>
