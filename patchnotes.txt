@@ -27,6 +27,7 @@ Incoporated ESOC's fixed starting crates:
 - Wall HP reduced to 2000 from 3000
 - Town Center wood cost reduced to 500 from 600 (ESOC); plantation cost reduced to 500 from 800
 - Ranching shipments now increase livestock gather fatten rate by 25%
+- Land Grab shipment cost reduction improved to 60% from 40%
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
@@ -106,7 +107,7 @@ European:
 - Mameluke shipment reduced to 4 units from 5; cost reduced to 800 gold from 1000
 - Bayonet Arsenal tech cost reduced to 150 Wood/Coin from 400 Wood/Coin
 - Advanced Arsenal shipment now affects culverins and horse artillery
-- Land Grab shipment cost reduction improved to 60% from 40%
+- 4 Grenadier shipment moved to colonial. 5 Grenadier shipment increased to 6, and 7 grenadier shipment increased to 8
 
 Colonial Politician Reworks/Changes: Based on Smackdown's ideas, lesser used politicians have been buffed to be more competitive.
 - Naturalist: Additionally ships 3 settlers. 
