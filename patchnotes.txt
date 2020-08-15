@@ -162,7 +162,7 @@ Aztec can now build a single Nobles' Hut in colonial age (but it cannot train an
 Warrior Priest - no longer costs population (gives more flexibility for Aztec's lategame army) 
 
 Politician Changes:
-- Shaman: instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1/2 in Colonial and Fortress ages. Industrial and Imperial ages additionally provide +5/10% gather rates to fire pits. 
+- Shaman: instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1 in Colonial and Fortress ages and 2 in Industrial and Imperial ages (additionally provide +5/10% gather rates to fire pits as well). 
 - Chief: Now additionally provides 4/7/10/15 Pet Janey Jaguars
 - Warrior: Skull Knights additionally train 15/25/40% faster
 - Wise Woman: (incorporated smackdown's colonial/fortress changes and the free llama)
@@ -172,7 +172,7 @@ Politician Changes:
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
-- Siege: Lowered to 30 Siege Damage from 36
+- Siege: Lowered to 24 Siege Damage from 36
 - Armor: Changed from 10% melee to 20% ranged
 - 0.75x multiplier vs Cavalry and CoyoteMan added (with a further 0.75x vs light infantry), 2.0x light cavalry multiplier/xpEagleKnight multipliers added
 - Heavy infantry unit tag removed
@@ -194,7 +194,8 @@ Arrow Knights - Very underwhelming as anti-artillery and anti-building units, as
 - HP: Increased to 160 from 150
 - Artillery Damage multiplier increased to 8x from 5x
 - Movement Speed: Increased from 3.75 to 4 
-- 6 Arrow knight and 6 Arrow knight INFINITE shipments now provide 7 instead.
+- Siege: Increased to 50 from 36
+- Cost: Increased to 70F and 100G from 50F and 75G. 
 
 Puma Spearmen - Incorporating standardized pikeman changes.
 - Melee range increased to 1.0
