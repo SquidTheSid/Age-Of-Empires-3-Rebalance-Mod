@@ -1526,7 +1526,7 @@
       <tech x="4.5" y="1.0">HCFurrierPortuguese</tech>
       <tech x="4.5" y="3.0">HCSpiceTradePortuguese</tech>
       <tech x="4.5" y="5.0">HCMedicinePortuguese</tech>
-      <tech x="4.5" y="7.0">HCXPEconomicTheory</tech>
+      <tech x="4.5" y="7.0">HCXPEconomicTheoryPortuguese</tech>
       <tech x="5.4" y="1.0">HCRumDistilleryPortuguese</tech>
       <tech x="5.4" y="2.0">HCCigarRollerPortuguese</tech>
       <tech x="5.4" y="3.0">HCTextileMillsPortuguese</tech>
