@@ -568,7 +568,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -577,7 +577,7 @@
       <level>0</level>
       <prereqtech>HCXPShipArrowKnights1</prereqtech>
       <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
     </card>
     <card>
       <name>HCXPShipSkullKnights1</name>
