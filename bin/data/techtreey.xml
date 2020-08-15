@@ -1559,6 +1559,8 @@
 			<Effect type ='TechStatus' status ='active'>ypNativeEmbassyEnabler</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
+			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='NativeMaya' type ='Normal'>
@@ -3922,6 +3924,8 @@
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='1.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Market</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>IroquoisPlantationTrickle</Effect>
 			<Effect type ='TechStatus' status ='active'>IroquoisFarmTrickle</Effect>
 			<Effect type ='TechStatus' status ='active'>IroquoisMarketTrickle</Effect>
@@ -4476,6 +4480,8 @@
 				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
 			<Effect type ='Data' amount ='0.10' subtype ='DamageBonus' unittype ='Building' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Guardian</Target></Effect>
+			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0XPSPC' type ='Normal'>
@@ -5522,6 +5528,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
+			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypNativeJesuit' type ='Normal'>
@@ -11643,6 +11651,8 @@
 				<Target type ='ProtoUnit'>ypWarJunk</Target></Effect>
 			<Effect type ='Data' action ='BroadsideAttack' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypWarJunk</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeRussian' type ='Normal'>
@@ -15168,6 +15178,10 @@
 			<Effect type ='TechStatus' status ='obtainable'>PaperCartridge</Effect>
 			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Arsenal</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypArsenalWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypArsenalWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>37236</Effect>
 		</Effects>
 	</Tech>
@@ -22271,7 +22285,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\naval\frigate\frigate_icon_64x64</Icon>
+		<Icon>units\naval\galley\galley_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Galley' relativity ='Absolute'>
@@ -27512,9 +27526,6 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpArrowKnight</Target></Effect>
-			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpArrowKnight</Target></Effect>
-
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPTempleTlaloc' type ='Normal'>
@@ -30366,6 +30377,11 @@
 				<Target type ='ProtoUnit'>NatCheyenneRider</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractCavalry' allactions ='1' relativity ='Assign'>
 				<Target type ='ProtoUnit'>NatMercCheyenneRider</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractLightInfantry' allactions ='1' relativity ='Assign'>
+				<Target type ='ProtoUnit'>NatCheyenneRider</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractLightInfantry' allactions ='1' relativity ='Assign'>
+				<Target type ='ProtoUnit'>NatMercCheyenneRider</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='NatXPApacheEndurance' type ='Normal'>
@@ -34151,13 +34167,13 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47197</Effect>
-			<Effect type ='Data' action ='BroadsideAttack' amount ='5.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='BroadsideAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
-			<Effect type ='Data' action ='BuildingAttack' amount ='5.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='BuildingAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
-			<Effect type ='Data' action ='RangedAttack' amount ='5.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='RangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
@@ -34411,17 +34427,8 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47096</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='SaloonPirate' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Galleon</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Galleon</Target></Effect>
-			<Effect type ='SetName' proto ='SaloonPirate' culture ='none' newName ='49010'></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>SaloonPirate</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Saloon</Target></Effect>
+			<Effect type ='Data' amount ='3.50' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipRocketsRepeat' type ='Normal'>
@@ -35474,7 +35481,6 @@
 		<Icon>ui\techs\asians\disciplined_infantry</Icon>
 		<RolloverTextID>60435</RolloverTextID>
 		<Flag>Shadow</Flag>
-		<Flag>TeamTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -38054,7 +38060,7 @@
 	<Tech name ='YPHCShipUrumiTeam' type ='Normal'>
 		<DBID>3898</DBID>
 		<DisplayNameID>61484</DisplayNameID>
-		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Food'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -38062,7 +38068,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypUrumi' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypUrumi' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>70304</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedUrumi</Effect>
@@ -54457,8 +54463,8 @@
 	<Tech name ='NatLakotaFuryFrench' type ='Normal'>
 		<DBID>3200</DBID>
 		<DisplayNameID>70730</DisplayNameID>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<Cost resourcetype ='Wood'>350.0000</Cost>
+		<Cost resourcetype ='Gold'>350.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\fury</Icon>
@@ -54466,7 +54472,9 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNativeImprovement</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractCavalry' allactions ='1' relativity ='Assign'>
+			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractCavalry' allactions ='1' relativity ='Assign'>
+				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractLightInfantry' allactions ='1' relativity ='Assign'>
 				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
 		</Effects>
 	</Tech>

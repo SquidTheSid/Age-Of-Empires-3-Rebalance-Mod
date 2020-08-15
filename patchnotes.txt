@@ -28,6 +28,7 @@ Incoporated ESOC's fixed starting crates:
 - Town Center wood cost reduced to 500 from 600 (ESOC); plantation cost reduced to 500 from 800
 - Ranching shipments now increase livestock gather fatten rate by 25%
 - Land Grab shipment cost reduction improved to 60% from 40%
+- Offshore support bonus Range/LOS reduced to 2 from 5
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
@@ -36,6 +37,7 @@ Non-wood trickle cards have been improved.
 Siege Trooper tag changes: This tag is very inconsistent, so I've reduced the number of arbitrary units on there (Shinobi, Puma Spearman, Mongol Scout) to primarily focus on units that mostly deal siege damage (Rams, Failiphants, Flamethrowers, etc.)
 
 Native: 
+- Natives now have a 75% damage penalty vs. villagers in discovery age. This goes away in colonial. [ESOC]
 - Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
 
 Unit Buffs: Many native units were underperforming, so they've gotten buffs to make them more viable (dansil92):
@@ -184,6 +186,7 @@ Skull Knight - The Skull Knight is now a mini-cuirassier and is classified as li
 - Speed: Increased from 4 to 6.25
 - Siege: Reduced to 20 damage from 72; now affected by Scorched Earth shipment
 - Infantry and Heavy Infantry unit tags removed, Light Infantry and CoyoteMan unit tags added
+- Damage Cap: Reduced to 40 from 68
 
 Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down in general, but are better vs artillery. (Incorporating Garja's changes)
 - 2x AbstractArtillery damage multiplier added.
@@ -374,7 +377,9 @@ Sowar: They're India's version of cossacks, but with a focus on countering skirm
 Zamburak: While they're solid anti-cav early game, they struggle midgame due to their reliance on cards. 
 - Desert Terror: No longer increases HeavyCav/CoyoteMan damage multiplier by 0.5x. Instead, increases artillery multiplier by 0.25x
 - Discipline upgrade now increases Heavy Cavalry and CoyoteMan damage multiplier by 0.5x.
-(TBD: Nerf Urumi RR to 20?)
+
+Urumi:
+- TEAM 5 Urumi reduced to TEAM 4 Urumi; cost decreased to 500 food from 600.
 
 Japan:
 
@@ -493,7 +498,6 @@ Villager train time reduced to 51 seconds from 53
 
 Cavalry Marshall Politician now additionally upgrades Cossacks to Veteran
 
-- TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
 
 Strelets: I've fixed a long-standing bug. In the code, Strelets got a 25% discount on gold and food costs. But since they cost wood instead of gold, they receive no discount for that. It's been fixed as such.
 Cost: Wood cost reduced to 75 from 100
@@ -502,11 +506,14 @@ Halberdier HP/Damage penalties reduced to 15% from 20%
 
 Oprichnik Siege damage reduced to 60 from 75, but now shadowtechs by 20% in fortress. 
 
+
+
 Shipments:
 - Strelet Horde now additionally increases Strelet range by 2. 
 - Kagul Tactics added: Now increases Cavalry Archer's damage by 15% and their artillery damage multiplier by 50% (3.0)
 - National Redoubt now decreases Fort cost and build points by 15%.
 - Palace Grenadiers added: Increases Grenadier HP/Damage by 20% and gives them a 1.5x multiplier vs Heavy Infantry
+- TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
 
 Spain:
 
@@ -517,6 +524,9 @@ War Minister Industrial Politician now additionally upgrades Rodeleros to vetera
 Crossbowmen: Due to Spain's focus on archaic units (Imperial Tercios), I've added Royal Guard and Imperial Upgrades for Crossbowmen.
 - Added Ballestero Royal Guard (increases range by 2) and Imperial Ballestero upgrades (adds 0.5x heavy infantry multiplier).
 
+
+- Corselet Church tech reworked. Now adds +0.1 armor to heavy infantry, but increases cost by 10%
+
 Missionary: Now gains the Unction aura upon Colonial age
 
 Shipments:
@@ -526,7 +536,7 @@ Shipments:
 - Caballeros additionally increases Lancer melee range by 1
 - Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
-- Corselet Church tech reworked. Now adds +0.1 armor to heavy infantry, but increases cost by 10%
+- Spanish Gold moved to age 2 and now provides a 3.5 Gold/s trickle.
 
 Dutch:
 
@@ -634,3 +644,17 @@ War Wagon: Very awkward goon units. They help them out, they have slightly faste
 Uhlans: Very controversial units due to their breakpoints. Due to the increased strength of colonial germany, I've reduced their HP, but increased their industrial combat card buff to compensate.
 - HP: Reduced to 185 from 190
 - Lipizzaner Cavalry buff increased to +25% HP/Damage from +15%
+
+MISC (bug fixes):
+
+- 8 Gatherer limit added to berry bushes (to prevent idle vills)
+- Repentant Outlaw Riflemen, Jaegers, Iron Troops, and Thuggees had multipliers fixed to match merc versions
+- Fixed missing artillery and siege trooper damage bonuses for Oprichnik trample mode
+- Fixed missing AbstractCoyoteMan damage penalty for Siege Elephants
+- Fixed Chinese blockhouses not being able to train banner armies.
+- Fixed flail elephant XP bounties
+- Fixed native villagers not being able to build Indian Stables' (aztec TEAM 3 villagers)
+- Wakina Rifle bounty increased to 10 from 9
+- AbstractElephant tags added to Sufi War Elephants
+- Fixed icon for 3 galleys shipment
+- Corrected Royal Green Jacket description
