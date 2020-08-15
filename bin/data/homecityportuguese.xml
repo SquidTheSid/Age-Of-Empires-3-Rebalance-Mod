@@ -681,7 +681,7 @@
       <name>HCImprovedWallsTeam</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCPioneers</prereqtech>
+      <prereqtech>HCPioneersPortuguese</prereqtech>
       <age>1</age>
     </card>
     <card>
