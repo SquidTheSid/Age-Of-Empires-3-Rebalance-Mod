@@ -583,6 +583,9 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='Data' amount ='-6.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='Age0Dutch' type ='Normal'>
@@ -53987,7 +53990,7 @@
 	<Tech name ='HCMercsCamels' type ='Normal'>
 		<DBID>9103</DBID>
 		<DisplayNameID>70691</DisplayNameID>
-		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -54051,7 +54054,7 @@
 	<Tech name ='HCBeiyangArmyBritish' type ='Normal'>
 		<DBID>9106</DBID>
 		<DisplayNameID>70697</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Gold'>750.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -54061,10 +54064,11 @@
 		<Effects>
 			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKeshik' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypSteppeRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypSteppeRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedSteppeRider</Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedKeshik</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHCMongolianScourge</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCIronCapPrincesArmyBritish' type ='Normal'>
@@ -54103,7 +54107,7 @@
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='YPVillageWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='-4.00' subtype ='BuildLimit' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerAsian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
