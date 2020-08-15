@@ -29659,7 +29659,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>TribalAztecShaman4</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='NoblesHutTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpMedicineManAztec' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
