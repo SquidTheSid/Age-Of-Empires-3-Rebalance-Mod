@@ -49034,7 +49034,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='ProtoUnit'>ypSettlerJapanese</Target></Effect>
-			<Effect type ='Data' amount ='60.00' subtype ='Cost' resource ='Wood' relativity ='Absolute'>
+			<Effect type ='Data' amount ='45.00' subtype ='Cost' resource ='Wood' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypSettlerJapanese</Target></Effect>
 			<Effect type ='TextOutput'>69103</Effect>
 		</Effects>
