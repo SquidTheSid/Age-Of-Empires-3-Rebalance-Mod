@@ -13184,7 +13184,7 @@
 		<Flag>YPNativeImprovement</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='SettlerNative' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='NatTradeLanguage' type ='Normal'>
@@ -40285,9 +40285,37 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWonder</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='BuildPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractWonder</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractAgraFort</Target></Effect>
 			<Effect type ='TextOutput'>66510</Effect>
+			<Effect type ='Data' amount ='680.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='techWithFlag'>YPWondersColonial</Target></Effect>
+			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='techWithFlag'>YPWondersFortress</Target></Effect>
+			<Effect type ='Data' amount ='1700.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='techWithFlag'>YPWondersIndustrial</Target></Effect>
+			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='techWithFlag'>YPWondersImperial</Target></Effect>
+			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypFakeImperialAge</Target></Effect>
+			<Effect type ='Data' amount ='1700.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypFakeIndustrialAge</Target></Effect>
+			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypFakeFortressAge</Target></Effect>
+			<Effect type ='Data' amount ='680.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ypFakeColonialAge</Target></Effect>
+			<Effect type ='Data' amount ='850.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='techWithFlag'>YPWondersFortress</Target></Effect>
+			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='techWithFlag'>YPWondersIndustrial</Target></Effect>
+			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='techWithFlag'>YPWondersImperial</Target></Effect>
+			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ypFakeImperialAge</Target></Effect>
+			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ypFakeIndustrialAge</Target></Effect>
+			<Effect type ='Data' amount ='850.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ypFakeFortressAge</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCRedSealShip' type ='Normal'>
