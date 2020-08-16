@@ -3918,11 +3918,11 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImpImmigrantsNative</Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.75' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='1.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Market</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
@@ -54493,18 +54493,61 @@
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipLightCannon3' type ='Normal'>
-		<DBID>9113</DBID>
+		<DBID>9119</DBID>
 		<DisplayNameID>70731</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\units\sx_light_cannon_icon</Icon>
-		<RolloverTextID>44110</RolloverTextID>
+		<RolloverTextID>70732</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpTomahawk' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpTomahawk' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpLightCannon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
+	<Tech name ='HCAdvancedMarketIroquois' type ='Normal'>
+		<DBID>9120</DBID>
+		<DisplayNameID>70734</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_advanced_market\hc_advanced_market</Icon>
+		<RolloverTextID>70733</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='SetName' proto ='Market' culture ='none' newName ='35392'></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Market' component ='BuyFactor' relativity ='Percent'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Market' component ='SellFactor' relativity ='Percent'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
+			<Effect type ='TextOutput'>41786</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPAdvancedFarmIroquois' type ='Normal'>
+		<DBID>9121</DBID>
+		<DisplayNameID>70734</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\advanced_farm</Icon>
+		<RolloverTextID>70736</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
+			<Effect type ='SetName' proto ='Farm' culture ='none' newName ='43797'></Effect>
+			<Effect type ='TextOutput'>48870</Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>

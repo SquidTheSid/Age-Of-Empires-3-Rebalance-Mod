@@ -617,7 +617,7 @@
       <name>HCXPShipRams2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>HCXPShipRams1</prereqtech>
       <age>3</age>
       <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -764,14 +764,14 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCXPAdvancedFarms</name>
+      <name>HCXPAdvancedFarmIroquois</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
-      <name>HCAdvancedMarket</name>
+      <name>HCAdvancedMarketIroquois</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1466,8 +1466,8 @@
       <tech x="5.5" y="1.0">HCXPRanching</tech>
       <tech x="5.5" y="3.0">HCEngineeringSchool</tech>
       <tech x="5.5" y="5.0">HCXPConservativeTactics</tech>
-      <tech x="6.3" y="1.0">HCXPAdvancedFarms</tech>
-      <tech x="6.3" y="2.0">HCAdvancedMarket</tech>
+      <tech x="6.3" y="1.0">HCXPAdvancedFarmIroquois</tech>
+      <tech x="6.3" y="2.0">HCAdvancedMarketIroquois</tech>
       <tech x="7.1" y="1.0">HCCheapDocksTeam</tech>
       <tech x="7.1" y="3.0">HCAdvancedDock</tech>
     </obtainabletechs>
