@@ -18226,7 +18226,7 @@
 		<Icon>units\cavalry\cav_archer\cav_archer_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='CavalryArcher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='CavalryArcher' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipCavArchers2' type ='Normal'>
@@ -20262,7 +20262,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Culverin' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -20533,11 +20533,13 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='SetName' proto ='Dock' culture ='none' newName ='36486'></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
 			<Effect type ='TextOutput'>41785</Effect>
-			<Effect type ='Data' action ='Heal' amount ='1.50' subtype ='WorkRate' unittype ='Ship' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Heal' amount ='2.00' subtype ='WorkRate' unittype ='Ship' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='Data' amount ='0.67' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ship</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCUnlockFactoryGerman' type ='Normal'>
@@ -25169,7 +25171,7 @@
 		<Icon>ui\units\sx_light_cannon_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpLightCannon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='xpLightCannon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipLightCannon2' type ='Normal'>
@@ -26317,7 +26319,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\artillery\falconet\falconet_icon_64x64</Icon>
+		<Icon>units\natives/mantlet_icon</Icon>
 		<RolloverTextID>44110</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -33060,14 +33062,14 @@
 		<RolloverTextID>46869</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.30' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='TextOutput'>46872</Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.30' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
@@ -33075,11 +33077,11 @@
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
-			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.30' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
-			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.30' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
@@ -33087,7 +33089,7 @@
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypSacredField</Target></Effect>
-			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.30' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>ypSacredField</Target></Effect>
 		</Effects>
 	</Tech>
@@ -34427,7 +34429,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47096</Effect>
-			<Effect type ='Data' amount ='3.50' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -34972,12 +34974,12 @@
 		<RolloverTextID>47222</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.65' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.65' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>69793</Effect>
-			<Effect type ='Data' amount ='0.65' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -54438,7 +54440,7 @@
 		</Effects>
 	</Tech>
 	<Tech name ='ChampionLakotaFrench' type ='Normal'>
-		<DBID>393</DBID>
+		<DBID>9116</DBID>
 		<DisplayNameID>29383</DisplayNameID>
 		<Cost resourcetype ='Wood'>400.0000</Cost>
 		<Cost resourcetype ='Gold'>300.0000</Cost>
@@ -54461,7 +54463,7 @@
 		</Effects>
 	</Tech>
 	<Tech name ='NatLakotaFuryFrench' type ='Normal'>
-		<DBID>3200</DBID>
+		<DBID>9117</DBID>
 		<DisplayNameID>70730</DisplayNameID>
 		<Cost resourcetype ='Wood'>350.0000</Cost>
 		<Cost resourcetype ='Gold'>350.0000</Cost>
@@ -54477,5 +54479,32 @@
 			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractLightInfantry' allactions ='1' relativity ='Assign'>
 				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='HCXPShipRams2' type ='Normal'>
+		<DBID>9118</DBID>
+		<DisplayNameID>70730</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\iro_ram_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='xpRam' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCXPShipLightCannon3' type ='Normal'>
+		<DBID>9113</DBID>
+		<DisplayNameID>70731</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\sx_light_cannon_icon</Icon>
+		<RolloverTextID>44110</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpTomahawk' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='xpLightCannon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 </TechTree>
