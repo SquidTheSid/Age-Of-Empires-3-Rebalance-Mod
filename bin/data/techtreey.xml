@@ -159,12 +159,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatIroquoisLeagueFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyIroquoisFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IroquoisSunCeremonyFrench</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>NatHuntingGrounds</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>NatLakotaFuryFrench</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChampionLakotaFrench</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyLakotaFrench</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatAxeRiderFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
@@ -54446,69 +54440,7 @@
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='WarriorSocietyLakotaFrench' type ='Normal'>
-		<DBID>9115</DBID>
-		<DisplayNameID>33372</DisplayNameID>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>150.0000</Cost>
-		<ResearchPoints>10.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\warrior_society\warrior_society</Icon>
-		<RolloverTextID>33371</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
-		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
-			<Effect type ='SetName' proto ='NatAxeRiderFrench' culture ='none' newName ='36598'></Effect>
-		</Effects>
-	</Tech>
-	<Tech name ='ChampionLakotaFrench' type ='Normal'>
-		<DBID>9116</DBID>
-		<DisplayNameID>29383</DisplayNameID>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
-		<ResearchPoints>10.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\champion_natives\champion_natives</Icon>
-		<RolloverTextID>24226</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>UpgradeTech</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>WarriorSocietyLakotaFrench</TechStatus>
-			<TechStatus status ='Active'>Industrialize</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
-			<Effect type ='SetName' proto ='NatAxeRiderFrench' culture ='none' newName ='24229'></Effect>
-		</Effects>
-	</Tech>
-	<Tech name ='NatLakotaFuryFrench' type ='Normal'>
-		<DBID>9117</DBID>
-		<DisplayNameID>70730</DisplayNameID>
-		<Cost resourcetype ='Wood'>350.0000</Cost>
-		<Cost resourcetype ='Gold'>350.0000</Cost>
-		<ResearchPoints>10.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native\fury</Icon>
-		<RolloverTextID>70729</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>YPNativeImprovement</Flag>
-		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractCavalry' allactions ='1' relativity ='Assign'>
-				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractLightInfantry' allactions ='1' relativity ='Assign'>
-				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
-		</Effects>
-	</Tech>
-	<Tech name ='HCXPShipRams2' type ='Normal'>
+		<Tech name ='HCXPShipRams2' type ='Normal'>
 		<DBID>9118</DBID>
 		<DisplayNameID>70730</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
