@@ -158,7 +158,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChampionIroquoisFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>NatIroquoisLeagueFrench</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyIroquoisFrench</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>IroquoisSunCeremonyFrench</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
@@ -54269,27 +54268,7 @@
 			<Effect type ='SetName' proto ='NatTomahawkFrench' culture ='none' newName ='36597'></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='IroquoisSunCeremonyFrench' type ='Normal'>
-		<DBID>3195</DBID>
-		<DisplayNameID>70711</DisplayNameID>
-		<Cost resourcetype ='Wood'>250.0000</Cost>
-		<Cost resourcetype ='Gold'>250.0000</Cost>
-		<ResearchPoints>40.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native\Sun_Ceremony</Icon>
-		<RolloverTextID>70710</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
-		</Effects>
-	</Tech>
-	<Tech name ='IroquoisMarketTrickle' type ='Normal'>
+		<Tech name ='IroquoisMarketTrickle' type ='Normal'>
 		<DBID>5271</DBID>
 		<DisplayNameID>70712</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
