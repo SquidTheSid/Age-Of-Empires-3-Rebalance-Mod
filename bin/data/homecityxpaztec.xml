@@ -227,12 +227,12 @@
       <displayunitcount>1000</displayunitcount>
     </card>
     <card>
-      <name>HCShipCoveredWagons</name>
+      <name>HCShipCoveredWagonsNative</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -741,6 +741,13 @@
       <age>0</age>
     </card>
     <card>
+      <name>HCXPNewWaysAztec</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCImprovedBuildings</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>HCXPExtensiveFortificationsAztec</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -904,7 +911,7 @@
       <name>HCXPLandGrab</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCXPChinampa2</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
@@ -1226,7 +1233,7 @@
       <cards>
         <card>HCXPShipVillagers1</card>
         <card>HCShipFoodCrates1</card>
-        <card>HCShipCoveredWagons</card>
+        <card>HCShipCoveredWagonsNative</card>
         <card>HCXPWarChiefAztec1</card>
         <card>HCXPShipCoyoteMen1</card>
         <card>HCXPShipCoyoteMen2</card>
@@ -1247,7 +1254,7 @@
       <cards>
         <card>HCXPShipVillagers1</card>
         <card>HCShipFoodCrates1</card>
-        <card>HCShipCoveredWagons</card>
+        <card>HCShipCoveredWagonsNative</card>
         <card>HCXPWarChiefAztec1</card>
         <card>HCXPShipCoyoteMen1</card>
         <card>HCXPShipCoyoteMen2</card>
@@ -1321,7 +1328,7 @@
       <tech x="3.9" y="5.0">HCXPCoinCratesAztec5</tech>
       <tech x="4.7" y="3.0">HCTeamCoinCrates1</tech>
       <tech x="4.7" y="5.0">HCTeamCoinCrates2</tech>
-      <tech x="5.5" y="1.0">HCShipCoveredWagons</tech>
+      <tech x="5.5" y="1.0">HCShipCoveredWagonsNative</tech>
       <tech x="5.5" y="2.0">HCXPWarChiefAztec1</tech>
       <tech x="5.5" y="3.0">HCXPWarChiefAztec2</tech>
       <tech x="6.3" y="3.0">HCXPShipMedicineMenTeamAztec</tech>
@@ -1334,7 +1341,7 @@
     <activetechs>
       <tech>HCXPShipVillagers1</tech>
       <tech>HCShipFoodCrates1</tech>
-      <tech>HCShipCoveredWagons</tech>
+      <tech>HCShipCoveredWagonsNative</tech>
       <tech>HCXPShipJaguars1</tech>
       <tech>HCXPWarChiefAztec1</tech>
     </activetechs>
@@ -1423,6 +1430,7 @@
       <tech x="0.0" y="1.0">HCNativeLore</tech>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
+      <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="4.0">HCXPShipTradingPostTravois</tech>
       <tech x="0.7" y="5.0">HCAdvancedTradingPost</tech>
       <tech x="1.05" y="4.0">HCNativeChampionsDutchTeam</tech>
@@ -1438,6 +1446,7 @@
       <tech x="4.0" y="1.0">HCPioneers</tech>
       <tech x="4.0" y="3.0">HCXPTownDance</tech>
       <tech x="4.0" y="4.0">HCImprovedBuildings</tech>
+      <tech x="4.0" y="5.0">HCXPNewWaysAztec</tech>
       <tech x="5.0" y="1.0">HCXPExtensiveFortificationsAztec</tech>
       <tech x="5.0" y="5.0">HCHeavyFortifications</tech>
       <tech x="5.0" y="6.0">HCXPStoneTowers</tech>
@@ -1478,6 +1487,7 @@
       <tech x="1.8" y="1.0">HCXPCheapFishingBoatTeam</tech>
       <tech x="1.8" y="2.0">HCFishMarket</tech>
       <tech x="1.8" y="3.0">HCSchooners</tech>
+      <tech x="2.9" y="1.0">HCXPLandGrab</tech>
       <tech x="2.9" y="3.0">HCSawmills</tech>
       <tech x="2.9" y="5.0">HCExoticHardwoods</tech>
       <tech x="3.9" y="5.0">HCXPExoticHardwoodsTeam</tech>
@@ -1488,7 +1498,6 @@
       <tech x="5.7" y="5.0">HCGrainMarket</tech>
       <tech x="6.6" y="4.0">HCXPChinampa1</tech>
       <tech x="6.6" y="5.0">HCXPChinampa2</tech>
-      <tech x="6.6" y="6.0">HCXPLandGrab</tech>
       <tech x="7.5" y="1.0">HCFurrier</tech>
       <tech x="7.5" y="5.0">HCMedicine</tech>
       <tech x="7.5" y="6.0">HCXPMedicineTeam</tech>

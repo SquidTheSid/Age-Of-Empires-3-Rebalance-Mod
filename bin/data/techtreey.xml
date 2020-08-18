@@ -11,6 +11,9 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GreenCornCeremony</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>HarvestCeremony</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GreatFeast</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGVoltigeur</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGGendarmes</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchCodeNapoleon</Effect>
@@ -22,7 +25,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>House</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Mill</Target></Effect>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranMusketeers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardMusketeers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -77,8 +80,6 @@
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CWallGate</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -146,24 +147,10 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>NatLacrosseFrench</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatAxeRiderFrench</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChampionIroquoisFrench</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>NatIroquoisLeagueFrench</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietyIroquoisFrench</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
-
-
+			<Effect type ='TechStatus' status ='active'>FrenchTradingPostTrickle</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>SteelTraps</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>SeedDrill</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ArtificialFertilizer</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='NativeAztec' type ='Normal'>
@@ -1182,6 +1169,9 @@
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
+
 			
 		</Effects>
 	</Tech>
@@ -8535,8 +8525,6 @@
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatKlamathRifleman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>NatNavajoRifleman</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatMercTracker</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatMercRifleman</Target></Effect>
@@ -11685,8 +11673,6 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
-			
-
 		</Effects>
 	</Tech>
 	<Tech name ='VeteranStrelets' type ='Normal'>
@@ -16780,6 +16766,8 @@
 		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -18942,6 +18930,8 @@
 		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -20133,6 +20123,8 @@
 		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
@@ -34853,6 +34845,10 @@
 		<RolloverTextID>47196</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NativeScout' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NativeScout' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -35378,6 +35374,8 @@
 		<Icon>units\asians\shared\wagon\chinese_town_center_wagon_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerAsian' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -39897,7 +39895,7 @@
 		<Icon>ui\home_city\hc_ship_covered_wagon_and_villagers</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerAsian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -40908,6 +40906,8 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerIndian' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
@@ -40926,6 +40926,8 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerIndian' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
@@ -51286,6 +51288,8 @@
 		<Icon>ui\home_city\hc_2x_town_center_wagon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
@@ -51768,7 +51772,7 @@
 		<RolloverTextID>70512</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='0.50' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+			<Effect type ='Data' action ='AutoGather' amount ='0.60' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect></Effects>
 	</Tech>
 	
@@ -52149,6 +52153,8 @@
 		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
@@ -52163,6 +52169,8 @@
 		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
@@ -54150,7 +54158,6 @@
 
 		</Effects>
 	</Tech>
-
 	<Tech name ='FrenchTradingPostTrickle' type ='Normal'>
 		<DBID>9109</DBID>
 		<DisplayNameID>70704</DisplayNameID>
@@ -54163,112 +54170,7 @@
 			<Effect type ='Data' amount ='0.50' subtype ='InventoryAmount' resource ='XP' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofXP</Target></Effect></Effects>
 	</Tech>
-	<Tech name ='NatLacrosseFrench' type ='Normal'>
-		<DBID>209</DBID>
-		<DisplayNameID>70707</DisplayNameID>
-		<Cost resourcetype ='Wood'>125.0000</Cost>
-		<Cost resourcetype ='Gold'>125.0000</Cost>
-		<ResearchPoints>20.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native_lacrosse\nat_lacrosse</Icon>
-		<RolloverTextID>70706</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractGunpowderTrooper</Target></Effect>
-			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
-
-		</Effects>
-	</Tech>
-	<Tech name ='NatIroquoisLeagueFrench' type ='Normal'>
-		<DBID>210</DBID>
-		<DisplayNameID>23615</DisplayNameID>
-		<Cost resourcetype ='Wood'>50.0000</Cost>
-		<Cost resourcetype ='Gold'>50.0000</Cost>
-		<ResearchPoints>10.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\native_iroquois_league\nat_iroquois_league</Icon>
-		<RolloverTextID>23614</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Colonialize</TechStatus>
-		</Prereqs>
-
-		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Barracks</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Barracks</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatTomahawkFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='NatMantletFrench' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
-		</Effects>
-	</Tech>
-	
-	<Tech name ='ChampionIroquoisFrench' type ='Normal'>
-		<DBID>213</DBID>
-		<DisplayNameID>29390</DisplayNameID>
-		<Cost resourcetype ='Wood'>500.0000</Cost>
-		<Cost resourcetype ='Gold'>400.0000</Cost>
-		<ResearchPoints>15.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\champion_natives\champion_natives</Icon>
-		<RolloverTextID>23624</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>UpgradeTech</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Industrialize</TechStatus>
-			<TechStatus status ='Active'>WarriorSocietyIroquoisFrench</TechStatus>
-		</Prereqs>
-		<Effects>
-			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
-			<Effect type ='SetName' proto ='NatTomahawkFrench' culture ='none' newName ='24044'></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
-			<Effect type ='SetName' proto ='NatMantletFrench' culture ='none' newName ='27779'></Effect>
-			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
-		</Effects>
-	</Tech>
-	<Tech name ='WarriorSocietyIroquoisFrench' type ='Normal'>
-		<DBID>1804</DBID>
-		<DisplayNameID>33368</DisplayNameID>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
-		<ResearchPoints>15.0000</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\warrior_society\warrior_society</Icon>
-		<RolloverTextID>33367</RolloverTextID>
-		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>UpgradeTech</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
-		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatTomahawkFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>NatMantletFrench</Target></Effect>
-			<Effect type ='SetName' proto ='NatMantletFrench' culture ='none' newName ='36596'></Effect>
-			<Effect type ='SetName' proto ='NatTomahawkFrench' culture ='none' newName ='36597'></Effect>
-		</Effects>
-	</Tech>
-		<Tech name ='IroquoisMarketTrickle' type ='Normal'>
+	<Tech name ='IroquoisMarketTrickle' type ='Normal'>
 		<DBID>5271</DBID>
 		<DisplayNameID>70712</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
@@ -54277,7 +54179,7 @@
 		<Effects>
 			<Effect type ='Data' action ='AutoGather' amount ='0.50' subtype ='WorkRate' unittype ='Wood' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Market</Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
+			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Market</Target></Effect></Effects>
 
 	</Tech>
@@ -54302,7 +54204,7 @@
 		<Effects>
 			<Effect type ='Data' action ='AutoGather' amount ='0.75' subtype ='WorkRate' unittype ='Gold' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='Assign'>
+			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCCavalryArcherAntiArtilleryDamage' type ='Normal'>
@@ -54470,7 +54372,7 @@
 	</Tech>
 	<Tech name ='HCXPAdvancedFarmIroquois' type ='Normal'>
 		<DBID>9121</DBID>
-		<DisplayNameID>70734</DisplayNameID>
+		<DisplayNameID>70735</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -54488,5 +54390,94 @@
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 		</Effects>
 	</Tech>
-
+	<Tech name ='HCShipCoveredWagonsNative' type ='Normal'>
+		<DBID>9122</DBID>
+		<DisplayNameID>35661</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='SettlerNative' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='AztecChocolate' type ='Normal'>
+		<DBID>9123</DBID>
+		<DisplayNameID>70737</DisplayNameID>
+		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native_chocolate_recipes\nat_chocolate_recipes</Icon>
+		<RolloverTextID>70738</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<techstatus status ='Active'>Industrialize</techstatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.30' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='AbstractMine' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPNewWaysAztec' type ='Normal'>
+		<DBID>3470</DBID>
+		<DisplayNameID>47124</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\New_Ways</Icon>
+		<RolloverTextID>47123</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='obtainable'>AztecWoodTrickle1</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>AztecWoodTrickle2</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>AztecChocolate</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>InfantryBreastplate</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Rifling</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>MilitaryDrummers</Effect>
+			<Effect type ='TextOutput'>47126</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='AztecWoodTrickle1' type ='Normal'>
+		<DBID>3440</DBID>
+		<DisplayNameID>70742</DisplayNameID>
+		<Cost resourcetype ='Food'>150.0000</Cost>
+		<Cost resourcetype ='Gold'>150.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Distributivism</Icon>
+		<RolloverTextID>70741</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<techstatus status ='Active'>Colonialize</techstatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='AztecWoodTrickle2' type ='Normal'>
+		<DBID>3689</DBID>
+		<DisplayNameID>70744</DisplayNameID>
+		<Cost resourcetype ='Food'>350.0000</Cost>
+		<Cost resourcetype ='Gold'>350.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\Foreign_Logging</Icon>
+		<RolloverTextID>70743</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<techstatus status ='Active'>Fortressize</techstatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='2.35' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
 </TechTree>

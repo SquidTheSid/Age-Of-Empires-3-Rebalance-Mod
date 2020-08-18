@@ -235,12 +235,12 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCoveredWagons</name>
+      <name>HCShipCoveredWagonsNative</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1244,7 +1244,7 @@
       <cards>
         <card>HCXPShipVillagers1</card>
         <card>HCShipFoodCrates1</card>
-        <card>HCShipCoveredWagons</card>
+        <card>HCShipCoveredWagonsNative</card>
         <card>HCXPShipBears</card>
         <card>HCXPShipTomahawk1</card>
         <card>HCXPShipTomahawk2</card>
@@ -1265,7 +1265,7 @@
       <cards>
         <card>HCXPShipVillagers1</card>
         <card>HCShipFoodCrates1</card>
-        <card>HCShipCoveredWagons</card>
+        <card>HCShipCoveredWagonsNative</card>
         <card>HCXPShipBears</card>
         <card>HCXPShipTomahawk1</card>
         <card>HCXPShipTomahawk2</card>
@@ -1336,7 +1336,7 @@
       <tech x="4.3" y="5.0">HCXPShipMixedCrates5</tech>
       <tech x="4.3" y="6.0">HCXPShipMixedCrates6</tech>
       <tech x="4.3" y="7.0">HCXPShipMixedCratesRepeat</tech>
-      <tech x="5.3" y="1.0">HCShipCoveredWagons</tech>
+      <tech x="5.3" y="1.0">HCShipCoveredWagonsNative</tech>
       <tech x="5.3" y="3.0">HCXPShipMedicineMenTeam</tech>
       <tech x="6.2" y="1.0">HCShipSheep1Team</tech>
       <tech x="6.2" y="2.0">HCShipSheep2</tech>
@@ -1349,7 +1349,7 @@
     <activetechs>
       <tech>HCXPShipVillagers1</tech>
       <tech>HCShipFoodCrates1</tech>
-      <tech>HCShipCoveredWagons</tech>
+      <tech>HCShipCoveredWagonsNative</tech>
       <tech>HCXPShipBears</tech>
     </activetechs>
     <validunits/>

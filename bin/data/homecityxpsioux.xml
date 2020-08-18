@@ -293,19 +293,19 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCoveredWagons</name>
+      <name>HCShipCoveredWagonsNative</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCConestogaWagonsTeam</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCoveredWagons</prereqtech>
+      <prereqtech>HCShipCoveredWagonsNative</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1252,7 +1252,7 @@
       <cards>
         <card>HCXPShipVillagers1</card>
         <card>HCShipFoodCrates1</card>
-        <card>HCShipCoveredWagons</card>
+        <card>HCShipCoveredWagonsNative</card>
         <card>HCXPWarChiefSioux1</card>
         <card>HCXPShipCoyotes</card>
         <card>HCXPShipWarBows1</card>
@@ -1273,7 +1273,7 @@
       <cards>
         <card>HCXPShipVillagers1</card>
         <card>HCShipFoodCrates1</card>
-        <card>HCShipCoveredWagons</card>
+        <card>HCShipCoveredWagonsNative</card>
         <card>HCXPWarChiefSioux1</card>
         <card>HCXPShipCoyotes</card>
         <card>HCXPShipWarBows1</card>
@@ -1350,7 +1350,7 @@
       <tech x="4.4" y="4.0">HCXPWarChiefSioux3</tech>
       <tech x="4.4" y="5.0">HCXPCommandSkill</tech>
       <tech x="4.4" y="7.0">HCXPMorningStar</tech>
-      <tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
+      <tech x="6.0" y="1.0">HCShipCoveredWagonsNative</tech>
       <tech x="6.0" y="3.0">HCConestogaWagonsTeam</tech>
       <tech x="6.0" y="5.0">HCXPEveningStar</tech>
       <tech x="7.0" y="1.0">HCXPShipCoyotes</tech>
@@ -1362,7 +1362,7 @@
     <activetechs>
       <tech>HCXPShipVillagers1</tech>
       <tech>HCShipFoodCrates1</tech>
-      <tech>HCShipCoveredWagons</tech>
+      <tech>HCShipCoveredWagonsNative</tech>
       <tech>HCXPWarChiefSioux1</tech>
       <tech>HCXPShipCoyotes</tech>
     </activetechs>
