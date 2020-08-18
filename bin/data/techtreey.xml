@@ -29480,8 +29480,6 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FarmTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Llama' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 
 		</Effects>
 	</Tech>
@@ -29507,8 +29505,6 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='FarmTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Llama' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='TribalAztecWisewoman4' type ='Normal'>
@@ -29532,8 +29528,6 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='FarmTravois' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Llama' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 
 		</Effects>
 	</Tech>
@@ -29556,8 +29550,6 @@
 			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='FarmTravois' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='Llama' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
 		</Effects>
