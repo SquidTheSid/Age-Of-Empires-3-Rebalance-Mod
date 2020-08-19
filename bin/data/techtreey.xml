@@ -14925,9 +14925,9 @@
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 		</Effects>
 	</Tech>
@@ -15761,6 +15761,10 @@
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 			<Effect type ='TextOutput'>41807</Effect>
 		</Effects>
 	</Tech>
@@ -17654,6 +17658,10 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractHeavyCavalry</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
 			<Effect type ='TextOutput'>35994</Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
@@ -17671,7 +17679,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 			<Effect type ='TextOutput'>41816</Effect>
 		</Effects>
@@ -23719,9 +23727,9 @@
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cuirassier</Target></Effect>
 
 		</Effects>
@@ -37623,9 +37631,9 @@
 				<Target type ='ProtoUnit'>ypMonkDisciple</Target></Effect>
 			<Effect type ='Data' action ='RoundhouseAttack' amount ='225.00' subtype ='Damage' relativity ='Assign'>
 				<Target type ='ProtoUnit'>AbstractChineseMonk</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
 
 		</Effects>
@@ -37648,9 +37656,9 @@
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedUrumi</Effect>
 			<Effect type ='Data' action ='sweepDamage' amount ='11.00' subtype ='Damage' relativity ='Assign'>
 				<Target type ='ProtoUnit'>AbstractIndianMonk</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateGendarmes</Target></Effect>
 		</Effects>
 	</Tech>
