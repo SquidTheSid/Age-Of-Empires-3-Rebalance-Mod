@@ -10,7 +10,7 @@
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
+			<Effect type ='TechStatus' status ='active'>AANativeStartingTechs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GreenCornCeremony</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HarvestCeremony</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GreatFeast</Effect>
@@ -148,9 +148,58 @@
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>FrenchTradingPostTrickle</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>SteelTraps</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>SeedDrill</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>ArtificialFertilizer</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>CavalryCuirass</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Rifling</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GunnersQuadrant</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>HeatedShot</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>InfantryBreastplate</Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='EnableTradeRouteLOS' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Revetment</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Bastion</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Caracole</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>OreRefiningFrench</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImpPeerage</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImpImmigrants</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImpKnighthood</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ArmorPlating</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Carronade</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PercussionLocks</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchTownWatch</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchMercantilism</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchGasLighting</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>FactoryWaterPower</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>FactorySteamPower</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>FactoryCannery</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>StarFort</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchMassCavalry</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>FactoryMassProduction</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GrapeShot</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Howitzer</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialCulverin</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialHowitzer</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Factory</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ExplorerDog</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>EliteDogSoldierShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>LegendaryDogSoldierShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChampionDogSoldierShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchStateReligion</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchMissionFervor</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>SaloonWildWest</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNativeEmbassyEnabler</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Capitol</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='NativeAztec' type ='Normal'>
@@ -1169,7 +1218,7 @@
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
 			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Church</Target></Effect>
 
 			
@@ -54472,4 +54521,43 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
+<Tech name ='OreRefiningFrench' type ='Normal'>
+		<DBID>1214</DBID>
+		<DisplayNameID>30447</DisplayNameID>
+		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\ore_refining\ore_refining</Icon>
+		<RolloverTextID>30446</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>EarthGiftCeremony</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.30' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPPioneers2French' type ='Normal'>
+		<DBID>2860</DBID>
+		<DisplayNameID>70746</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\warrior_culture</Icon>
+		<RolloverTextID>70745</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='TextOutput'>44036</Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>

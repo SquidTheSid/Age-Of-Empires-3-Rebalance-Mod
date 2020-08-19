@@ -695,6 +695,14 @@
       <age>1</age>
     </card>
     <card>
+      <name>HCXPPioneers2French</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCWildernessWarfare</prereqtech>
+      <age>3</age>
+    </card>
+
+    <card>
       <name>HCAdvancedTradingPost</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1524,6 +1532,7 @@
       <tech x="0.7" y="6.0">HCXPBloodBrothers</tech>
       <tech x="0.7" y="7.0">HCXPKinshipTies</tech>
       <tech x="1.4" y="5.0">HCWildernessWarfare</tech>
+      <tech x="1.4" y="6.0">HCXPPioneers2French</tech>
       <tech x="2.1" y="1.0">HCXPRanching</tech>
       <tech x="1.4" y="3.0">HCFencingSchool</tech>
       <tech x="2.1" y="3.0">HCRidingSchool</tech>

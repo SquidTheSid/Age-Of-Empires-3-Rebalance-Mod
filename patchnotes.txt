@@ -170,12 +170,11 @@ Warrior Priest - no longer costs population (gives more flexibility for Aztec's 
 
 Politician Changes:
 - Shaman: instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1 in Colonial and Fortress ages and 2 in Industrial and Imperial ages (additionally provide +5/10% gather rates to fire pits as well). 
-- Chief: Now additionally provides 4/7/10/15 Pet Janey Jaguars
+- Chief: Now additionally provides 3/6/9/12 Pet Janey Jaguars
 - Warrior: Skull Knights additionally train 15/25/40% faster
 - Wise Woman: (incorporated smackdown's colonial/fortress changes and the free llama)
 	-- Now ships 1 farm travois in colonial (up from 0) and 2 farm travois in fortress (up from 1)
 	-- Industrial Age gather rate bonus improved to 15% from 10%
-	-- Now additionally ships 3/5/7/10 Llama on Age up (seems like a bit overkill). 
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
@@ -194,7 +193,7 @@ Skull Knight - The Skull Knight is now a mini-cuirassier and is classified as li
 - Damage Cap: Reduced to 40 from 68
 
 Eagle Runner Knight - Due to the increased versatility of the Aztec army, ERKs have had their power levels slightly brought down in general, but are better vs artillery. (Incorporating Garja's changes)
-- 2x AbstractArtillery damage multiplier added.
+- 1.25x AbstractArtillery damage multiplier added.
 - Armor: Reduced from 30% ranged to 20% 
 - Speed: Increased to 6.25 from 6.00
 
