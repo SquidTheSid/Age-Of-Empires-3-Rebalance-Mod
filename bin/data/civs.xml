@@ -474,8 +474,13 @@
     </blocktrain>
     <blocktrain>
       <building>Blockhouse</building>
-      <unit>Musketeer</unit>
+      <unit>Skirmisher</unit>
       <count>5</count>
+    </blocktrain>
+    <blocktrain>
+      <building>Blockhouse</building>
+      <unit>Grenadier</unit>
+      <count>4</count>
     </blocktrain>
   </civ>
   <civ>

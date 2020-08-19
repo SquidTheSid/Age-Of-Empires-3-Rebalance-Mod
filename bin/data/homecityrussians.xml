@@ -356,21 +356,21 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipMusketeersRussian2</name>
+      <name>HCShipSkirmishersRussian2</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>11</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeersRussian3</name>
+      <name>HCShipSkirmishersRussian3</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipMusketeersRussian2</prereqtech>
+      <prereqtech>HCShipSkirmishersRussian2</prereqtech>
       <age>3</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>18</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -501,7 +501,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -523,39 +523,39 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipGrenadiers1</name>
+      <name>HCShipGrenadiers1Russian</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipGrenadiers2</name>
+      <name>HCShipGrenadiers2Russian</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipGrenadiers1</prereqtech>
+      <prereqtech>HCShipGrenadiers1Russian</prereqtech>
       <age>3</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipGrenadiers3</name>
+      <name>HCShipGrenadiers3Russian</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipGrenadiers2</prereqtech>
+      <prereqtech>HCShipGrenadiers2Russian</prereqtech>
       <age>2</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCShipGrenadiers4</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipGrenadiers3</prereqtech>
+      <prereqtech>HCShipGrenadiers3Russian</prereqtech>
       <age>3</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
    <card>
@@ -1269,8 +1269,8 @@
         <card>HCShipCossacks2</card>
         <card>HCShipCavArchers1</card>
         <card>HCShipCavArchers2</card>
-        <card>HCShipGrenadiers1</card>
-        <card>HCShipGrenadiers2</card>
+        <card>HCShipGrenadiers1Russian</card>
+        <card>HCShipGrenadiers2Russian</card>
         <card>HCShipFalconets1</card>
         <card>HCExplorerRussian</card>
         <card>HCFurrierTeam</card>
@@ -1290,8 +1290,8 @@
         <card>HCShipCossacks2</card>
         <card>HCShipCavArchers1</card>
         <card>HCShipCavArchers2</card>
-        <card>HCShipGrenadiers1</card>
-        <card>HCShipGrenadiers2</card>
+        <card>HCShipGrenadiers1Russian</card>
+        <card>HCShipGrenadiers2Russian</card>
         <card>HCShipFalconets1</card>
         <card>HCExplorerRussian</card>
         <card>HCFurrierTeam</card>
@@ -1407,8 +1407,8 @@
       <tech x="1.8" y="2.0">HCShipHalberdiersRussian2</tech>
       <tech x="1.8" y="3.0">HCShipHalberdiersRussian3</tech>
       <tech x="1.8" y="5.0">HCRansack</tech>
-      <tech x="2.5" y="1.0">HCShipMusketeersRussian2</tech>
-      <tech x="2.5" y="2.0">HCShipMusketeersRussian3</tech>
+      <tech x="2.5" y="1.0">HCShipSkirmishersRussian2</tech>
+      <tech x="2.5" y="2.0">HCShipSkirmishersRussian3</tech>
       <tech x="3.5" y="1.0">HCShipCossacks1</tech>
       <tech x="3.5" y="2.0">HCShipCossacks2</tech>
       <tech x="3.0" y="3.0">HCShipCossacks3</tech>
@@ -1425,9 +1425,9 @@
       <tech x="4.9" y="3.0">HCShipOprichniks2</tech>
       <tech x="4.9" y="4.0">HCShipOprichniks3</tech>
       <tech x="4.9" y="7.0">HCXPShipOprichniks4</tech>
-      <tech x="6.0" y="1.0">HCShipGrenadiers1</tech>
-      <tech x="6.0" y="2.0">HCShipGrenadiers2</tech>
-      <tech x="6.0" y="3.0">HCShipGrenadiers3</tech>
+      <tech x="6.0" y="1.0">HCShipGrenadiers1Russian</tech>
+      <tech x="6.0" y="2.0">HCShipGrenadiers2Russian</tech>
+      <tech x="6.0" y="3.0">HCShipGrenadiers3Russian</tech>
       <tech x="6.0" y="5.0">HCShipGrenadiers4</tech>
       <tech x="6.0" y="6.0">HCGrenadierCombatRussian</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>

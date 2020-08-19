@@ -308,6 +308,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Cossack</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Sheep</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>HouseEast</Target></Effect>
@@ -315,8 +317,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>RGPavlovGrenadiers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranMusketeers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardMusketeers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranSkirmishersShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardSkirmishers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardStrelets</Effect>
@@ -331,7 +333,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialStrelets</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHalberdiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardHalberdiers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialMusketeers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialSkirmishers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialOprichniks</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardOprichniks</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -421,9 +423,9 @@
 			<Effect type ='TechStatus' status ='obtainable'>FortifiedBlockhouse</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bayonet</Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>Levy</Effect>
@@ -435,7 +437,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
@@ -443,7 +445,7 @@
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -451,7 +453,7 @@
 			<Effect type ='Data' amount ='0.85' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='0.85' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Halberdier</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranCavalryArchersShadow</Effect>
@@ -473,6 +475,16 @@
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0British' type ='Normal'>
@@ -8537,6 +8549,14 @@
 				<Target type ='ProtoUnit'>ypConsulateStadhouders</Target></Effect>
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateGuerreiros</Target></Effect>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Rifling' type ='Normal'>
@@ -8561,8 +8581,6 @@
 				<Target type ='ProtoUnit'>NatRifleman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>MercJaeger</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatTracker</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
@@ -9350,7 +9368,6 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>VeteranCossacks</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranGrenadiers</Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranMusketeers</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranStrelets</Effect>
 		</Effects>
 	</Tech>
@@ -9374,7 +9391,7 @@
 			<Effect type ='TechStatus' status ='active'>RGPavlovGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardPikemen</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardOprichniks</Effect>
-			<Effect type ='TechStatus' status ='active'>GuardMusketeers</Effect>
+			<Effect type ='TechStatus' status ='active'>GuardSkirmishers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardHalberdiers</Effect>
 			<Effect type ='TechStatus' status ='active'>GuardStrelets</Effect>
 		</Effects>
@@ -14964,9 +14981,9 @@
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Oprichnik</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='FortFrontier' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 
 
 		</Effects>
@@ -16377,7 +16394,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age2</Effect>
-			<Effect type ='Data' amount ='17.00' subtype ='FreeHomeCityUnit' unittype ='Strelet' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -16431,9 +16448,9 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='Musketeer' relativity ='Absolute'>
+			<Effect type ='Data' amount ='28.00' subtype ='FreeHomeCityUnit' unittype ='Strelet' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranMusketeers</Effect>
+			<Effect type ='TechStatus' status ='active'>VeteranStrelets</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
 		</Effects>
 	</Tech>
@@ -18136,6 +18153,14 @@
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='TextOutput'>41931</Effect>
 		</Effects>
 	</Tech>
@@ -18285,14 +18310,14 @@
 	</Tech>
 	<Tech name ='HCShipGrenadiers4' type ='Normal'>
 		<DBID>2304</DBID>
-		<DisplayNameID>35870</DisplayNameID>
+		<DisplayNameID>70752</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipGrenadiers1' type ='Normal'>
@@ -19844,8 +19869,6 @@
 			<Effect type ='TextOutput'>36357</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Cacadore</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
@@ -22116,15 +22139,6 @@
 				<Target type ='ProtoUnit'>Blockhouse</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
-
 		</Effects>
 	</Tech>
 	<Tech name ='HCUnicorne' type ='Normal'>
@@ -34441,7 +34455,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47092</Effect>
-			<Effect type ='TransformUnit' toprotoid ='Musketeer' fromprotoid ='Strelet'></Effect>
+			<Effect type ='TransformUnit' toprotoid ='Skirmisher' fromprotoid ='Strelet'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPSpanishGold' type ='Normal'>
@@ -54521,7 +54535,7 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
-<Tech name ='OreRefiningFrench' type ='Normal'>
+	<Tech name ='OreRefiningFrench' type ='Normal'>
 		<DBID>1214</DBID>
 		<DisplayNameID>30447</DisplayNameID>
 		<Cost resourcetype ='Food'>600.0000</Cost>
@@ -54558,6 +54572,67 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>44036</Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='HCShipSkirmishersRussian2' type ='Normal'>
+		<DBID>2634</DBID>
+		<DisplayNameID>70747</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipSkirmishersRussian3' type ='Normal'>
+		<DBID>2635</DBID>
+		<DisplayNameID>70748</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='18.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+
+	<Tech name ='HCShipGrenadiers1Russian' type ='Normal'>
+		<DBID>2305</DBID>
+		<DisplayNameID>70749</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipGrenadiers2Russian' type ='Normal'>
+		<DBID>2566</DBID>
+		<DisplayNameID>70750</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipGrenadiers3Russian' type ='Normal'>
+		<DBID>2637</DBID>
+		<DisplayNameID>70751</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>
