@@ -18325,14 +18325,14 @@
 	</Tech>
 	<Tech name ='HCShipGrenadiers4' type ='Normal'>
 		<DBID>2304</DBID>
-		<DisplayNameID>70752</DisplayNameID>
+		<DisplayNameID>35870</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipGrenadiers1' type ='Normal'>
@@ -54660,6 +54660,18 @@
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FortWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipGrenadiers4Russian' type ='Normal'>
+		<DBID>2304</DBID>
+		<DisplayNameID>70752</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 </TechTree>
