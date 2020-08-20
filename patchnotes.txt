@@ -686,3 +686,7 @@ MISC (bug fixes):
 - Corrected Royal Green Jacket description
 - German Advanced Dock now has stat parity with other advanced dock shipments
 - Ending Japanese isolation no longer has a permanent damage penalty 
+
+KNOWN ISSUES:
+
+- Ballasteros RG/Imperial upgrades offset barracks upgrades one position to the right.
