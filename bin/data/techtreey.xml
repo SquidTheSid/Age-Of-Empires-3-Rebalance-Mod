@@ -319,8 +319,6 @@
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranSkirmishersShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardSkirmishers</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardStrelets</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranStrelets</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -38418,12 +38416,12 @@
 		<RolloverTextID>61550</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
 			<Effect type ='TextOutput'>61577</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
@@ -54280,7 +54278,7 @@
 		<RolloverTextID>70719</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
@@ -54376,11 +54374,9 @@
 		<RolloverTextID>70727</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 		</Effects>
 	</Tech>
@@ -54576,7 +54572,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>44036</Effect>
 		</Effects>
