@@ -1448,8 +1448,8 @@
       <tech>HCShipCossacks2</tech>
       <tech>HCShipCavArchers1</tech>
       <tech>HCShipCavArchers2</tech>
-      <tech>HCShipGrenadiers1</tech>
-      <tech>HCShipGrenadiers2</tech>
+      <tech>HCShipGrenadiers1Russian</tech>
+      <tech>HCShipGrenadiers2Russian</tech>
       <tech>HCShipFalconets1</tech>
       <tech>HCAdvancedArtillery</tech>
     </activetechs>
