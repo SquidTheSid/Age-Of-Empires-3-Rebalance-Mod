@@ -1603,6 +1603,9 @@
 				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
 			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='NativeMaya' type ='Normal'>
@@ -4524,6 +4527,8 @@
 				<Target type ='ProtoUnit'>Guardian</Target></Effect>
 			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0XPSPC' type ='Normal'>
@@ -5572,6 +5577,8 @@
 				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
 			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypNativeJesuit' type ='Normal'>
@@ -11698,6 +11705,8 @@
 				<Target type ='ProtoUnit'>ypWarJunk</Target></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ColonializeRussian' type ='Normal'>
@@ -14982,8 +14991,8 @@
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='FortFrontier' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-
-
+			<Effect type ='Data' amount ='-1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeSPCAct1' type ='Normal'>
@@ -54638,5 +54647,19 @@
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
-
+	<Tech name ='HCUnlockFortRussian' type ='Normal'>
+		<DBID>814</DBID>
+		<DisplayNameID>27836</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\fort\fort_icon</Icon>
+		<RolloverTextID>27835</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FortFrontier</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FortWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
 </TechTree>

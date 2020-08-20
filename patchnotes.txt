@@ -451,7 +451,7 @@ China:
 
 Transcendence cooldown reduced to 180 seconds from 216
 
-German consulate Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25
+German consulate Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25 (parity with trickle buffs)
 
 Qiang Pikeman: They've got a terribly low light infantry multiplier for a pike, so I've gone ahead and fixed it
 - Light Infantry damage multiplier increased to 3.5x from 2.25x
@@ -469,6 +469,7 @@ Flamethrower: They're solid units with great upgrades, but their slow speed and 
 Keshik: China's dragoon/cav archer option is quite pathetic due to its pitiful base health. They've been buffed to be more survivable vs. cav, especially with old han 2.0
 - HP: Increased to 140 from 110
 - Armor: Changed from 30% Ranged to 30% Melee
+- Multipliers: Heavy Cav and CoyoteMan innate damage multipliers increased to 3.5x and 3.0x from 3.0 and 2.5x; Mongololian Scourge bonus reduced to +0.5x from 1.0x (same net multiplier, but less reliant on the card)
 - Obstruction radius reduced to .65 from .79
 - Now affected by reworked Old Han Reforms
 
@@ -508,12 +509,20 @@ Bestieros: 2400 for crossbowmen? Oof.
 
 Russia:
 
-New civ bonus: Can now train Grenadiers in blockhouses. Cavalry Archers can be trained in age 2, and Musketeers build Forts by default in Fortress Age. 
+New civ bonus: Can now train batch Grenadiers in blockhouses. Cavalry Archers can be trained in age 2, and Strelets build Forts by default in Fortress Age. 
 
 Villager train time reduced to 51 seconds from 53
 
-Strelets: I've fixed a long-standing bug. In the code, Strelets got a 25% discount on gold and food costs. But since they cost wood instead of gold, they receive no discount for that. It's been fixed as such.
-Cost: Wood cost reduced to 75 from 100
+Strelets: Historically, they were musketeers (it's in their name), and given Russia's heavy reliance on musketeers for forts late game, I've turned Strelets into "ruskets"
+- HP: Increased to 100 from 90
+- Armor: Changed to 30% melee from 30% ranged
+- Ranged Attack: Increased to 12 from 10; range reduced to 10 from 12; all multipliers removed
+- Melee Attack: Increased to 8 from 5; 2.5x cav and 2.0x light infantry multipliers added
+- Siege Attack: Increased to 12 from 9
+- AbstractHeavyInfantry and AbstractGunPowderTrooper tags added. 
+
+
+Musketeers removed; replaced with Skirmishers (available Age 3). 
 
 Halberdier HP/Damage penalties reduced to 15% from 20%
 
@@ -522,11 +531,12 @@ Oprichnik Siege damage reduced to 60 from 75, but now shadowtechs by 20% in fort
 
 
 Shipments:
-- Strelet Horde now additionally increases Strelet range by 2. 
+- Strelet Combat now additionally increases range by 2.
 - Kagul Tactics added: Now increases Cavalry Archer's damage by 15% and their artillery damage multiplier by 50% (3.0)
 - National Redoubt now decreases Fort cost and build points by 15%.
 - Palace Grenadiers added: Increases Grenadier HP/Damage by 20% and gives them a 1.5x multiplier vs Heavy Infantry
 - TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
+- 11/16 Musketeer shipments replaced with 10/18 skirmisher shipments
 
 Spain:
 

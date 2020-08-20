@@ -738,7 +738,7 @@
       <displayunitcount>4</displayunitcount>
     </card>
     <card>
-      <name>HCUnlockFort</name>
+      <name>HCUnlockFortRussian</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -749,7 +749,7 @@
       <name>HCXPUnlockFort2</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCUnlockFort</prereqtech>
+      <prereqtech>HCUnlockFortRussian</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
     </card>
@@ -1275,7 +1275,7 @@
         <card>HCExplorerRussian</card>
         <card>HCFurrierTeam</card>
         <card>HCAdvancedArtillery</card>
-        <card>HCUnlockFort</card>
+        <card>HCUnlockFortRussian</card>
       </cards>
     </deck>
     <deck>
@@ -1296,7 +1296,7 @@
         <card>HCExplorerRussian</card>
         <card>HCFurrierTeam</card>
         <card>HCAdvancedArtillery</card>
-        <card>HCUnlockFort</card>
+        <card>HCUnlockFortRussian</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1488,7 +1488,7 @@
       <tech x="2.3" y="3.0">HCAdvancedArsenal</tech>
       <tech x="2.3" y="4.0">HCFrontierDefenses2</tech>
       <tech x="3.0" y="5.0">HCHeavyFortifications</tech>
-      <tech x="3.5" y="1.0">HCUnlockFort</tech>
+      <tech x="3.5" y="1.0">HCUnlockFortRussian</tech>
       <tech x="3.5" y="4.0">HCXPUnlockFort2</tech>
       <tech x="3.5" y="7.0">HCXPSevastopol</tech>
       <tech x="4.2" y="1.0">HCBarracksHPTeam</tech>
@@ -1507,7 +1507,7 @@
       <tech x="7.2" y="5.0">HCXPIndustrialRevolution</tech>
     </obtainabletechs>
     <activetechs>
-      <tech>HCUnlockFort</tech>
+      <tech>HCUnlockFortRussian</tech>
     </activetechs>
     <validunits/>
     <units/>
