@@ -29348,7 +29348,7 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
 		</Effects>
@@ -29375,7 +29375,7 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
 		</Effects>
@@ -29401,7 +29401,7 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
 		</Effects>
@@ -29426,7 +29426,7 @@
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpAztecWarchief</Target></Effect>
-			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='PetJaguar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
 		</Effects>
