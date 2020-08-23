@@ -14,6 +14,15 @@ Development: Absolute latest. Could be broken or have key missing features. Use 
 
 Installation:
 
+AUTOMATED: 
+
+Download the "wizard.jar" file (this is an executable java archive).
+Double click to run it. Left click on the menu button to see all 4 options. Be
+sure to view the readme first. Click "Install Mod" to copy over files, and if
+you're done, click "Remove Mod" to go back to RE.
+
+MANUAL:
+
 copy the /bin/data folder to your Age of Empires 3's program files directory.
 On Linux, this should be ~/.local/share/Steam/steamapps/common/Age of Empires
 3. On Windows, it should be something like: Program Files
