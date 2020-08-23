@@ -13,7 +13,9 @@ In order to achieve this, many units are being completely reworked.
 <b>Branches</b>:
 
 <i>Releases:</i> Fixed Release. Has all of the features for that version of the mod.
+
 <i>Master:</i> Latest "Stable" version. Shouldn't have game-breaking bugs, but balance is not perfect.
+
 <i>Development</i>: Absolute latest. Could be broken or have key missing features. Use at your own discretion. 
 
 <b>Installation:</b>
