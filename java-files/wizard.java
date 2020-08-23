@@ -71,6 +71,8 @@ public class wizard extends JFrame implements ActionListener
 		Path dataPath = Paths.get(currentPath + "/bin/data"); 
 		Path modPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/bin");
 		Path binPath = Paths.get(currentPath +"/bin");
+		Path deleteCheckPath = Paths.get(currentPath +"/bin/data/civs.xml");
+
 
 		if (e.getSource() == itemHelp)
 			//show the read me once the user clicks on the menu button
@@ -94,10 +96,16 @@ public class wizard extends JFrame implements ActionListener
 					try
 					{
 						//backup files before we do anything else
-						copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
-						copyDirectoryFileVisitor(modPath.toString(), binPath.toString()); 
-						JOptionPane.showMessageDialog(null, "File Copy has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
-
+						//if the user has already installed the mod and tries to reinstall it, we don't create a backup
+						if (Files.exists(deleteCheckPath) && Files.isRegularFile(deleteCheckPath))
+							System.out.println("Data files have been modified. Skipping backup.");
+						//if the user hasn't installed the mod, then we create a backup
+						else if(!Files.exists(deleteCheckPath))
+							copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
+						//in either case, we still copy over the mod install files
+							copyDirectoryFileVisitor(modPath.toString(), binPath.toString()); 
+							JOptionPane.showMessageDialog(null, "File Copy has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
+						
 					}
 					catch(IOException ex)
 					{
@@ -114,8 +122,7 @@ public class wizard extends JFrame implements ActionListener
 		{
 			System.out.println("This current path is:" + currentPath);
 			System.out.println("Test path is:" + testPath);
-			Path deleteCheckPath = (Paths.get(currentPath +"/bin/data/civs.xml"));
-			//make sure that the user is in the right path to copy the files, and not somewhere else
+						//make sure that the user is in the right path to copy the files, and not somewhere else
 			if (currentPath.toString().equals(testPath.toString()) == false)
 				System.out.println("it didn't work! You're probably in the wrong directory!"); 
 			else if(currentPath.toString().equals(testPath.toString()) == true)
