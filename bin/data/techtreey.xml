@@ -9618,6 +9618,7 @@
 			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Dopplesoldner' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
 		</Effects>
