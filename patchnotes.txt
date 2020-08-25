@@ -353,6 +353,7 @@ Sacred Field: Very underwhelming for India's XP source. Too expensive for what y
 - Sacred Syllable heal rate increased to 15 from 8
 
 Ottoman Consulate LOS bonus reduced to 8 from 10
+Exalted (Imperial) Infantry and Camel upgrades now additionally reduces train time by 20%.
 
 Flail Elephants: Awful redundant units. needs a complete overhaul, but I've just given them some buffs in the meantime.
 - Infantry multiplier increased to 3.0x from 1.5x
@@ -399,6 +400,11 @@ Zamburak: While they're solid anti-cav early game, they struggle midgame due to 
 
 Urumi:
 - TEAM 5 Urumi reduced to TEAM 4 Urumi; cost decreased to 500 food from 600.
+
+Terror Charge Monastery tech cost reduced to 450 Food/Gold from 500. Train time reduction reduced to 15% from 20.
+
+Shipments:
+ - Tame Elephants train time and cost reduction improved to -15% from -10%.
 
 Japan:
 

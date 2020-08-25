@@ -38981,13 +38981,13 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractElephant</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractElephant</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractElephant</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractElephant</Target></Effect>
 		</Effects>
 	</Tech>
@@ -46543,8 +46543,8 @@
 	<Tech name ='ypMonasteryIndianSpeed' type ='Normal'>
 		<DBID>4789</DBID>
 		<DisplayNameID>65979</DisplayNameID>
-		<Cost resourcetype ='Food'>500.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Food'>450.0000</Cost>
+		<Cost resourcetype ='Gold'>450.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_terror_charge_icon_64</Icon>
@@ -46559,7 +46559,7 @@
 				<Target type ='ProtoUnit'>AbstractIndianMonk</Target></Effect>
 			<Effect type ='Data' action ='ExtraSpeed' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractIndianMonk</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractElephant</Target></Effect>
 		</Effects>
 	</Tech>
