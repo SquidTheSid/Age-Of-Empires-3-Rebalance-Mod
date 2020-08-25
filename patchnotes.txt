@@ -29,6 +29,11 @@ Incoporated ESOC's fixed starting crates:
 - Ranching shipments now increase livestock gather fatten rate by 25%
 - Land Grab shipment cost reduction improved to 60% from 40%
 - Offshore support bonus Range/LOS reduced to 2 from 5
+- Non-shipment train time improvements have been weakened, but are now cheaper:
+	-- Mass Cavalry gold cost reduced to 350 from 750; train time improvement reduced to 25% from 50%
+	-- Cheyenne Horse Trading cost reduced to 200 Wood/Gold from 250 each; train time improvement reduced to 20% from 25%
+	-- Incan Chasquis Roads cost reduced to 200 Wood/Gold from 250 each; train time improvement reduced to 20% from 25%
+
 
 Non-wood trickle cards have been improved.
 - Colbertism: Increased to 2 food/s up from 1.5
@@ -534,9 +539,10 @@ Shipments:
 - Strelet Combat now additionally increases range by 2.
 - Kagul Tactics added: Now increases Cavalry Archer's damage by 15% and their artillery damage multiplier by 50% (3.0)
 - National Redoubt now decreases Fort cost and build points by 15%.
-- Palace Grenadiers added: Increases Grenadier HP/Damage by 20% and gives them a 1.5x multiplier vs Heavy Infantry
+- Palace Grenadiers added: Increases Grenadier HP/Damage by 25%. Shippable in Age 4
 - TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
 - 11/16 Musketeer shipments replaced with 10/18 skirmisher shipments
+- Church Westerinization wood cost reduced to 800 from 900; Petrine Reforms gold cost reduced to 2000 from 2500
 
 Spain:
 
@@ -617,9 +623,10 @@ Secondary Civ Bonus added: Can now ship in indian/chinese economic and military 
 Longbowmen: Considering that longbowmen are Britain's main anti-infantry unit, it doesn't make sense that their guard and imperial upgrades are locked behind cards. I've made it innate and buffed Yeomen to help out.
 - Yeomen: Now grants a 0.25x AbstractHeavyInfantry damage multiplier on top of increasing range by 4.
 
-Florence Nightingale heal rate doubled.
-
-Mercenary Hessian Division, Highland Army, and Mediterranean Army shipments removed. 
+Shipments: 
+- Florence Nightingale heal rate doubled.
+- Mercenary Hessian Division, Highland Army, and Mediterranean Army shipments removed. 
+- Thind Red Line speed penalty reduced to -10% from -25% 
 
 East Indian Shipments:
 [Colonial]
@@ -663,6 +670,7 @@ Shipments:
 - Solingen Steel speed reduction decreased to 15% from 33%; HP/Damage bonuses reduced to 30% from 50%
 - Hand Infantry hitpoints/attack/combat cards now affect AbstractHandInfantry 
 - 2 Culverin shipment moved to Fortress age. Now provides 3 Uhlans instead of 4
+- Zweihander church tech now additionally increases Doppelsoldner damage by 10%
 
 War Wagon: Very awkward goon units. They help them out, they have slightly faster speed now, so Spanish Riding school lets them outrun hussars
 - Speed: increased to 6.25 from 6.00
