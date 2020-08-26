@@ -14987,7 +14987,7 @@
 			<Effect type ='TechStatus' status ='active'>Fortressize</Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' action ='BuildingAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.25' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Oprichnik</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
@@ -35673,6 +35673,8 @@
 				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredRajput' type ='Normal'>
@@ -35843,6 +35845,8 @@
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPExaltedCamelGun' type ='Normal'>
@@ -35865,6 +35869,8 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 		</Effects>
 	</Tech>
@@ -36918,6 +36924,10 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractFish' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractFishingBoat</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='AbstractWhale' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractFishingBoat</Target></Effect>
 			<Effect type ='Data' amount ='0.60' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
@@ -39853,6 +39863,8 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 		</Effects>
 	</Tech>
@@ -50989,6 +51001,8 @@
 			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 		</Effects>
 	</Tech>

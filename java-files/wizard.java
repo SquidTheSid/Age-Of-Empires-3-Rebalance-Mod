@@ -7,6 +7,8 @@ import java.awt.BorderLayout;
 import java.io.IOException;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.io.File.*;
+import javax.swing.UIManager.*; 
+import java.awt.Font;
 
 public class wizard extends JFrame implements ActionListener
 {
@@ -37,6 +39,7 @@ public class wizard extends JFrame implements ActionListener
 		this.setResizable(false);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 		this.setTitle("Age of Empires 3: Overhauled");
+		setUI(); 
 		//add the components to each other, then to the panel
 		jvBar.add(menu, BorderLayout.PAGE_START); 
 		panel.add(jvBar, BorderLayout.PAGE_START); 
@@ -63,7 +66,26 @@ public class wizard extends JFrame implements ActionListener
 		setDefaultOSDirectory(); 
 		readMeLabel = new JLabel("<html> This is the setup program for Age of Empires 3 Overhauled Edition. <br> <br> This DOES NOT work for retail copies, only Steam versions. This program WILL NOT work if you move the files from the mod's path or have a non-standard AoE3 install, you will need to do a manual install then. <br> <br> Clicking on \"Install Mod\" will create a backup of your Age Of Empires 3 data files in \"./Age of Empires 3/bin/data\" in the \"./Age of Empires 3/bin/databak\" folder. <br> <br> Clicking on \"Remove Mod\" will override your data files with the backup created earlier. <br> <br> Default Installation Paths. WIN: C:\\Program Files (x86)\\Steam\\Steamapps\\common\\Age Of Empires 3\\ LINUX: ~/.local/.share/Steam/steamapps/common/Age Of Empires 3/ </html>");
 		panel = new JPanel();
-}
+	}
+
+	public void setUI()
+	{
+		try 
+		{
+   		 for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) 
+		 {
+        		if ("Nimbus".equals(info.getName())) 
+			{
+            			UIManager.setLookAndFeel(info.getClassName());
+           			 break;
+       			}
+    		}
+		} catch (Exception e) 
+		{
+    		// If Nimbus is not available, you can set the GUI to another look and feel.
+		}
+
+	}
 
 	public void actionPerformed(ActionEvent e)
 	{

@@ -45,6 +45,7 @@ Native:
 - Natives now have a 75% damage penalty vs. villagers in discovery age. This goes away in colonial. [ESOC]
 - Tiger Claw's "AbstractInfantry" tag removed and replaced with "AbstractCoyoteMan"
 - Sequoyah Syllabary now ships 4 native settlers instead of regular settlers
+- Sufi Fasting now provides a 10% gather boost to fishing boats (previously, they didn't get the bonus but had the 40% penalty)
 
 Unit Buffs: Many native units were underperforming, so they've gotten buffs to make them more viable (dansil92):
 Carib - LOS and range increased to 16 and 14, from 12 and 10 respectively.
