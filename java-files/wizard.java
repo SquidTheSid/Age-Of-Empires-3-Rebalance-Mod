@@ -6,9 +6,10 @@ import java.nio.file.*;
 import java.awt.BorderLayout; 
 import java.io.IOException;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.io.File.*;
 import javax.swing.UIManager.*; 
-import java.awt.Font;
+import java.awt.Image;
+import java.io.File;
+import java.awt.Graphics;
 
 public class wizard extends JFrame implements ActionListener
 {
@@ -73,14 +74,22 @@ public class wizard extends JFrame implements ActionListener
 		try 
 		{
    		 for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) 
-		 {
         		if ("Nimbus".equals(info.getName())) 
 			{
             			UIManager.setLookAndFeel(info.getClassName());
            			 break;
        			}
-    		}
-		} catch (Exception e) 
+
+		 final Image backgroundImage = javax.imageio.ImageIO.read(new File("background_wallpaper.jpg"));
+		setContentPane(new JPanel(new BorderLayout()){
+			@Override public void paintComponent(Graphics g){
+				g.drawImage(backgroundImage,0,0, null);
+			}
+
+		});
+
+		} 
+		catch (Exception e) 
 		{
     		// If Nimbus is not available, you can set the GUI to another look and feel.
 		}

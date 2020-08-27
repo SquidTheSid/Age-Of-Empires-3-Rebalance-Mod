@@ -18645,33 +18645,38 @@
 		<Icon>ui\techs\hc_team_silk_road\hc_team_silk_road</Icon>
 		<RolloverTextID>36012</RolloverTextID>
 		<Flag>HomeCity</Flag>
-		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofCoin</Target></Effect>
 			<Effect type ='TextOutput'>70511</Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofCoinLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofFood</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofWood</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofFoodLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofWoodLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofCoin</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofFood</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofWood</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofCoin1</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofWood1</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofFood1</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCExplorerOttoman' type ='Normal'>
@@ -19433,7 +19438,7 @@
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TextOutput'>41831</Effect>
 		</Effects>
@@ -22705,7 +22710,7 @@
 		<RolloverTextID>37362</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='70.00' subtype ='PopulationCapAddition' relativity ='Absolute'>
+			<Effect type ='Data' amount ='90.00' subtype ='PopulationCapAddition' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TextOutput'>41938</Effect>
 		</Effects>
@@ -22745,6 +22750,8 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' action ='Heal' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -23156,6 +23163,8 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ExplorerDog' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
@@ -25893,6 +25902,8 @@
 		<Effects>
 			<Effect type ='TextOutput'>44117</Effect>
 			<Effect type ='Data' action ='RangedAttack' amount ='10.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Longhouse</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Longhouse</Target></Effect>
 		</Effects>
 	</Tech>
@@ -34168,6 +34179,7 @@
 		<Effects>
 			<Effect type ='TextOutput'>47031</Effect>
 			<Effect type ='TransformUnit' toprotoid ='Rodelero' fromprotoid ='Pikeman'></Effect>
+			<Effect type ='TransformUnit' toprotoid ='Lancer' fromprotoid ='Hussar'></Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranRodeleros</Effect>
 
 		</Effects>
@@ -54448,7 +54460,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Market</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='5.00' subtype ='BuildLimit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Market</Target></Effect>
 			<Effect type ='TextOutput'>41786</Effect>
 		</Effects>
@@ -54469,7 +54481,7 @@
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='SetName' proto ='Farm' culture ='none' newName ='43797'></Effect>
 			<Effect type ='TextOutput'>48870</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 		</Effects>
 	</Tech>
@@ -54689,4 +54701,25 @@
 			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Grenadier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
+	<Tech name ='HCXPAdvancedPlantationIroquois' type ='Normal'>
+		<DBID>9121</DBID>
+		<DisplayNameID>70756</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\advanced_plantation</Icon>
+		<RolloverTextID>70757</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='SetName' proto ='Plantation' culture ='none' newName ='35378'></Effect>
+			<Effect type ='TextOutput'>41792</Effect>
+			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>

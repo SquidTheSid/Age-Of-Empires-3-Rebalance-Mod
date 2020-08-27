@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tactics>
+  <action>
+    <name stringid="69158">Spawn</name>
+    <type>Spawn</type>
+    <rate type="Settler">1.0 </rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="70488">Heal</name>
+    <type>Heal</type>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">10.0 </rate>
+    <active>0</active>
+    <anim>Heal</anim>
+  </action>
+  <tactic>Normal<action>Spawn</action><action>Heal</action></tactic>
+</tactics>

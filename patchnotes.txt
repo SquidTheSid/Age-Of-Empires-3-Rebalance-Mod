@@ -334,7 +334,9 @@ Shipments:
 - 2 Light Cannons increased to 3
 - Age 3 Iroquois Expeditionary Force added. Ships 5 Tomahawks and 1 Light Cannon
 - Advanced Market additionally reduces the cost of markets by 50% and doubles build limit to 10.
-- Advanced Farm additionally reduces the cost of farms by 60% and double build limit to 12.
+- Advanced Farm additionally reduces the cost of farms by 60% and doubles build limit to 12.
+- Advanced Plantation added. Now additionally reduced costs of plantations by 60 and doubles build limit to 12.
+- War Houses now additionally increases Longhouse HP by 25%
 
 
 
@@ -503,21 +505,23 @@ Portugal:
 
 Every non-mercenary home city shipment now comes with a free cow. Shipments requires 2% more exp. 
 
-Gunpower infantry TEAM hitpoints and attack moved to colonial age; infantry combat moved to fortress age, all from Industrial
 
 Guerreiros Royal Guard upgrade now additionally increases range and LOS by 2.
 
 Organ Gun: Very squishy for artillery, and they can even be sniped by falconets. 
 HP: Increased to 200 from 150
 
-Dragoon: 20 range, 7 speed light cav laming...yeah
-- Genitours now provides +4 range/LOS (down from +6/6) and +10% HP
-
 Bestieros: 2400 for crossbowmen? Oof.
 - Cost: Reduced to 1000 wood from 2400
 - Now ships 12 crossbowmen instead of 22
 
-8 Cassadore shipment increased to 9
+Shipments: 
+- 8 Cassadore shipment increased to 9
+- Genitours now provides +4 range/LOS (down from +6/6) and +10% HP
+- Gunpower infantry TEAM hitpoints and attack moved to colonial age; infantry combat moved to fortress age, all from Industrial
+- Banderiantes (2 Explorer shipments) now additionally provides 2 explorer dogs. 
+- Donatarios (2 TC+ build limit) now additionally heals nearby units for 20. 
+- Portuguese White Fleet persists for the rest of the game (4 fishing boats per dock every 80 seconds)
 
 Russia:
 
@@ -550,6 +554,7 @@ Shipments:
 - TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
 - 11/16 Musketeer shipments replaced with 10/18 skirmisher shipments
 - Church Westerinization wood cost reduced to 800 from 900; Petrine Reforms gold cost reduced to 2000 from 2500
+- Strelet Horde now persists for the rest of the game (5 strelets per blockhouse for free every 150 seconds)
 
 Spain:
 
@@ -573,6 +578,7 @@ Shipments:
 - Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
 - Spanish Gold moved to age 2 and now provides a 3.0 Gold/s trickle.
+- Colonial Estancias now provides an additional 20 population (each TC now provides 100 population)
 
 Dutch:
 
@@ -593,6 +599,7 @@ Shipments:
 - Dutch East India company shipment cost decrease improved to 30% from 15%
 - Infantry combat cards now affect AbstractInfantry.
 - 2 Culverin shipment moved to Fortress Age
+- Stadhouder TC cost reduction improved to 60% (now 200 Wood)
 
 Ottoman:
 
@@ -621,7 +628,10 @@ Janissary: Exceptionally beefy musks, a bit too much so. Their HP has been lower
 - Janissary Combat improved to +20% HP/Damage from +15% each [ESOC]
 - Acemi Olglan School now additionally reduces Janissary train points by 20% [aqwer]
 
-Irregulars shipment now additionally increases Cavalry Archers' attack by 15% [Garja]
+Shipments:
+- Irregulars now additionally increases Cavalry Archers' attack by 15% [Garja]
+- Silk Road moved to discovery age; now provides +20% resources and is no longer a team tech. Now additionally provides a crate of 100 of each resource (F/W/G)
+
 
 Britain:
 
