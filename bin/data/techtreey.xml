@@ -27309,7 +27309,7 @@
 		<RolloverTextID>44300</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 			<Effect type ='TextOutput'>44303</Effect>
 		</Effects>
@@ -36647,6 +36647,8 @@
 		<RolloverTextID>60865</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.50' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>69904</Effect>
@@ -38215,7 +38217,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -38591,7 +38593,7 @@
 		<RolloverTextID>61584</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='2.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
 			<Effect type ='TextOutput'>61587</Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='BuildPoints' relativity ='BasePercent'>
@@ -38632,11 +38634,11 @@
 		<Effects>
 			<Effect type ='SetName' proto ='ypMonastery' culture ='none' newName ='61596'></Effect>
 			<Effect type ='TextOutput'>70357</Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.25' subtype ='Cost' resource ='Food' relativity ='Percent'>
 				<Target type ='techWithFlag'>YPMonasteryTech</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.25' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='techWithFlag'>YPMonasteryTech</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.25' subtype ='Cost' resource ='Gold' relativity ='Percent'>
 				<Target type ='techWithFlag'>YPMonasteryTech</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPMonasteryWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -38676,6 +38678,10 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypWaterBuffalo</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='ypVillage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='LivestockPen' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
@@ -39104,17 +39110,15 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='TextOutput'>61811</Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='BuildPoints' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.80' subtype ='BuildPoints' relativity ='Percent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractWonder</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCBazaar' type ='Normal'>
@@ -41304,13 +41308,13 @@
 		<Effects>
 			<Effect type ='SetName' proto ='ypMonastery' culture ='none' newName ='63263'></Effect>
 			<Effect type ='TextOutput'>70358</Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.25' subtype ='Cost' resource ='Food' relativity ='Percent'>
 				<Target type ='techWithFlag'>YPMonasteryTech</Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Gold' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.25' subtype ='Cost' resource ='Gold' relativity ='Percent'>
 				<Target type ='techWithFlag'>YPMonasteryTech</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.25' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='techWithFlag'>YPMonasteryTech</Target></Effect>
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -41431,6 +41435,8 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' action ='Build' amount ='1.50' subtype ='WorkRate' unittype ='Building' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>69905</Effect>
@@ -47439,9 +47445,11 @@
 		<Effects>
 			<Effect type ='TransformUnit' toprotoid ='ypSepoy' fromprotoid ='ypSettlerIndian'></Effect>
 			<Effect type ='TextOutput'>66515</Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedSepoy</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHonoredSepoy</Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -47497,13 +47505,13 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>66286</Effect>
-			<Effect type ='Data' action ='BroadsideAttack' amount ='5.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='BroadsideAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
-			<Effect type ='Data' action ='BuildingAttack' amount ='5.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='BuildingAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
-			<Effect type ='Data' action ='RangedAttack' amount ='5.00' subtype ='MaximumRange' relativity ='Absolute'>
+			<Effect type ='Data' action ='RangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
-			<Effect type ='Data' amount ='5.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWarShip</Target></Effect>
@@ -47570,7 +47578,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -47615,7 +47623,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -47633,7 +47641,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -47651,7 +47659,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -47687,7 +47695,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -48302,7 +48310,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -48394,7 +48402,7 @@
 	<Tech name ='ypConsulateJapaneseMilitaryRickshaw' type ='Normal'>
 		<DBID>4939</DBID>
 		<DisplayNameID>68287</DisplayNameID>
-		<Cost resourcetype ='Trade'>100.0000</Cost>
+		<Cost resourcetype ='Trade'>75.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\shared\wagon\japanese_town_center_wagon_icon_64</Icon>
@@ -48413,7 +48421,7 @@
 	<Tech name ='ypConsulateJapaneseMasterTraining' type ='Normal'>
 		<DBID>4940</DBID>
 		<DisplayNameID>68288</DisplayNameID>
-		<Cost resourcetype ='Trade'>250.0000</Cost>
+		<Cost resourcetype ='Trade'>300.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_master_training</Icon>
@@ -48432,7 +48440,7 @@
 	<Tech name ='ypConsulateJapaneseKoujou' type ='Normal'>
 		<DBID>4941</DBID>
 		<DisplayNameID>68289</DisplayNameID>
-		<Cost resourcetype ='Trade'>500.0000</Cost>
+		<Cost resourcetype ='Trade'>750.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_free_samurai</Icon>
@@ -48440,7 +48448,6 @@
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
-		<Flag>YPCheckPopCap</Flag>
 		<Flag>YPConsulateImprovement</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
@@ -48488,7 +48495,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>69885</Effect>
-			<Effect type ='ResourceExchange' multiplier ='1.60' toresource ='Gold' fromresource ='Trade'></Effect>
+			<Effect type ='ResourceExchange' multiplier ='2.25' toresource ='Gold' fromresource ='Trade'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCBakufu' type ='Normal'>
@@ -49184,7 +49191,7 @@
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>ypFreeIndianSepoy</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypFreeIndianVillager</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>69073</Effect>
 		</Effects>
@@ -49440,7 +49447,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>70354</Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
@@ -49597,11 +49604,11 @@
 		<Flag>TeamTech</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>68924</Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='techWithFlag'>UpgradeTech</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Gold' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Gold' relativity ='Percent'>
 				<Target type ='techWithFlag'>UpgradeTech</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Food' relativity ='Percent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='Percent'>
 				<Target type ='techWithFlag'>UpgradeTech</Target></Effect>
 		</Effects>
 	</Tech>
@@ -49789,7 +49796,7 @@
 			<Effect type ='TechStatus' status ='active'>ypHCConsulateRelations</Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -49824,7 +49831,7 @@
 			<Effect type ='TextOutput'>69026</Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -49846,7 +49853,7 @@
 			<Effect type ='TextOutput'>69030</Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -49942,7 +49949,7 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>YPHCNativeTradeTax</Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -50016,7 +50023,7 @@
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -50034,7 +50041,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -50054,7 +50061,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -50132,7 +50139,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -50338,7 +50345,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypUrumi' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -50363,7 +50370,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypSowarMansabdar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -50381,7 +50388,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdah' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -50523,7 +50530,7 @@
 			<Effect type ='TextOutput'>69876</Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractElephant</Target></Effect>
@@ -51072,7 +51079,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -51090,7 +51097,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -51105,7 +51112,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdah' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -51138,7 +51145,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -51157,7 +51164,7 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='4.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -51176,7 +51183,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -54719,6 +54726,22 @@
 			<Effect type ='TextOutput'>41792</Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='YPHCWhiteLotusRebellion' type ='Normal'>
+		<DBID>4864</DBID>
+		<DisplayNameID>70758</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\tech_cherry_blossom_festival_icon_64</Icon>
+		<RolloverTextID>70759</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
+		<Effects>
+			<Effect type ='TransformUnit' toprotoid ='ypMonkDisciple' fromprotoid ='ypSettlerAsian'></Effect>
+			<Effect type ='TextOutput'>70760</Effect>
+			<Effect type ='TechStatus' status ='active'>ypMonasteryShaolinWarrior</Effect>
 		</Effects>
 	</Tech>
 

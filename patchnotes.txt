@@ -105,6 +105,7 @@ Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
 - British consulate HP increase reduced to 8% from 10%
 - Advanced Wonders now additionally reduces Age Up/Wonder cost by 15% (note: This does NOT stack with the Portuguese consulate)
+- Villagemasons now additionally reduces building wood cost by 25%
 
 European: 
 - Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15); range increased to 14 from 12. Arsonists adjusted accordingly
@@ -232,7 +233,9 @@ Janey Jaguars: The temple shipment is way too expensive for an age 4 card, espec
 War Chief: With the speed improvements to Skull Knights and ERKs, I've buffed smoking mirror to compensate
 - Smoking Mirror Shipment increases speed by 40% instead of 35%
 
-New Ways added. Allows Aztec to research Military Drummers, Country Infantry Rifling, and Infantry Breatplate. Also grants Aztec 3 unique economic upgrades: 2 wood trickles (distributivism in colonial and foreign logging in fortress) and a 30% boost to coin gather rates at the plantation. 
+Shipments: 
+- New Ways. Allows Aztec to research Military Drummers, Country Infantry Rifling, and Infantry Breatplate. Also grants Aztec 3 unique economic upgrades: 2 wood trickles (distributivism in colonial and foreign logging in fortress) and a 30% boost to coin gather rates at the plantation. 
+- Cheap War Huts cost reduction improved to 60% from 50% 
 
 Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with Jaguar Prowl Knights, Puma Spearmen, Skull Knights, and Eagle Runner Knights all fulfilling this role. Generally, a late-game Aztec player would build their army out of almost entirely ERKs due to their significant overall strength, leaving Skull Knights and JPK by the wayside. Now, Aztec have 2 proper cavalry units, 2 skirmisher units, 2 anti-cav units, and 1 artillery unit. 
 
@@ -401,17 +404,21 @@ Zamburak: While they're solid anti-cav early game, they struggle midgame due to 
 - Desert Terror: No longer increases HeavyCav/CoyoteMan damage multiplier by 0.5x. Instead, increases artillery multiplier by 0.25x
 - Discipline upgrade now increases Heavy Cavalry and CoyoteMan damage multiplier by 0.5x.
 
-Urumi:
-- TEAM 5 Urumi reduced to TEAM 4 Urumi; cost decreased to 500 food from 600.
 
 Terror Charge Monastery tech cost reduced to 450 Food/Gold from 500. Train time reduction reduced to 15% from 20.
 
 Shipments:
  - Tame Elephants train time and cost reduction improved to -15% from -10%.
+ - TEAM 5 Urumi reduced to TEAM 4 Urumi; cost decreased to 500 food from 600.
+ - Mughal Architecture now decreases building wood cost by 50% (from 20%) and build time by 20% (from 50%)
 
 Japan:
 
+Japanese Consulate:
 - Meiji Restoration Tech now additionally ships 1 factory wagon and 4 Gatling Guns on ageup
+- Clan Oferrings (Koujou) cost increased to 750 export from 500. Now spawns Hatamoto Samurai instead of regular samurai, and "checkpopcap" flag removed
+- Bushido Principles cost increased to 300 export from 250.
+- Military Rickshaw export cost reduced to 75 from 100. 
 
 Golden Pavillion: a 15% multiplicative ranged damage buff was very powerful, especially with Japan's plethora of auras and upgrades. 
 - Ranged attack buff reduced to 10% from 15%
@@ -450,6 +457,7 @@ Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been tone
 Shipments:
 - Yojimbo shipment increased to 5 from 4.
 - Zen Diet shipment Vill wood cost decreased to 45 from 60.
+- TEAM Cheap unit upgrades increased to -25% cost from -20%
 
 France:
 
@@ -500,6 +508,15 @@ Banner Armies:
 - Old Han Reforms food cost removed. Army costs reduced to a 20% increase from 50%. Now affects Steppe Riders and Keshiks. Upgrades reduced from 100% to 50% HP/Attack
 - Mandarin Duck Squad now ships 10 Chu Ko Nus, up from 8
 - Emperor's Army now ships 10 hand mortars, up from 8
+
+Shipments:
+- Year of the OX now available in Age 2 (from fortress)
+- Confuscious' Gift now available in Age 2 (from fortress)
+- Industrial "White Lotus Rebellion" Shipment added. Converts all villagers into disciples. 
+- Great Wall now increases wall HP by +150% instead of +100%
+- Dowager Empress multiplier increased to 2.25x from 1.60x
+
+
 
 Portugal:
 
@@ -554,7 +571,7 @@ Shipments:
 - TEAM Cheap Priests shipment cost reduction improved to -65% from -50%.
 - 11/16 Musketeer shipments replaced with 10/18 skirmisher shipments
 - Church Westerinization wood cost reduced to 800 from 900; Petrine Reforms gold cost reduced to 2000 from 2500
-- Strelet Horde now persists for the rest of the game (5 strelets per blockhouse for free every 150 seconds)
+- Strelet Horde now persists for the rest of the game (5 strelets per blockhouse for free every 150 seconds) and can now be sent in Age 2. 
 
 Spain:
 
