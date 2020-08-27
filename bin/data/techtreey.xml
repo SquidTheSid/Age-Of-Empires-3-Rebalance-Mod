@@ -34149,7 +34149,7 @@
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
 			<Effect type ='Data' amount ='0.60' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
-			<Effect type ='Data' amount ='0.40' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
 
 
@@ -54275,7 +54275,7 @@
 		<RolloverTextID>70715</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='1.00' subtype ='WorkRate' unittype ='Food' relativity ='Absolute'>
+			<Effect type ='Data' action ='AutoGather' amount ='1.25' subtype ='WorkRate' unittype ='Food' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect></Effects>
@@ -54287,7 +54287,7 @@
 		<RolloverTextID>70717</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='0.75' subtype ='WorkRate' unittype ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' action ='AutoGather' amount ='1.25' subtype ='WorkRate' unittype ='Gold' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect></Effects>
