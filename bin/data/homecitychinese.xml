@@ -757,7 +757,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>YPHCAdvancedIrregulars</prereqtech>
-      <age>4</age>
+      <age>3</age>
     </card>
     <card>
       <name>YPHCHouseHitpointsTeam</name>
@@ -1443,7 +1443,7 @@
       <tech x="3.5" y="7">YPHCConfusciousGift</tech>
       <tech x="1.7" y="1">HCPioneers</tech>
       <tech x="1.7" y="2">YPHCAdvancedIrregulars</tech>
-      <tech x="1.7" y="3">YPHCWhiteLotusRebellion</tech>
+      <tech x="1.7" y="4">YPHCWhiteLotusRebellion</tech>
       <tech x="2.6" y="1">YPHCHouseHitpointsTeam</tech>
       <tech x="2.6" y="2">YPHCVillageShooty</tech>
       <tech x="4.95" y="2">ypHCShipCastleWagons1</tech>

@@ -54730,12 +54730,12 @@
 	</Tech>
 	<Tech name ='YPHCWhiteLotusRebellion' type ='Normal'>
 		<DBID>4864</DBID>
-		<DisplayNameID>70758</DisplayNameID>
+		<DisplayNameID>70759</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_cherry_blossom_festival_icon_64</Icon>
-		<RolloverTextID>70759</RolloverTextID>
+		<RolloverTextID>70758</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
