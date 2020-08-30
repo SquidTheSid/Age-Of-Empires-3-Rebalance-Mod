@@ -1,4 +1,5 @@
-//special thanks to Derek Banas' tutorial, mkyong's recursive file copying, and Oracle's documentation 
+//special thanks to Derek Banas' tutorial, mkyong's recursive file copying, Nambi's image drawing, and Oracle's documentation 
+// https://stackoverflow.com/questions/18777893/jframe-background-image for putting on background image. 
 
 import java.awt.event.*; 
 import javax.swing.*; 
@@ -7,9 +8,9 @@ import java.awt.BorderLayout;
 import java.io.IOException;
 import java.nio.file.attribute.BasicFileAttributes;
 import javax.swing.UIManager.*; 
-import java.awt.Image;
 import java.io.File;
 import java.awt.Graphics;
+import javax.swing.ImageIcon;
 
 public class wizard extends JFrame implements ActionListener
 {
@@ -25,6 +26,7 @@ public class wizard extends JFrame implements ActionListener
 	private Path currentPath; 
 	private Path testPath;
 	private Path sysMapPath;
+	private JLabel background;  
 
 	public static void main(String[] args){
 	//launches the application windows
@@ -44,6 +46,7 @@ public class wizard extends JFrame implements ActionListener
 		setUI(); 
 		//add the components to each other, then to the panel
 		jvBar.add(menu, BorderLayout.PAGE_START); 
+		panel.add(background);
 		panel.add(jvBar, BorderLayout.PAGE_START); 
 		menu.add(itemHelp); 
 		menu.add(installMod); 
@@ -54,6 +57,7 @@ public class wizard extends JFrame implements ActionListener
 		removeMod.addActionListener(this);
 		exitProgram.addActionListener(this);
 		this.add(panel);
+		this.setSize(960,540); 
 		this.setVisible(true);
 	}
 
@@ -65,6 +69,7 @@ public class wizard extends JFrame implements ActionListener
 		removeMod = new JMenuItem("Remove Mod"); 
 		exitProgram = new JMenuItem("Exit"); 
 		jvBar = new JMenuBar(); 
+		background = new JLabel(new ImageIcon("background_wallpaper.jpg")); 
 		setDefaultOSDirectory(); 
 		readMeLabel = new JLabel("<html> This is the setup program for Age of Empires 3 Overhauled Edition. <br> <br> This DOES NOT work for retail copies, only Steam versions. This program WILL NOT work if you move the files from the mod's path or have a non-standard AoE3 install, you will need to do a manual install then. <br> <br> Clicking on \"Install Mod\" will create a backup of your Age Of Empires 3 data files in \"./Age of Empires 3/bin/data\" in the \"./Age of Empires 3/bin/databak\" folder. <br> <br> Clicking on \"Remove Mod\" will override your data files with the backup created earlier. <br> <br> Default Installation Paths. WIN: C:\\Program Files (x86)\\Steam\\Steamapps\\common\\Age Of Empires 3\\ LINUX: ~/.local/.share/Steam/steamapps/common/Age Of Empires 3/ </html>");
 		panel = new JPanel();
@@ -81,14 +86,6 @@ public class wizard extends JFrame implements ActionListener
            			 break;
        			}
 
-		 final Image backgroundImage = javax.imageio.ImageIO.read(new File("background_wallpaper.jpg"));
-		setContentPane(new JPanel(new BorderLayout()){
-			@Override public void paintComponent(Graphics g){
-				g.drawImage(backgroundImage,0,0, null);
-			}
-
-		});
-
 		} 
 		catch (Exception e) 
 		{
@@ -100,7 +97,7 @@ public class wizard extends JFrame implements ActionListener
 	public void actionPerformed(ActionEvent e)
 	{
 		Path backupData = Paths.get(currentPath + "/bin/databak");
-		Path mapPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath()+ "/RM3");
+		Path mapPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/RM3");
 		Path dataPath = Paths.get(currentPath + "/bin/data"); 
 		Path aiPath = Paths.get(currentPath + "/bin/AI3"); 
 		Path backupAI = Paths.get(currentPath + "/bin/AI3BAK"); 
