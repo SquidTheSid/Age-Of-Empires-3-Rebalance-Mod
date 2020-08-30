@@ -4,6 +4,8 @@ SquidTheSid & Dansil92's unit rebalance mod
 
 General:
 
+Included new maps made by Dansil92 
+
 Incoporated ESOC's fixed starting crates:
 - Spain: 300 Food + 200 wood
 - Britain: 300 Food + 300 Wood
@@ -274,7 +276,8 @@ Shipments:
 - 4 villager shipment increased to 5
 
 Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
-- HP: Reduced to 240 from 250
+- HP: Reduced to 230 from 250
+- Cost: Reduced to 100F/70G from 100F/75G
 
 Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
 - HP: Increased to 200 from 170

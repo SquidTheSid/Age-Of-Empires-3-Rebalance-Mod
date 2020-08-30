@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+detailsText = " The open deserts and grasslands of the Wild West are scattered with bison herds and local settlements. An important trade route cuts through the area, and small stands of trees dot the landscape. Control the ponds to ensure safe access to wood, and forge alliances to gain access to powerful technologies. \n
+\n Map by dansil92 "
+ 
+imagepath = "ui\random_map\texas"
+displayName = "New Mexico"
+cannotReplace = ""
+loadDetailsText=" The open deserts and grasslands of the Wild West are scattered with bison herds and local settlements. An important trade route cuts through the area, and small stands of trees dot the landscape. Control the ponds to ensure safe access to wood, and forge alliances to gain access to powerful technologies. 
+\n
+\n Map by dansil92"
+ 
+loadBackground="ui\random_map\texas\texas_map">
+   <loadss>ui\random_map\texas\texas_ss_01</loadss>
+   <loadss>ui\random_map\texas\texas_ss_02</loadss>
+   <loadss>ui\random_map\texas\texas_ss_03</loadss>
+ 
+</mapinfo>

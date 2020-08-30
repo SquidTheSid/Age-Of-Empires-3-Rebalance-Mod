@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+detailsText = " This sparse, barren desert has few available resources. Narrow canyons restrict movements of both military and villagers, but may also prove useful for protecting your units as well. Controlling the central oases will provide a more stable wood supply, as well as abundant fishing. The local Navajo people may offer powerful technologies. \n
+\n Map by dansil92 "
+ 
+imagepath = "ui\random_map\sonora"
+displayName = "Mojave Desert"
+cannotReplace = ""
+loadDetailsText=" This sparse, barren desert has few available resources. Narrow canyons restrict movements of both military and villagers, but may also prove useful for protecting your units as well. Controlling the central oases will provide a more stable wood supply, as well as abundant fishing. The local Navajo people may offer powerful technologies. \n
+\n Map by dansil92 "
+ 
+loadBackground="ui\random_map\sonora\sonora_map">
+   <loadss>ui\random_map\sonora\sonora_ss_01</loadss>
+   <loadss>ui\random_map\sonora\sonora_ss_02</loadss>
+   <loadss>ui\random_map\sonora\sonora_ss_03</loadss>
+</mapinfo>
+

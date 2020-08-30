@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+detailsText = " This region of Patagonia is rich in mineral deposits and wild animals. Two lakes surround the area, and there are always safe places for fishing. Controlling the central portion of the map will be essential, however, the natural cliffs and valleys may catch unwary players out of position. \n
+\n Map by dansil92 "
+ 
+imagepath = "ui\random_map\patagonia"
+displayName = "Viedma"
+cannotReplace = ""
+loadDetailsText=" This region of Patagonia is rich in mineral deposits and wild animals. Two lakes surround the area, and there are always safe places for fishing. Controlling the central portion of the map will be essential, however, the natural cliffs and valleys may catch unwary players out of position. \n
+\n Map by dansil92"
+ 
+loadBackground="ui\random_map\patagonia\patagonia_map">
+   <loadss>ui\random_map\patagonia\patagonia_ss_01</loadss>
+   <loadss>ui\random_map\patagonia\patagonia_ss_02</loadss>
+   <loadss>ui\random_map\patagonia\patagonia_ss_03</loadss>
+
+ 
+</mapinfo>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+detailsText = " This lush area of Central America is surrounded with multiple bodies of water in all directions, teeming with aquatic resources. On land you will find an abundance of dense forests rich in treasures. The local Aztec people will make powerful allies and controlling the small trading route will be essential. \n
+Sudden Death: Selecting 'King of the Hill' mode will enable regicide style gameplay for this map, available for both 1v1 and FFA games. Protect your Aztec temple, if it is destroyed, you will lose instantly! For team games a standard Kings Fort will spawn as usual.
+
+ \n Outlaws: Pistolero / Pirate
+ \n
+ \n
+ &lt;icon=(20)(ui\ingame\stat_icon_heavy_infantry)&gt; &lt;u&gt;Player Setup in Observer Mode&lt;/u&gt;\n
+-1v1: FFA\n
+-2v2: 1+2 vs 3+4\n
+-3v3: 1+2+3 vs 4+5+6\n
+ \n
+ &lt;icon=(20)(ui\ingame\stat_icon_ceasefire)&gt; &lt;u&gt;Observer Setup&lt;/u&gt;\n
+-Team does not matter\n
+-Don't use Iroquois / Aztec / Sioux!\n
+ \n
+ Observer UI by Aizamk \n
+\n
+
+
+\n
+\n Map by dansil92 "
+ 
+imagepath = "ui\random_map\unknown"
+displayName = "Guatemala"
+cannotReplace = ""
+loadDetailsText=" This lush area of Central America is surrounded with multiple bodies of water in all directions, teeming with aquatic resources. On land you will find an abundance of dense forests rich in treasures. The local Aztec people will make powerful allies and controlling the small trading route will be essential. \n
+Sudden Death: Selecting 'King of the Hill' mode will enable regicide style gameplay for this map, available for both 1v1 and FFA games. Protect your Aztec temple, if it is destroyed, you will lose instantly! For team games a standard Kings Fort will spawn as usual.
+\n
+\n Map by dansil92 "
+ 
+loadBackground="ui\random_map\yucatan\yucatan_map">
+   <loadss>ui\random_map\yucatan\yucatan_ss_01</loadss>
+   <loadss>ui\random_map\yucatan\yucatan_ss_02</loadss>
+   <loadss>ui\random_map\yucatan\yucatan_ss_03</loadss>
+</mapinfo>

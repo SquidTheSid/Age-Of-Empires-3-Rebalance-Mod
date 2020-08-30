@@ -27,6 +27,10 @@ Double click to run it. Left click on the menu button to see all 4 options. Be
 sure to view the readme first. Click "Install Mod" to copy over files, and if
 you're done, click "Remove Mod" to go back to RE.
 
+NOTE: The Installer requires an updated version of Java on your system to work.
+This program was built with OpenJDK 14. If you don't have Java installed, go to
+oracle.com/java
+
 <b><i>MANUAL:</i></b>
 
 copy the /bin/data folder to your Age of Empires 3's program files directory.
@@ -34,5 +38,6 @@ copy the /bin/data folder to your Age of Empires 3's program files directory.
 Linux: this should be ~/.local/share/Steam/steamapps/common/Age of Empires
 3. 
 Windows: it should be something like: Program Files (x86)/Steam/Steamapps/common/Age of Empires 3
+
 
 

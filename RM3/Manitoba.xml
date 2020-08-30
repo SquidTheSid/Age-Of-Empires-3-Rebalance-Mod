@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+detailsText = " A large number of ponds dot the landscape in this area. The local Cree peoples may prove a powerful alliance, and players have a vast amount of natural resources at their disposal. A lucrative trade route passes through the area and may prove to be a point of early contention. Controlling the ponds will be essential, but don't neglect your land presence. \n
+ \n Outlaws: Renegado / Comanchero
+ \n
+ &lt;icon=(20)(ui\ingame\stat_icon_heavy_infantry)&gt; &lt;u&gt;Player Setup in Observer Mode&lt;/u&gt;\n
+-1v1: FFA\n
+-2v2: 1+2 vs 3+4\n
+-3v3: 1+2+3 vs 4+5+6\n
+ \n
+ &lt;icon=(20)(ui\ingame\stat_icon_ceasefire)&gt; &lt;u&gt;Observer Setup&lt;/u&gt;\n
+-Team does not matter\n
+-Don't use Iroquois / Aztec / Sioux!\n
+ \n
+ Observer UI by Aizamk \n
+\n
+
+\n
+\n Map by dansil92 "
+ 
+imagepath = "ui\random_map\unknown"
+displayName = "Manitoba"
+cannotReplace = ""
+loadDetailsText=" A large number of ponds dot the landscape in this area. The local Cree peoples may prove a powerful alliance, and players have a vast amount of natural resources at their disposal. A lucrative trade route passes through the area and may prove to be a point of early contention. Controlling the ponds will be essential, but don't neglect your land presence. 
+\n
+ \n Outlaws: Renegado / Comanchero
+
+\n
+\n Map by dansil92 "
+ 
+loadBackground="ui\random_map\saguenay\saguenay_map">
+   <loadss>ui\random_map\saguenay\saguenay_ss_01</loadss>
+   <loadss>ui\random_map\saguenay\saguenay_ss_02</loadss>
+   <loadss>ui\random_map\saguenay\saguenay_ss_03</loadss>
+</mapinfo>
+
+

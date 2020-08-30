@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+detailsText = " You are seperated from your opponent by the mighty Mississippi River. A trade route runs behind each team, and resources are abundant. As the seasons change, the river may be shallow or frozen, and each will require different strategies to succeed. \n
+ \n Outlaws: Comanchero / Pirate
+\n
+ \n
+ &lt;icon=(20)(ui\ingame\stat_icon_heavy_infantry)&gt; &lt;u&gt;Player Setup in Observer Mode&lt;/u&gt;\n
+-1v1: FFA\n
+-2v2: 1+2 vs 3+4\n
+-3v3: 1+2+3 vs 4+5+6\n
+ \n
+ &lt;icon=(20)(ui\ingame\stat_icon_ceasefire)&gt; &lt;u&gt;Observer Setup&lt;/u&gt;\n
+-Team does not matter\n
+-Don't use Iroquois / Aztec / Sioux!\n
+ \n
+ Observer UI by Aizamk \n
+\n
+
+Map by dansil92"
+ 
+imagepath = "ui\random_map\unknown"
+displayName = "Mississippi"
+cannotReplace = ""
+loadDetailsText=" You are seperated from your opponent by the mighty Mississippi River. A trade route runs behind each team, and resources are abundant. As the seasons change, the river may be shallow or frozen, and each will require different strategies to succeed.  \n
+ \n Outlaws: Comanchero / Pirate
+\n
+\n
+Map by dansil92"
+ 
+loadBackground="patch\ozarks\ozarks_map">
+   <loadss>patch\ozarks\ozarks_ss_01</loadss>
+   <loadss>patch\ozarks\ozarks_ss_02</loadss>
+   <loadss>patch\ozarks\ozarks_ss_03</loadss>
+ 
+</mapinfo>

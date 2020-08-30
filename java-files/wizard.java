@@ -24,6 +24,7 @@ public class wizard extends JFrame implements ActionListener
 	private JPanel panel; 
 	private Path currentPath; 
 	private Path testPath;
+	private Path sysMapPath;
 
 	public static void main(String[] args){
 	//launches the application windows
@@ -99,6 +100,7 @@ public class wizard extends JFrame implements ActionListener
 	public void actionPerformed(ActionEvent e)
 	{
 		Path backupData = Paths.get(currentPath + "/bin/databak");
+		Path mapPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath()+ "/RM3");
 		Path dataPath = Paths.get(currentPath + "/bin/data"); 
 		Path aiPath = Paths.get(currentPath + "/bin/AI3"); 
 		Path backupAI = Paths.get(currentPath + "/bin/AI3BAK"); 
@@ -134,10 +136,13 @@ public class wizard extends JFrame implements ActionListener
 							System.out.println("Data files have been modified. Skipping backup.");
 						//if the user hasn't installed the mod, then we create a backup
 						else if(!Files.exists(deleteCheckPath))
+						{
 							copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
 							copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
+						}
 						//in either case, we still copy over the mod install files
 							copyDirectoryFileVisitor(modPath.toString(), binPath.toString()); 
+							copyDirectoryFileVisitor(mapPath.toString(), sysMapPath.toString()); 
 							JOptionPane.showMessageDialog(null, "File Copy has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
 						
 					}
@@ -209,18 +214,21 @@ public class wizard extends JFrame implements ActionListener
 	{
 		//method to see what OS the user is on. Due to AoE3 being deprecated on MacOS, it's not a supported platform. And given that the game is no longer sold in retail stores, only Steam is being currently supported for now
 		String thisOS = System.getProperty("os.name"); 
+		String home = System.getProperty("user.home");
+
 		if (thisOS.contains("Windows") || thisOS.contains("windows"))
 		{
 			System.out.println("User's current OS is a Windows variant, setting default directory");
-			currentPath = Paths.get("C:/Program Files (x86}/Steam/Steamapps/Common/Age of Empires 3/");
-			testPath = Paths.get("C:/Program Files (x86}/Steam/Steamapps/Common/Age of Empires 3/");
+			currentPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
+			testPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
+			sysMapPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/RM3"); 
 		}
 		else if (thisOS.contains("Linux") || thisOS.contains("linux"))
 		{
 			System.out.println("User's current OS is a Linux variant, setting default directory"); 
-			String home = System.getProperty("user.home");
 			currentPath = Paths.get(home + "/.local/share/Steam/steamapps/common/Age Of Empires 3/"); 
 			testPath = Paths.get(home + "/.local/share/Steam/steamapps/common/Age Of Empires 3/"); 
+			sysMapPath = Paths.get(home +"/.local/share/Steam/steamapps/compatdata/105450/pfx/drive_c/users/steamuser/My Documents/My Games/Age of Empires 3/RM3");
 
 
 		}
