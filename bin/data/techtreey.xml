@@ -15900,9 +15900,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Hussar</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='TextOutput'>41815</Effect>
 		</Effects>
 	</Tech>
@@ -15917,9 +15915,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='TextOutput'>41813</Effect>
 		</Effects>
 	</Tech>
@@ -15934,13 +15930,9 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Hussar</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='TextOutput'>41805</Effect>
 		</Effects>
 	</Tech>
