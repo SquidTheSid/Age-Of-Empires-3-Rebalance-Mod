@@ -1167,7 +1167,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
 <card>
-      <name>HCBeiyangArmyBritish</name>
+      <name>HCMongolianArmyBritish</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
@@ -1176,25 +1176,34 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCGreenStandardArmyBritish</name>
+      <name>HCForbiddenArmyBritish</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCBeiyangArmyBritish</prereqtech>
+      <prereqtech>HCMongolianArmyBritish</prereqtech>
       <age>2</age>
-      <displayunitcount>15</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCIronCapPrincesArmyBritish</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCGreenStandardArmyBritish</prereqtech>
+      <prereqtech>HCForbiddenArmyBritish</prereqtech>
       <age>3</age>
       <displayunitcount>24</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>AsianVillageBritish</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCRicePaddyWagonBritish</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
@@ -1657,14 +1666,15 @@
       <tech x="6.3" y="1.0">HCMercsGurkhas</tech>
       <tech x="6.3" y="2.0">HCMercsGurkhas2</tech>
       <tech x="6.3" y="4.0">HCMercsGurkhas3Repeat</tech>
-      <tech x="6.3" y="5.0">HCBeiyangArmyBritish</tech>
-      <tech x="6.3" y="6.0">HCGreenStandardArmyBritish</tech>
+      <tech x="6.3" y="5.0">HCMongolianArmyBritish</tech>
+      <tech x="6.3" y="6.0">HCForbiddenArmyBritish</tech>
       <tech x="6.3" y="7.0">HCIronCapPrincesArmyBritish</tech>
       <tech x="7.0" y="1.0">HCShipGroveWagonsBritish</tech>
       <tech x="7.0" y="2.0">SacredFieldBritish</tech>
       <tech x="7.0" y="3.0">HCMercsCamels</tech>
       <tech x="7.0" y="4.0">HCMercsElephants</tech>
       <tech x="7.0" y="6.0">AsianVillageBritish</tech>
+      <tech x="7.0" y="7.0">HCRicePaddyWagonBritish</tech>
       <tech x="2.4" y="1.0">HCPrivateers</tech>
       <tech x="2.4" y="2.0">HCPrivateers2</tech>
       <tech x="2.4" y="3.0">HCPrivateers3</tech>

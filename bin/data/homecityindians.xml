@@ -483,7 +483,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>YPHCShipIndianRangedCavalry3</prereqtech>
-      <age>1</age>
+      <age>2</age>
     </card>
     <card>
       <name>YPHCShipSiegeElephant1</name>

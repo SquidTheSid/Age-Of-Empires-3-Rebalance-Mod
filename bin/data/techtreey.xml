@@ -25233,7 +25233,7 @@
 		<Icon>ui\units\iro_musket_rider_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpMusketRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpMusketRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipLightCannon1' type ='Normal'>
@@ -25245,7 +25245,9 @@
 		<Icon>ui\units\sx_light_cannon_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='xpLightCannon' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpTomahawk' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpLightCannon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipLightCannon2' type ='Normal'>
@@ -38971,26 +38973,26 @@
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCamel</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 			<Effect type ='TextOutput'>70356</Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianSepoy' type ='Data' amount ='2.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.17' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.08' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
-			<Effect type ='Data' action ='TrampleHandAttack' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='TrampleHandAttack' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
-			<Effect type ='Data' action ='TrampleHandAttack' amount ='-0.17' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='TrampleHandAttack' amount ='-0.08' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
-			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.17' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='-0.08' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
-			<Effect type ='Data' action ='DefendHandAttack' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
 		</Effects>
 	</Tech>
@@ -54179,7 +54181,7 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='HCGreenStandardArmyBritish' type ='Normal'>
+	<Tech name ='HCForbiddenArmyBritish' type ='Normal'>
 		<DBID>9105</DBID>
 		<DisplayNameID>70695</DisplayNameID>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
@@ -54192,29 +54194,28 @@
 		<Effects>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypMeteorHammer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypIronFlail' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>ypDisciplinedMeteorHammerShadow</Effect>
-			<Effect type ='TechStatus' status ='active'>ypDisciplinedChangdaoShadow</Effect>
-
+			<Effect type ='TechStatus' status ='active'>ypDisciplinedIronFlailShadow</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHCMongolianScourge</Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='HCBeiyangArmyBritish' type ='Normal'>
+	<Tech name ='HCMongolianArmyBritish' type ='Normal'>
 		<DBID>9106</DBID>
 		<DisplayNameID>70697</DisplayNameID>
-		<Cost resourcetype ='Gold'>750.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\home_city\hc_bei_ying_army</Icon>
+		<Icon>units\asians\chinese\new_mongolian_army\new_mongolian_army_icon_64</Icon>
 		<RolloverTextID>70698</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKeshik' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypKeshik' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypSteppeRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypHandMortar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active'>YPDisciplinedSteppeRider</Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedKeshik</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHCMongolianScourge</Effect>
 		</Effects>
@@ -54742,6 +54743,34 @@
 			<Effect type ='TransformUnit' toprotoid ='ypMonkDisciple' fromprotoid ='ypSettlerAsian'></Effect>
 			<Effect type ='TextOutput'>70760</Effect>
 			<Effect type ='TechStatus' status ='active'>ypMonasteryShaolinWarrior</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCRicePaddyWagonBritish' type ='Normal'>
+		<DBID>3718</DBID>
+		<DisplayNameID>70761</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_reclaimed_land</Icon>
+		<RolloverTextID>70762</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='YPRicePaddyWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>69926</Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.05' subtype ='WorkRateSpecific' resource ='Food' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.05' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
 		</Effects>
 	</Tech>
 
