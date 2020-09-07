@@ -54055,7 +54055,7 @@
 		<RolloverTextID>70684</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='19.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
+			<Effect type ='Data' amount ='20.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkhaJemadar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -54066,7 +54066,7 @@
 	<Tech name ='HCMercsElephants' type ='Normal'>
 		<DBID>9100</DBID>
 		<DisplayNameID>70685</DisplayNameID>
-		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>5000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -54074,13 +54074,11 @@
 		<RolloverTextID>70686</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypMahout' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdah' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypHowdah' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypSiegeElephant' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMercFlailiphant' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSiegeElephant' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMahoutMansabdar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -54088,15 +54086,11 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypSiegeElephantMansabdar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypMercFlailiphantMansabdar' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>ypDisciplinedMahoutShadow</Effect>
 			<Effect type ='TechStatus' status ='active'>ypDisciplinedHowdahShadow</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHonoredMahout</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHonoredHowdah</Effect>
 			<Effect type ='TechStatus' status ='active'>YPHonoredSiegeElephant</Effect>
-			<Effect type ='TechStatus' status ='active'>YPHonoredFlailElephant</Effect>
-			<Effect type ='TechStatus' status ='active'>YPDisciplinedFlailElephant</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='SacredFieldBritish' type ='Normal'>
@@ -54132,7 +54126,7 @@
 		<RolloverTextID>70690</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedGurkha</Effect>
 		</Effects>
@@ -54231,7 +54225,7 @@
 		<RolloverTextID>70700</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='20.00' subtype ='FreeHomeCityUnit' unittype ='ypChangdao' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -54258,7 +54252,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerAsian' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 
 		</Effects>
@@ -54307,7 +54301,7 @@
 		<RolloverTextID>70717</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='1.25' subtype ='WorkRate' unittype ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' action ='AutoGather' amount ='1.00' subtype ='WorkRate' unittype ='Gold' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='6.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect></Effects>
@@ -54404,7 +54398,7 @@
 			<Effect type ='SetAge'>Age1</Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Coureur' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -54614,9 +54608,7 @@
 		<RolloverTextID>70745</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>44036</Effect>
 		</Effects>
@@ -54747,13 +54739,13 @@
 	</Tech>
 	<Tech name ='HCRicePaddyWagonBritish' type ='Normal'>
 		<DBID>3718</DBID>
-		<DisplayNameID>70761</DisplayNameID>
+		<DisplayNameID>70762</DisplayNameID>
 		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\home_city\hc_reclaimed_land</Icon>
-		<RolloverTextID>70762</RolloverTextID>
+		<RolloverTextID>70761</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='YPRicePaddyWagon' relativity ='Absolute'>
