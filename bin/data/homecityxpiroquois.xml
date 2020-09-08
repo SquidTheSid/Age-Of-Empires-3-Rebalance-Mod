@@ -12,8 +12,8 @@
   <widescreencamera>iroquois\iroquois_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>10</level>
-  <skillpoints>9</skillpoints>
+  <level>100</level>
+  <skillpoints>999</skillpoints>
   <lightset>hc_iroquois1</lightset>
   <watertype>Berlin</watertype>
   <numpropunlocksearned>0</numpropunlocksearned>
@@ -583,7 +583,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>

@@ -12,8 +12,8 @@
   <widescreencamera>british\british_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>10</level>
-  <skillpoints>9</skillpoints>
+  <level>100</level>
+  <skillpoints>999</skillpoints>
   <lightset>London</lightset>
   <watertype>London</watertype>
   <numpropunlocksearned>0</numpropunlocksearned>
@@ -1109,7 +1109,7 @@
       <level>25</level>
       <prereqtech>HCMercsGurkhas</prereqtech>
       <age>3</age>
-      <displayunitcount>19</displayunitcount>
+      <displayunitcount>21</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1118,7 +1118,7 @@
       <level>40</level>
       <prereqtech>HCMercsGurkhas2</prereqtech>
       <age>2</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1154,7 +1154,7 @@
       <level>40</level>
       <prereqtech>HCMercsCamels</prereqtech>
       <age>3</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1206,9 +1206,9 @@
       <name>HCRicePaddyWagonBritish</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>AsianVillageBritish</prereqtech>
       <age>1</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>

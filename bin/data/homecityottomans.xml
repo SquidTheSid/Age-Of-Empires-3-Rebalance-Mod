@@ -12,8 +12,8 @@
   <camera>ottoman\ottoman_homecity_widescreencamera.cam</camera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>10</level>
-  <skillpoints>9</skillpoints>
+  <level>100</level>
+  <skillpoints>999</skillpoints>
   <lightset>Constantinople</lightset>
   <watertype>Constantinople</watertype>
   <numpropunlocksearned>0</numpropunlocksearned>

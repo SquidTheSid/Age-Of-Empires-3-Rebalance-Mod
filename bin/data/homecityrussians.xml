@@ -12,8 +12,8 @@
   <widescreencamera>russian\russian_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>10</level>
-  <skillpoints>9</skillpoints>
+  <level>100</level>
+  <skillpoints>999</skillpoints>
   <lightset>st_petersburg</lightset>
   <watertype>Berlin</watertype>
   <numpropunlocksearned>0</numpropunlocksearned>

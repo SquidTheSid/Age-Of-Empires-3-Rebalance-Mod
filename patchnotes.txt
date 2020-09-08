@@ -28,16 +28,19 @@ Incoporated ESOC's fixed starting crates:
 - Fast Age up politicians (Messenger, Exiled Prince) now age up in 35 seconds instead of 30. Fortress Age takes 45 seconds instead of 40
 - Wall HP reduced to 2000 from 3000
 - Town Center wood cost reduced to 500 from 600 (ESOC); plantation cost reduced to 500 from 800
-- Ranching shipments now increase livestock gather fatten rate by 25%
-- Land Grab shipment cost reduction improved to 60% from 40%
-- Offshore support bonus Range/LOS reduced to 2 from 5
 - Non-shipment train time improvements have been weakened, but are now cheaper:
 	-- Mass Cavalry gold cost reduced to 350 from 750; train time improvement reduced to 25% from 50%
 	-- Cheyenne Horse Trading cost reduced to 200 Wood/Gold from 250 each; train time improvement reduced to 20% from 25%
 	-- Incan Chasquis Roads cost reduced to 200 Wood/Gold from 250 each; train time improvement reduced to 20% from 25%
 
 
-Non-wood trickle cards have been improved.
+
+Shipments: 
+- Ranching shipments now increase livestock gather fatten rate by 25%
+- Land Grab shipment cost reduction improved to 60% from 40%
+- Offshore support bonus Range/LOS reduced to 2 from 5
+- Advanced Farm and Mill now provide a 10% gather rate bonus instead of extra hitpoints
+- Advanced Plantation now provides a 10% gather rate bonus instead of extra hitpoints
 - Colbertism: Increased to 2 food/s up from 1.5
 - Capitalism: Increased to 1.5 gold/s up from 1.25
 
@@ -340,9 +343,10 @@ Shipments:
 - 2 Light Cannons increased to 3
 - Age 3 Iroquois Expeditionary Force added. Ships 5 Tomahawks and 1 Light Cannon
 - Advanced Market additionally reduces the cost of markets by 50% and doubles build limit to 10.
-- Advanced Farm additionally reduces the cost of farms by 60% and doubles build limit to 12.
-- Advanced Plantation added. Now additionally reduced costs of plantations by 60 and doubles build limit to 12.
+- Advanced Farm additionally reduces the cost of farms by 60%, increases gather rate by 10%, and doubles build limit to 12.
+- Advanced Plantation added. Now additionally reduced costs of plantations by 60%, increases gather rate by 10% and doubles build limit to 12.
 - War Houses now additionally increases Longhouse HP by 25%
+- TEAM Cheap Outposts cost reduction increased to 60% from 30%
 
 
 
@@ -401,16 +405,15 @@ Howdah: Howdah, much like Mahout, as slow and are population inefficient. They'v
 
 Sowar: They're India's version of cossacks, but with a focus on countering skirms. However, they're paper thin, so I've made them a little beefier
 - HP: Increased to 250 from 225 (might include ESOC's damage multipliers down the line or maybe slightly reduce speed and buff attack).
-- Desert Terror: Additionally increases camel HP by 10%
 
 Zamburak: While they're solid anti-cav early game, they struggle midgame due to their reliance on cards. 
-- Desert Terror: No longer increases HeavyCav/CoyoteMan damage multiplier by 0.5x. Instead, increases artillery multiplier by 0.25x
 - Discipline upgrade now increases Heavy Cavalry and CoyoteMan damage multiplier by 0.5x.
 
 
 Terror Charge Monastery tech cost reduced to 450 Food/Gold from 500. Train time reduction reduced to 15% from 20.
 
 Shipments:
+ - Desert Terror: Rework. Now provides a 10% camel HP bonus and gives Zamburaks a +0.25x bonus vs artillery and Sowar a +0.5x bonus vs artillery
  - Tame Elephants train time and cost reduction improved to -15% from -10%.
  - TEAM 5 Urumi reduced to TEAM 4 Urumi; cost decreased to 500 food from 600.
  - Mughal Architecture now decreases building wood cost by 50% (from 20%) and build time by 20% (from 50%)
@@ -461,6 +464,8 @@ Shipments:
 - Yojimbo shipment increased to 5 from 4.
 - Zen Diet shipment Vill wood cost decreased to 45 from 60.
 - TEAM Cheap unit upgrades increased to -25% cost from -20%
+- Yabusame Attack improved to +40% damage from +20%
+- In-Yo Rush no longer provides a damage bonus; now grants a 1.0x multiplier vs. artillery and heavy cavalry.
 
 France:
 

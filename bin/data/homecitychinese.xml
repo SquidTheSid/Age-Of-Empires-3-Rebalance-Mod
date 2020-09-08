@@ -12,8 +12,8 @@
   <widescreencamera>china\china_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>10</level>
-  <skillpoints>9</skillpoints>
+  <level>100</level>
+  <skillpoints>999</skillpoints>
   <lightset>China</lightset>
   <watertype>China_HC</watertype>
   <numpropunlocksearned>0</numpropunlocksearned>
@@ -216,7 +216,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -225,7 +225,7 @@
       <level>0</level>
       <prereqtech>YPHCShipVillageWagon1</prereqtech>
       <age>1</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -234,7 +234,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -243,7 +243,7 @@
       <level>10</level>
       <prereqtech>YPHCShipCoveredWagonsAsian</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -319,7 +319,7 @@
       <level>25</level>
       <prereqtech>YPHCShipChuKoNu3</prereqtech>
       <age>1</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -575,7 +575,7 @@
       <level>10</level>
       <prereqtech>YPHCShipFlameThrower3</prereqtech>
       <age>2</age>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -611,7 +611,7 @@
       <level>40</level>
       <prereqtech>YPHCShipArquebusier2</prereqtech>
       <age>3</age>
-      <displayunitcount>30</displayunitcount>
+      <displayunitcount>32</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>

@@ -1,0 +1,25 @@
+Units:
+
+Infantry:
+
+Colonial Militia
+
+Skirmisher
+
+
+Cavalry:
+
+Something like Kanya
+
+Something like rifle rider
+
+
+Bonuses:
+
+Turns all vills into colonial militia?
+
+More explorers each age?
+
+Stables become ranches that train livestock (NE)?
+
+

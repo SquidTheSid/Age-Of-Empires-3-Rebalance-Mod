@@ -12,8 +12,8 @@
   <widescreencamera>german\german_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>10</level>
-  <skillpoints>9</skillpoints>
+  <level>100</level>
+  <skillpoints>999</skillpoints>
   <lightset>Berlin</lightset>
   <watertype>Berlin</watertype>
   <numpropunlocksearned>0</numpropunlocksearned>
@@ -242,7 +242,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipCoveredWagonsGerman</prereqtech>
-      <age>3</age>
+      <age>2</age>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -304,7 +304,7 @@
       <level>10</level>
       <prereqtech>HCShipCrossbowmen2German</prereqtech>
       <age>1</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
