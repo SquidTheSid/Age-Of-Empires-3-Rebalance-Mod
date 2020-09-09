@@ -23,3 +23,28 @@ More explorers each age?
 Stables become ranches that train livestock (NE)?
 
 
+
+Colonial Militia Stats:
+
+Cost: 120 Food
+HP - 135
+Armor - 30%
+Speed - 5.0
+LOS - 18
+Pop - 1
+Melee:
+-- 14 Damage
+-- x2.0 Cavalry/ 1.5x Light Infantry
+-- 1.5 ROF
+Ranged: 
+-- 26 Damage
+-- x2.0 Cavalry/ 1.5x Light Infantry
+-- 14 Range
+Siege:
+-- 24 Damage
+-- 6 Range
+-- 3.0 ROF
+Other: Heals at 1.0/s when idle
+
+
+

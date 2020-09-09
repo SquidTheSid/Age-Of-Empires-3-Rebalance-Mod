@@ -4,7 +4,7 @@
     <gold>0</gold>
   </subcivalliancecost>
   <subcivalliancecostfactor>2.0</subcivalliancecostfactor>
-  <civ>
+    <civ>
     <name>Spanish</name>
     <main>1</main>
     <statsid>SP</statsid>
