@@ -54795,7 +54795,7 @@
 				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='Age0American' type ='Normal'>
+	<Tech name ='Age0Americans' type ='Normal'>
 		<DBID>232</DBID>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
@@ -54877,8 +54877,6 @@
 				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Pilgrim' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianKingsMusketeerBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
