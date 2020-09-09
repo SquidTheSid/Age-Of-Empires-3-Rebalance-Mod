@@ -1244,7 +1244,7 @@
     <homecityflagtexture>objects\flags\aztec</homecityflagtexture>
     <homecityflagbuttonset>AztecFlagBtn</homecityflagbuttonset>
     <homecityflagbuttonsetlarge>AztecFlagBtnLarge</homecityflagbuttonsetlarge>
-    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_aztec</postgameflagtexture>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_USA</postgameflagtexture>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch_02</bannertexture>
       <bannertexturecoords>0 0.25 0.78125 0.375</bannertexturecoords>
@@ -5535,4 +5535,84 @@
     <homecityflagbuttonsetlarge>oHigginsFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_chilean</postgameflagtexture>
   </civ>
+<civ>
+    <name>Americans</name>
+    <main>1</main>
+    <statsid>US</statsid>
+    <portrait>objects\flags\USA</portrait>
+    <culture>WesternEurope</culture>
+    <displaynameid>70764</displaynameid>
+    <rollovernameid>70765</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>Age0Americans</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>ColonializeAmericans</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>FortressizeAmericans</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>IndustrializeAmericans</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>ImperializeAmericans</tech>
+    </agetech>
+    <postindustrialtech>PostIndustrialAmericans</postindustrialtech>
+    <postimperialtech>PostImperialAmericans</postimperialtech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>Explorer</startingunit>
+    <townstartingunit>Pilgrim</townstartingunit>
+    <townstartingunit>Pilgrim</townstartingunit>
+    <townstartingunit>Pilgrim</townstartingunit>
+    <townstartingunit>Pilgrim</townstartingunit>
+    <townstartingunit>Pilgrim</townstartingunit>
+    <townstartingunit>Pilgrim</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecityamericans.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\USA</homecityflagtexture>
+    <homecityflagbuttonset>americaFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>britishFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_USA</postgameflagtexture>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0.75 0.78125 0.875</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.4375 0.00390625 0.830078125 0.392578125</portraittexturecoords>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_british</smallportraittexture>
+      <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
+      <unittype>AbstractInfantry</unittype>
+      <rate>1.00</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
+      <unittype>Minuteman</unittype>
+      <rate>-2.0</rate>
+    </unitregen>
+  </civ>
+
 </civs>

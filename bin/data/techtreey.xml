@@ -54795,4 +54795,176 @@
 				<Target type ='ProtoUnit'>ypRicePaddy</Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='Age0American' type ='Normal'>
+		<DBID>232</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Explorer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardColonialMilitia</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranColonialMilitia</Effect>
+			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranHussars</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchThinRedLine</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Sheep</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>RGLifeGuardHussars</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Mill</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>House</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Pilgrim</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranPikemen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranLongbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardLongbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialLongbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialDragoons</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialRedcoat</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialLifeGuard</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialGrenadiers</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Capitol</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Falconet</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Stable</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Barracks</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchBlackWatch</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdmiral</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneralBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidente</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalist</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianTycoon</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianViceroyBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianGovernor</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Plantation</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TradingPost</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Dock</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>XPTrickle</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Market</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChurchRogersRangers</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Arsenal</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CWallGate</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WallStraight5</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Pilgrim' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianKingsMusketeerBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianBishopBritish</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Church</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FieldHospital</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Priest</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Culverin</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Mortar</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Monitor</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Frigate</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Galleon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Caravel</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Bayonet</Effect>
+			<Effect type ='TechStatus' status ='active'>Levy</Effect>
+			<Effect type ='Data' action ='SpawnRocket' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Factory</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialRocket</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialFieldGun</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>FieldGun</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranDragoonsShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Saloon</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpHorseArtillery</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='Data' amount ='-6.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+
+		</Effects>
+		</Tech>
+		<Tech name ='HCExplorerAmerican' type ='Normal'>
+		<DBID>2088</DBID>
+		<DisplayNameID>70769</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\tech_japan_stealth_icon</Icon>
+		<RolloverTextID>70768</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ExplorerDog' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Hero</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Hero</Target></Effect>
+			<Effect type ='Data' action ='Stealth' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Hero</Target></Effect>
+			<Effect type ='Data' amount ='1.00' tactic ='Stealth' subtype ='TacticEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Hero</Target></Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>
