@@ -5606,7 +5606,7 @@
     </unitregen>
     <unitregen>
       <unittype>AbstractInfantry</unittype>
-      <rate>1.00</rate>
+      <rate>1.50</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
