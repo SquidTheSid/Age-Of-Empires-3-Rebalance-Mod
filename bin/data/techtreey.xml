@@ -54824,15 +54824,12 @@
 				<Target type ='ProtoUnit'>House</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Pilgrim</Target></Effect>
+			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranPikemen</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranLongbowmen</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardLongbowmen</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialLongbowmen</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialDragoons</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialRedcoat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialLifeGuard</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialGrenadiers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -55031,19 +55028,25 @@
 
 		</Effects>
 	</Tech>
-	<Tech name ='HCRangedInfantryDamageAmericansTeam' type ='Normal'>
+	<Tech name ='HCRangedInfantryDamageAmericans' type ='Normal'>
 		<DBID>2374</DBID>
 		<DisplayNameID>35767</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_team_ranged_infantry_attack\hc_team_ranged_infantry_damage</Icon>
+		<Icon>ui\techs\hc_ranged_infantry_attack\hc_ranged_infantry_damage</Icon>
 		<RolloverTextID>35766</RolloverTextID>
 		<Flag>HomeCity</Flag>
-		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCRangedInfantryCombatAmericans' type ='Normal'>
@@ -55057,6 +55060,8 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
@@ -55100,6 +55105,45 @@
 			<Effect type ='Data' amount ='14.00' subtype ='FreeHomeCityUnit' unittype ='Ranger' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
-
+	<Tech name ='ColonializeAmericans' type ='Normal'>
+		<DBID>1125</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_2</Icon>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='FortressizeAmericans' type ='Normal'>
+		<DBID>1898</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_3</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>Fortressize</Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='IndustrializeAmericans' type ='Normal'>
+		<DBID>1169</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_4</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>
+	</Tech>
+	<Tech name ='ImperializeAmericans' type ='Normal'>
+		<DBID>1337</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\post_game\time_line_age_5</Icon>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionWashington</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
+		</Effects>
+	</Tech>
 
 </TechTree>

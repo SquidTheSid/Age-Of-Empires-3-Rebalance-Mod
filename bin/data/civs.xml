@@ -5610,6 +5610,16 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
+      <unittype>AbstractCavalry</unittype>
+      <rate>1.50</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
+      <unittype>AbstractArtillery</unittype>
+      <rate>2.00</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
       <unittype>Minuteman</unittype>
       <rate>-2.0</rate>
     </unitregen>

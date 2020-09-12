@@ -528,6 +528,14 @@
       <age>3</age>
     </card>
     <card>
+      <name>HCXPIndustrialRevolution</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCUnlockFactory</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
       <name>HCFishMarket</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -554,6 +562,27 @@
       <level>25</level>
       <prereqtech>HCSilversmith</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>HCXPCapitalism</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCXPColonialism</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCXPCapitalism</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCXPGlobalism</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCXPColonialism</prereqtech>
+      <age>0</age>
     </card>
     <card>
       <name>HCSustainableAgriculture</name>
@@ -860,6 +889,9 @@
     <displaynamestringid>24972</displaynamestringid>
     <rolloverstringid>25535</rolloverstringid>
     <obtainabletechs>
+      <tech x="1.0" y="1.0">HCXPCapitalism</tech>
+      <tech x="1.0" y="2.0">HCXPColonialism</tech>
+      <tech x="1.0" y="3.0">HCXPGlobalism</tech>
       <tech x="2.0" y="1.0">HCFishMarket</tech>
       <tech x="2.0" y="3.0">HCStonemasons</tech>
       <tech x="2.0" y="5.0">HCExoticHardwoods</tech>
