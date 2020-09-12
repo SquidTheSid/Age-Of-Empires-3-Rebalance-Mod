@@ -19904,6 +19904,8 @@
 				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>ypBlackFlagArmy</Target></Effect>
 		</Effects>
@@ -30819,7 +30821,7 @@
 		<Icon>ui\units\colonial_militia_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpSPCColonialMilitia' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='xpSPCColonialMilitia' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='EliteMusketRiderShadow' type ='Normal'>
@@ -54884,9 +54886,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianBishopBritish</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Church</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -54937,12 +54937,9 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
-			<Effect type ='Data' amount ='-6.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
-
 		</Effects>
-		</Tech>
-		<Tech name ='HCExplorerAmerican' type ='Normal'>
+	</Tech>
+	<Tech name ='HCExplorerAmerican' type ='Normal'>
 		<DBID>2088</DBID>
 		<DisplayNameID>70769</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -54964,5 +54961,146 @@
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='HCXPColonialism' type ='Normal'>
+		<DBID>3438</DBID>
+		<DisplayNameID>70771</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\mercantilism\mercantilism</Icon>
+		<RolloverTextID>70770</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.75' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>60890</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPGlobalization' type ='Normal'>
+		<DBID>3438</DBID>
+		<DisplayNameID>70773</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\faster_shipments</Icon>
+		<RolloverTextID>70772</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.20' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TextOutput'>60890</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPSPCShipColonialMilitia3' type ='Normal'>
+		<DBID>3231</DBID>
+		<DisplayNameID>70774</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\colonial_militia_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='xpSPCColonialMilitia' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCXPSPCShipColonialMilitia4' type ='Normal'>
+		<DBID>3232</DBID>
+		<DisplayNameID>70775</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\colonial_militia_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='xpSPCColonialMilitia' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCRangedInfantryHitpointsAmericans' type ='Normal'>
+		<DBID>2373</DBID>
+		<DisplayNameID>36076</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_ranged_infantry_hitpoints\hc_ranged_infantry_hitpoints</Icon>
+		<RolloverTextID>36075</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+
+		</Effects>
+	</Tech>
+	<Tech name ='HCRangedInfantryDamageAmericansTeam' type ='Normal'>
+		<DBID>2374</DBID>
+		<DisplayNameID>35767</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_team_ranged_infantry_attack\hc_team_ranged_infantry_damage</Icon>
+		<RolloverTextID>35766</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCRangedInfantryCombatAmericans' type ='Normal'>
+		<DBID>2375</DBID>
+		<DisplayNameID>36080</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_gunpowder_infantry_combat\hc_gunpowder_infantry_combat</Icon>
+		<RolloverTextID>36079</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCShipRangers1' type ='Normal'>
+		<DBID>2250</DBID>
+		<DisplayNameID>70780</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Ranger' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipRangers2' type ='Normal'>
+		<DBID>2251</DBID>
+		<DisplayNameID>70781</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Ranger' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipRangers3' type ='Normal'>
+		<DBID>2251</DBID>
+		<DisplayNameID>70782</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='14.00' subtype ='FreeHomeCityUnit' unittype ='Ranger' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+
 
 </TechTree>

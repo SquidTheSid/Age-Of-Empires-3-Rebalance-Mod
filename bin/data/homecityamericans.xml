@@ -154,7 +154,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -191,25 +191,34 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipSkirmishers1</name>
+      <name>HCShipRangers1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipSkirmishers2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipSkirmishers1</prereqtech>
-      <age>3</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers1</name>
+      <name>HCShipRangers2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipRangers1</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipRangers3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipRangers2</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPSPCShipColonialMilitia1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -218,31 +227,52 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers2</name>
+      <name>HCXPSPCShipColonialMilitia2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipMusketeers1</prereqtech>
+      <prereqtech>HCXPSPCShipColonialMilitia1</prereqtech>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers3</name>
+      <name>HCXPSPCShipColonialMilitia3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipMusketeers2</prereqtech>
+      <prereqtech>HCXPSPCShipColonialMilitia2</prereqtech>
       <age>3</age>
-      <displayunitcount>13</displayunitcount>
+      <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers4</name>
+      <name>HCXPSPCShipColonialMilitia4</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipMusketeers3</prereqtech>
-      <age>2</age>
-      <displayunitcount>11</displayunitcount>
+      <prereqtech>HCXPSPCShipColonialMilitia3</prereqtech>
+      <age>3</age>
+      <displayunitcount>16</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCRangedInfantryHitpointsAmericans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCRangedInfantryDamageAmericansTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCRangedInfantryHitpointsAmericans</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCRangedInfantryCombatAmericans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCRangedInfantryDamageAmericansTeam</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>HCShipHussars1</name>
@@ -654,12 +684,10 @@
     <deck>
       <name>Default</name>
       <cards>
-        <card>HCShipSettlers2</card>
         <card>HCShipFoodCrates1</card>
         <card>HCShipWoodCrates1</card>
         <card>HCShipCoinCrates1</card>
         <card>HCShipCoveredWagons</card>
-        <card>HCShipMusketeers1</card>
         <card>HCShipFalconets1</card>
         <card>HCShipRockets1</card>
       </cards>
@@ -744,12 +772,16 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.5" y="1.0">HCShipSkirmishers1</tech>
-      <tech x="0.5" y="2.0">HCShipSkirmishers2</tech>
-      <tech x="2.1" y="1.0">HCShipMusketeers1</tech>
-      <tech x="2.1" y="2.0">HCShipMusketeers2</tech>
-      <tech x="2.1" y="3.0">HCShipMusketeers3</tech>
-      <tech x="2.1" y="4.0">HCShipMusketeers4</tech>
+      <tech x="0.5" y="1.0">HCShipRangers1</tech>
+      <tech x="0.5" y="2.0">HCShipRangers2</tech>
+      <tech x="0.5" y="3.0">HCShipRangers3</tech>
+      <tech x="2.1" y="1.0">HCXPSPCShipColonialMilitia1</tech>
+      <tech x="2.1" y="2.0">HCXPSPCShipColonialMilitia2</tech>
+      <tech x="2.1" y="3.0">HCXPSPCShipColonialMilitia3</tech>
+      <tech x="2.1" y="4.0">HCXPSPCShipColonialMilitia4</tech>
+      <tech x="3.0" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
+      <tech x="3.0" y="2.0">HCRangedInfantryDamageAmericansTeam</tech>
+      <tech x="3.0" y="3.0">HCRangedInfantryCombatAmericans</tech>
       <tech x="3.7" y="1.0">HCShipHussars1</tech>
       <tech x="3.7" y="2.0">HCShipHussars2</tech>
       <tech x="3.7" y="3.0">HCShipHussars3</tech>
@@ -767,7 +799,6 @@
       <tech x="7.4" y="5.0">HCShipRockets2</tech>
     </obtainabletechs>
     <activetechs>
-      <tech>HCShipMusketeers1</tech>
       <tech>HCShipFalconets1</tech>
       <tech>HCShipRockets1</tech>
     </activetechs>
