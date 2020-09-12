@@ -1,0 +1,1926 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- Legend -->
+
+<!-- KeyMapGroup  -->
+<!-- name                 : internal name for searching for groups                    DO NOT CHANGE THIS.   -->
+<!-- displayname          : localized Display Name. Format "$$IDNumber$$DefaultString                       -->
+
+<!-- Key Map Data -->
+<!-- Name                 : internal name for searching for keys.                     DO NOT CHANGE THIS.   -->
+<!-- DisplayName          : localized Display Name. Format "$$IDNumber$$DefaultString                       -->
+<!-- Event                : internal event that gets exectuted                        DO NOT CHANGE THIS.   -->
+<!-- Context              : context of event.                                         DO NOT CHANGE THIS.   -->
+<!-- Command              : command that gets exectuted by key                        DO NOT CHANGE THIS.   -->
+
+<DefaultKeyMap>
+	<KeyMapGroup name = "GeneralGameHotkeys" displayName = "$$43347$$General Game Hotkeys">
+		<KeyMapData>
+			<Name>Delete Selected Units</Name>
+			<DisplayName>$$43335$$Delete Selected Units</DisplayName>
+			<Event>delete</Event>
+			<Context>game</Context>
+			<Command>uiDeleteSelectedUnit</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Delete Selected Units Alt</Name>
+			<DisplayName>$$43379$$Delete Selected Units (alternate)</DisplayName>
+			<Event>numpadperiod</Event>
+			<Context>game</Context>
+			<Command>uiDeleteSelectedUnit2</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Show Chat Window</Name>
+			<DisplayName>$$43336$$Show Chat Window</DisplayName>
+			<Event>enter</Event>
+			<Context>game</Context>
+			<Command>uiShowChatWindow() uiIgnoreNextKey</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Show Objectives Dialog</Name>
+			<DisplayName>$$43337$$Show Objectives Dialog</DisplayName>
+			<Event>f3</Event>
+			<Context>game</Context>
+			<Command>uiShowObjectivesDialog</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Toggle Score</Name>
+			<DisplayName>$$43338$$Toggle Score Display</DisplayName>
+			<Event>f4</Event>
+			<Context>game</Context>
+			<Command>toggleScore</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Toggle Player Summary Dialog</Name>
+			<DisplayName>$$43339$$Toggle Player Summary Dialog</DisplayName>
+			<Event>f6</Event>
+			<Context>game</Context>
+			<Command>uiShowPlayerSummaryDialog</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Quick Save Game</Name>
+			<DisplayName>$$43340$$Quick Save Game</DisplayName>
+			<Event>f8</Event>
+			<Context>game</Context>
+			<Command>saveGame("QuickSavegame")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Quick Load Game</Name>
+			<DisplayName>$$43341$$Quick Load Game</DisplayName>
+			<Event>f9</Event>
+			<Context>game</Context>
+			<Command>loadGame("QuickSavegame")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Toggle Game Menu</Name>
+			<DisplayName>$$43342$$Toggle Game Menu</DisplayName>
+			<Event>f10</Event>
+			<Context>game</Context>
+			<Command>showGameMenu()</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Toggle Game Time</Name>
+			<DisplayName>$$43348$$Toggle Game Time</DisplayName>
+			<Event>f11</Event>
+			<Context>game</Context>
+			<Command>toggleTime</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Friend Or Foe Colors</Name>
+			<DisplayName>$$37055$$Enable Friend or Foe Colors</DisplayName>
+			<Event>alt-f</Event>
+			<Context>game</Context>
+			<Command>renderFriendOrFoe</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Attack Move</Name>
+			<DisplayName>$$18986$$Attack Move</DisplayName>
+			<Event>x</Event>
+			<Context>game</Context>
+			<Command>editMode("attackMove")</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	<KeyMapGroup name = "Game World Hotkeys" displayName = "$$43411$$Game World Hotkeys">
+		<KeyMapData>
+			<Name>Move Camera Left</Name>
+			<DisplayName>$$43412$$Move Camera Left</DisplayName>
+			<Event>arrowleft</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraLeft</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Move Camera Right</Name>
+			<DisplayName>$$43413$$Move Camera Right</DisplayName>
+			<Event>arrowright</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraRight</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Move Camera Forward</Name>
+			<DisplayName>$$43414$$Move Camera Forward</DisplayName>
+			<Event>arrowup</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraWorldForward</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Move Camera Backward</Name>
+			<DisplayName>$$43415$$Move Camera Backward</DisplayName>
+			<Event>arrowdown</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraWorldBackward</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Move Camera Forward Left</Name>
+			<DisplayName>$$43416$$Move Camera Forward Left</DisplayName>
+			<Event>numpad7</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraWorldForwardLeft</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Move Camera Forward Right</Name>
+			<DisplayName>$$43417$$Move Camera Forward Right</DisplayName>
+			<Event>numpad9</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraWorldForwardRight</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Move Camera Backward Left</Name>
+			<DisplayName>$$43418$$Move Camera Backward Left</DisplayName>
+			<Event>numpad1</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraWorldBackwardLeft</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Move Camera Backward Right</Name>
+			<DisplayName>$$43419$$Move Camera Backward Right</DisplayName>
+			<Event>numpad3</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraWorldBackwardRight</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Camera Zoom In</Name>
+			<DisplayName>$$43420$$Camera Zoom In</DisplayName>
+			<Event>numpadplus</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraForward</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Camera Zoom Out</Name>
+			<DisplayName>$$43421$$Camera Zoom Out</DisplayName>
+			<Event>numpadminus</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraBackward</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Camera Rotate Left</Name>
+			<DisplayName>$$43423$$Camera Rotate Left</DisplayName>
+			<Event>control-arrowleft</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraYawLeft</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Camera Rotate Right</Name>
+			<DisplayName>$$43424$$Camera Rotate Right</DisplayName>
+			<Event>control-arrowright</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>cameraYawRight</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Chat Scroll Backward</Name>
+			<DisplayName>$$43426$$Chat Scroll Backward</DisplayName>
+			<Event>pageup</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>uiChatScrollBack</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Chat Scroll Forward</Name>
+			<DisplayName>$$43427$$Chat Scroll Forward</DisplayName>
+			<Event>pagedown</Event>
+			<Context>world</Context>
+			<EdgeTriggered>1</EdgeTriggered>
+			<Command>uiChatScrollForward</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Clear Chats</Name>
+			<DisplayName>$$43428$$Clear Chats</DisplayName>
+			<Event>end</Event>
+			<Context>world</Context>
+			<Command>uiClearChat</Command>
+		</KeyMapData>
+		<KeyMapData>
+		   <Name>Pause Gameplay</Name>
+		   <DisplayName>$$43430$$Pause/Unpause Gameplay</DisplayName>
+		   <Event>f7</Event>
+		   <Context>world</Context>
+		   <Command>pause</Command>
+		</KeyMapData>
+		<KeyMapData>
+		   <Name>Screenshot</Name>
+		   <DisplayName>$$43431$$Screenshot</DisplayName>
+		   <Event>f5</Event>
+		   <Context>world</Context>
+		   <Command>screenshot</Command>
+		</KeyMapData>		
+	</KeyMapGroup>	
+	<KeyMapGroup name = "Selection Group Hotkeys" displayName = "$$43366$$Selection Group Hotkeys">
+		<KeyMapData>
+			<Name>Select Group 1</Name>
+			<DisplayName>$$20524$$1</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>1</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(1)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 2</Name>
+			<DisplayName>$$20525$$2</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>2</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(2)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 3</Name>
+			<DisplayName>$$20526$$3</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>3</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(3)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 4</Name>
+			<DisplayName>$$20527$$4</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>4</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(4)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 5</Name>
+			<DisplayName>$$20528$$5</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>5</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 6</Name>
+			<DisplayName>$$20529$$6</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>6</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(6)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 7</Name>
+			<DisplayName>$$20530$$7</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>7</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(7)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 8</Name>
+			<DisplayName>$$20531$$8</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>8</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(8)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Select Group 9</Name>
+			<DisplayName>$$20532$$9</DisplayName>
+			<DisplayFormat>$$43372$$Select Group %s</DisplayFormat>
+			<Event>9</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(9)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 1</Name>
+			<DisplayName>$$20524$$1</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-1</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(1)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 2</Name>
+			<DisplayName>$$20525$$2</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-2</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(2)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 3</Name>
+			<DisplayName>$$20526$$3</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-3</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(3)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 4</Name>
+			<DisplayName>$$20527$$4</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-4</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(4)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 5</Name>
+			<DisplayName>$$20528$$5</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-5</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 6</Name>
+			<DisplayName>$$20529$$6</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-6</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(6)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 7</Name>
+			<DisplayName>$$20530$$7</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-7</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(7)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to  Group 8</Name>
+			<DisplayName>$$20531$$8</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-8</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(8)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Add to Group 9</Name>
+			<DisplayName>$$20532$$9</DisplayName>
+			<DisplayFormat>$$43373$$Add to Group %s</DisplayFormat>
+			<Event>shift-9</Event>
+			<Context>game</Context>
+			<Command>uiAddSelectNumberGroup(9)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 1</Name>
+			<DisplayName>$$20524$$1</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-1</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(1)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 2</Name>
+			<DisplayName>$$20525$$2</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-2</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(2)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 3</Name>
+			<DisplayName>$$20526$$3</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-3</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(3)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 4</Name>
+			<DisplayName>$$20527$$4</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-4</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(4)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 5</Name>
+			<DisplayName>$$20528$$5</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-5</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 6</Name>
+			<DisplayName>$$20529$$6</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-6</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(6)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 7</Name>
+			<DisplayName>$$20530$$7</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-7</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(7)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 8</Name>
+			<DisplayName>$$20531$$8</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-8</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(8)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Create Group 9</Name>
+			<DisplayName>$$20532$$9</DisplayName>
+			<DisplayFormat>$$43374$$Create Group %s</DisplayFormat>
+			<Event>control-9</Event>
+			<Context>game</Context>
+			<Command>uiCreateNumberGroup(9)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Remove From Any Group</Name>
+			<DisplayName>$$43349$$Remove From Any Group</DisplayName>
+			<Event>control-0</Event>
+			<Context>game</Context>
+			<Command>uiRemoveFromAnyNumberGroup</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 1</Name>
+			<DisplayName>$$20524$$1</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-1</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(1) uiLookAtNumberGroup(1)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 2</Name>
+			<DisplayName>$$20525$$2</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-2</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(2) uiLookAtNumberGroup(2)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 3</Name>
+			<DisplayName>$$20526$$3</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-3</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(3) uiLookAtNumberGroup(3)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 4</Name>
+			<DisplayName>$$20527$$4</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-4</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(4) uiLookAtNumberGroup(4)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 5</Name>
+			<DisplayName>$$20528$$5</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-5</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(5) uiLookAtNumberGroup(5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 6</Name>
+			<DisplayName>$$20529$$6</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-6</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(6) uiLookAtNumberGroup(6)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 7</Name>
+			<DisplayName>$$20530$$7</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-7</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(7) uiLookAtNumberGroup(7)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 8</Name>
+			<DisplayName>$$20531$$8</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-8</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(8) uiLookAtNumberGroup(8)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Look At Group 9</Name>
+			<DisplayName>$$20532$$9</DisplayName>
+			<DisplayFormat>$$43375$$Look At Group %s</DisplayFormat>
+			<Event>alt-9</Event>
+			<Context>game</Context>
+			<Command>uiSelectNumberGroup(9) uiLookAtNumberGroup(9)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	<KeyMapGroup name = "Find Unit Hotkeys" displayName = "$$43367$$Find Unit Hotkeys">
+		<KeyMapData>
+			<Name>Find Explorer</Name>
+			<DisplayName>$$43350$$Find Explorer</DisplayName>
+			<Event>/</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Hero")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Idle Villager</Name>
+			<DisplayName>$$20843$$Find Idle Villager</DisplayName>
+			<Event>.</Event>
+			<Context>game</Context>
+			<Command>uiFindIdleType("ValidIdleVillager")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Idle Military</Name>
+			<DisplayName>$$20844$$Find Idle Military</DisplayName>
+			<Event>,</Event>
+			<Context>game</Context>
+			<Command>uiFindIdleType("Military")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Wagon</Name>
+			<DisplayName>$$43351$$Find Wagon</DisplayName>
+			<Event>;</Event>
+			<Context>game</Context>
+			<Command>uiFindType("AbstractWagon")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Ship</Name>
+			<DisplayName>$$20845$$Find Ship</DisplayName>
+			<Event>]</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Ship")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Selection</Name>
+			<DisplayName>$$20847$$Find Selection</DisplayName>
+			<Event>space</Event>
+			<Context>game</Context>
+			<Command>uiLookAtSelection</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Barracks or Blockhouse</Name>
+			<DisplayName>$$43352$$Find Barracks or Blockhouse</DisplayName>
+			<Event>control-b</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Barracks") uiFindType("Blockhouse")</Command>
+		</KeyMapData>		
+		<KeyMapData>
+			<Name>Find Church or Mosque</Name>
+			<DisplayName>$$20850$$Find Church or Mosque</DisplayName>
+			<Event>control-c</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Church")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Dock</Name>
+			<DisplayName>$$20851$$Find Dock</DisplayName>
+			<Event>control-d</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Dock")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Artillery Foundry</Name>
+			<DisplayName>$$20848$$Find Artillery Foundry</DisplayName>
+			<Event>control-a</Event>
+			<Context>game</Context>
+			<Command>uiFindType("ArtilleryDepot")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Home City</Name>
+			<DisplayName>$$26088$$Find Home City</DisplayName>
+			<Event>h</Event>
+			<Context>game</Context>
+			<Command>toggleHomeCityView</Command>
+		</KeyMapData>
+      <KeyMapData>
+			<Name>Find Bank</Name>
+			<DisplayName>$$20856$$Find Bank</DisplayName>
+			<Event>control-k</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Bank")</Command>
+		</KeyMapData>
+  		<KeyMapData>
+			<Name>Find Plantation</Name>
+			<DisplayName>$$20857$$Find Plantation</DisplayName>
+			<Event>control-l</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Plantation")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find LivestockPen</Name>
+			<DisplayName>$$43378$$Find Livestock Pen</DisplayName>
+			<Event>control-v</Event>
+			<Context>game</Context>
+			<Command>uiFindType("LivestockPen")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Mill</Name>
+			<DisplayName>$$20855$$Find Mill</DisplayName>
+			<Event>control-i</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Mill")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Outpost</Name>
+			<DisplayName>$$20858$$Find Outpost</DisplayName>
+			<Event>control-o</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Outpost")</Command>
+		</KeyMapData> 
+      <KeyMapData>
+			<Name>Find House</Name>
+			<DisplayName>$$20853$$Find House</DisplayName>
+			<Event>control-e</Event>
+			<Context>game</Context>
+			<Command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("Manor")</Command>
+		</KeyMapData>		 
+      <KeyMapData>
+			<Name>Find Market</Name>
+			<DisplayName>$$26774$$Find Market</DisplayName>
+			<Event>control-m</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Market")</Command>
+		</KeyMapData>
+  		<KeyMapData>
+			<Name>Find Trading Post</Name>
+			<DisplayName>$$20864$$Find Trading Post</DisplayName>
+			<Event>control-p</Event>
+			<Context>game</Context>
+			<Command>uiFindType("TradingPost")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Arsenal</Name>
+			<DisplayName>$$20859$$Find Arsenal</DisplayName>
+			<Event>control-r</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Arsenal")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Stable</Name>
+			<DisplayName>$$20860$$Find Stable</DisplayName>
+			<Event>control-s</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Stable")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Town Center</Name>
+			<DisplayName>$$20861$$Find Town Center</DisplayName>
+			<Event>t</Event>
+			<Context>game</Context>
+			<Command>uiFindType("TownCenter")</Command>
+		</KeyMapData>
+      <KeyMapData>
+			<Name>Find Factory</Name>
+			<DisplayName>$$26089$$Find Factory</DisplayName>
+			<Event>control-y</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Factory")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Capitol</Name>
+			<DisplayName>$$43353$$Find Capitol</DisplayName>
+			<Event>control-z</Event>
+			<Context>game</Context>
+			<Command>uiFindType("Capitol")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Fort</Name>
+			<DisplayName>$$20846$$Find Fort</DisplayName>
+			<Event>control-f</Event>
+			<Context>game</Context>
+			<Command>uiFindType("FortFrontier")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Field Hospital</Name>
+			<DisplayName>$$43354$$Find Field Hospital</DisplayName>
+			<Event>control-q</Event>
+			<Context>game</Context>
+			<Command>uiFindType("FieldHospital")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Last Notification</Name>
+			<DisplayName>$$22090$$Find Last Notification</DisplayName>
+			<Event>mouse3down</Event>
+			<Context>game</Context>
+			<Command>uiZoomToMinimapEvent()</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Find Last Notification Alt</Name>
+			<DisplayName>$$43380$$Find Last Notification (alternate)</DisplayName>
+			<Event>home</Event>
+			<Context>game</Context>
+			<Command>uiZoomToMinimapEvent()</Command>
+		</KeyMapData>		
+	</KeyMapGroup>
+	<KeyMapGroup name = "Building Construction Hotkeys" displayName = "$$43368$$Building Construction Hotkeys">
+		<KeyMapData>
+			<Name>Build Wall</Name>
+			<DisplayName>$$43355$$Build Wall</DisplayName>
+			<Event>w</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("WallConnector")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Barracks</Name>
+			<DisplayName>$$20869$$Build Barracks</DisplayName>
+			<Event>b</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Barracks") tis("Blockhouse")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Church or Mosque</Name>
+			<DisplayName>$$20870$$Build Church or Mosque</DisplayName>
+			<Event>c</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Church")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Dock</Name>
+			<DisplayName>$$20871$$Build Dock</DisplayName>
+			<Event>d</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Dock")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Artillery Foundry</Name>
+			<DisplayName>$$20868$$Build Artillery Foundry</DisplayName>
+			<Event>a</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("ArtilleryDepot")</Command>
+		</KeyMapData>
+      <KeyMapData>
+			<Name>Build Bank</Name>
+			<DisplayName>$$43356$$Build Bank</DisplayName>
+			<Event>k</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Bank")</Command>
+		</KeyMapData>
+  		<KeyMapData>
+			<Name>Build Plantation</Name>
+			<DisplayName>$$20878$$Build Plantation</DisplayName>
+			<Event>l</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Plantation")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Livestock Pen</Name>
+			<DisplayName>$$43357$$Build Livestock Pen</DisplayName>
+			<Event>v</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("LivestockPen")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build TownCenter</Name>
+			<DisplayName>$$20888$$Build Town Center</DisplayName>
+			<Event>e</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("TownCenter")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Mill</Name>
+			<DisplayName>$$20877$$Build Mill</DisplayName>
+			<Event>i</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Mill")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Outpost</Name>
+			<DisplayName>$$20879$$Build Outpost</DisplayName>
+			<Event>o</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Outpost")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build House</Name>
+			<DisplayName>$$20872$$Build House</DisplayName>
+			<Event>e</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("House") tis("HouseEast") tis("HouseMed") tis("Manor")</Command>
+		</KeyMapData>
+  		<KeyMapData>
+			<Name>Build Market</Name>
+			<DisplayName>$$26775$$Build Market</DisplayName>
+			<Event>m</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Market")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Trading Post</Name>
+			<DisplayName>$$20880$$Build Trading Post</DisplayName>
+			<Event>p</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("TradingPost")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Arsenal</Name>
+			<DisplayName>$$20881$$Build Arsenal</DisplayName>
+			<Event>r</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Arsenal")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Stable</Name>
+			<DisplayName>$$20882$$Build Stable</DisplayName>
+			<Event>s</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Stable")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Factory</Name>
+			<DisplayName>$$20874$$Build Factory</DisplayName>
+			<Event>y</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Factory")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Capitol</Name>
+			<DisplayName>$$43358$$Build Capitol</DisplayName>
+			<Event>z</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("Capitol")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Fort</Name>
+			<DisplayName>$$20873$$Build Fort</DisplayName>
+			<Event>f</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("FortFrontier")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Build Field Hospital</Name>
+			<DisplayName>$$43359$$Build Field Hospital</DisplayName>
+			<Event>q</Event>
+			<Context>BuildAccel</Context>
+			<Command>tis("FieldHospital")</Command>
+		</KeyMapData>
+		
+	</KeyMapGroup>
+	<KeyMapGroup name = "Town Center Hotkeys" displayName = "$$43360$$Town Center Hotkeys">
+		<KeyMapData>
+			<Name>Ring Town Bell</Name>
+			<DisplayName>$$22221$$Ring Town Bell</DisplayName>
+			<Event>b</Event>
+			<Context>TownCenterAccel</Context>
+			<Command>unitTownBell()</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Return To Work</Name>
+			<DisplayName>$$22222$$Return To Work</DisplayName>
+			<Event>u</Event>
+			<Context>TownCenterAccel</Context>
+			<Command>unitReturnToWork()</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Eject Garrisoned Units</Name>
+			<DisplayName>$$22223$$Eject Garrisoned Units</DisplayName>
+			<Event>n</Event>
+			<Context>TownCenterAccel</Context>
+			<Command>uiEjectGarrisonedUnits()</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Train Villager</Name>
+			<DisplayName>$$42174$$Villager</DisplayName>
+			<Event>v</Event>
+			<Context>TownCenterAccel</Context>
+			<Command>tis("Settler") tis("Coureur") tis("Pilgrim")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Villager</Name>
+			<DisplayName>$$42174$$Villager</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-v</Event>
+			<Context>TownCenterAccel</Context>
+			<Command>tis("Settler",5) tis("Coureur",5) tis("Pilgrim",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Train Envoy</Name>
+			<DisplayName>$$22973$$Envoy</DisplayName>
+			<Event>e</Event>
+			<Context>TownCenterAccel</Context>
+			<Command>tis("Envoy")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Envoy</Name>
+			<DisplayName>$$22973$$Envoy</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-e</Event>
+			<Context>TownCenterAccel</Context>
+			<Command>tis("Envoy",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	<KeyMapGroup name = "Dock Hotkeys" displayName = "$$43361$$Dock Hotkeys">
+		<KeyMapData>
+			<Name>Caravel</Name>
+			<DisplayName>$$22826$$Caravel</DisplayName>
+			<Event>c</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Caravel")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Caravel</Name>
+			<DisplayName>$$22826$$Caravel</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-c</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Caravel",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Fishing Boat</Name>
+			<DisplayName>$$22962$$Fishing Boat</DisplayName>
+			<Event>f</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("FishingBoat")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Fishing Boat</Name>
+			<DisplayName>$$22962$$Fishing Boat</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-f</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("FishingBoat",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Galleon</Name>
+			<DisplayName>$$27705$$Galleon</DisplayName>
+			<Event>g</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Galleon")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Galleon</Name>
+			<DisplayName>$$27705$$Galleon</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-g</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Galleon",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Frigate</Name>
+			<DisplayName>$$27684$$Frigate</DisplayName>
+			<Event>r</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Frigate")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Frigate</Name>
+			<DisplayName>$$27684$$Frigate</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-r</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Frigate",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Monitor</Name>
+			<DisplayName>$$30923$$Monitor</DisplayName>
+			<Event>m</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Monitor")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Monitor</Name>
+			<DisplayName>$$30923$$Monitor</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-m</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Monitor",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Fluyt</Name>
+			<DisplayName>$$27698$$Fluyt</DisplayName>
+			<Event>y</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Fluyt")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Fluyt</Name>
+			<DisplayName>$$27698$$Fluyt</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-y</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Fluyt",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Galley</Name>
+			<DisplayName>$$27712$$Galley</DisplayName>
+			<Event>l</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Galley")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Galley</Name>
+			<DisplayName>$$27712$$Galley</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-l</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Galley",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Canoe</Name>
+			<DisplayName>$$23694$$Canoe</DisplayName>
+			<Event>e</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Canoe")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Canoe</Name>
+			<DisplayName>$$23694$$Canoe</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-e</Event>
+			<Context>DockAccel</Context>
+			<Command>tis("Canoe",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	
+	<KeyMapGroup name = "Blockhouse Hotkeys" displayName = "$$43362$$Blockhouse Hotkeys">
+		<KeyMapData>
+			<Name>Strelet</Name>
+			<DisplayName>$$23658$$Strelet</DisplayName>
+			<Event>s</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("Strelet")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Strelet</Name>
+			<DisplayName>$$23658$$Strelet</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-s</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("Strelet",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Musketeer</Name>
+			<DisplayName>$$29479$$Musketeer</DisplayName>
+			<Event>m</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("Musketeer")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Musketeers</Name>
+			<DisplayName>$$29479$$Musketeer</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-m</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("Musketeer",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Halberdier</Name>
+			<DisplayName>$$29475$$Halberdier</DisplayName>
+			<Event>b</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("Halberdier")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Halberdiers</Name>
+			<DisplayName>$$29475$$Halberdier</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-b</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("Halberdier",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Iroquois Mantlet</Name>
+			<DisplayName>$$23692$$Iroquois Mantlet</DisplayName>
+			<Event>q</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("NatMantlet")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Iroquois Mantlet</Name>
+			<DisplayName>$$23692$$Iroquois Mantlet</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-q</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("NatMantlet",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Iroquois Tomahawk</Name>
+			<DisplayName>$$23601$$Iroquois Tomahawk</DisplayName>
+			<Event>i</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("NatTomahawk")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Iroquois Tomahawk</Name>
+			<DisplayName>$$23601$$Iroquois Tomahawk</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-i</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("NatTomahawk",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cree Tracker</Name>
+			<DisplayName>$$24185$$Cree Tracker</DisplayName>
+			<Event>k</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("NatTracker")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cree Tracker</Name>
+			<DisplayName>$$24185$$Cree Tracker</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-k</Event>
+			<Context>BlockhouseAccel</Context>
+			<Command>tis("NatTracker",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	
+	<KeyMapGroup name = "Stable Hotkeys" displayName = "$$43363$$Stable Hotkeys">
+		<KeyMapData>
+			<Name>Hussar</Name>
+			<DisplayName>$$29502$$Hussar</DisplayName>
+			<Event>s</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Hussar")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Hussars</Name>
+			<DisplayName>$$29502$$Hussar</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-s</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Hussar",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Dragoon</Name>
+			<DisplayName>$$29504$$Dragoon</DisplayName>
+			<Event>d</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Dragoon")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Dragoons</Name>
+			<DisplayName>$$29504$$Dragoon</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-d</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Dragoon",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Oprichnik</Name>
+			<DisplayName>$$29506$$Oprichnik</DisplayName>
+			<Event>o</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Oprichnik")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Oprichniks</Name>
+			<DisplayName>$$29506$$Oprichnik</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-o</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Oprichnik",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cavalry Archer</Name>
+			<DisplayName>$$29508$$Cavalry Archer</DisplayName>
+			<Event>a</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("CavalryArcher")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cavalry Archers</Name>
+			<DisplayName>$$29508$$Cavalry Archer</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-a</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("CavalryArcher",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cuirassier</Name>
+			<DisplayName>$$29510$$Cuirassier</DisplayName>
+			<Event>c</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Cuirassier")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cuirassiers</Name>
+			<DisplayName>$$29510$$Cuirassier</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-c</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Cuirassier",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Ruyter</Name>
+			<DisplayName>$$29514$$Ruyter</DisplayName>
+			<Event>r</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Ruyter")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Ruyters</Name>
+			<DisplayName>$$29514$$Ruyter</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-r</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Ruyter",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>War Wagon</Name>
+			<DisplayName>$$29516$$War Wagon</DisplayName>
+			<Event>w</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("WarWagon")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple War Wagons</Name>
+			<DisplayName>$$29516$$War Wagon</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-w</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("WarWagon",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Lancer</Name>
+			<DisplayName>$$29520$$Lancer</DisplayName>
+			<Event>l</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Lancer")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Lancers</Name>
+			<DisplayName>$$29520$$Lancer</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-l</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Lancer",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cossack</Name>
+			<DisplayName>$$29500$$Cossack</DisplayName>
+			<Event>x</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Cossack")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cossacks</Name>
+			<DisplayName>$$29500$$Cossack</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-x</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Cossack",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Uhlan</Name>
+			<DisplayName>$$22940$$Uhlan</DisplayName>
+			<Event>u</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Uhlan")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Uhlan</Name>
+			<DisplayName>$$22940$$Uhlan</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-u</Event>
+			<Context>StableAccel</Context>
+			<Command>tis("Uhlan",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	<KeyMapGroup name = "Barracks Hotkeys" displayName = "$$43364$$Barracks Hotkeys">
+		<KeyMapData>
+			<Name>Crossbowman</Name>
+			<DisplayName>$$29469$$Crossbowman</DisplayName>
+			<Event>x</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Crossbowman")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Crossbowmen</Name>
+			<DisplayName>$$29469$$Crossbowman</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-x</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Crossbowman",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Longbowman</Name>
+			<DisplayName>$$29471$$Longbowman</DisplayName>
+			<Event>l</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Longbowman")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Longbowmen</Name>
+			<DisplayName>$$29471$$Longbowman</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-l</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Longbowman",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Janissary</Name>
+			<DisplayName>$$29473$$Janissary</DisplayName>
+			<Event>j</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Janissary")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Janissaries</Name>
+			<DisplayName>$$29473$$Janissary</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-j</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Janissary",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Halberdier</Name>
+			<DisplayName>$$29475$$Halberdier</DisplayName>
+			<Event>b</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Halberdier")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Halberdiers</Name>
+			<DisplayName>$$29475$$Halberdier</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-b</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Halberdier",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Pikeman</Name>
+			<DisplayName>$$29477$$Pikeman</DisplayName>
+			<Event>p</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Pikeman")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Pikemen</Name>
+			<DisplayName>$$29477$$Pikeman</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-p</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Pikeman",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Musketeer</Name>
+			<DisplayName>$$29479$$Musketeer</DisplayName>
+			<Event>m</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Musketeer")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Musketeers</Name>
+			<DisplayName>$$29479$$Musketeer</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-m</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Musketeer",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Skirmisher</Name>
+			<DisplayName>$$29481$$Skirmisher</DisplayName>
+			<Event>s</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Skirmisher")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Skirmishers</Name>
+			<DisplayName>$$29481$$Skirmisher</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-s</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Skirmisher",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Rodelero</Name>
+			<DisplayName>$$29483$$Rodelero</DisplayName>
+			<Event>r</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Rodelero")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Rodeleros</Name>
+			<DisplayName>$$29483$$Rodelero</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-r</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Rodelero",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cassador</Name>
+			<DisplayName>$$29487$$Cassador</DisplayName>
+			<Event>e</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Cacadore")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cassadores</Name>
+			<DisplayName>$$29487$$Cassador</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-e</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Cacadore",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Doppelsoldner</Name>
+			<DisplayName>$$29489$$Doppelsoldner</DisplayName>
+			<Event>d</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Dopplesoldner")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Doppelsoldner</Name>
+			<DisplayName>$$29489$$Doppelsoldner</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-d</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("Dopplesoldner",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Iroquois Mantlet</Name>
+			<DisplayName>$$23692$$Iroquois Mantlet</DisplayName>
+			<Event>q</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("NatMantlet")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Iroquois Mantlet</Name>
+			<DisplayName>$$23692$$Iroquois Mantlet</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-q</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("NatMantlet",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Iroquois Tomahawk</Name>
+			<DisplayName>$$23601$$Iroquois Tomahawk</DisplayName>
+			<Event>i</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("NatTomahawk")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Iroquois Tomahawk</Name>
+			<DisplayName>$$23601$$Iroquois Tomahawk</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-i</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("NatTomahawk",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cree Tracker</Name>
+			<DisplayName>$$24185$$Cree Tracker</DisplayName>
+			<Event>k</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("NatTracker")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cree Tracker</Name>
+			<DisplayName>$$24185$$Cree Tracker</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-k</Event>
+			<Context>BarracksAccel</Context>
+			<Command>tis("NatTracker",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>	
+	<KeyMapGroup name = "Artillery Foundry Hotkeys" displayName = "$$43365$$Artillery Foundry Hotkeys">
+		<KeyMapData>
+			<Name>Falconet</Name>
+			<DisplayName>$$22952$$Falconet</DisplayName>
+			<Event>f</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Falconet")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Falconets</Name>
+			<DisplayName>$$22952$$Falconet</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-f</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Falconet",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Culverin</Name>
+			<DisplayName>$$22950$$Culverin</DisplayName>
+			<Event>c</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Culverin")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Culverins</Name>
+			<DisplayName>$$22950$$Culverin</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-c</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Culverin",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Mortar</Name>
+			<DisplayName>$$22975$$Mortar</DisplayName>
+			<Event>m</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Mortar")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Mortar</Name>
+			<DisplayName>$$22975$$Mortar</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-m</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Mortar",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Grenadier</Name>
+			<DisplayName>$$29485$$Grenadier</DisplayName>
+			<Event>g</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Grenadier")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Grenadiers</Name>
+			<DisplayName>$$29485$$Grenadier</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-g</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("Grenadier",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Abus Gun</Name>
+			<DisplayName>$$31291$$Abus Gun</DisplayName>
+			<Event>b</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("AbusGun")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Abus Guns</Name>
+			<DisplayName>$$31291$$Abus Gun</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-b</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("AbusGun",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Organ Gun</Name>
+			<DisplayName>$$23838$$Organ Gun</DisplayName>
+			<Event>o</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("OrganGun")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Organ Guns</Name>
+			<DisplayName>$$23838$$Organ Gun</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-o</Event>
+			<Context>ArtilleryDepotAccel</Context>
+			<Command>tis("OrganGun",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	
+		
+	<KeyMapGroup name = "Church or Mosque Hotkeys" displayName = "$$43369$$Church or Mosque Hotkeys">
+		<KeyMapData>
+			<Name>Missionary</Name>
+			<DisplayName>$$25340$$Missionary</DisplayName>
+			<Event>m</Event>
+			<Context>ChurchAccel</Context>
+			<Command>tis("Missionary")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Missionaries</Name>
+			<DisplayName>$$25340$$Missionary</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-m</Event>
+			<Context>ChurchAccel</Context>
+			<Command>tis("Missionary",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Priest</Name>
+			<DisplayName>$$22954$$Priest</DisplayName>
+			<Event>p</Event>
+			<Context>ChurchAccel</Context>
+			<Command>tis("Priest")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Priests</Name>
+			<DisplayName>$$22954$$Priest</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-p</Event>
+			<Context>ChurchAccel</Context>
+			<Command>tis("Priest",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Imam</Name>
+			<DisplayName>$$26226$$Imam</DisplayName>
+			<Event>i</Event>
+			<Context>ChurchAccel</Context>
+			<Command>tis("Imam")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Imams</Name>
+			<DisplayName>$$26226$$Imam</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-i</Event>
+			<Context>ChurchAccel</Context>
+			<Command>tis("Imam",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	<KeyMapGroup name = "Livestock Pen Hotkeys" displayName = "$$43370$$Livestock Pen Hotkeys">
+		<KeyMapData>
+			<Name>Sheep</Name>
+			<DisplayName>$$22829$$Sheep</DisplayName>
+			<Event>s</Event>
+			<Context>LivestockPenAccel</Context>
+			<Command>tis("Sheep")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Sheep</Name>
+			<DisplayName>$$22829$$Sheep</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-s</Event>
+			<Context>LivestockPenAccel</Context>
+			<Command>tis("Sheep",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	<KeyMapGroup name = "Trading Post Hotkeys" displayName = "$$43371$$Trading Post Hotkeys">
+		<KeyMapData>
+			<Name>Lakota Axe Rider</Name>
+			<DisplayName>$$24195$$Lakota Axe Rider</DisplayName>
+			<Event>r</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatAxeRider")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Lakota Axe Rider</Name>
+			<DisplayName>$$24195$$Lakota Axe Rider</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-r</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatAxeRider",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Tupi Blackwood Archer</Name>
+			<DisplayName>$$24197$$Tupi Blackwood Archer</DisplayName>
+			<Event>b</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBlackwoodArcher")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Tupi Blackwood Archer</Name>
+			<DisplayName>$$24197$$Tupi Blackwood Archer</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-b</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBlackwoodArcher",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Carib Ambusher</Name>
+			<DisplayName>$$33963$$Carib Ambusher</DisplayName>
+			<Event>a</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBlowgunAmbusher")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Carib Ambusher</Name>
+			<DisplayName>$$33963$$Carib Ambusher</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-a</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBlowgunAmbusher",5)</Command>
+		</KeyMapData>		
+		<KeyMapData>
+			<Name>Carib Blowgunner</Name>
+			<DisplayName>$$24181$$Carib Blowgunner</DisplayName>
+			<Event>g</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBlowgunWarrior")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Carib Blowgunner</Name>
+			<DisplayName>$$24181$$Carib Blowgunner</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-g</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBlowgunWarrior",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Incan Bolas Warrior</Name>
+			<DisplayName>$$24189$$Incan Bolas Warrior</DisplayName>
+			<Event>w</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBolasWarrior")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Incan Bolas Warrior</Name>
+			<DisplayName>$$24189$$Incan Bolas Warrior</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-w</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatBolasWarrior",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Nootka Clubman</Name>
+			<DisplayName>$$24193$$Nootka Clubman</DisplayName>
+			<Event>c</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatClubman")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Nootka Clubman</Name>
+			<DisplayName>$$24193$$Nootka Clubman</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-c</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatClubman",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Aztec Eagle Warrior</Name>
+			<DisplayName>$$23523$$Aztec Eagle Warrior</DisplayName>
+			<Event>e</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatEagleWarrior")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Aztec Eagle Warrior</Name>
+			<DisplayName>$$23523$$Aztec Eagle Warrior</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-e</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatEagleWarrior",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Maya Holcan Spearman</Name>
+			<DisplayName>$$24191$$Maya Holcan Spearman</DisplayName>
+			<Event>s</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatHolcanSpearman")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Maya Holcan Spearman</Name>
+			<DisplayName>$$24191$$Maya Holcan Spearman</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-s</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatHolcanSpearman",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Comanche Horse Archer</Name>
+			<DisplayName>$$23525$$Comanche Horse Archer</DisplayName>
+			<Event>z</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatHorseArcher")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Comanche Horse Archer</Name>
+			<DisplayName>$$23525$$Comanche Horse Archer</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-z</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatHorseArcher",5)</Command>
+		</KeyMapData>		
+		<KeyMapData>
+			<Name>Incan Huaminca</Name>
+			<DisplayName>$$24187$$Incan Huaminca</DisplayName>
+			<Event>n</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatHuaminca")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Incan Huaminca</Name>
+			<DisplayName>$$24187$$Incan Huaminca</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-n</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatHuaminca",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Aztec Jaguar Warrior</Name>
+			<DisplayName>$$23521$$Aztec Jaguar Warrior</DisplayName>
+			<Event>j</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatJaguarWarrior")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Aztec Jaguar Warrior</Name>
+			<DisplayName>$$23521$$Aztec Jaguar Warrior</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-j</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatJaguarWarrior",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Iroquois Mantlet</Name>
+			<DisplayName>$$23692$$Iroquois Mantlet</DisplayName>
+			<Event>q</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatMantlet")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Iroquois Mantlet</Name>
+			<DisplayName>$$23692$$Iroquois Mantlet</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-q</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatMantlet",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Medicine Man</Name>
+			<DisplayName>$$36735$$Medicine Man</DisplayName>
+			<Event>p</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatMedicineMan")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Medicine Man</Name>
+			<DisplayName>$$36735$$Medicine Man</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-p</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatMedicineMan",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cherokee Rifleman</Name>
+			<DisplayName>$$42411$$Cherokee Rifleman</DisplayName>
+			<Event>f</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatRifleman")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cherokee Rifleman</Name>
+			<DisplayName>$$42411$$Cherokee Rifleman</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-f</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatRifleman",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Seminole Sharktooth Bowman</Name>
+			<DisplayName>$$23599$$Seminole Sharktooth Bowman</DisplayName>
+			<Event>o</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatSharktoothBowman")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Seminole Sharktooth Bowman</Name>
+			<DisplayName>$$23599$$Seminole Sharktooth Bowman</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-o</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatSharktoothBowman",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Iroquois Tomahawk</Name>
+			<DisplayName>$$23601$$Iroquois Tomahawk</DisplayName>
+			<Event>i</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatTomahawk")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Iroquois Tomahawk</Name>
+			<DisplayName>$$23601$$Iroquois Tomahawk</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-i</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatTomahawk",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cree Tracker</Name>
+			<DisplayName>$$24185$$Cree Tracker</DisplayName>
+			<Event>k</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatTracker")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cree Tracker</Name>
+			<DisplayName>$$24185$$Cree Tracker</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-k</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("NatTracker",5)</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Cree Coureur des Bois</Name>
+			<DisplayName>$$31433$$Cree Coureur des Bois</DisplayName>
+			<Event>u</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("CoureurCree")</Command>
+		</KeyMapData>
+		<KeyMapData>
+			<Name>Multiple Cree Coureur des Bois</Name>
+			<DisplayName>$$31433$$Cree Coureur des Bois</DisplayName>
+			<DisplayFormat>$$43376$$Multiple %s</DisplayFormat>
+			<Event>shift-u</Event>
+			<Context>TradingPostAccel</Context>
+			<Command>tis("CoureurCree",5)</Command>
+		</KeyMapData>
+	</KeyMapGroup>
+	
+
+</DefaultKeyMap>
