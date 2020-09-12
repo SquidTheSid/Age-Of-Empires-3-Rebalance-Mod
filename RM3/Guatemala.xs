@@ -355,7 +355,7 @@ void main(void) {
 
 
 	bool isObserverMode=false;
-	if (rmIsObserverMode() == true) {
+	if (isObserverMode == true) {
 		isObserverMode=true;
 	}
 

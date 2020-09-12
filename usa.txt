@@ -18,15 +18,17 @@ Bonuses:
 
 Turns all vills into colonial militia?
 
+3 gold trickles, one each age.
+
 More explorers each age?
 
 Stables become ranches that train livestock (NE)?
 
-
+Capitalism for booming
 
 Colonial Militia Stats:
 
-Cost: 120 Food
+Cost: 80 Food, 20 coin
 HP - 135
 Armor - 30%
 Speed - 5.0
@@ -44,7 +46,7 @@ Siege:
 -- 24 Damage
 -- 6 Range
 -- 3.0 ROF
-Other: Heals at 1.0/s when idle
+Other: Heals at 1.5/s when idle
 
 
 

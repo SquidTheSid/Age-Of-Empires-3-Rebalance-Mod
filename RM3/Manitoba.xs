@@ -351,7 +351,7 @@ void main(void) {
 	rmSetStatusText("",0.01);
 
 	bool isObserverMode=false;
-	if (rmIsObserverMode() == true) {
+	if (isObserverMode == true) {
 		isObserverMode=true;
 	}
 

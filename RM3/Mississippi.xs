@@ -357,7 +357,7 @@ void main(void) {
 
 
 	bool isObserverMode=false;
-	if (rmIsObserverMode() == true) {
+	if (isObserverMode == true) {
 		isObserverMode=true;
 	}
 
@@ -403,12 +403,6 @@ int seasonPick = rmRandInt(1,2);
 // 1 = winter, 2 = summer, 3 = spring
 // frozen, crossings, flooded
 
-
-	if (rmIsSummerVariant()) {
-		seasonPick = 2;
-	} else if (rmIsWinterVariant()) {
-		seasonPick = 1;
-	}
 
 
 	rmSetMapType("land");
