@@ -242,7 +242,7 @@ public class wizard extends JFrame implements ActionListener
         	Files.walkFileTree(Paths.get(source), fileVisitor);
 
     	}
-	
+	//recursive delete method taken from mkyong.com. See included MIT license file
 	public static void deleteDirectoryJava8(String dir) throws IOException {
 
       	Path path = Paths.get(dir);
