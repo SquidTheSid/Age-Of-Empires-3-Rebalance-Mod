@@ -29324,7 +29324,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
@@ -29346,7 +29346,7 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>VeteranColonialMilitia</TechStatus>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -54807,6 +54807,7 @@
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
@@ -55111,6 +55112,8 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeAmericans' type ='Normal'>
@@ -55124,6 +55127,8 @@
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeAmericans' type ='Normal'>
@@ -55132,6 +55137,8 @@
 		<Icon>ui\post_game\time_line_age_4</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>
 	</Tech>
 	<Tech name ='ImperializeAmericans' type ='Normal'>
@@ -55143,6 +55150,31 @@
 			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionWashington</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialColonialMilitia' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70784</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
+		<RolloverTextID>70783</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>GuardColonialMilitia</TechStatus>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+			<Effect type ='SetName' proto ='xpSPCColonialMilitia' culture ='none' newName ='70785'></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
 		</Effects>
 	</Tech>
 
