@@ -798,10 +798,10 @@
       <tech x="0.5" y="1.0">HCShipRangers1</tech>
       <tech x="0.5" y="2.0">HCShipRangers2</tech>
       <tech x="0.5" y="3.0">HCShipRangers3</tech>
-      <tech x="1.1" y="1.0">HCXPSPCShipColonialMilitia1</tech>
-      <tech x="1.1" y="2.0">HCXPSPCShipColonialMilitia2</tech>
-      <tech x="1.1" y="3.0">HCXPSPCShipColonialMilitia3</tech>
-      <tech x="1.1" y="4.0">HCXPSPCShipColonialMilitia4</tech>
+      <tech x="1.5" y="1.0">HCXPSPCShipColonialMilitia1</tech>
+      <tech x="1.5" y="2.0">HCXPSPCShipColonialMilitia2</tech>
+      <tech x="1.5" y="3.0">HCXPSPCShipColonialMilitia3</tech>
+      <tech x="1.5" y="4.0">HCXPSPCShipColonialMilitia4</tech>
       <tech x="2.0" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
       <tech x="2.0" y="2.0">HCRangedInfantryDamageAmericans</tech>
       <tech x="2.0" y="3.0">HCRangedInfantryCombatAmericans</tech>
