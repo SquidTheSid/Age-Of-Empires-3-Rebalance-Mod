@@ -54843,7 +54843,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>AmericanPatriots</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianExiledPrince</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneralBritish</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidente</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidenteAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalistAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianTycoon</Effect>
@@ -54871,7 +54871,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianCavalierOttoman</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>
@@ -55158,17 +55158,17 @@
 	</Tech>
 	<Tech name ='AmericanPatriots' type ='Normal'>
 		<DBID>4864</DBID>
-		<DisplayNameID>70784</DisplayNameID>
+		<DisplayNameID>70799</DisplayNameID>
 		<Cost resourcetype ='Food'>500.0000</Cost>
 		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\revolution</Icon>
-		<RolloverTextID>70785</RolloverTextID>
+		<RolloverTextID>70800</RolloverTextID>
 		<Effects>
 			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Pilgrim'></Effect>
 			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Settler'></Effect>
-			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='nativeVillager'></Effect>
+			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='NativeVillager'></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PoliticianNaturalistAmericans' type ='Normal'>
@@ -55198,7 +55198,7 @@
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
-		<RolloverTextID>35488</RolloverTextID>
+		<RolloverTextID>70780</RolloverTextID>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
@@ -55255,7 +55255,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
-			<Effect type ='SetName' proto ='Ranger' culture ='none' newName ='70780'></Effect>
+			<Effect type ='SetName' proto ='Ranger' culture ='none' newName ='70793'></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 		</Effects>
@@ -55277,9 +55277,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='SetName' proto ='Ranger' culture ='none' newName ='70794'></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
