@@ -54825,8 +54825,6 @@
 				<Target type ='ProtoUnit'>House</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Pilgrim</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
@@ -55035,19 +55033,14 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_ranged_infantry_attack\hc_ranged_infantry_damage</Icon>
+		<Icon>ui\techs\hc_gunpowder_infantry_damage\hc_gunpowder_infantry_damage</Icon>
 		<RolloverTextID>35766</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
-
 		</Effects>
 	</Tech>
 	<Tech name ='HCRangedInfantryCombatAmericans' type ='Normal'>

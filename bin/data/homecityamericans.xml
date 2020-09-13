@@ -261,7 +261,7 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCRangedInfantryDamageAmericansTeam</name>
+      <name>HCRangedInfantryDamageAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCRangedInfantryHitpointsAmericans</prereqtech>
@@ -809,7 +809,7 @@
       <tech x="2.1" y="3.0">HCXPSPCShipColonialMilitia3</tech>
       <tech x="2.1" y="4.0">HCXPSPCShipColonialMilitia4</tech>
       <tech x="3.0" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
-      <tech x="3.0" y="2.0">HCRangedInfantryDamageAmericansTeam</tech>
+      <tech x="3.0" y="2.0">HCRangedInfantryDamageAmericans</tech>
       <tech x="3.0" y="3.0">HCRangedInfantryCombatAmericans</tech>
       <tech x="3.7" y="1.0">HCShipHussars1</tech>
       <tech x="3.7" y="2.0">HCShipHussars2</tech>
