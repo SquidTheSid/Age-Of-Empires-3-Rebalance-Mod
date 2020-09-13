@@ -55294,7 +55294,7 @@
 	</Tech>
 	<Tech name ='ImperialSharpshooters' type ='Normal'>
 		<DBID>3094</DBID>
-		<DisplayNameID>70795</DisplayNameID>
+		<DisplayNameID>70798</DisplayNameID>
 		<Cost resourcetype ='Wood'>1500.0000</Cost>
 		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -55315,5 +55315,28 @@
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 		</Effects>
 	</Tech>
-
+	<Tech name ='HCShipGatlingGuns1' type ='Normal'>
+		<DBID>3183</DBID>
+		<DisplayNameID>70798</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\Units\gatling_gun_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpGatlingGun' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipGatlingGuns2' type ='Normal'>
+		<DBID>3183</DBID>
+		<DisplayNameID>45223</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\Units\gatling_gun_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpGatlingGun' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
 </TechTree>

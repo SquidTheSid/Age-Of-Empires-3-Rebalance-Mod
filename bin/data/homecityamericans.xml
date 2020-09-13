@@ -332,30 +332,21 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipFalconets1</name>
+      <name>HCShipGatlingGuns1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFalconets2</name>
+      <name>HCShipGatlingGuns2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipFalconets1</prereqtech>
+      <prereqtech>HCShipGatlingGuns1</prereqtech>
       <age>3</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipFalconets3</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipFalconets2</prereqtech>
-      <age>2</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -400,13 +391,6 @@
       <age>3</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCCheaperManors</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
     </card>
     <card>
       <name>HCNativeLore</name>
@@ -818,9 +802,8 @@
       <tech x="4.6" y="3.0">HCCavalryDamageBritish</tech>
       <tech x="4.6" y="4.0">HCCavalryHitpointsBritish</tech>
       <tech x="4.6" y="5.0">HCCavalryCombatBritish</tech>
-      <tech x="5.7" y="1.0">HCShipFalconets1</tech>
-      <tech x="5.7" y="2.0">HCShipFalconets2</tech>
-      <tech x="5.7" y="5.0">HCShipFalconets3</tech>
+      <tech x="5.7" y="1.0">HCShipGatlingGuns1</tech>
+      <tech x="5.7" y="2.0">HCShipGatlingGuns2</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillerySPCAct3</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
@@ -868,6 +851,8 @@
       <tech x="6.2" y="5.0">HCAdvancedPlantations</tech>
       <tech x="6.9" y="3.0">HCAdvancedDock</tech>
       <tech x="7.6" y="3.0">HCUnlockFactory</tech>
+      <tech x="7.6" y="4.0">HCXPIndustrialRevolution</tech>
+
     </obtainabletechs>
     <activetechs/>
     <validunits/>
