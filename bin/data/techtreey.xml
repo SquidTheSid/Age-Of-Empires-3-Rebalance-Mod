@@ -54813,35 +54813,30 @@
 			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranHussars</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChurchThinRedLine</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Sheep</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGLifeGuardHussars</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Mill</Target></Effect>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>House</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Pilgrim</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardGrenadiers</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialDragoons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialLifeGuard</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialGrenadiers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Capitol</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Falconet</Target></Effect>
+				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Stable</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Barracks</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChurchBlackWatch</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>AmericanPatriots</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdmiral</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneralBritish</Effect>
@@ -54862,13 +54857,10 @@
 			<Effect type ='TechStatus' status ='active'>XPTrickle</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Market</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChurchRogersRangers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Arsenal</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CWallGate</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallStraight5</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -54896,7 +54888,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mortar</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+				<Target type ='ProtoUnit'>Miner</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -54921,8 +54913,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Saloon</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionLouverture</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>XPRevolutionWashington</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
@@ -55106,8 +55096,6 @@
 		<Icon>ui\post_game\time_line_age_2</Icon>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeAmericans' type ='Normal'>
@@ -55121,8 +55109,6 @@
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeAmericans' type ='Normal'>
@@ -55131,8 +55117,6 @@
 		<Icon>ui\post_game\time_line_age_4</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>Industrialize</Effect></Effects>
 	</Tech>
 	<Tech name ='ImperializeAmericans' type ='Normal'>
@@ -55144,8 +55128,6 @@
 			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionWashington</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialColonialMilitia' type ='Normal'>
@@ -55173,13 +55155,13 @@
 	</Tech>
 	<Tech name ='AmericanPatriots' type ='Normal'>
 		<DBID>4864</DBID>
-		<DisplayNameID>70759</DisplayNameID>
+		<DisplayNameID>70784</DisplayNameID>
 		<Cost resourcetype ='Food'>500.0000</Cost>
 		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\revolution</Icon>
-		<RolloverTextID>70758</RolloverTextID>
+		<RolloverTextID>70785</RolloverTextID>
 		<Effects>
 			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Pilgrim'></Effect>
 			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Settler'></Effect>
