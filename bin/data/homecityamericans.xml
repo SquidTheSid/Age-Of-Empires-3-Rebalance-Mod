@@ -302,6 +302,25 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipDragoons1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipDragoons2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipDragoons1</prereqtech>
+      <age>3</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
+    <card>
       <name>HCCavalryDamageBritish</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -789,6 +808,8 @@
       <tech x="3.7" y="1.0">HCShipSpurRiders1</tech>
       <tech x="3.7" y="2.0">HCShipSpurRiders2</tech>
       <tech x="3.7" y="3.0">HCShipSpurRiders3</tech>
+      <tech x="3.7" y="4.0">HCShipDragoons1</tech>
+      <tech x="3.7" y="5.0">HCShipDragoons2</tech>
       <tech x="4.6" y="3.0">HCCavalryDamageBritish</tech>
       <tech x="4.6" y="4.0">HCCavalryHitpointsBritish</tech>
       <tech x="4.6" y="5.0">HCCavalryCombatBritish</tech>
