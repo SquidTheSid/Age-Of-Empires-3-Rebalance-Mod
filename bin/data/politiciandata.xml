@@ -3,6 +3,7 @@
   <politicianadmiral portraitfilename="ui\ingame\politicians\politician_admiral"/>
   <politicianadmiralottoman portraitfilename="ui\ingame\politicians\politician_admiral"/>
   <politicianadventurerbritish portraitfilename="ui\ingame\politicians\politician_adventurer"/>
+  <politicianadventureramericans portraitfilename="ui\ingame\politicians\politician_adventurer"/>
   <politicianadventurerrussian portraitfilename="ui\ingame\politicians\politician_adventurer"/>
   <politicianadventurerspanish portraitfilename="ui\ingame\politicians\politician_adventurer"/>
   <politicianbishop portraitfilename="ui\ingame\politicians\politician_bishop"/>
@@ -34,9 +35,11 @@
   <politicianmusketeerspanish portraitfilename="ui\ingame\politicians\politician_kings_musketeer"/>
   <politiciannaturalist portraitfilename="ui\ingame\politicians\politician_naturalist"/>
   <politiciannaturalistfrench portraitfilename="ui\ingame\politicians\politician_naturalist"/>
+  <politiciannaturalistamericans portraitfilename="ui\ingame\politicians\politician_naturalist"/>
   <politicianphilosopherprince portraitfilename="ui\ingame\politicians\politician_philosopher_prince"/>
   <politicianpirate portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate"/>
   <politicianpresidente portraitfilename="ui\ingame\politicians\politician_el_presidente"/>
+  <politicianpresidenteamericans portraitfilename="ui\ingame\politicians\politician_el_presidente"/>
   <politicianquartermaster portraitfilename="ui\ingame\politicians\politician_quarter_master"/>
   <politicianscout portraitfilename="ui\ingame\politicians\politician_scout"/>
   <politicianscoutrussian portraitfilename="ui\ingame\politicians\politician_scout"/>

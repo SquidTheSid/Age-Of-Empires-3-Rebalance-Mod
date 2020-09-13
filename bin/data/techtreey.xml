@@ -54838,11 +54838,11 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Barracks</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>AmericanPatriots</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdmiral</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianExiledPrince</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneralBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidente</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerBritish</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalist</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerAmericans</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalistAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianTycoon</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianViceroyBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGovernor</Effect>
@@ -54867,7 +54867,7 @@
 				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianKingsMusketeerBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianCavalierOttoman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
@@ -55138,7 +55138,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
-		<RolloverTextID>70783</RolloverTextID>
+		<RolloverTextID>70785</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
@@ -55166,6 +55166,78 @@
 			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Pilgrim'></Effect>
 			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Settler'></Effect>
 			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='nativeVillager'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianNaturalistAmericans' type ='Normal'>
+		<DBID>9113</DBID>
+		<DisplayNameID>34148</DisplayNameID>
+		<Cost resourcetype ='Food'>800.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_ii</Icon>
+		<RolloverTextID>70786</RolloverTextID>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age1</Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Pilgrim' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianAdventurerAmericans' type ='Normal'>
+		<DBID>2142</DBID>
+		<DisplayNameID>35489</DisplayNameID>
+		<Cost resourcetype ='Food'>1200.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>110.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>35488</RolloverTextID>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age2</Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Ranger' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianEngineerAmericans' type ='Normal'>
+		<DBID>2179</DBID>
+		<DisplayNameID>35639</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1200.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>35638</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='xpGatlingGun' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='SetAge'>Age3</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianPresidenteAmericans' type ='Normal'>
+		<DBID>1697</DBID>
+		<DisplayNameID>34157</DisplayNameID>
+		<Cost resourcetype ='Food'>4000.0000</Cost>
+		<Cost resourcetype ='Gold'>4000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_v</Icon>
+		<RolloverTextID>70787</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age4</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='FactoryWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 
