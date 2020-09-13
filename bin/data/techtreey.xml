@@ -54806,7 +54806,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranColonialMilitia</Effect>
@@ -54870,7 +54870,7 @@
 				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianCavalierOttoman</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianCavalierAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
@@ -55339,4 +55339,95 @@
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpGatlingGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
+	<Tech name ='PoliticianCavalierAmericans' type ='Normal'>
+		<DBID>2194</DBID>
+		<DisplayNameID>35680</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1200.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>70807</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age3</Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='SpurRider' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>VeteranSpurRiders</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='VeteranSpurRiders' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70801</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\veteran_cavalry\veteran_cavalry</Icon>
+		<RolloverTextID>70804</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='SetName' proto ='SpurRider' culture ='none' newName ='70801'></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='RGRoughRiders' type ='Normal'>
+		<DBID>1026</DBID>
+		<DisplayNameID>70802</DisplayNameID>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>800.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
+		<RolloverTextID>70806</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>VeteranSpurRider</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='SetName' proto ='SpurRider' culture ='none' newName ='70802'></Effect>
+			<Effect type ='Data' amount ='0.1' subtype ='Armor' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialRoughRiders' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70798</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_cavalry\imperial_cavalry</Icon>
+		<RolloverTextID>70796</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>RGRoughRiders</TechStatus>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='SetName' proto ='SpurRider' culture ='none' newName ='70803'></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>
