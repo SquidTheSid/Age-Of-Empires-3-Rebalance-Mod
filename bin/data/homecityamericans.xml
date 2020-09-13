@@ -275,39 +275,30 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipHussars1</name>
+      <name>HCShipSpurRiders1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>3</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipHussars2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipHussars1</prereqtech>
-      <age>2</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipHussars3</name>
+      <name>HCShipSpurRiders2</name>
       <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipHussars2</prereqtech>
-      <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <level>0</level>
+      <prereqtech>HCShipSpurRiders1</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipHussars4</name>
+      <name>HCShipSpurRiders3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipHussars3</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <prereqtech>HCShipSpurRiders2</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -788,17 +779,16 @@
       <tech x="0.5" y="1.0">HCShipRangers1</tech>
       <tech x="0.5" y="2.0">HCShipRangers2</tech>
       <tech x="0.5" y="3.0">HCShipRangers3</tech>
-      <tech x="2.1" y="1.0">HCXPSPCShipColonialMilitia1</tech>
-      <tech x="2.1" y="2.0">HCXPSPCShipColonialMilitia2</tech>
-      <tech x="2.1" y="3.0">HCXPSPCShipColonialMilitia3</tech>
-      <tech x="2.1" y="4.0">HCXPSPCShipColonialMilitia4</tech>
-      <tech x="3.0" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
-      <tech x="3.0" y="2.0">HCRangedInfantryDamageAmericans</tech>
-      <tech x="3.0" y="3.0">HCRangedInfantryCombatAmericans</tech>
-      <tech x="3.7" y="1.0">HCShipHussars1</tech>
-      <tech x="3.7" y="2.0">HCShipHussars2</tech>
-      <tech x="3.7" y="3.0">HCShipHussars3</tech>
-      <tech x="3.7" y="4.0">HCShipHussars4</tech>
+      <tech x="1.1" y="1.0">HCXPSPCShipColonialMilitia1</tech>
+      <tech x="1.1" y="2.0">HCXPSPCShipColonialMilitia2</tech>
+      <tech x="1.1" y="3.0">HCXPSPCShipColonialMilitia3</tech>
+      <tech x="1.1" y="4.0">HCXPSPCShipColonialMilitia4</tech>
+      <tech x="2.0" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
+      <tech x="2.0" y="2.0">HCRangedInfantryDamageAmericans</tech>
+      <tech x="2.0" y="3.0">HCRangedInfantryCombatAmericans</tech>
+      <tech x="3.7" y="1.0">HCShipSpurRiders1</tech>
+      <tech x="3.7" y="2.0">HCShipSpurRiders2</tech>
+      <tech x="3.7" y="3.0">HCShipSpurRiders3</tech>
       <tech x="4.6" y="3.0">HCCavalryDamageBritish</tech>
       <tech x="4.6" y="4.0">HCCavalryHitpointsBritish</tech>
       <tech x="4.6" y="5.0">HCCavalryCombatBritish</tech>

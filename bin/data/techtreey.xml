@@ -55006,55 +55006,47 @@
 	</Tech>
 	<Tech name ='HCRangedInfantryHitpointsAmericans' type ='Normal'>
 		<DBID>2373</DBID>
-		<DisplayNameID>36076</DisplayNameID>
+		<DisplayNameID>70808</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_ranged_infantry_hitpoints\hc_ranged_infantry_hitpoints</Icon>
-		<RolloverTextID>36075</RolloverTextID>
+		<RolloverTextID>70809</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Ranger</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 
 		</Effects>
 	</Tech>
 	<Tech name ='HCRangedInfantryDamageAmericans' type ='Normal'>
 		<DBID>2374</DBID>
-		<DisplayNameID>35767</DisplayNameID>
+		<DisplayNameID>70810</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_gunpowder_infantry_damage\hc_gunpowder_infantry_damage</Icon>
-		<RolloverTextID>35766</RolloverTextID>
+		<RolloverTextID>70811</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Ranger</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCRangedInfantryCombatAmericans' type ='Normal'>
 		<DBID>2375</DBID>
-		<DisplayNameID>36080</DisplayNameID>
+		<DisplayNameID>70812</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_gunpowder_infantry_combat\hc_gunpowder_infantry_combat</Icon>
-		<RolloverTextID>36079</RolloverTextID>
+		<RolloverTextID>70813</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Ranger</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Ranger</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCShipRangers1' type ='Normal'>
@@ -55428,6 +55420,42 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='HCShipSpurRiders1' type ='Normal'>
+		<DBID>2188</DBID>
+		<DisplayNameID>70814</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\light_cavalry\light_cavalry_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='SpurRider' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipSpurRiders2' type ='Normal'>
+		<DBID>2232</DBID>
+		<DisplayNameID>70815</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\light_cavalry\light_cavalry_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='SpurRider' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipSpurRiders3' type ='Normal'>
+		<DBID>2318</DBID>
+		<DisplayNameID>70816</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\light_cavalry\light_cavalry_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SpurRider' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>
