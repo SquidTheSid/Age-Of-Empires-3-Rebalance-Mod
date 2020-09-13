@@ -33558,11 +33558,11 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
-			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='TextOutput'>46961</Effect>
 		</Effects>

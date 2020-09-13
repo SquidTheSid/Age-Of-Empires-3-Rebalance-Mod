@@ -134,7 +134,7 @@ Colonial Politician Reworks/Changes: Based on Smackdown's ideas, lesser used pol
 
 Fortress Politician Reworks/Changes: Incorporated many of Smackdown's ideas to improve lesser used politicians.
 - Mohawk Statesman: 2 Native Scouts replaced with 3 Native Tomahawks
-- Gentleman Pirate: Now ships 3 Barbary Corsairs instead of 2
+- Gentleman Pirate: Now ships a crate of 700G
 
 Industrial Politician Reworks/Changes: Smackdown changes integrated.
 - Viceroy: Now ships a fort wagon and increases build limit by 1
@@ -249,7 +249,7 @@ Sioux :
 Teepee: A very controversial building (given how ESOC added then removed an economic aura a la karni mata).
 - Aura: AOE increased to 18 from 12
 - Cost: Reduced to 40W from 50, bounties adjusted accordingly (20/10 --> 16/8)
-- HP: Increased to 500 from 300
+- HP: Increased to 400 from 300
 
 Civ Bonus Changes:
 - Sioux get free bison every Age (4 colonial, 8 fortress, 16 industrial, 30 imperial)
@@ -272,7 +272,7 @@ Shipments:
 - Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
 - Cav combat cards affect Tashunke Prowlers by an extra 5% (for a total of 20% each)
 - Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 50%, in addition to letting infantry build War Huts, Teepees, and Corrals
-- Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 30% from 50%. Now additionally increases Teepee LOS by 4. Now available in Age 1
+- Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 25% from 50%. Now additionally increases Teepee LOS by 5. Now available in Age 1
 - Sioux now has access to the water dance shipment
 - Adoption train time reduction improved to -40% from -25% [ESOC]
 - Onikare moved to Age 4 from Age 2; now additionally reduces Dog Soldier train time by 20% [thanks to gamevideo113]
