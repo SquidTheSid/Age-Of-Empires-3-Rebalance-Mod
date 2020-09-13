@@ -54842,6 +54842,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Barracks</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchBlackWatch</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>AmericanPatriots</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdmiral</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneralBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidente</Effect>
@@ -55168,6 +55169,21 @@
 			<Effect type ='SetName' proto ='xpSPCColonialMilitia' culture ='none' newName ='70785'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='AmericanPatriots' type ='Normal'>
+		<DBID>4864</DBID>
+		<DisplayNameID>70759</DisplayNameID>
+		<Cost resourcetype ='Food'>500.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<ResearchPoints>15.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\revolution</Icon>
+		<RolloverTextID>70758</RolloverTextID>
+		<Effects>
+			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Pilgrim'></Effect>
+			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='Settler'></Effect>
+			<Effect type ='TransformUnit' toprotoid ='xpSPCColonialMilitia' fromprotoid ='nativeVillager'></Effect>
 		</Effects>
 	</Tech>
 
