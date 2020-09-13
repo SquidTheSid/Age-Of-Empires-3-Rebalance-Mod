@@ -55215,7 +55215,7 @@
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
-		<RolloverTextID>35638</RolloverTextID>
+		<RolloverTextID>70787</RolloverTextID>
 		<Flag>Shadow</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
@@ -55233,7 +55233,7 @@
 		<ResearchPoints>90.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
-		<RolloverTextID>70787</RolloverTextID>
+		<RolloverTextID>70788</RolloverTextID>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>Shadow</Flag>
@@ -55245,7 +55245,7 @@
 	</Tech>
 	<Tech name ='VeteranRangers' type ='Normal'>
 		<DBID>3094</DBID>
-		<DisplayNameID>70780</DisplayNameID>
+		<DisplayNameID>70793</DisplayNameID>
 		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
@@ -55262,13 +55262,13 @@
 	</Tech>
 	<Tech name ='RGSharpshooters' type ='Normal'>
 		<DBID>1026</DBID>
-		<DisplayNameID>70781</DisplayNameID>
+		<DisplayNameID>70794</DisplayNameID>
 		<Cost resourcetype ='Wood'>800.0000</Cost>
 		<Cost resourcetype ='Gold'>800.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
-		<RolloverTextID>70784</RolloverTextID>
+		<RolloverTextID>70797</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
@@ -55280,7 +55280,7 @@
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='SetName' proto ='Ranger' culture ='none' newName ='70781'></Effect>
+			<Effect type ='SetName' proto ='Ranger' culture ='none' newName ='70794'></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
@@ -55294,13 +55294,13 @@
 	</Tech>
 	<Tech name ='ImperialSharpshooters' type ='Normal'>
 		<DBID>3094</DBID>
-		<DisplayNameID>70782</DisplayNameID>
+		<DisplayNameID>70795</DisplayNameID>
 		<Cost resourcetype ='Wood'>1500.0000</Cost>
 		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
-		<RolloverTextID>70783</RolloverTextID>
+		<RolloverTextID>70796</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
@@ -55310,7 +55310,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
-			<Effect type ='SetName' proto ='Ranger' culture ='none' newName ='70782'></Effect>
+			<Effect type ='SetName' proto ='Ranger' culture ='none' newName ='70795'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 		</Effects>
