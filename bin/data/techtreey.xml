@@ -55566,8 +55566,8 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>GuardShotgunners</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>GuardShotgunners</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
