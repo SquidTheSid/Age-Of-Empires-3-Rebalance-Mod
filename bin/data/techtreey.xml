@@ -55526,7 +55526,7 @@
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='GuardShotgunner' type ='Normal'>
+	<Tech name ='GuardShotgunners' type ='Normal'>
 		<DBID>1026</DBID>
 		<DisplayNameID>70831</DisplayNameID>
 		<Cost resourcetype ='Wood'>600.0000</Cost>
