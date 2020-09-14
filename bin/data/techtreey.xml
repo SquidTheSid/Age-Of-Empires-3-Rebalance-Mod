@@ -54815,6 +54815,9 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranColonialMilitia</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialShotgunners</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardShotgunners</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranShotgunners</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialSharpshooters</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGSharpshooters</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranRangersShadow</Effect>
