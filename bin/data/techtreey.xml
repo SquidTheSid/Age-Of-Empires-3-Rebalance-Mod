@@ -55361,7 +55361,6 @@
 		<RolloverTextID>70804</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
-
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
@@ -55386,7 +55385,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
-			<TechStatus status ='Active'>VeteranSpurRider</TechStatus>
+			<TechStatus status ='Active'>VeteranSpurRiders</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
