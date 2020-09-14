@@ -8479,8 +8479,8 @@
 	<Tech name ='Bayonet' type ='Normal'>
 		<DBID>129</DBID>
 		<DisplayNameID>23335</DisplayNameID>
-		<Cost resourcetype ='Wood'>150.0000</Cost>
-		<Cost resourcetype ='Gold'>150.0000</Cost>
+		<Cost resourcetype ='Wood'>175.0000</Cost>
+		<Cost resourcetype ='Gold'>175.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\bayonet\bayonet</Icon>
@@ -8491,6 +8491,8 @@
 		<Effects>
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
@@ -54812,11 +54814,12 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialSharpshooters</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGSharpshooters</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranRangers</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranRangersShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialRoughRiders</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>RGRoughRiders</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranSpurRiders</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranHussars</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>RGLifeGuardHussars</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -54827,7 +54830,6 @@
 				<Target type ='ProtoUnit'>Pilgrim</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialDragoons</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialLifeGuard</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Capitol</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -54844,7 +54846,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianExiledPrince</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneralBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidenteAmericans</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerAmericans</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianMarksmanAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalistAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianTycoon</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianViceroyBritish</Effect>
@@ -54909,8 +54911,6 @@
 			<Effect type ='Data' action ='SpawnRocket' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialRocket</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialFieldGun</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>FieldGun</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranDragoonsShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
@@ -54921,6 +54921,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialFreedomCannons</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>FreedomCannons</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpHorseArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -55121,8 +55123,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Imperialize</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionWashington</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>XPRevolutionLouverture</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialColonialMilitia' type ='Normal'>
@@ -55182,7 +55182,7 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='PoliticianAdventurerAmericans' type ='Normal'>
+	<Tech name ='PoliticianMarksmanAmericans' type ='Normal'>
 		<DBID>2142</DBID>
 		<DisplayNameID>35489</DisplayNameID>
 		<Cost resourcetype ='Food'>1200.0000</Cost>
@@ -55201,7 +55201,7 @@
 	</Tech>
 	<Tech name ='PoliticianEngineerAmericans' type ='Normal'>
 		<DBID>2179</DBID>
-		<DisplayNameID>35639</DisplayNameID>
+		<DisplayNameID>70825</DisplayNameID>
 		<Cost resourcetype ='Food'>2000.0000</Cost>
 		<Cost resourcetype ='Gold'>1200.0000</Cost>
 		<ResearchPoints>90.0000</ResearchPoints>
@@ -55235,7 +55235,7 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='VeteranRangers' type ='Normal'>
+	<Tech name ='VeteranRangersShadow' type ='Normal'>
 		<DBID>3094</DBID>
 		<DisplayNameID>70793</DisplayNameID>
 		<ResearchPoints>0.0000</ResearchPoints>
@@ -55456,6 +55456,50 @@
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='SpurRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='FreedomCannons' type ='Normal'>
+		<DBID>136</DBID>
+		<DisplayNameID>70827</DisplayNameID>
+		<Cost resourcetype ='Food'>250.0000</Cost>
+		<Cost resourcetype ='Wood'>250.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_artillery\guard_artillery</Icon>
+		<RolloverTextID>70826</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
+			<Effect type ='SetName' proto ='xpGatlingGun' culture ='none' newName ='70827'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialFreedomCannons' type ='Normal'>
+		<DBID>1328</DBID>
+		<DisplayNameID>70829</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_artillery\imperial_artillery</Icon>
+		<RolloverTextID>70828</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>FreedomCannon</TechStatus>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
+			<Effect type ='SetName' proto ='xpGatlingGun' culture ='none' newName ='70829'></Effect>
+		</Effects>
 	</Tech>
 
 </TechTree>

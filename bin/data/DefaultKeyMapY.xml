@@ -1974,6 +1974,21 @@
       <command>tis("Hussar",5)</command>
     </keymapdata>
     <keymapdata>
+      <name>Spur Rider</name>
+      <displayname>$$70821$$Spur Rider</displayname>
+      <event>s</event>
+      <context>StableAccel</context>
+      <command>tis("SpurRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Spur Riders</name>
+      <displayname>$$70821$$Spur Rider</displayname>
+      <displayformat>$$70822$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>StableAccel</context>
+      <command>tis("SpurRider",5)</command>
+    </keymapdata>
+    <keymapdata>
       <name>Uhlan</name>
       <displayname>$$22940$$Uhlan</displayname>
       <event>u</event>
