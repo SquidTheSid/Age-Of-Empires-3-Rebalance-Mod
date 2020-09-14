@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <protounitsounddef>
-  <protounit name="Ranger">
+  <protounit name="SpurRider">
     <soundtype name="Select">
-      <soundset name="BillyHolmeSelect"/>
+      <soundset name="SaloonUnitSelect"/>
     </soundtype>
     <soundtype name="Grunt">
-      <soundset name="BillyHolmeGrunt"/>
+      <soundset name="CavalryGrunt"/>
     </soundtype>
     <soundtype name="Death">
-      <soundset name="BillyHolmeDeath"/>
+      <soundset name="GenericMaleDeath"/>
     </soundtype>
     <soundtype name="Creation">
-      <soundset name="SettlerBirth"/>
+      <soundset name="MilitaryBirth"/>
     </soundtype>
     <soundtype name="Acknowledge">
       <targetlogic>
         <choice name="default">
-          <soundset name="BillyHolmeAcknowledge"/>
+          <soundset name="SaloonUnitAcknowledge"/>
         </choice>
         <choice name="enemy">
-          <soundset name="BillyHolmeAttack"/>
+          <soundset name="SaloonUnitAttack"/>
         </choice>
         <choice name="build"/>
         <choice name="Huntable"/>
@@ -29,9 +29,6 @@
         <choice name="AbstractResourceCrate"/>
         <choice name="AbstractFruit"/>
       </targetlogic>
-    </soundtype>
-    <soundtype name="KnockOutRevived">
-      <soundset name="BillyHolmeRevive"/>
     </soundtype>
   </protounit>
 </protounitsounddef>

@@ -835,6 +835,7 @@
       <tech x="2.9" y="1.0">HCShipShotgunners1</tech>
       <tech x="2.9" y="2.0">HCShipShotgunners2</tech>
       <tech x="2.9" y="3.0">HCShipShotgunners3</tech>
+      <tech x="2.9" y="4.0">ShotgunnerScattershot</tech>
       <tech x="3.7" y="1.0">HCShipSpurRiders1</tech>
       <tech x="3.7" y="2.0">HCShipSpurRiders2</tech>
       <tech x="3.7" y="3.0">HCShipSpurRiders3</tech>
