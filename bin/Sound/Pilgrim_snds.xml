@@ -443,6 +443,37 @@
                 </choice>
               </targetlogic>
             </choice>
+	    <choice name="Americans">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="BritishSettlerMaleAcknowledge"/>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="BritishSettlerMaleAttack"/>
+                </choice>
+                <choice name="build">
+                  <soundset name="BritishSettlerMaleBuild"/>
+                </choice>
+                <choice name="Huntable">
+                  <soundset name="BritishSettlerMaleGatherMeat"/>
+                </choice>
+                <choice name="Tree">
+                  <soundset name="BritishSettlerMaleGatherWood"/>
+                </choice>
+                <choice name="AbstractFarm">
+                  <soundset name="BritishSettlerMaleFarm"/>
+                </choice>
+                <choice name="AbstractMine">
+                  <soundset name="BritishSettlerMaleGatherCoin"/>
+                </choice>
+                <choice name="AbstractResourceCrate">
+                  <soundset name="BritishSettlerMaleAcknowledge"/>
+                </choice>
+                <choice name="AbstractFruit">
+                  <soundset name="BritishSettlerMaleGatherFruit"/>
+                </choice>
+              </targetlogic>
+            </choice>
             <choice name="Aztecs">
               <targetlogic>
                 <choice name="default"/>
@@ -1080,6 +1111,37 @@
                 </choice>
                 <choice name="AbstractFruit">
                   <soundset name="GermanSettlerFemaleGatherFruit"/>
+                </choice>
+              </targetlogic>
+            </choice>
+	    <choice name="Americans">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="BritishSettlerFemaleAcknowledge"/>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="BritishSettlerFemaleAttack"/>
+                </choice>
+                <choice name="build">
+                  <soundset name="BritishSettlerFemaleBuild"/>
+                </choice>
+                <choice name="Huntable">
+                  <soundset name="BritishSettlerFemaleGatherMeat"/>
+                </choice>
+                <choice name="Tree">
+                  <soundset name="BritishSettlerFemaleGatherWood"/>
+                </choice>
+                <choice name="AbstractFarm">
+                  <soundset name="BritishSettlerFemaleFarm"/>
+                </choice>
+                <choice name="AbstractMine">
+                  <soundset name="BritishSettlerFemaleGatherCoin"/>
+                </choice>
+                <choice name="AbstractResourceCrate">
+                  <soundset name="BritishSettlerFemaleAcknowledge"/>
+                </choice>
+                <choice name="AbstractFruit">
+                  <soundset name="BritishSettlerFemaleGatherFruit"/>
                 </choice>
               </targetlogic>
             </choice>

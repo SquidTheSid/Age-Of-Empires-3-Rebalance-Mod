@@ -54870,8 +54870,8 @@
 				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianCavalierAmericans</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerAmericans</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianCavalierAmericans</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianEngineerAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>

@@ -11,6 +11,8 @@ import javax.swing.UIManager.*;
 import java.io.File;
 import java.awt.Graphics;
 import javax.swing.ImageIcon;
+import java.util.Comparator;
+import java.util.stream.Stream;
 
 public class wizard extends JFrame implements ActionListener
 {
@@ -99,8 +101,10 @@ public class wizard extends JFrame implements ActionListener
 		Path backupData = Paths.get(currentPath + "/bin/databak");
 		Path mapPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/RM3");
 		Path dataPath = Paths.get(currentPath + "/bin/data"); 
+		Path artPath = Paths.get(currentPath + "/bin/art"); 
 		Path aiPath = Paths.get(currentPath + "/bin/AI3"); 
 		Path backupAI = Paths.get(currentPath + "/bin/AI3BAK"); 
+		Path backupART = Paths.get(currentPath + "/bin/ARTBAK");
 		Path modPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/bin");
 		Path binPath = Paths.get(currentPath +"/bin");
 		Path deleteCheckPath = Paths.get(currentPath +"/bin/data/civs.xml");
@@ -136,6 +140,8 @@ public class wizard extends JFrame implements ActionListener
 						{
 							copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
 							copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
+							copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
+
 						}
 						//in either case, we still copy over the mod install files
 							copyDirectoryFileVisitor(modPath.toString(), binPath.toString()); 
@@ -170,9 +176,10 @@ public class wizard extends JFrame implements ActionListener
 					try
 					{
 					//delete the modified directory and replace it with the default one
-            					deleteDirectoryJava7(dataPath.toString());
+            					deleteDirectoryJava8(dataPath.toString());
 						copyDirectoryFileVisitor(backupData.toString(), dataPath.toString());
 						copyDirectoryFileVisitor(backupAI.toString(), aiPath.toString());
+						copyDirectoryFileVisitor(backupART.toString(), artPath.toString());
 						JOptionPane.showMessageDialog(null, "File Restore has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
 
 					}
@@ -187,6 +194,8 @@ public class wizard extends JFrame implements ActionListener
 						//since we're trying to delete a file that doesn't exist, we're assuming that the user doesn't have the mod installed and did a misclick. In that case, we back up existing files.
 						copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
 						copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
+						copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
+
 					}
 					catch(IOException ex)
 					{
@@ -240,40 +249,32 @@ public class wizard extends JFrame implements ActionListener
         	Files.walkFileTree(Paths.get(source), fileVisitor);
 
     	}
-	
+	//recursive delete method taken from mkyong.com. See included MIT license file
+	public static void deleteDirectoryJava8(String dir) throws IOException {
 
-	//recursive directory delete taken from mkyong.com. See included MIT license file
-	public static void deleteDirectoryJava7(String filePath) throws IOException 
-	{
+      	Path path = Paths.get(dir);
 
-        Path path = Paths.get(filePath);
+      // read java doc, Files.walk need close the resources.
+      // try-with-resources to ensure that the stream's open directories are closed
+     	 try (Stream<Path> walk = Files.walk(path)) {
+          walk
+                  .sorted(Comparator.reverseOrder())
+                  .forEach(wizard::deleteDirectoryJava8Extract);
+      }
 
-        Files.walkFileTree(path,
-            new SimpleFileVisitor<>() {
+  }
 
-                // delete directories or folders
-                @Override
-                public FileVisitResult postVisitDirectory(Path dir,
-                                                          IOException exc)
-                                                          throws IOException {
-                    Files.delete(dir);
-                    System.out.printf("Directory is deleted : %s%n", dir);
-                    return FileVisitResult.CONTINUE;
-                }
-
-                // delete files
-                @Override
-                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                    Files.delete(file);
-                    System.out.printf("File is deleted : %s%n", file);
-                    return FileVisitResult.CONTINUE;
-                }
-            }
-        );
-
-    }
-
+  // extract method to handle exception in lambda
+  public static void deleteDirectoryJava8Extract(Path path) {
+      try {
+          Files.delete(path);
+      } catch (IOException e) {
+          System.err.printf("Unable to delete this path : %s%n%s", path, e);
+      }
+  }
 }
+
+
 
 
 
