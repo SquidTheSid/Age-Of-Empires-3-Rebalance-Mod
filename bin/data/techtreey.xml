@@ -55572,7 +55572,7 @@
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='Buckshot' type ='Normal'>
+	<Tech name ='ShotgunnerScattershot' type ='Normal'>
 		<DBID>511</DBID>
 		<DisplayNameID>70835</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
