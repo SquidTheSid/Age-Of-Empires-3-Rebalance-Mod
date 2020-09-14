@@ -254,6 +254,34 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipShotgunners1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipShotgunners2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipShotgunners1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipShotgunners3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipShotgunners2</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
+    <card>
       <name>HCRangedInfantryHitpointsAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -798,6 +826,9 @@
       <tech x="2.1" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
       <tech x="2.1" y="2.0">HCRangedInfantryDamageAmericans</tech>
       <tech x="2.1" y="3.0">HCRangedInfantryCombatAmericans</tech>
+      <tech x="2.9" y="1.0">HCShipShotgunners1</tech>
+      <tech x="2.9" y="2.0">HCShipShotgunners2</tech>
+      <tech x="2.9" y="3.0">HCShipShotgunners3</tech>
       <tech x="3.7" y="1.0">HCShipSpurRiders1</tech>
       <tech x="3.7" y="2.0">HCShipSpurRiders2</tech>
       <tech x="3.7" y="3.0">HCShipSpurRiders3</tech>

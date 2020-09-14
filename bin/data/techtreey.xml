@@ -8582,6 +8582,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Ranger</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Cacadore</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>NatRifleman</Target></Effect>
@@ -55501,6 +55503,142 @@
 				<Target type ='ProtoUnit'>xpGatlingGun</Target></Effect>
 			<Effect type ='SetName' proto ='xpGatlingGun' culture ='none' newName ='70829'></Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='VeteranShotgunners' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70830</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<RolloverTextID>70833</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='SetName' proto ='Shotgunner' culture ='none' newName ='70830'></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='GuardShotgunner' type ='Normal'>
+		<DBID>1026</DBID>
+		<DisplayNameID>70831</DisplayNameID>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
+		<RolloverTextID>70833</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>VeteranShotgunners</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='SetName' proto ='Shotgunner' culture ='none' newName ='70831'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialShotgunners' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70832</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
+		<RolloverTextID>70834</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>GuardShotgunners</TechStatus>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='SetName' proto ='Shotgunner' culture ='none' newName ='70832'></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='Buckshot' type ='Normal'>
+		<DBID>511</DBID>
+		<DisplayNameID>70835</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\blunderbuss\blunderbuss_64x64</Icon>
+		<RolloverTextID>70836</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='CoverHandAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='-2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='-2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='-2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCShipShotgunners1' type ='Normal'>
+		<DBID>2188</DBID>
+		<DisplayNameID>70837</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\amelia_black\amelia_black_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Shotgunner' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipShotgunners2' type ='Normal'>
+		<DBID>2232</DBID>
+		<DisplayNameID>70838</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\amelia_black\amelia_black_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Shotgunner' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipShotgunners3' type ='Normal'>
+		<DBID>2318</DBID>
+		<DisplayNameID>70839</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\amelia_black\amelia_black_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='Shotgunner' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>
