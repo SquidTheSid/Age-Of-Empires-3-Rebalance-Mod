@@ -55517,6 +55517,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<RolloverTextID>70833</RolloverTextID>
+		<Icon>ui\techs\veteran_infantry\veteran_infantry</Icon>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
