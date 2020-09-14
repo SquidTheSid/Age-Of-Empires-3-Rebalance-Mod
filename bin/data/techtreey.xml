@@ -14004,10 +14004,11 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='MercBarbaryCorsair' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Privateer' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+
 			<Effect type ='SetAge'>Age2</Effect>
 		</Effects>
 	</Tech>
