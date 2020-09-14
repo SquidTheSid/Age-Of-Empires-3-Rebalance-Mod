@@ -8,7 +8,7 @@
           <soundset name="FrenchDragoonSelect"/>
         </choice>
         <choice name="Americans">
-          <soundset name="SPCMilitiaSelect"/>
+          <soundset name="SPCAmericanSelect"/>
         </choice>
         <choice name="British">
           <soundset name="BritishDragoonSelect"/>

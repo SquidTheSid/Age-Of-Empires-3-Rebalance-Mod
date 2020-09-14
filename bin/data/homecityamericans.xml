@@ -572,13 +572,6 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCXPGlobalization</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>HCXPColonialism</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
       <name>HCSustainableAgriculture</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -887,7 +880,6 @@
     <obtainabletechs>
       <tech x="1.0" y="1.0">HCXPCapitalism</tech>
       <tech x="1.0" y="2.0">HCXPColonialism</tech>
-      <tech x="1.0" y="3.0">HCXPGlobalization</tech>
       <tech x="2.0" y="1.0">HCFishMarket</tech>
       <tech x="2.0" y="3.0">HCStonemasons</tech>
       <tech x="2.0" y="5.0">HCExoticHardwoods</tech>

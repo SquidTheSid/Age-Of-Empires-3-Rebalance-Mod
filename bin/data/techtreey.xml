@@ -54828,6 +54828,8 @@
 				<Target type ='ProtoUnit'>House</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Pilgrim</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialDragoons</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
