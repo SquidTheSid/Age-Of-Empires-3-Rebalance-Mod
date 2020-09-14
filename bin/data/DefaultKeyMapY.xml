@@ -1395,19 +1395,33 @@
     <keymapdata>
       <name>Ranger</name>
       <displayname>$$70823$$Ranger</displayname>
-      <event>s</event>
+      <event>r</event>
       <context>BarracksAccel</context>
       <command>tis("Ranger")</command>
     </keymapdata>
     <keymapdata>
-      <name>Multiple Rangerss</name>
+      <name>Multiple Rangers</name>
       <displayname>$$70823$$Ranger</displayname>
       <displayformat>$$70824$$Multiple %s</displayformat>
-      <event>shift-s</event>
+      <event>shift-r</event>
       <context>BarracksAccel</context>
       <command>tis("Ranger",5)</command>
     </keymapdata>
-
+    <keymapdata>
+      <name>Shotgunner</name>
+      <displayname>$$70840$$Shotgunner</displayname>
+      <event>s</event>
+      <context>BarracksAccel</context>
+      <command>tis("Shotgunner")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Rangerss</name>
+      <displayname>$$70840$$Shotgunner</displayname>
+      <displayformat>$$70841$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>BarracksAccel</context>
+      <command>tis("Shotgunner",5)</command>
+    </keymapdata>
     <keymapdata>
       <name>Crossbowman</name>
       <displayname>$$29469$$Crossbowman</displayname>
