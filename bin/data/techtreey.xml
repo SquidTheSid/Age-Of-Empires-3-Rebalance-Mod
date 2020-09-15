@@ -15177,6 +15177,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>NatGuerillaWars</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionSeminoles</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietySeminoles</Effect>
+		</Effects>
 
 	</Tech>
 	<Tech name ='UniqueSPCCustomizedMercWeapons' type ='Normal'>
