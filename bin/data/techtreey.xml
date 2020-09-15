@@ -54913,8 +54913,6 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mortar</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Miner</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Monitor</Target></Effect>
@@ -54924,8 +54922,6 @@
 				<Target type ='ProtoUnit'>Galleon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Caravel</Target></Effect>
-			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bayonet</Effect>
 			<Effect type ='TechStatus' status ='active'>Levy</Effect>
 			<Effect type ='Data' action ='SpawnRocket' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
@@ -55740,6 +55736,32 @@
 		<Effects>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpGatlingGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='SpurRiderArtilleryDamage' type ='Normal'>
+		<DBID>4042</DBID>
+		<DisplayNameID>70847</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\beaumont\beaumont_icon_64x64</Icon>
+		<RolloverTextID>70848</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='-0.50' subtype ='DamageBonus' unittype ='AbstractArtillery' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
+
+
+		</Effects>
 	</Tech>
 
 </TechTree>

@@ -180,7 +180,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCShipCows</prereqtech>
-      <age>1</age>
+      <age>3</age>
       <displayunitcount>20</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -354,6 +354,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>SpurRiderArtilleryDamage</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipSpurRiders3</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>HCShipDragoons3</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -492,6 +499,21 @@
       <age>0</age>
     </card>
     <card>
+      <name>HCFencingSchool</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCRidingSchool</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+
+    <card>
       <name>HCColonialMilitia</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -606,6 +628,13 @@
       <age>0</age>
     </card>
     <card>
+      <name>HCSchooners</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCFishMarket</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>HCExoticHardwoods</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -655,7 +684,7 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCRefridgeration</name>
+      <name>HCRefrigeration</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCSustainableAgriculture</prereqtech>
@@ -971,27 +1000,28 @@
       <tech x="1.3" y="2.0">HCXPSPCShipColonialMilitia2</tech>
       <tech x="1.3" y="3.0">HCXPSPCShipColonialMilitia3</tech>
       <tech x="1.3" y="4.0">HCXPSPCShipColonialMilitia4</tech>
-      <tech x="2.1" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
-      <tech x="2.1" y="2.0">HCRangedInfantryDamageAmericans</tech>
-      <tech x="2.1" y="3.0">HCRangedInfantryCombatAmericans</tech>
-      <tech x="2.9" y="1.0">HCShipShotgunners1</tech>
-      <tech x="2.9" y="2.0">HCShipShotgunners2</tech>
-      <tech x="2.9" y="3.0">HCShipShotgunners3</tech>
-      <tech x="2.9" y="4.0">ShotgunnerScattershot</tech>
+      <tech x="2.9" y="1.0">HCRangedInfantryHitpointsAmericans</tech>
+      <tech x="2.9" y="2.0">HCRangedInfantryDamageAmericans</tech>
+      <tech x="2.9" y="3.0">HCRangedInfantryCombatAmericans</tech>
+      <tech x="2.1" y="1.0">HCShipShotgunners1</tech>
+      <tech x="2.1" y="2.0">HCShipShotgunners2</tech>
+      <tech x="2.1" y="3.0">HCShipShotgunners3</tech>
+      <tech x="2.1" y="4.0">ShotgunnerScattershot</tech>
       <tech x="3.7" y="1.0">HCShipSpurRiders1</tech>
       <tech x="3.7" y="2.0">HCShipSpurRiders2</tech>
       <tech x="3.7" y="3.0">HCShipSpurRiders3</tech>
-      <tech x="3.7" y="4.0">HCShipDragoons3</tech>
-      <tech x="3.7" y="5.0">HCShipDragoons2</tech>
-      <tech x="4.6" y="3.0">HCCavalryDamageBritish</tech>
-      <tech x="4.6" y="4.0">HCCavalryHitpointsBritish</tech>
-      <tech x="4.6" y="5.0">HCCavalryCombatBritish</tech>
-      <tech x="5.7" y="1.0">HCShipGatlingGuns1</tech>
-      <tech x="5.7" y="2.0">HCShipGatlingGuns2</tech>
-      <tech x="5.7" y="3.0">HCShipGatlingGuns3</tech>
+      <tech x="3.7" y="4.0">SpurRiderArtilleryDamage</tech>
+      <tech x="4.5" y="1.0">HCShipDragoons3</tech>
+      <tech x="4.5" y="2.0">HCShipDragoons2</tech>
+      <tech x="4.5" y="3.0">HCCavalryDamageBritish</tech>
+      <tech x="4.5" y="4.0">HCCavalryHitpointsBritish</tech>
+      <tech x="4.5" y="5.0">HCCavalryCombatBritish</tech>
+      <tech x="6.5" y="2.0">HCShipGatlingGuns1</tech>
+      <tech x="6.5" y="3.0">HCShipGatlingGuns2</tech>
+      <tech x="6.5" y="4.0">HCShipGatlingGuns3</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillerySPCAct3</tech>
-      <tech x="6.5" y="2.0">HCShipMortars1</tech>
-      <tech x="6.5" y="3.0">HCShipMortars2</tech>
+      <tech x="7.4" y="1.0">HCShipMortars1</tech>
+      <tech x="7.4" y="2.0">HCShipMortars2</tech>
       <tech x="7.4" y="3.0">HCShipRockets2</tech>
       <tech x="7.4" y="5.0">HCXPShipRocketsRepeat</tech>
     </obtainabletechs>
@@ -1022,7 +1052,8 @@
       <tech x="0.5" y="2.0">HCNativeTreaties</tech>
       <tech x="0.5" y="3.0">HCNativeWarriors</tech>
       <tech x="0.5" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="1.8" y="3.0">HCCheaperManors</tech>
+      <tech x="1.2" y="3.0">HCFencingSchool</tech>
+      <tech x="1.8" y="3.0">HCRidingSchool</tech>
       <tech x="3.0" y="1.0">HCColonialMilitia</tech>
       <tech x="3.0" y="2.0">HCPioneers</tech>
       <tech x="3.0" y="3.0">HCImprovedBuildings</tech>
@@ -1062,15 +1093,16 @@
     <obtainabletechs>
       <tech x="1.0" y="1.0">HCXPCapitalism</tech>
       <tech x="1.0" y="2.0">HCXPColonialism</tech>
-      <tech x="1.0" y="2.0">HCXPGlobalization</tech>
+      <tech x="1.0" y="3.0">HCXPGlobalization</tech>
       <tech x="2.0" y="1.0">HCFishMarket</tech>
+      <tech x="2.0" y="2.0">HCSchooners</tech>
       <tech x="2.0" y="3.0">HCStonemasons</tech>
       <tech x="2.0" y="5.0">HCExoticHardwoods</tech>
       <tech x="3.0" y="3.0">HCSilversmith</tech>
       <tech x="3.0" y="5.0">HCRoyalMint</tech>
-      <tech x="4.0" y="2.0">HCFoodSilos</tech>
+      <tech x="5.0" y="1.0">HCStockyards</tech>
       <tech x="4.0" y="3.0">HCSustainableAgriculture</tech>
-      <tech x="4.0" y="5.0">HCRefridgeration</tech>
+      <tech x="4.0" y="5.0">HCRefrigeration</tech>
       <tech x="5.0" y="3.0">HCSpiceTrade</tech>
       <tech x="5.0" y="5.0">HCMedicine</tech>
       <tech x="6.0" y="1.0">HCRumDistillery</tech>
