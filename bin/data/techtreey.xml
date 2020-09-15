@@ -21312,7 +21312,7 @@
 		<Icon>ui\techs\levy\levy</Icon>
 		<RolloverTextID>36618</RolloverTextID>
 		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
+			<TechStatus status ='Active'>Colonialize</TechStatus>
 			<TechStatus status ='Active'>HCRoyalDecreeSPC</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -55739,12 +55739,12 @@
 	</Tech>
 	<Tech name ='SpurRiderArtilleryDamage' type ='Normal'>
 		<DBID>4042</DBID>
-		<DisplayNameID>70847</DisplayNameID>
+		<DisplayNameID>70848</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\spc\beaumont\beaumont_icon_64x64</Icon>
-		<RolloverTextID>70848</RolloverTextID>
+		<RolloverTextID>70847</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>

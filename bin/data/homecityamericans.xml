@@ -674,7 +674,7 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCXPColonialism</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>HCSustainableAgriculture</name>
@@ -1053,7 +1053,7 @@
       <tech x="0.5" y="3.0">HCNativeWarriors</tech>
       <tech x="0.5" y="5.0">HCAdvancedTradingPost</tech>
       <tech x="1.2" y="3.0">HCFencingSchool</tech>
-      <tech x="1.8" y="3.0">HCRidingSchool</tech>
+      <tech x="2.3" y="3.0">HCRidingSchool</tech>
       <tech x="3.0" y="1.0">HCColonialMilitia</tech>
       <tech x="3.0" y="2.0">HCPioneers</tech>
       <tech x="3.0" y="3.0">HCImprovedBuildings</tech>
