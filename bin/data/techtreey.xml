@@ -15172,12 +15172,12 @@
 			<TechStatus status ='Active'>HCRoyalDecreeSPC</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='NatNavajoRifleman' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='NatSharktoothBowman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect></Effects>
+			<Effect type ='TechStatus' status ='obtainable'>NatGuerillaWars</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChampionSeminoles</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietySeminoles</Effect>
+
 	</Tech>
 	<Tech name ='UniqueSPCCustomizedMercWeapons' type ='Normal'>
 		<DBID>1955</DBID>
@@ -54834,6 +54834,9 @@
 			<Effect type ='TechStatus' status ='obtainable'>VeteranSpurRiders</Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchStandingArmy</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UniqueSPCIndianFriendship</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UniqueSPCGrandEncampment</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UniqueSPCPatriots</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
