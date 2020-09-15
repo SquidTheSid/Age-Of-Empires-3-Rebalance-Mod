@@ -218,8 +218,8 @@ public class wizard extends JFrame implements ActionListener
 		if (thisOS.contains("Windows") || thisOS.contains("windows"))
 		{
 			System.out.println("User's current OS is a Windows variant, setting default directory");
-			currentPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
-			testPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
+			currentPath = Paths.get("C:/Program Files (x86)/Steam/steamapps/common/Age of Empires 3/");
+			testPath = Paths.get("C:/Program Files (x86)/Steam/steamapps/common/Age of Empires 3/");
 			sysMapPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/RM3"); 
 		}
 		else if (thisOS.contains("Linux") || thisOS.contains("linux"))
