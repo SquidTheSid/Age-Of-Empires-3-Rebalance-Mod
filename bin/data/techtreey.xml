@@ -55650,7 +55650,7 @@
 	</Tech>
 	<Tech name ='HCShipCoveredWagonsAmericans' type ='Normal'>
 		<DBID>2364</DBID>
-		<DisplayNameID>36056</DisplayNameID>
+		<DisplayNameID>70846</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -55707,6 +55707,31 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 
+	</Tech>
+	<Tech name ='YPHCShipCows3' type ='Normal'>
+		<DBID>4185</DBID>
+		<DisplayNameID>70845</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\animals\cow\HC_cow_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='20.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipGatlingGuns3' type ='Normal'>
+		<DBID>3183</DBID>
+		<DisplayNameID>45223</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\Units\gatling_gun_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Flag>YPInfiniteTech</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpGatlingGun' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>

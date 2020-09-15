@@ -158,21 +158,39 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipSheep2</name>
+      <name>HCShipSheep3</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCShipSheep1</prereqtech>
       <age>2</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>20</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCoveredWagons</name>
+      <name>HCShipCows1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>YPHCShipCows3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>20</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCoveredWagonsAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>4</displayunitcount>
     </card>
         <card>
       <name>HCExplorerAmerican</name>
@@ -387,6 +405,15 @@
     <card>
       <name>HCShipGatlingGuns2</name>
       <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipGatlingGuns1</prereqtech>
+      <age>3</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipGatlingGuns3</name>
+      <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>HCShipGatlingGuns1</prereqtech>
       <age>3</age>
@@ -769,9 +796,9 @@
       <name>HCXPNavajoAllies1</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCXPCherokeeAllies2</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -800,7 +827,7 @@
         <card>HCShipFoodCrates1</card>
         <card>HCShipWoodCrates1</card>
         <card>HCShipCoinCrates1</card>
-        <card>HCShipCoveredWagons</card>
+        <card>HCShipCoveredWagonsAmericans</card>
         <card>HCShipFalconets1</card>
         <card>HCShipRockets1</card>
       </cards>
@@ -856,7 +883,9 @@
       <tech x="3.3" y="4.0">HCShipCoinCrates4</tech>
       <tech x="4.7" y="1.0">HCShipSheep1</tech>
       <tech x="4.7" y="2.0">HCShipSheep2</tech>
-      <tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
+      <tech x="5.3" y="2.0">HCShipCows1</tech>
+      <tech x="5.3" y="3.0">YPHCShipCows3</tech>
+      <tech x="6.0" y="1.0">HCShipCoveredWagonsAmericans</tech>
       <tech x="7.0" y="2.0">HCExplorerAmerican</tech>
       <tech x="7.0" y="3.0">HCShipBalloons</tech>
     </obtainabletechs>
@@ -909,6 +938,7 @@
       <tech x="4.6" y="5.0">HCCavalryCombatBritish</tech>
       <tech x="5.7" y="1.0">HCShipGatlingGuns1</tech>
       <tech x="5.7" y="2.0">HCShipGatlingGuns2</tech>
+      <tech x="5.7" y="2.0">HCShipGatlingGuns3</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillerySPCAct3</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
