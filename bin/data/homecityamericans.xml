@@ -179,7 +179,7 @@
       <name>YPHCShipCows3</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>HCShipCows</prereqtech>
       <age>1</age>
       <displayunitcount>20</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -366,7 +366,7 @@
       <name>HCShipDragoons2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipDragoons1</prereqtech>
+      <prereqtech>HCShipDragoons3</prereqtech>
       <age>3</age>
       <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -641,6 +641,13 @@
       <age>1</age>
     </card>
     <card>
+      <name>HCXPGlobalization</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCXPColonialism</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
       <name>HCSustainableAgriculture</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -749,6 +756,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCMercsCorsairs</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCMercsHighlanders</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -797,7 +813,7 @@
       <name>HCMercenaryLoyalty</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCMercsHighland</prereqtech>
+      <prereqtech>HCMercsHolyRoman</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -849,7 +865,7 @@
       <name>HCXPNavajoAlliesRepeat</name>
       <maxcount>-1</maxcount>
       <level>25</level>
-      <prereqtech>HCXPCherokeeAllies2</prereqtech>
+      <prereqtech>HCXPNavajoAllies2</prereqtech>
       <age>3</age>
       <displayunitcount>27</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -919,7 +935,7 @@
       <tech x="4.5" y="2.0">HCShipSheep3</tech>
       <tech x="5.5" y="2.0">HCShipCows</tech>
       <tech x="5.5" y="3.0">YPHCShipCows3</tech>
-      <tech x="6.0" y="1.0">HCShipCoveredWagonsAmericans</tech>
+      <tech x="6.3" y="1.0">HCShipCoveredWagonsAmericans</tech>
       <tech x="7.0" y="2.0">HCExplorerAmerican</tech>
       <tech x="7.0" y="3.0">HCShipBalloons</tech>
     </obtainabletechs>
@@ -1046,6 +1062,7 @@
     <obtainabletechs>
       <tech x="1.0" y="1.0">HCXPCapitalism</tech>
       <tech x="1.0" y="2.0">HCXPColonialism</tech>
+      <tech x="1.0" y="2.0">HCXPGlobalization</tech>
       <tech x="2.0" y="1.0">HCFishMarket</tech>
       <tech x="2.0" y="3.0">HCStonemasons</tech>
       <tech x="2.0" y="5.0">HCExoticHardwoods</tech>
@@ -1084,19 +1101,20 @@
       <tech x="2.0" y="4.0">HCShipMonitors</tech>
       <tech x="2.0" y="5.0">HCAdmirality</tech>
       <tech x="2.0" y="7.0">HCNavalGunners</tech>
-      <tech x="4.0" y="1.0">HCMercsHessians</tech>
+      <tech x="4.0" y="1.0">HCMercsCorsairs</tech>
+      <tech x="4.0" y="2.0">HCMercsHessians</tech>
       <tech x="4.0" y="3.0">HCMercsHolyRoman</tech>
       <tech x="5.0" y="5.0">HCMercsHighland</tech>
       <tech x="5.0" y="1.0">HCMercsHighlanders</tech>
       <tech x="5.0" y="2.0">HCMercsSwissPikemen</tech>
       <tech x="5.0" y="3.0">HCMercsHackapells</tech>
-      <tech x="5.0" y="6.0">HCMercenaryLoyalty</tech>
+      <tech x="4.0" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="6.0" y="1.0">HCXPCherokeeAllies1</tech>
       <tech x="6.0" y="2.0">HCXPCherokeeAllies2</tech>
       <tech x="6.0" y="3.0">HCXPCherokeeAlliesRepeat</tech>
-      <tech x="6.0" y="5.0">HCXPNavajoAllies1</tech>
-      <tech x="6.0" y="6.0">HCXPNavajoAllies2</tech>
-      <tech x="6.0" y="7.0">HCXPNavajoAlliesRepeat</tech>
+      <tech x="7.0" y="1.0">HCXPNavajoAllies1</tech>
+      <tech x="7.0" y="2.0">HCXPNavajoAllies2</tech>
+      <tech x="7.0" y="3.0">HCXPNavajoAlliesRepeat</tech>
 
     </obtainabletechs>
     <activetechs/>
