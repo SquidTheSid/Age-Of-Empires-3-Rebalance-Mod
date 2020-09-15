@@ -167,7 +167,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCows1</name>
+      <name>HCShipCows</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -946,7 +946,7 @@
       <tech x="4.6" y="5.0">HCCavalryCombatBritish</tech>
       <tech x="5.7" y="1.0">HCShipGatlingGuns1</tech>
       <tech x="5.7" y="2.0">HCShipGatlingGuns2</tech>
-      <tech x="5.7" y="2.0">HCShipGatlingGuns3</tech>
+      <tech x="5.7" y="3.0">HCShipGatlingGuns3</tech>
       <tech x="6.5" y="1.0">HCAdvancedArtillerySPCAct3</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
