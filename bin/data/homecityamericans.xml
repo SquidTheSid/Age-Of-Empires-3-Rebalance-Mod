@@ -541,6 +541,14 @@
       <age>2</age>
     </card>
     <card>
+      <name>HCXPUnlockFort2</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCHeavyFortifications</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
       <name>HCRoyalDecreeSPC</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -980,6 +988,7 @@
       <tech x="4.3" y="3.0">HCUnlockFort</tech>
       <tech x="4.3" y="4.0">HCExtensiveFortifications</tech>
       <tech x="4.3" y="5.0">HCHeavyFortifications</tech>
+      <tech x="4.3" y="6.0">HCXPUnlockFort2</tech>
       <tech x="5.5" y="1.0">HCRoyalDecreeSPC</tech>
       <tech x="6.2" y="1.0">HCAdvancedMill</tech>
       <tech x="6.9" y="1.0">HCAdvancedMarket</tech>

@@ -15172,7 +15172,11 @@
 			<TechStatus status ='Active'>HCRoyalDecreeSPC</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='NatNavajoRifleman' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='UniqueSPCCustomizedMercWeapons' type ='Normal'>
@@ -21302,6 +21306,7 @@
 		<DBID>2539</DBID>
 		<DisplayNameID>36619</DisplayNameID>
 		<ResearchPoints>15.0000</ResearchPoints>
+		<Cost resourcetype ='Food'>500.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\levy\levy</Icon>
 		<RolloverTextID>36618</RolloverTextID>
@@ -21327,9 +21332,9 @@
 			<TechStatus status ='Active'>Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='MaximumVelocity' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
