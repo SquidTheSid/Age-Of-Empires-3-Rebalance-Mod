@@ -415,7 +415,7 @@
       <name>HCShipGatlingGuns3</name>
       <maxcount>-1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipGatlingGuns1</prereqtech>
+      <prereqtech>HCShipGatlingGuns2</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -890,7 +890,7 @@
       <tech x="2.6" y="4.0">HCShipWoodCrates4</tech>
       <tech x="3.3" y="4.0">HCShipCoinCrates4</tech>
       <tech x="4.7" y="1.0">HCShipSheep1</tech>
-      <tech x="4.7" y="2.0">HCShipSheep2</tech>
+      <tech x="4.7" y="2.0">HCShipSheep3</tech>
       <tech x="5.3" y="2.0">HCShipCows1</tech>
       <tech x="5.3" y="3.0">YPHCShipCows3</tech>
       <tech x="6.0" y="1.0">HCShipCoveredWagonsAmericans</tech>

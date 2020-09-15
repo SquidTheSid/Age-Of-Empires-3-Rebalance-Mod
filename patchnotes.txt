@@ -37,7 +37,7 @@ Incoporated ESOC's fixed starting crates:
 
 Shipments: 
 - Ranching shipments now increase livestock gather fatten rate by 25%
-- Land Grab shipment cost reduction improved to 60% from 40%
+- Land Grab shipment cost reduction improved to 70% from 40%
 - Offshore support bonus Range/LOS reduced to 2 from 5
 - Advanced Farm and Mill now provide a 10% gather rate bonus instead of extra hitpoints
 - Advanced Plantation now provides a 10% gather rate bonus instead of extra hitpoints
@@ -545,7 +545,7 @@ Shipments:
 - Genitours now provides +4 range/LOS (down from +6/6) and +10% HP
 - Gunpower infantry TEAM hitpoints and attack moved to colonial age; infantry combat moved to fortress age, all from Industrial
 - Banderiantes (2 Explorer shipments) now additionally provides 2 explorer dogs. 
-- Donatarios (2 TC+ build limit) now additionally heals nearby units for 20. 
+- Donatarios (2 TC+ build limit) now additionally heals nearby units for 40. 
 - Portuguese White Fleet persists for the rest of the game (4 fishing boats per dock every 80 seconds)
 
 Russia:
