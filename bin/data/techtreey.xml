@@ -21306,7 +21306,7 @@
 	<Tech name ='UniqueSPCPatriots' type ='Normal'>
 		<DBID>2539</DBID>
 		<DisplayNameID>36619</DisplayNameID>
-		<ResearchPoints>15.0000</ResearchPoints>
+		<ResearchPoints>10.0000</ResearchPoints>
 		<Cost resourcetype ='Food'>500.0000</Cost>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\levy\levy</Icon>
