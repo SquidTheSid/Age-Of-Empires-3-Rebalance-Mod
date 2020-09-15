@@ -18808,6 +18808,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\cavalry\spahi\spahi_icon</Icon>
 		<Flag>HomeCity</Flag>
+		<Flag>YPInfiniteTech</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Spahi' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
@@ -54811,6 +54812,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialColonialMilitia</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardColonialMilitia</Effect>
@@ -55644,6 +55647,66 @@
 		<Effects>
 			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='Shotgunner' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipCoveredWagonsAmericans' type ='Normal'>
+		<DBID>2364</DBID>
+		<DisplayNameID>36056</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ExplorerDog' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Explorer' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCXPNavajoAllies1' type ='Normal'>
+		<DBID>2868</DBID>
+		<DisplayNameID>70842</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\navajo_rifleman_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='NatNavajoRifleman' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCXPNavajoAllies2' type ='Normal'>
+		<DBID>2868</DBID>
+		<DisplayNameID>70842</DisplayNameID>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\navajo_rifleman_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyNavajo</Effect>
+			<Effect type ='Data' amount ='24.00' subtype ='FreeHomeCityUnit' unittype ='NatNavajoRifleman' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCXPNavajoAlliesRepeat' type ='Normal'>
+		<DBID>2868</DBID>
+		<DisplayNameID>70842</DisplayNameID>
+		<Cost resourcetype ='Gold'>2000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\units\navajo_rifleman_icon</Icon>
+		<Flag>HomeCity</Flag>
+		<Flag>YPInfiniteTech</Flag>
+		<Effects>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyNavajo</Effect>
+			<Effect type ='Data' amount ='27.00' subtype ='FreeHomeCityUnit' unittype ='NatNavajoRifleman' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+
 	</Tech>
 
 </TechTree>
