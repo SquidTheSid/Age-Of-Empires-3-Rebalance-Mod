@@ -55656,17 +55656,14 @@
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipCoveredWagonsAmericans' type ='Normal'>
-		<DBID>2364</DBID>
+		<DBID>9534</DBID>
 		<DisplayNameID>70846</DisplayNameID>
-		<Cost resourcetype ='Gold'>750.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Pilgrim' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
