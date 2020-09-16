@@ -15506,7 +15506,7 @@
 		<RolloverTextID>35144</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>41870</Effect>
 		</Effects>
@@ -16093,10 +16093,10 @@
 		<Effects>
 			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='BerryBush' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>41926</Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.20' subtype ='WorkRate' unittype ='ypBerryBuilding' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.30' subtype ='WorkRate' unittype ='ypBerryBuilding' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -55120,7 +55120,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>Fortressize</Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
@@ -55846,6 +55846,13 @@
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 			<Effect type ='Data' action ='AntiShipAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' action ='CannonAttack' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+
 		</Effects>
 	</Tech>
 
