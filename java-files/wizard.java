@@ -28,6 +28,8 @@ public class wizard extends JFrame implements ActionListener
 	private Path currentPath; 
 	private Path testPath;
 	private Path sysMapPath;
+	private Path sysSavPath;
+	private Path sysDocPath;
 	private JLabel background;  
 
 	public static void main(String[] args){
@@ -100,6 +102,8 @@ public class wizard extends JFrame implements ActionListener
 	{
 		Path backupData = Paths.get(currentPath + "/bin/databak");
 		Path mapPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/RM3");
+		Path savePath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/Savegame");
+		Path backupSAV = Paths.get(sysDocPath + "/SavegameBAK");
 		Path dataPath = Paths.get(currentPath + "/bin/data"); 
 		Path artPath = Paths.get(currentPath + "/bin/art"); 
 		Path aiPath = Paths.get(currentPath + "/bin/AI3"); 
@@ -141,11 +145,12 @@ public class wizard extends JFrame implements ActionListener
 							copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
 							copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
 							copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
-
+							copyDirectoryFileVisitor(savePath.toString(), backupSAV.toString());
 						}
 						//in either case, we still copy over the mod install files
 							copyDirectoryFileVisitor(modPath.toString(), binPath.toString()); 
 							copyDirectoryFileVisitor(mapPath.toString(), sysMapPath.toString()); 
+							copyDirectoryFileVisitor(savePath.toString(), sysSavPath.toString()); 
 							JOptionPane.showMessageDialog(null, "File Copy has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
 						
 					}
@@ -180,6 +185,7 @@ public class wizard extends JFrame implements ActionListener
 						copyDirectoryFileVisitor(backupData.toString(), dataPath.toString());
 						copyDirectoryFileVisitor(backupAI.toString(), aiPath.toString());
 						copyDirectoryFileVisitor(backupART.toString(), artPath.toString());
+						copyDirectoryFileVisitor(backupSAV.toString(), savePath.toString());
 						JOptionPane.showMessageDialog(null, "File Restore has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
 
 					}
@@ -195,6 +201,7 @@ public class wizard extends JFrame implements ActionListener
 						copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
 						copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
 						copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
+						copyDirectoryFileVisitor(savePath.toString(), backupSAV.toString());
 
 					}
 					catch(IOException ex)
@@ -228,6 +235,8 @@ public class wizard extends JFrame implements ActionListener
 			currentPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
 			testPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
 			sysMapPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/RM3"); 
+			sysSavPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/Savegame");
+			sysDocPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/");
 		}
 		else if (thisOS.contains("Linux") || thisOS.contains("linux"))
 		{
@@ -235,10 +244,10 @@ public class wizard extends JFrame implements ActionListener
 			currentPath = Paths.get(home + "/.local/share/Steam/steamapps/common/Age Of Empires 3/"); 
 			testPath = Paths.get(home + "/.local/share/Steam/steamapps/common/Age Of Empires 3/"); 
 			sysMapPath = Paths.get(home +"/.local/share/Steam/steamapps/compatdata/105450/pfx/drive_c/users/steamuser/My Documents/My Games/Age of Empires 3/RM3");
-
-
+			sysSavPath = Paths.get(home +"/.local/share/Steam/steamapps/compatdata/105450/pfx/drive_c/users/steamuser/My Documents/My Games/Age of Empires 3/Savegame");
+			sysDocPath = Paths.get(home + "/.local/share/Steam/steamapps/compatdata/105450/pfx/drive_c/users/steamuser/My Documents/My Games/Age of Empires 3/");
 		}
-		}
+	}
 
 
 	//recursive copy method taken from mkyong.com. See included MIT license file 

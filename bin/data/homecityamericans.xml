@@ -40,6 +40,7 @@
     </maximum>
   </coffers>
 <cards>
+  <cards>
     <card>
       <name>HCShipFoodCrates1</name>
       <maxcount>-1</maxcount>
@@ -77,6 +78,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipFoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipFoodCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1600</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCShipWoodCrates1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -107,9 +117,18 @@
       <name>HCShipWoodCrates4</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipwoodCrates3</prereqtech>
+      <prereqtech>HCShipWoodCrates3</prereqtech>
       <age>2</age>
       <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipWoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipWoodCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1600</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -146,6 +165,15 @@
       <prereqtech>HCShipCoinCrates3</prereqtech>
       <age>2</age>
       <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCoinCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipCoinCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1600</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -961,6 +989,9 @@
       <tech x="1.9" y="4.0">HCShipFoodCrates4</tech>
       <tech x="2.6" y="4.0">HCShipWoodCrates4</tech>
       <tech x="3.3" y="4.0">HCShipCoinCrates4</tech>
+      <tech x="1.9" y="5.0">HCShipFoodCrates5</tech>
+      <tech x="2.6" y="5.0">HCShipWoodCrates5</tech>
+      <tech x="3.3" y="5.0">HCShipCoinCrates5</tech>
       <tech x="4.5" y="1.0">HCShipSheep1</tech>
       <tech x="4.5" y="2.0">HCShipSheep3</tech>
       <tech x="5.5" y="2.0">HCShipCows</tech>

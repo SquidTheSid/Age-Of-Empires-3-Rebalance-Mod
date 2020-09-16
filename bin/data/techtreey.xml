@@ -22471,6 +22471,8 @@
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 			<Effect type ='Data' action ='AutoGatherXP' amount ='1.30' subtype ='WorkRate' unittype ='ypSacredField' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='2.00' subtype ='WorkRate' unittype ='Herdable' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCShipDutchRaidingFleet' type ='Normal'>
@@ -22562,7 +22564,7 @@
 		<RolloverTextID>37324</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='Gather' amount ='4.00' subtype ='WorkRate' unittype ='Herdable' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='2.00' subtype ='WorkRate' unittype ='Herdable' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>41845</Effect>
 		</Effects>
@@ -54814,6 +54816,8 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CoveredWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
@@ -55761,6 +55765,33 @@
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 
 
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPRanchingAmericans' type ='Normal'>
+		<DBID>3367</DBID>
+		<DisplayNameID>46811</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Ranching</Icon>
+		<RolloverTextID>46810</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+			<Effect type ='TextOutput'>46813</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Cow' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Farm</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Cow</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='LivestockPen' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='ypVillage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='YPLivestockPenAsian' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 		</Effects>
 	</Tech>
 

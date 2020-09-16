@@ -916,13 +916,6 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCFullingMills</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCStockyards</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>HCSpiceTrade</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1616,7 +1609,6 @@
       <tech x="4.3" y="3.0">HCSustainableAgriculture</tech>
       <tech x="4.3" y="5.0">HCRefrigeration</tech>
       <tech x="5.2" y="1.0">HCStockyards</tech>
-      <tech x="5.2" y="2.0">HCFullingMills</tech>
       <tech x="6.1" y="3.0">HCSpiceTrade</tech>
       <tech x="6.1" y="5.0">HCMedicine</tech>
       <tech x="7.0" y="1.0">HCRumDistilleryTeam</tech>
