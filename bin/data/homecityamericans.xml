@@ -12,7 +12,8 @@
   <widescreencamera>st_louis\st_louis_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>1</level>
+  <level>100</level>
+  <skillpoints>999</skillpoints>
   <lightset>St_Louis</lightset>
   <watertype>Paris</watertype>
   <levelmodifier>0.7</levelmodifier>
@@ -40,7 +41,6 @@
     </maximum>
   </coffers>
 <cards>
-  <cards>
     <card>
       <name>HCShipFoodCrates1</name>
       <maxcount>-1</maxcount>
