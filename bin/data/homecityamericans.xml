@@ -1003,7 +1003,7 @@
     <obtainabletechs>
       <tech x="0.5" y="1.0">HCFrontierScoutsAmericans</tech>
       <tech x="0.5" y="2.0">HCFrontierDefensesAmericans</tech>
-      <tech x="0.5" y="2.0">HCFrontierGuardsAmericans</tech>
+      <tech x="0.5" y="3.0">HCFrontierGuardsAmericans</tech>
       <tech x="1.9" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.6" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.3" y="1.0">HCShipCoinCrates1</tech>
