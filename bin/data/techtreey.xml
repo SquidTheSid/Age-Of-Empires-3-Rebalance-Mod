@@ -15174,9 +15174,9 @@
 		<Effects>
 			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='NatSharktoothBowman' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>NatGuerillaWars</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ChampionSeminoles</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>WarriorSocietySeminoles</Effect>
+			<Effect type ='TechStatus' status ='active'>NatGuerillaWars</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionSeminoles</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietySeminoles</Effect>
 		</Effects>
 
 	</Tech>
@@ -54950,13 +54950,13 @@
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='HCExplorerAmerican' type ='Normal'>
+	<Tech name ='HCExplorerAmericans' type ='Normal'>
 		<DBID>2088</DBID>
 		<DisplayNameID>70769</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\tech_japan_stealth_icon</Icon>
+		<Icon>ui\techs\hc_explorer_british_captain\hc_explorer_british</Icon>
 		<RolloverTextID>70768</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -54966,9 +54966,7 @@
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
-			<Effect type ='Data' action ='Stealth' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Hero</Target></Effect>
-			<Effect type ='Data' amount ='1.00' tactic ='Stealth' subtype ='TacticEnable' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Hero</Target></Effect>
 		</Effects>
 	</Tech>
@@ -55660,8 +55658,8 @@
 	<Tech name ='HCShipCoveredWagonsAmericans' type ='Normal'>
 		<DBID>2364</DBID>
 		<DisplayNameID>70846</DisplayNameID>
-		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<Cost resourcetype ='Gold'>750.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
@@ -55670,7 +55668,8 @@
 			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Pilgrim' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='HCXPNavajoAllies1' type ='Normal'>
 		<DBID>2868</DBID>
@@ -55792,6 +55791,64 @@
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
 			<Effect type ='Data' action ='Gather' amount ='1.25' subtype ='WorkRate' unittype ='YPLivestockPenAsian' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCFrontierScoutsAmericans' type ='Normal'>
+		<DBID>2571</DBID>
+		<DisplayNameID>70850</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\outpost\outpost_icon_64x64</Icon>
+		<RolloverTextID>70849</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='OutpostWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+		</Effects>
+	</Tech>
+
+
+	<Tech name ='HCFrontierDefensesAmericans' type ='Normal'>
+		<DBID>2571</DBID>
+		<DisplayNameID>70852</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>buildings\outpost\outpost_icon_64x64</Icon>
+		<RolloverTextID>70851</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='OutpostWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCFrontierGuardsAmericans' type ='Normal'>
+		<DBID>2571</DBID>
+		<DisplayNameID>70854</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_block_house_cannon\hc_block_house_cannon</Icon>
+		<RolloverTextID>70853</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='OutpostWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' action ='CannonAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' action ='RangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+			<Effect type ='Data' action ='AntiShipAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 		</Effects>
 	</Tech>
 

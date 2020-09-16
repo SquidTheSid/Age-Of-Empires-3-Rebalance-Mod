@@ -40,7 +40,31 @@
       <xp>-1</xp>
     </maximum>
   </coffers>
-<cards>
+  <cards>
+     <card>
+      <name>HCFrontierScoutsAmericans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>HCFrontierDefensesAmericans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCFrontierScoutsAmericans</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>HCFrontierGuardsAmericans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCFrontierDefensesAmericans</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
     <card>
       <name>HCShipFoodCrates1</name>
       <maxcount>-1</maxcount>
@@ -977,6 +1001,9 @@
     <displaynamestringid>36930</displaynamestringid>
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
+      <tech x="0.5" y="1.0">HCFrontierScoutsAmericans</tech>
+      <tech x="0.5" y="2.0">HCFrontierDefensesAmericans</tech>
+      <tech x="0.5" y="2.0">HCFrontierGuardsAmericans</tech>
       <tech x="1.9" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.6" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.3" y="1.0">HCShipCoinCrates1</tech>
