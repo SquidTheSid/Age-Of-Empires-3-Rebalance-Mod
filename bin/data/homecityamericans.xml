@@ -472,7 +472,7 @@
       <name>HCShipGatlingGuns3</name>
       <maxcount>-1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipGatlingGuns2</prereqtech>
+      <prereqtech>HCShipGatlingGuns1</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
