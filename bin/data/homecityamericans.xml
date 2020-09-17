@@ -513,7 +513,7 @@
     </card>
     <card>
       <name>HCCannonBuildingDamageAmericans</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCXPShipRocketsRepeat</prereqtech>
       <age>3</age>

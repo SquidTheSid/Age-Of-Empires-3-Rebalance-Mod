@@ -55857,12 +55857,12 @@
 	</Tech>
 	<Tech name ='HCCannonBuildingDamageAmericans' type ='Normal'>
 		<DBID>4042</DBID>
-		<DisplayNameID>70855</DisplayNameID>
+		<DisplayNameID>70856</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\heated_shot\heated_shot</Icon>
-		<RolloverTextID>70856</RolloverTextID>
+		<RolloverTextID>70855</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' action ='CannonAttack' amount ='1.30' subtype ='DamageBonus' unittype ='Building' relativity ='BasePercent'>
