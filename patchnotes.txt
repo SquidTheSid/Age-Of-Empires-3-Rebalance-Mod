@@ -133,7 +133,7 @@ Colonial Politician Reworks/Changes: Based on Smackdown's ideas, lesser used pol
 - Bishop: Now grants 1 free shipment instead of 2 settlers. 
 
 Fortress Politician Reworks/Changes: Incorporated many of Smackdown's ideas to improve lesser used politicians.
-- Mohawk Statesman: 2 Native Scouts replaced with 3 Native Tomahawks
+- Mohawk Statesman: 2 Native Scouts replaced with 4 Native Tomahawks
 - Gentleman Pirate: Now ships a crate of 700G
 
 Industrial Politician Reworks/Changes: Smackdown changes integrated.
@@ -740,3 +740,5 @@ MISC (bug fixes):
 KNOWN ISSUES:
 
 - Ballasteros RG/Imperial upgrades offset barracks upgrades one position to the right.
+
+

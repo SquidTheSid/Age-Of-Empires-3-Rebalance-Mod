@@ -817,12 +817,12 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipMonitors</name>
+      <name>HCREVShipIronclads</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCShipFrigates</prereqtech>
       <age>3</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1193,7 +1193,9 @@
       <tech x="2.0" y="1.0">HCShipCaravels1</tech>
       <tech x="2.0" y="2.0">HCShipGalleons</tech>
       <tech x="2.0" y="3.0">HCShipFrigates</tech>
-      <tech x="2.0" y="4.0">HCShipMonitors</tech>
+      <tech x="2.0" y="4.0">HCREVShipIronclads</tech>
+      <tech x="1.0" y="4.0">HCNavalCombat</tech>
+      <tech x="3.0" y="4.0">HCXPOffshoreSupport</tech>
       <tech x="2.0" y="5.0">HCAdmirality</tech>
       <tech x="2.0" y="7.0">HCNavalGunners</tech>
       <tech x="4.0" y="1.0">HCMercsCorsairs</tech>

@@ -5607,17 +5607,17 @@
     </unitregen>
     <unitregen>
       <unittype>AbstractInfantry</unittype>
-      <rate>1.50</rate>
+      <rate>1.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
       <unittype>AbstractCavalry</unittype>
-      <rate>2.50</rate>
+      <rate>1.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
       <unittype>AbstractArtillery</unittype>
-      <rate>2.00</rate>
+      <rate>1.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>

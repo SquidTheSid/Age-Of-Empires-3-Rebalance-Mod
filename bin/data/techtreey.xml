@@ -11642,6 +11642,8 @@
 				<Target type ='ProtoUnit'>Frigate</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Monitor</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpIronclad</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Fluyt</Target></Effect>
 			<Effect type ='TextOutput'>42171</Effect>
@@ -13968,7 +13970,7 @@
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='NatMantlet' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='SetAge'>Age2</Effect>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='NatTomahawk' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='NatTomahawk' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -54898,7 +54900,7 @@
 				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianCavalierAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianEngineerAmericans</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianBishopBritish</Effect>
@@ -54919,7 +54921,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Monitor</Target></Effect>
+				<Target type ='ProtoUnit'>xpIronclad</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Frigate</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -54933,12 +54935,11 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialRocket</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranDragoonsShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialPeacekeepers</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Saloon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpPetard</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>IncendiaryGrenades</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>HeavyHorseArtillery</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialFreedomCannons</Effect>
@@ -54956,7 +54957,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_explorer_british_captain\hc_explorer_british</Icon>
+		<Icon>ui\techs\hc_northwest_passage\hc_northwest_passage</Icon>
 		<RolloverTextID>70768</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
@@ -55213,7 +55214,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age2</Effect>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Ranger' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Ranger' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -55871,5 +55872,47 @@
 				<Target type ='ProtoUnit'>Mortar</Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='PoliticianAdventurerAmericans' type ='Normal'>
+		<DBID>1727</DBID>
+		<DisplayNameID>70858</DisplayNameID>
+		<Cost resourcetype ='Food'>1200.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>110.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>70857</RolloverTextID>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age2</Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='OutpostWagon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Outpost</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialPeacekeepers' type ='Normal'>
+		<DBID>1354</DBID>
+		<DisplayNameID>70860</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_navy\imperial_navy</Icon>
+		<RolloverTextID>70859</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Flag>OrPrereqs</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='SetName' proto ='xpIronclad' culture ='none' newName ='70861'></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpIronclad</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpIronclad</Target></Effect>
+		</Effects>
+	</Tech>
+
 
 </TechTree>
