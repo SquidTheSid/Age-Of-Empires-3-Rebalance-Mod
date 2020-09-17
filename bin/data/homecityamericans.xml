@@ -261,7 +261,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
         <card>
-      <name>HCExplorerAmerican</name>
+      <name>HCExplorerAmericans</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -883,7 +883,7 @@
       <level>10</level>
       <prereqtech>HCMercsSwissPikemen</prereqtech>
       <age>2</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1030,7 +1030,7 @@
       <tech x="5.5" y="2.0">HCShipCows</tech>
       <tech x="5.5" y="3.0">YPHCShipCows3</tech>
       <tech x="6.3" y="1.0">HCShipCoveredWagonsAmericans</tech>
-      <tech x="7.0" y="2.0">HCExplorerAmerican</tech>
+      <tech x="6.3" y="4.0">HCExplorerAmericans</tech>
     </obtainabletechs>
     <activetechs>
       <tech>HCShipFoodCrates1</tech>
