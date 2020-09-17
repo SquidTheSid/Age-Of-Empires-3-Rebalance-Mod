@@ -810,6 +810,20 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCNavalCombat</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCREVShipIronclads</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCXPOffshoreSupport</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCREVShipIronclads</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>HCNavalGunners</name>
       <maxcount>1</maxcount>
       <level>10</level>
