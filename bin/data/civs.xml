@@ -5597,7 +5597,7 @@
       <bannertexturecoords>0 0.75 0.78125 0.875</bannertexturecoords>
       <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
       <portraittexturecoords>0.4375 0.00390625 0.830078125 0.392578125</portraittexturecoords>
-      <smallportraittexture>ui\singleplayer\cpai_avatar_act3</smallportraittexture>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_act1</smallportraittexture>
       <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
     </matchmakingtextures>
     <unitregen>

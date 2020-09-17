@@ -55304,7 +55304,7 @@
 	</Tech>
 	<Tech name ='ImperialSharpshooters' type ='Normal'>
 		<DBID>3094</DBID>
-		<DisplayNameID>70798</DisplayNameID>
+		<DisplayNameID>70795</DisplayNameID>
 		<Cost resourcetype ='Wood'>1500.0000</Cost>
 		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -55417,13 +55417,13 @@
 	</Tech>
 	<Tech name ='ImperialRoughRiders' type ='Normal'>
 		<DBID>3094</DBID>
-		<DisplayNameID>70798</DisplayNameID>
+		<DisplayNameID>70803</DisplayNameID>
 		<Cost resourcetype ='Wood'>1500.0000</Cost>
 		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_cavalry\imperial_cavalry</Icon>
-		<RolloverTextID>70796</RolloverTextID>
+		<RolloverTextID>70805</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
@@ -55853,6 +55853,22 @@
 			<Effect type ='Data' action ='AntiShipAttack' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Outpost</Target></Effect>
 
+		</Effects>
+	</Tech>
+	<Tech name ='HCCannonBuildingDamageAmericans' type ='Normal'>
+		<DBID>4042</DBID>
+		<DisplayNameID>70855</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\heated_shot\heated_shot</Icon>
+		<RolloverTextID>70856</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='CannonAttack' amount ='1.30' subtype ='DamageBonus' unittype ='Building' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Rocket</Target></Effect>
+			<Effect type ='Data' action ='CannonAttack' amount ='1.30' subtype ='DamageBonus' unittype ='Building' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Mortar</Target></Effect>
 		</Effects>
 	</Tech>
 

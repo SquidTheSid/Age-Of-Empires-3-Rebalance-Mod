@@ -512,6 +512,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCCannonBuildingDamageAmericans</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPShipRocketsRepeat</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
       <name>HCShipRockets2</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1080,6 +1087,7 @@
       <tech x="7.4" y="2.0">HCShipMortars2</tech>
       <tech x="7.4" y="3.0">HCShipRockets2</tech>
       <tech x="7.4" y="5.0">HCXPShipRocketsRepeat</tech>
+      <tech x="7.4" y="6.0">HCCannonBuildingDamageAmericans</tech>
     </obtainabletechs>
     <activetechs>
       <tech>HCShipFalconets1</tech>
