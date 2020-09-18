@@ -54824,7 +54824,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
+				<Target type ='ProtoUnit'>Ranch</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialColonialMilitia</Effect>
@@ -54901,7 +54901,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianCavalierAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianEngineerAmericans</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerAmericans</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianBishopBritish</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>

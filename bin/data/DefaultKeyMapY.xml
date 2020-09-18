@@ -706,7 +706,7 @@
       <displayname>$$48977$$Find Stable</displayname>
       <event>control-s</event>
       <context>game</context>
-      <command>uiFindType("Stable") uiFindType("Corral") uiFindType("ypStableJapanese") </command>
+      <command>uiFindType("Stable") uiFindType("Corral") uiFindType("ypStableJapanese") uiFindType("Ranch") </command>
     </keymapdata>
     <keymapdata>
       <name>Find Teepee</name>
@@ -1035,7 +1035,7 @@
       <displayname>$$48979$$Build Stable</displayname>
       <event>s</event>
       <context>BuildAccel</context>
-      <command>tis("Stable") tis("Corral") tis("ypStableJapanese")</command>
+      <command>tis("Stable") tis("Corral") tis("ypStableJapanese") tis("Ranch")</command>
     </keymapdata>
     <keymapdata>
       <name>Build Teepee</name>
