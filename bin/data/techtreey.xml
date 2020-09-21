@@ -48498,7 +48498,7 @@
 	<Tech name ='ypConsulateJapaneseKoujou' type ='Normal'>
 		<DBID>4941</DBID>
 		<DisplayNameID>68289</DisplayNameID>
-		<Cost resourcetype ='Trade'>750.0000</Cost>
+		<Cost resourcetype ='Trade'>200.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_free_samurai</Icon>
@@ -48510,8 +48510,15 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' action ='SpawnSamurai' amount ='1.00' subtype ='ActionAdd' unittype ='ypCastle' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypYamabushi' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypBarracksJapanese</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypYamabushi' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDaimyoMototada</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypYamabushi' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDaimyoMasamune</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypYamabushi' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypDaimyoKiyomasa</Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ypConsulateJapaneseMeijiRestoration' type ='Normal'>
 		<DBID>4942</DBID>
@@ -56018,4 +56025,47 @@
 			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='ypYumi' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
+	<Tech name ='YPHCShinobiSplash' type ='Normal'>
+		<DBID>4034</DBID>
+		<DisplayNameID>61890</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\tech_japan_kayakujutin_icon_64</Icon>
+		<RolloverTextID>61889</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='TextOutput'>70369</Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='YPHCShinobiDamage' type ='Normal'>
+		<DBID>4033</DBID>
+		<DisplayNameID>70784</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_infantry_damage\hc_infantry_damage</Icon>
+		<RolloverTextID>70785</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='TextOutput'>62573</Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>
