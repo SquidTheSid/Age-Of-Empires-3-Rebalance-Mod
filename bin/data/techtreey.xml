@@ -6836,7 +6836,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>ypHCConsulateRelations</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateNassauHalberdier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateStadhouders' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypHCConsulateRelations</Effect>
 		</Effects>
@@ -8373,8 +8373,6 @@
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateBestieros</Target></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypConsulateNassauHalberdier</Target></Effect>
 
 		</Effects>
 	</Tech>
@@ -42924,6 +42922,7 @@
 		<DisplayNameID>64260</DisplayNameID>
 		<Cost resourcetype ='Trade'>700.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
+		<RolloverTextID>35144</RolloverTextID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_estates\hc_estates</Icon>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -42932,9 +42931,7 @@
 		<Flag>YPConsulateImprovement</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
-		<RolloverTextID>35144</RolloverTextID>
-		<Flag>HomeCity</Flag>
-		<Effects>
+				<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypSettlerAsian' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypSettlerIndian' relativity ='Absolute'>
