@@ -5579,6 +5579,7 @@
 				<Target type ='ProtoUnit'>AbstractNativeWarrior</Target></Effect>
 			<Effect type ='Data' amount ='-0.75' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>ypNativeEmbassyEnabler</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypNativeJesuit' type ='Normal'>
