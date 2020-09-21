@@ -42610,7 +42610,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyPortuguese1</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyPortuguese2</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExplorationFleet</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseTownCenter</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
@@ -45407,7 +45407,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyPortuguese3</Target></Effect>
 			<Effect type ='Data' amount ='-1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyPortuguese1</Target></Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExplorationFleet</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseTownCenter</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='1200.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
@@ -47481,7 +47481,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmySPCPortuguese1</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmySPCPortuguese2</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExplorationFleet</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseTownCenter</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -47887,7 +47887,7 @@
 		<Flag>YPInfiniteTech</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>ypBigSequesterInitial</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExplorationFleet</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseTownCenter</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='TrainPoints' relativity ='BasePercent'>
