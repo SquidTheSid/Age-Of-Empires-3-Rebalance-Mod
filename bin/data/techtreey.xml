@@ -6866,7 +6866,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>ypHCConsulateRelations</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateZweihander' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateZweihander' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypHCConsulateRelations</Effect>
 		</Effects>
@@ -20981,7 +20981,7 @@
 		<RolloverTextID>36546</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -35732,8 +35732,6 @@
 				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredRajput' type ='Normal'>
@@ -39927,8 +39925,6 @@
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredSepoy' type ='Normal'>
@@ -42615,7 +42611,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyPortuguese2</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExplorationFleet</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseFishingFleet</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypBigSequesterPortuguese</Effect>
@@ -42859,23 +42855,21 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='ypConsulatePortugueseExplorationFleet' type ='Normal'>
+	<Tech name ='ypConsulatePortugueseTownCenter' type ='Normal'>
 		<DBID>4504</DBID>
 		<DisplayNameID>64250</DisplayNameID>
-		<Cost resourcetype ='Trade'>425.0000</Cost>
+		<Cost resourcetype ='Trade'>400.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\portuguese_exploration_fleet_icon_64</Icon>
-		<RolloverTextID>64249</RolloverTextID>
+		<Icon>units\villagers\covered_wagon\covered_wagon_icon_64</Icon>
 		<Flag>YPConsulateImprovement</Flag>
-		<Flag>YPCheckPopCap</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>CheckWaterHCGatherPoint</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data2' amount ='1.00' amount2 ='3.00' subtype ='FreeHomeCityUnitShipped' unittype ='Caravel' unittype2 ='xpPetard' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='YPHCEnlistGurkhas' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -42886,18 +42880,18 @@
 		<DisplayNameID>64255</DisplayNameID>
 		<Cost resourcetype ='Trade'>300.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
+		<Icon>ui\techs\hc_medicine\hc_medicine</Icon>
+		<RolloverTextID>35144</RolloverTextID>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\units\spy_icon</Icon>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>YPCheckPopCap</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>YPConsulateImprovement</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpSpy' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect tech ='YPHCEnlistGurkhas' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -42927,41 +42921,52 @@
 	<Tech name ='ypConsulateBritishRedcoats' type ='Normal'>
 		<DBID>4509</DBID>
 		<DisplayNameID>64260</DisplayNameID>
-		<Cost resourcetype ='Trade'>200.0000</Cost>
+		<Cost resourcetype ='Trade'>700.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\surgeons\surgeon_icon</Icon>
+		<Icon>ui\techs\hc_estates\hc_estates</Icon>
 		<Flag>CheckLandHCGatherPoint</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
-		<Flag>YPCheckPopCap</Flag>
 		<Flag>YPConsulateImprovement</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+		<RolloverTextID>35144</RolloverTextID>
+		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Surgeon' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypSettlerAsian' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypSettlerIndian' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypHouseIndian</Target></Effect>
+			<Effect type ='TextOutput'>41859</Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSettlerAsian</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypSettlerIndian</Target></Effect>
 			<Effect tech ='YPHCEnlistGurkhas' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
+
 	<Tech name ='ypConsulateBritishLifeGuards' type ='Normal'>
 		<DBID>4511</DBID>
 		<DisplayNameID>64264</DisplayNameID>
-		<Cost resourcetype ='Trade'>450.0000</Cost>
+		<Cost resourcetype ='Trade'>200.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\Units\petard_icon</Icon>
+		<Icon>ui\techs\hc_virginia_company\hc_virginia_company</Icon>
+		<RolloverTextID>35297</RolloverTextID>
 		<Flag>YPConsulateImprovement</Flag>
-		<Flag>YPCheckPopCap</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpPetard' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypHouseIndian</Target></Effect>
 			<Effect tech ='YPHCEnlistGurkhas' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -43173,23 +43178,21 @@
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypChurchWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
-	<Tech name ='ypConsulatePortugueseFishingFleet' type ='Normal'>
+	<Tech name ='ypConsulatePortugueseLlamas' type ='Normal'>
 		<DBID>4538</DBID>
 		<DisplayNameID>64349</DisplayNameID>
-		<Cost resourcetype ='Trade'>250.0000</Cost>
+		<Cost resourcetype ='Trade'>300.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\naval\fishing_ship\fishing_ship_icon_64x64</Icon>
-		<RolloverTextID>64348</RolloverTextID>
+		<Icon>ui\techs\native\Llama_Ranching</Icon>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Flag>YPCheckPopCap</Flag>
 		<Flag>CheckWaterHCGatherPoint</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypFishingBoatAsian' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Llama' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='YPHCEnlistGurkhas' type ='Data' amount ='3.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypNatMercGurkha' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -45405,7 +45408,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyPortuguese1</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExplorationFleet</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseFishingFleet</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='1200.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='techWithFlag'>YPWondersFortress</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypPickConsulateTech</Effect>
@@ -47479,7 +47482,7 @@
 				<Target type ='ProtoUnit'>ypConsulateArmySPCPortuguese2</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExplorationFleet</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseFishingFleet</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>ypBigSequesterRemove</Effect>
@@ -47885,7 +47888,7 @@
 			<Effect type ='TechStatus' status ='active'>ypBigSequesterInitial</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExplorationFleet</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseExpeditionaryFleet</Effect>
-			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseFishingFleet</Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypConsulatePortugueseLlamas</Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypPickConsulateTech</Effect>
@@ -51102,8 +51105,6 @@
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypTradeRouteUpgrade1' type ='Normal'>
@@ -53643,7 +53644,7 @@
 		<RolloverTextID>70658</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TextOutput'>41870</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='Cow' relativity ='Absolute'>
