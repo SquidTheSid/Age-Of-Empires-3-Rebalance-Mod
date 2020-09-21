@@ -56054,12 +56054,12 @@
 	</Tech>
 	<Tech name ='YPHCShinobiDamage' type ='Normal'>
 		<DBID>4033</DBID>
-		<DisplayNameID>70876</DisplayNameID>
+		<DisplayNameID>70877</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_infantry_damage\hc_infantry_damage</Icon>
-		<RolloverTextID>70877</RolloverTextID>
+		<RolloverTextID>70876</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
