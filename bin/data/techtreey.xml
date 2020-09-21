@@ -36183,7 +36183,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>ypDisciplinedYabusame</TechStatus></Prereqs>
+			<TechStatus status ='Active'>ypDisciplinedYabusame</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='SetName' proto ='ypYabusame' culture ='none' newName ='63081'></Effect>
