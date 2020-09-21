@@ -5882,6 +5882,10 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateStadhouders</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypConsulateNassauer</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypConsulateWarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateCulverin</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateRedcoat</Target></Effect>
@@ -6836,7 +6840,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>ypHCConsulateRelations</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateStadhouders' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateNassauer' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypHCConsulateRelations</Effect>
 		</Effects>
@@ -6920,7 +6924,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>ypHCConsulateRelations</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateShinobi' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateNinja' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypHCConsulateRelations</Effect>
 		</Effects>
@@ -22515,7 +22519,7 @@
 		<RolloverTextID>37313</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='AutoGather' amount ='1.20' subtype ='WorkRate' unittype ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' action ='AutoGather' amount ='1.25' subtype ='WorkRate' unittype ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Bank</Target></Effect>
 			<Effect type ='TextOutput'>41802</Effect>
 		</Effects>
@@ -40666,7 +40670,7 @@
 	<Tech name ='ypConsulateSpanishEnhancedProfits' type ='Normal'>
 		<DBID>4275</DBID>
 		<DisplayNameID>62932</DisplayNameID>
-		<Cost resourcetype ='Trade'>450.0000</Cost>
+		<Cost resourcetype ='Trade'>350.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_silk_road\hc_silk_road</Icon>
@@ -42696,7 +42700,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyRussian2</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>ypBigSequesterRemove</Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypBigSequesterRussians</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateRussianBrigade</Effect>
@@ -42922,7 +42926,7 @@
 		<DisplayNameID>64260</DisplayNameID>
 		<Cost resourcetype ='Trade'>700.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
-		<RolloverTextID>35144</RolloverTextID>
+		<RolloverTextID>70883</RolloverTextID>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_estates\hc_estates</Icon>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -42953,7 +42957,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_virginia_company\hc_virginia_company</Icon>
-		<RolloverTextID>35297</RolloverTextID>
+		<RolloverTextID>70882</RolloverTextID>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>CheckLandHCGatherPoint</Flag>
@@ -45457,7 +45461,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRussianOutpostWagon</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRussianFortWagon</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRussianFactoryWagon</Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.10' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypPickConsulateTech</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRussianBrigade</Effect>
@@ -46355,7 +46359,7 @@
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
@@ -46389,7 +46393,7 @@
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>

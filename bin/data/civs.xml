@@ -1512,7 +1512,7 @@
         <unit>ypConsulateNinja</unit>
       </units>
       <units>
-        <unit>ypConsulateShinobi</unit>
+        <unit>ypConsulateYojimbo</unit>
       </units>
       <unitcounts>
         <count>2</count>
@@ -1541,23 +1541,23 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmySpanish1</multipleblockunit>
       <units>
-        <unit>ypConsulateTercio</unit>
+        <unit>ypConsulateEspadachins</unit>
       </units>
       <unitcounts>
-        <count>7</count>
+        <count>6</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmySpanish2</multipleblockunit>
       <units>
-        <unit>ypConsulateTercio</unit>
+        <unit>ypConsulateEspadachins</unit>
       </units>
       <units>
         <unit>ypConsulateFalconet</unit>
       </units>
       <unitcounts>
-        <count>10</count>
+        <count>8</count>
       </unitcounts>
       <unitcounts>
         <count>1</count>
@@ -1583,10 +1583,10 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyDutch1</multipleblockunit>
       <units>
-        <unit>ypConsulateStadhouders</unit>
+        <unit>ypConsulateNassauer</unit>
       </units>
       <unitcounts>
-        <count>6</count>
+        <count>5</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -1596,13 +1596,13 @@
         <unit>ypConsulateCarabineer</unit>
       </units>
       <units>
-        <unit>ypConsulateStadhouders</unit>
+        <unit>ypConsulateNassauer</unit>
       </units>
       <unitcounts>
         <count>7</count>
       </unitcounts>
       <unitcounts>
-        <count>6</count>
+        <count>5</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -1667,7 +1667,7 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyRussian1</multipleblockunit>
       <units>
-        <unit>ypConsulateSiberianCossack</unit>
+        <unit>ypConsulateTartarLoyalist</unit>
       </units>
       <unitcounts>
         <count>4</count>
@@ -1680,13 +1680,13 @@
         <unit>ypConsulateSiberianCossack</unit>
       </units>
       <units>
-        <unit>ypConsulateCulverin</unit>
+        <unit>ypConsulateTartarLoyalist</unit>
       </units>
       <unitcounts>
         <count>5</count>
       </unitcounts>
       <unitcounts>
-        <count>1</count>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -1982,13 +1982,13 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyGerman2</multipleblockunit>
       <units>
-        <unit>ypConsulatePrussianNeedleGun</unit>
+        <unit>ypConsulateWarWagon</unit>
       </units>
       <units>
         <unit>ypConsulateZweihander</unit>
       </units>
       <unitcounts>
-        <count>6</count>
+        <count>2</count>
       </unitcounts>
       <unitcounts>
         <count>3</count>
@@ -1998,13 +1998,13 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyGerman3</multipleblockunit>
       <units>
-        <unit>ypConsulatePrussianNeedleGun</unit>
+        <unit>ypConsulateWarWagon</unit>
       </units>
       <units>
         <unit>ypConsulateCannon</unit>
       </units>
       <unitcounts>
-        <count>11</count>
+        <count>4</count>
       </unitcounts>
       <unitcounts>
         <count>2</count>
@@ -3007,10 +3007,10 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyPortuguese1</multipleblockunit>
       <units>
-        <unit>ypConsulateBestieros</unit>
+        <unit>ypConsulateCacadore</unit>
       </units>
       <unitcounts>
-        <count>7</count>
+        <count>5</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -3020,13 +3020,13 @@
         <unit>ypConsulateCulverin</unit>
       </units>
       <units>
-        <unit>ypConsulateBestieros</unit>
+        <unit>ypConsulateCacadore</unit>
       </units>
       <unitcounts>
         <count>1</count>
       </unitcounts>
       <unitcounts>
-        <count>10</count>
+        <count>7</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
