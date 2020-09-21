@@ -6102,7 +6102,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedAshigaru</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredMorutaru</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedYabusame</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedYamabushiShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredYamabushiShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedYamabushiShadow</Effect>
 		</Effects>
@@ -36184,6 +36183,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
+			<TechStatus status ='Active'>ypDisciplinedYabusame</TechStatus></Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='SetName' proto ='ypYabusame' culture ='none' newName ='63081'></Effect>
@@ -51483,7 +51483,7 @@
 		<Icon>ui\home_city\hc_2x_town_center_wagon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Settler' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypSettlerJapanese' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
