@@ -243,7 +243,7 @@
       <name>YPHCShipYumi2</name>
       <maxcount>2</maxcount>
       <level>0</level>
-      <prereqtech>YPHCShipYumi1</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>14</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
