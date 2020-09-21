@@ -6079,10 +6079,10 @@
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedNaginataRider</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedSamurai</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedYumiShadow</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedShinobiShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedShinobi</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredYumi</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredYabusame</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>YPHonoredShinobiShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>YPHonoredShinobi</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredSamurai</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredNaginataRider</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredFlamingArrow</Effect>
@@ -6091,7 +6091,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedYumi</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedYabusame</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedTekkousen</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypExaltedShinobiShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypExaltedShinobi</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedSamurai</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedNaginataRider</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedMorutaru</Effect>
@@ -6838,7 +6838,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>ypHCConsulateRelations</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateStadhouders' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateNassauHalberdier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypHCConsulateRelations</Effect>
 		</Effects>
@@ -8375,6 +8375,9 @@
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateBestieros</Target></Effect>
+			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypConsulateNassauHalberdier</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='PaperCartridge' type ='Normal'>
@@ -48396,7 +48399,7 @@
 		<Flag>YPInfiniteTech</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypConsulateShinobi</Target></Effect>
+				<Target type ='ProtoUnit'>ypConsulateYojimbo</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateNinja</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateJapaneseMasterTraining</Effect>
