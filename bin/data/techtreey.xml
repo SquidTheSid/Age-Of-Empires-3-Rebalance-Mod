@@ -56029,12 +56029,12 @@
 	</Tech>
 	<Tech name ='YPHCShinobiSplash' type ='Normal'>
 		<DBID>4034</DBID>
-		<DisplayNameID>61890</DisplayNameID>
+		<DisplayNameID>70874</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_japan_kayakujutin_icon_64</Icon>
-		<RolloverTextID>61889</RolloverTextID>
+		<RolloverTextID>70875</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>70369</Effect>
@@ -56056,12 +56056,12 @@
 	</Tech>
 	<Tech name ='YPHCShinobiDamage' type ='Normal'>
 		<DBID>4033</DBID>
-		<DisplayNameID>70784</DisplayNameID>
+		<DisplayNameID>70876</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\hc_infantry_damage\hc_infantry_damage</Icon>
-		<RolloverTextID>70785</RolloverTextID>
+		<RolloverTextID>70787</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
