@@ -6077,7 +6077,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedDaimyoShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedNaginataRider</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedSamurai</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedYumi</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedYumiShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedShinobiShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredYumi</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredYabusame</Effect>
@@ -6098,7 +6098,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypExaltedDaimyoShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedAshigaru</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredMorutaru</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedYabusameShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedYabusame</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPDisciplinedYamabushiShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredYamabushiShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedYamabushiShadow</Effect>
@@ -7685,7 +7685,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='TechStatus' status ='active'>YPDisciplinedYumi</Effect>
+			<Effect type ='TechStatus' status ='active'>YPDisciplinedYumiShadow</Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedSamurai</Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedAshigaru</Effect>
 			<Effect type ='TechStatus' status ='active'>YPDisciplinedNaginataRider</Effect>
@@ -8532,14 +8532,6 @@
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>MercFusilier</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateGuerreiros</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateStadhouders</Target></Effect>
@@ -8561,8 +8553,6 @@
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Rifling' type ='Normal'>
@@ -18528,8 +18518,6 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateYoungGarde</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateGuerreiros</Target></Effect>
@@ -18662,30 +18650,30 @@
 		<RolloverTextID>36012</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofCoin</Target></Effect>
 			<Effect type ='TextOutput'>70511</Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofCoinLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofFood</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofWood</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofFoodLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CrateofWoodLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofCoin</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofFood</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofWood</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofCoin1</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofWood1</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypCrateofFood1</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -19918,9 +19906,9 @@
 				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>ypBlackFlagArmy</Target></Effect>
@@ -34556,7 +34544,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>47096</Effect>
-			<Effect type ='Data' amount ='2.50' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.75' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -36028,17 +36016,11 @@
 			<Effect type ='TextOutput'>70361</Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='YPDisciplinedYumi' type ='Normal'>
+	<Tech name ='YPDisciplinedYumiShadow' type ='Normal'>
 		<DBID>3601</DBID>
-		<DisplayNameID>60551</DisplayNameID>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>100.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\disciplined_ranged_infantry</Icon>
-		<RolloverTextID>60550</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -36124,7 +36106,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>YPDisciplinedYumi</TechStatus>
+			<TechStatus status ='Active'>YPDisciplinedYumiShadow</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -38516,7 +38498,7 @@
 			<Effect type ='TextOutput'>61577</Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='-0.17' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypIronFlail</Target></Effect>
@@ -39447,7 +39429,7 @@
 		<RolloverTextID>61886</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
 			<Effect type ='TextOutput'>62573</Effect>
 		</Effects>
@@ -39485,7 +39467,7 @@
 		<RolloverTextID>61894</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
 			<Effect type ='TextOutput'>62572</Effect>
 		</Effects>
@@ -39503,14 +39485,11 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
 			<Effect type ='TextOutput'>70434</Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractCavalry' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractCavalry' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractCavalry' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' action ='DefendHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractCavalry' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCNaginataHitpoints' type ='Normal'>
@@ -43390,7 +43369,7 @@
 	<Tech name ='YPWonderJapaneseToriiGates2' type ='Normal'>
 		<DBID>4565</DBID>
 		<DisplayNameID>64641</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
 		<RolloverTextID>64640</RolloverTextID>
@@ -43403,14 +43382,10 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPMilitaryRickshaw' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToshoguShrine2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseShogunate2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseGoldenPavillion2</Effect>
@@ -43420,7 +43395,7 @@
 	<Tech name ='YPWonderJapaneseToriiGates3' type ='Normal'>
 		<DBID>4566</DBID>
 		<DisplayNameID>64643</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>85.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>64642</RolloverTextID>
@@ -43432,13 +43407,9 @@
 			<Effect type ='SetAge'>Age2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='YPMilitaryRickshaw' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToshoguShrine3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseShogunate3</Effect>
@@ -43449,7 +43420,7 @@
 	<Tech name ='YPWonderJapaneseToriiGates4' type ='Normal'>
 		<DBID>4567</DBID>
 		<DisplayNameID>64645</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
 		<RolloverTextID>64644</RolloverTextID>
@@ -43460,11 +43431,9 @@
 		<Effects>
 			<Effect type ='SetAge'>Age3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToriiGates5</Effect>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseShogunate4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseGiantBuddha4</Effect>
@@ -43475,7 +43444,7 @@
 	<Tech name ='YPWonderJapaneseToriiGates5' type ='Normal'>
 		<DBID>4568</DBID>
 		<DisplayNameID>64647</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
 		<RolloverTextID>64646</RolloverTextID>
@@ -43485,11 +43454,9 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='Data' amount ='25.00' subtype ='FreeHomeCityUnit' unittype ='ypKensei' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.75' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseToshoguShrine5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderJapaneseShogunate5</Effect>
@@ -44116,7 +44083,7 @@
 	<Tech name ='YPWonderChineseWhitePagoda2' type ='Normal'>
 		<DBID>4596</DBID>
 		<DisplayNameID>65063</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_ii</Icon>
 		<RolloverTextID>65062</RolloverTextID>
@@ -44126,12 +44093,11 @@
 		<Flag>YPWondersColonial</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age1</Effect>
+			<Effect type ='Data' action ='AutoGather' amount ='1.00' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWCWhitePagoda2</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseWhitePagoda3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseWhitePagoda4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseWhitePagoda5</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypMonkDisciple' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active' deactivate ='true'>ypWhitePagodaMonkBonus</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace2</Effect>
@@ -44141,7 +44107,7 @@
 	<Tech name ='YPWonderChineseWhitePagoda3' type ='Normal'>
 		<DBID>4597</DBID>
 		<DisplayNameID>65065</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>85.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
 		<RolloverTextID>65064</RolloverTextID>
@@ -44151,11 +44117,10 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age2</Effect>
+			<Effect type ='Data' action ='AutoGather' amount ='1.50' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWCWhitePagoda3</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseWhitePagoda4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseWhitePagoda5</Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypMonkDisciple' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active' deactivate ='true'>ypWhitePagodaMonkBonus</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace3</Effect>
@@ -44165,7 +44130,7 @@
 	<Tech name ='YPWonderChineseWhitePagoda4' type ='Normal'>
 		<DBID>4598</DBID>
 		<DisplayNameID>65067</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iv</Icon>
 		<RolloverTextID>65066</RolloverTextID>
@@ -44174,11 +44139,10 @@
 		<Flag>Shadow</Flag>
 		<Flag>YPWondersIndustrial</Flag>
 		<Effects>
+			<Effect type ='Data' action ='AutoGather' amount ='2.00' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWCWhitePagoda4</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseWhitePagoda5</Effect>
 			<Effect type ='SetAge'>Age3</Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypMonkDisciple' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active' deactivate ='true'>ypWhitePagodaMonkBonus</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace4</Effect>
@@ -44188,7 +44152,7 @@
 	<Tech name ='YPWonderChineseWhitePagoda5' type ='Normal'>
 		<DBID>4599</DBID>
 		<DisplayNameID>65069</DisplayNameID>
-		<ResearchPoints>90.0000</ResearchPoints>
+		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_v</Icon>
 		<RolloverTextID>65068</RolloverTextID>
@@ -44197,10 +44161,9 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' action ='AutoGather' amount ='2.50' subtype ='WorkRate' unittype ='XP' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWCWhitePagoda5</Target></Effect>
 			<Effect type ='SetAge'>Age4</Effect>
-			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='ypMonkDisciple' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='TechStatus' status ='active' deactivate ='true'>ypWhitePagodaMonkBonus</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace5</Effect>
@@ -47297,11 +47260,16 @@
 		<Icon>ui\techs\asians\tech_rural_defense</Icon>
 		<RolloverTextID>66142</RolloverTextID>
 	</Tech>
-	<Tech name ='YPDisciplinedShinobiShadow' type ='Normal'>
-		<DBID>4829</DBID>
-		<ResearchPoints>0.0000</ResearchPoints>
+	<Tech name ='YPDisciplinedShinobi' type ='Normal'>
+		<DisplayNameID>70865</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Flag>Shadow</Flag>
+		<Icon>ui\techs\asians\disciplined_ranged_infantry</Icon>
+		<RolloverTextID>70868</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -47312,13 +47280,19 @@
 				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='YPHonoredShinobiShadow' type ='Normal'>
-		<DBID>4831</DBID>
-		<ResearchPoints>0.0000</ResearchPoints>
+	<Tech name ='YPHonoredShinobi' type ='Normal'>
+		<DisplayNameID>70866</DisplayNameID>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Flag>Shadow</Flag>
+		<Icon>ui\techs\asians\honored_ranged_infantry</Icon>
+		<RolloverTextID>70868</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>YPDisciplinedShinobi</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='SetName' proto ='ypShinobiHorse' culture ='none' newName ='66157'></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -47327,12 +47301,18 @@
 				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='ypExaltedShinobiShadow' type ='Normal'>
-		<DBID>4832</DBID>
-		<ResearchPoints>0.0000</ResearchPoints>
+	<Tech name ='ypExaltedShinobi' type ='Normal'>
+		<DisplayNameID>70867</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Flag>Shadow</Flag>
+		<Icon>ui\techs\asians\exalted_ranged_infantry</Icon>
+		<RolloverTextID>70869</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
+			<TechStatus status ='Active'>YPHonoredShinobi</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -48480,7 +48460,7 @@
 	<Tech name ='ypConsulateJapaneseMilitaryRickshaw' type ='Normal'>
 		<DBID>4939</DBID>
 		<DisplayNameID>68287</DisplayNameID>
-		<Cost resourcetype ='Trade'>75.0000</Cost>
+		<Cost resourcetype ='Trade'>100.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\shared\wagon\japanese_town_center_wagon_icon_64</Icon>
@@ -51856,11 +51836,17 @@
 			<Effect type ='SetName' proto ='ypChangdao' culture ='none' newName ='70446'></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='ypDisciplinedYabusameShadow' type ='Normal'>
-		<DBID>5261</DBID>
-		<ResearchPoints>0.0000</ResearchPoints>
+	<Tech name ='ypDisciplinedYabusame' type ='Normal'>
+		<DBID>3579</DBID>
+		<DisplayNameID>70870</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Flag>Shadow</Flag>
+		<Icon>ui\techs\asians\disciplined_cavalry</Icon>
+		<RolloverTextID>60590</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -55064,7 +55050,7 @@
 		<RolloverTextID>70770</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.50' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.75' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>60890</Effect>
 		</Effects>
@@ -55996,6 +55982,40 @@
 				<Target type ='ProtoUnit'>xpIronclad</Target></Effect>
 		</Effects>
 	</Tech>
-
-
+	<Tech name ='YPHCShipShinobi1' type ='Normal'>
+		<DBID>3868</DBID>
+		<DisplayNameID>70871</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\japanese\shinobi\shinobi_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypShinobiHorse' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='YPHCShipShinobi2' type ='Normal'>
+		<DBID>3869</DBID>
+		<DisplayNameID>70872</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\japanese\shinobi\shinobi_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypYumi' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='YPHCShipShinobi3' type ='Normal'>
+		<DBID>3870</DBID>
+		<DisplayNameID>70873</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\japanese\shinobi\shinobi_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='ypYumi' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
 </TechTree>
