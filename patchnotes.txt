@@ -43,6 +43,8 @@ Shipments:
 - Advanced Plantation now provides a 10% gather rate bonus instead of extra hitpoints
 - Colbertism: Increased to 2 food/s up from 1.5
 - Capitalism: Increased to 1.5 gold/s up from 1.25
+- Spice Trade and Furrier now provide an increased bonus to berry gathering (+40/30%)
+- Singular resource economic upgrades (such as Ironmonger, sawmills, food silos, etc.) have been buffed to be more effective (generally by 5%). 
 
 Siege Trooper tag changes: This tag is very inconsistent, so I've reduced the number of arbitrary units on there (Shinobi, Puma Spearman, Mongol Scout) to primarily focus on units that mostly deal siege damage (Rams, Failiphants, Flamethrowers, etc.)
 
@@ -422,16 +424,20 @@ Japan:
 
 Japanese Consulate:
 - Meiji Restoration Tech now additionally ships 1 factory wagon and 4 Gatling Guns on ageup
-- Clan Oferrings (Koujou) cost increased to 750 export from 500. Now spawns Hatamoto Samurai instead of regular samurai, and "checkpopcap" flag removed
+- Clan Offerrings (Koujou) cost reduced to 200 export. Now lets you train Yamabushi from barracks and Daimyo
 - Bushido Principles cost increased to 300 export from 250.
-- Military Rickshaw export cost reduced to 75 from 100. 
+- Intervention now ships 9 Shinobi instead of 10 Yamabushi
 
-Golden Pavillion: a 15% multiplicative ranged damage buff was very powerful, especially with Japan's plethora of auras and upgrades. 
-- Ranged attack buff reduced to 10% from 15%
+Military rickshaws now can build castles. 
 
-Giant Buddha: a very underwhelming wonder that saw little use in most games. Shipments and power have been buffed to be more competitive.
-- Informers cooldown reduced to 150 seconds from 300
-- Now ships 2/4/6/10 Naginata Riders on Age up, up from 1/3/5/9
+Wonders: 
+- Golden Pavillion ranged attack buff reduced to 10% from 15%
+- Giant Buddha: a very underwhelming wonder that saw little use in most games. Shipments and power have been buffed to be more competitive.
+  -- Informers cooldown reduced to 150 seconds from 300
+  -- Now ships 2/4/6/10 Naginata Riders on Age up, up from 1/3/5/9
+- Torii Gates: like Buddha, very underwhelming and seldom used. Been buffed to improve rush options. No longer provides free units as well.
+  -- Build time reduced to 75 seconds from 135 seconds (85 seconds for fortress from 145)
+  -- XP bounty improved to 
 
 Shogunate: Had very weird XP scaling. Fortress age was strictly worse than colonial, and industrial was the same as imperial.
 - Now provides 400/400/1000/1600 XP on Age up instead of 400/300/1600/1600
@@ -439,6 +445,7 @@ Shogunate: Had very weird XP scaling. Fortress age was strictly worse than colon
 Yabusame: An overall solid unit with ridiculously heavy cost and low damage. Slightly buffed to help
 - Cost: Reduced to 50 food/150 gold from 60 food/150 gold. 
 - Damage: Increased to 9 from 8
+- Now available in age 2, no longer shadowtechs
 
 Samurai: Samurai have always been iffy anti-cav units, now they're just a generic melee unit without weird AoE or multipliers. 
 - HP: Increased to 235 from 230
@@ -451,9 +458,40 @@ Samurai: Samurai have always been iffy anti-cav units, now they're just a generi
 - Sword Saint: No longer increases unit cost, but adds in a 0.8x damage multiplier vs infantry
 - Warring States: Now increases HP and Attack by 20% instead of 15%
 
+Shinobi: Kind of underwhelming and redundant units. I've reworked them to be fast and stealthy grenadier units.
+- 20% ranged armor increased to 30%
+- Ranged damage reduced to 16 from 20
+- 1.5x Heavy Infantry and Light Cavalry multipliers added.
+- 0.5x Cavalry penalty added
+- Cost increased to 70 food/80 gold from 30 food/85 gold
+- Population increased to 2 from 1 (thicc bois)
+- Merctype 2 tag removed (made them immune to explorer crackshot)
+- Ranged attack range improved to 16 from 14.
+- Ranged attack now has 1 aoe and a 36 damage cap.
+- Siege damage increased to 40 from 20 and now has 16 range.
+- Speed increased to 5 from 4.8.
+- Now trainable in the castle.
+- No longer shadowtechs (must research upgrades in castle)
+
 Naginata Riders:
 - Naginata Rider HP card bonus reduced from 30% to 25%
 
+Ashigaru Musketeer: Insanely cheesy musketeer unit that lets Japan turtle. Rebalanced to be more like a Shinobi unit (more historically accurate). 
+- Renamed to Ashigaru Matchlock (as they're no longer musketeers)
+- 20% hand armor replaced with 20% ranged armor
+- Heavy infantry tag removed (no longer affected by bayonet and musketeer hitpoints)
+- Siege damage reduced to 11 from 22
+- All multipliers removed 
+- Range increased to 14 from 12
+- Damage reduced to 22 from 24
+- Hitpoints reduced to 160 from 170
+- Cost: Reduced to 75 food from 80
+
+Yumi Archers: They hit like trucks and have insane range. I've changed them to be less toxic in turtles
+- Moved to age 3 from age 2
+- Range damage reduced to 17 from 19
+- Heavy Infantry multiplier increased to 2.0x from 1.5x
+- Disciplined Yumi is now a free shadowtech upgrade
 
 Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been toned down a lot 
 - Shogun Tokugawa cost increased to 500 gold from 350 (bounty rescaled accordingly 35 --> 50xp)
@@ -466,6 +504,8 @@ Shipments:
 - TEAM Cheap unit upgrades increased to -25% cost from -20%
 - Yabusame Attack improved to +40% damage from +20%
 - In-Yo Rush no longer provides a damage bonus; now grants a 1.0x multiplier vs. artillery and heavy cavalry.
+- Close Combat changed to Sashimono. Instead of a 1.0x artillery multiplier, it makes Ashigaru Matchlocks 15% cheaper.
+- Ashigaru damage increased to 20% from 15%
 
 France:
 
@@ -479,7 +519,9 @@ Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so 
 
 China:
 
-Transcendence cooldown reduced to 180 seconds from 216
+Wonders:
+Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216
+White Pagoda - build time reduced to 75 seconds (reduced from 135 seconds; fortress age reduced to 85 seconds from 145), no longer provides free disciples. 
 
 German consulate Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25 (parity with trickle buffs)
 
@@ -504,8 +546,11 @@ Keshik: China's dragoon/cav archer option is quite pathetic due to its pitiful b
 - Now affected by reworked Old Han Reforms
 
 Steppe Rider: China's age 2 raider does not scale well. To help old han 2.0 now affects them
-- Speed: Increased to 7.25 from 6.75
 - Obstruction radius reduced to .65 from .79
+- 1.5x villager multiplier added (Mongolian Scourge reduced to +0.5x multiplier)
+- HP increased to 160 from 150
+- Siege increased to 30 from 25
+- Cost increased to 90 gold from 85
 - Now affected by reworked Old Han Reforms
 
 Banner Armies:
@@ -602,7 +647,7 @@ Shipments:
 - Caballeros additionally increases Lancer melee range by 1
 - Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
-- Spanish Gold moved to age 2 and now provides a 3.0 Gold/s trickle.
+- Spanish Gold moved to age 2 and now provides a 2.75 Gold/s trickle.
 - Colonial Estancias now provides an additional 20 population (each TC now provides 100 population)
 
 Dutch:
@@ -655,7 +700,7 @@ Janissary: Exceptionally beefy musks, a bit too much so. Their HP has been lower
 
 Shipments:
 - Irregulars now additionally increases Cavalry Archers' attack by 15% [Garja]
-- Silk Road moved to discovery age; now provides +20% resources and is no longer a team tech. Now additionally provides a crate of 100 of each resource (F/W/G)
+- Silk Road moved to discovery age; now provides +25% resources and is no longer a team tech. Now additionally provides a crate of 100 of each resource (F/W/G) (ESOC)
 
 
 Britain:
@@ -694,7 +739,7 @@ Germany:
 
 New civ bonus: Now has early access to mercenaries. Mercenary shipments enable that respective unit at the saloon. 
 
-Can build an additional saloon in the industrial and imperial ages (for a total of 3)
+Can build an additional saloon in the fortress, industrial and imperial ages (for a total of 4)
 
 Settler Wagon huntable multiplier increased to 6.0 from 4.0
 

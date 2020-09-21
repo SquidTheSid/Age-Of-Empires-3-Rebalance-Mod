@@ -106,8 +106,6 @@ public class wizard extends JFrame implements ActionListener
 		Path backupSAV = Paths.get(sysDocPath + "/SavegameBAK");
 		Path dataPath = Paths.get(currentPath + "/bin/data"); 
 		Path artPath = Paths.get(currentPath + "/bin/art"); 
-		Path aiPath = Paths.get(currentPath + "/bin/AI3"); 
-		Path backupAI = Paths.get(currentPath + "/bin/AI3BAK"); 
 		Path backupART = Paths.get(currentPath + "/bin/ARTBAK");
 		Path modPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/bin");
 		Path binPath = Paths.get(currentPath +"/bin");
@@ -143,7 +141,6 @@ public class wizard extends JFrame implements ActionListener
 						else if(!Files.exists(deleteCheckPath))
 						{
 							copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
-							copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
 							copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
 							copyDirectoryFileVisitor(savePath.toString(), backupSAV.toString());
 						}
@@ -183,7 +180,6 @@ public class wizard extends JFrame implements ActionListener
 					//delete the modified directory and replace it with the default one
             					deleteDirectoryJava8(dataPath.toString());
 						copyDirectoryFileVisitor(backupData.toString(), dataPath.toString());
-						copyDirectoryFileVisitor(backupAI.toString(), aiPath.toString());
 						copyDirectoryFileVisitor(backupART.toString(), artPath.toString());
 						copyDirectoryFileVisitor(backupSAV.toString(), savePath.toString());
 						JOptionPane.showMessageDialog(null, "File Restore has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
@@ -199,7 +195,6 @@ public class wizard extends JFrame implements ActionListener
 					{
 						//since we're trying to delete a file that doesn't exist, we're assuming that the user doesn't have the mod installed and did a misclick. In that case, we back up existing files.
 						copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
-						copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
 						copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
 						copyDirectoryFileVisitor(savePath.toString(), backupSAV.toString());
 
