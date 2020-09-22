@@ -234,7 +234,7 @@
       <name>YPHCYumiDamage</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipYumi2</prereqtech>
+      <prereqtech>YPHCShipYumi3</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -625,7 +625,7 @@
       <name>YPHCShipCastleWagonsTeam</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCShipCastleWagons3</prereqtech>
+      <prereqtech>YPHCShipCastleWagons1</prereqtech>
       <age>0</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1370,7 +1370,7 @@
       <tech x="0.45" y="1">YPHCNativeLearning</tech>
       <tech x="0.45" y="2">YPHCNativeIncorporation</tech>
       <tech x="0.8" y="4">YPHCNativeTradeTax</tech>
-      <tech x="0.1" y="3">YPHCNativeDamage</tech>
+      <tech x="0.1" y="4">YPHCNativeDamage</tech>
       <tech x="0.1" y="5">HCXPBloodBrothers</tech>
       <tech x="0.8" y="5">YPHCExpandedTradingPost</tech>
       <tech x="1.6" y="2">YPHCCheapUnitUpgradesTeam</tech>
