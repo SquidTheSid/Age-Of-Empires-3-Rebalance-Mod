@@ -293,7 +293,7 @@
       <name>YPHCShinobiDamage</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipShinobi3</prereqtech>
+      <prereqtech>YPHCShipShinobi1</prereqtech>
       <age>2</age>
     </card>
     <card>
