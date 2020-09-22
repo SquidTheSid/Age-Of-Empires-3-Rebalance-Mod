@@ -35742,6 +35742,8 @@
 				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractRajput</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredRajput' type ='Normal'>
@@ -35888,6 +35890,8 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractUrumi</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractUrumi</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractUrumi</Target></Effect>
 		</Effects>
 	</Tech>
@@ -39936,6 +39940,8 @@
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractSepoy</Target></Effect>
 		</Effects>
 	</Tech>
@@ -50450,6 +50456,8 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypUrumiMansabdar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypUrumiMansabdar</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCShipSowarRegiment' type ='Normal'>
@@ -51121,6 +51129,8 @@
 			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractGurkha</Target></Effect>
 		</Effects>
 	</Tech>
