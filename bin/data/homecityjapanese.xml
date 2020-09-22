@@ -1419,6 +1419,12 @@
       <tech>YPHCShipNaginataRider2</tech>
       <tech>YPHCShipSamurai1</tech>
       <tech>YPHCShipMorutaru1</tech>
+      <tech>YPHCShipShinobi1</tech>
+      <tech>YPHCShinobiDamage</tech>
+      <tech>YPHCShipShinobi2</tech>
+      <tech>YPHCShipShinobi3</tech>
+      <tech>YPHCShinobiSplash</tech>
+
     </activetechs>
     <validunits/>
     <units/>
