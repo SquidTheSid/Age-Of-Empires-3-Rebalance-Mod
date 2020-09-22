@@ -259,7 +259,7 @@
       <name>YPHCShipYumi3</name>
       <maxcount>2</maxcount>
       <level>10</level>
-      <prereqtech>YPHCYumiDamage</prereqtech>
+      <prereqtech>YPHCShipYumi2</prereqtech>
       <age>2</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -277,7 +277,7 @@
       <name>YPHCYumiRange</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCShipYumi4</prereqtech>
+      <prereqtech>YPHCYumiDamage</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -293,14 +293,14 @@
       <name>YPHCShinobiDamage</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipShinobi1</prereqtech>
+      <prereqtech>YPHCShipShinobi3</prereqtech>
       <age>2</age>
     </card>
     <card>
       <name>YPHCShipShinobi2</name>
       <maxcount>2</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShinobiDamage</prereqtech>
+      <prereqtech>YPHCShipShinobi1</prereqtech>
       <age>2</age>
       <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -318,7 +318,7 @@
       <name>YPHCShinobiSplash</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCShipShinobi3</prereqtech>
+      <prereqtech>YPHCShinobiDamage</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -1407,11 +1407,11 @@
       <tech x="7.6" y="1">YPHCShipMorutaru1</tech>
       <tech x="7.6" y="3">YPHCShipMorutaru2</tech>
       <tech x="7.6" y="5">YPHCMorutaruRangeJapanese</tech>
-      <tech x="0.7" y="1">YPHCShipShinobi1</tech>
-      <tech x="0.7" y="3">YPHCShinobiDamage</tech>
-      <tech x="0.7" y="2">YPHCShipShinobi2</tech>
-      <tech x="0.7" y="4">YPHCShipShinobi3</tech>
-      <tech x="0.7" y="5">YPHCShinobiSplash</tech>
+      <tech x="8.4" y="1">YPHCShipShinobi1</tech>
+      <tech x="9.2" y="3">YPHCShinobiDamage</tech>
+      <tech x="8.4" y="2">YPHCShipShinobi2</tech>
+      <tech x="8.4" y="4">YPHCShipShinobi3</tech>
+      <tech x="9.2" y="5">YPHCShinobiSplash</tech>
     </obtainabletechs>
     <activetechs>
       <tech>YPHCShipAshigaru1</tech>
