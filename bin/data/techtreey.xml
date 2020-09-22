@@ -12961,6 +12961,7 @@
 				<Target type ='ProtoUnit'>AbstractConsulateSiegeIndustrial</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractConsulateSiegeIndustrial</Target></Effect>
+			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateJapaneseMeijiRestoration</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialManOWar' type ='Normal'>
@@ -54904,9 +54905,9 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+				<Target type ='ProtoUnit'>LivestockPen</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Ranch</Target></Effect>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialColonialMilitia</Effect>
