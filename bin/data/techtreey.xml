@@ -38755,6 +38755,8 @@
 		<RolloverTextID>61614</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>ypConsulate</Target></Effect>
 			<Effect type ='SetName' proto ='ypConsulate' culture ='none' newName ='61618'></Effect>
 			<Effect type ='TextOutput'>70363</Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='ResearchPoints' relativity ='Percent'>
@@ -41420,6 +41422,8 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='Percent'>
+				<Target type ='ProtoUnit'>ypConsulate</Target></Effect>
 			<Effect type ='SetName' proto ='ypConsulate' culture ='none' newName ='63271'></Effect>
 			<Effect type ='TextOutput'>70364</Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='ResearchPoints' relativity ='Percent'>
