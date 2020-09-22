@@ -47951,9 +47951,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulatePrussianNeedleGun' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='19.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateCzapakaUhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateWarWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -49868,7 +49866,7 @@
 		<Prereqs>
 			<TechStatus status ='Active'>ypHCConsulateRelations</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateBestieros' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypConsulateCacadore' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypHCConsulateRelations</Effect>
 		</Effects>
@@ -56075,6 +56073,19 @@
 				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
 			<Effect type ='TextOutput'>62573</Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='HCMercsManchuINFINITE' type ='Normal'>
+		<DBID>2552</DBID>
+		<DisplayNameID>70899</DisplayNameID>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\mercenaries\manchurian_archer\manchurian_archer_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='MercManchu' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>

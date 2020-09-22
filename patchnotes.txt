@@ -110,9 +110,31 @@ Blink Monk - ROF increased to 1.5 from 2.0; villager multiplier reduced to 2.0 f
 
 Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
-- British consulate HP increase reduced to 8% from 10%
 - Advanced Wonders now additionally reduces Age Up/Wonder cost by 15% (note: This does NOT stack with the Portuguese consulate)
 - Villagemasons now additionally reduces building wood cost by 25%
+
+Consulate Changes:
+- Portuguese:
+  --7 Besteiros replaced with 5 Casadores. 
+  --10 Besteiros + 1 Culverin replaced with 8 Cassadores + 1 culverin. 
+  --Fishing Fleet replaced with 8 Llamas for 300 export. Colonial Age. 
+  --Exploration Fleet replaced with 1 Covered Wagon for 400 export. Fortress Age. 
+- British: Bonus reduced to 8% increased land unit HP from 10%
+ -- 2 Surgeons replaced with Virginia Company (-25% village/house cost) for 200 export. Colonial Age. 
+ -- 4 Spies replaced with Medicine (-20% villager train time) for 300 export. Colonual Age. 
+ -- 5 Petards replaced Estates (2x villager train time, can train villagers in housing) for 700 export. Industrial Age. 
+- Dutch:
+ -- 6 Stadhouders replaced with 5 Nassauer Halberdiers
+ -- 6 Stadhouders + 7 Carabineers replaced with 5 Nassauers + 7 Carabineers
+- Germany:
+ -- 3 Dopps + 6 Skirmishers replaced with 3 Dopps + 2 War Wagons
+ -- 11 Skirms + 2 Heavy Cannons replaced with 4 War Wagons + 2 Heavy Cannons
+ -- 19 Uhlans + 15 Skirmishers replaced with 15 War Wagons
+- Russia: 10% faster villager train time replaced with 10% reduced villager cost
+ -- 5 Cossacks + 1 Culverin replaced with 5 Cossacks + 3 Tartar Loyalists.
+- Spain: 
+ -- 7 Tercios replaced with 6 Espadachins
+ -- 10 Tercio replaced with 8 Espadachins
 
 European: 
 - Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15); range increased to 14 from 12. Arsonists adjusted accordingly
@@ -574,6 +596,7 @@ Shipments:
 - Industrial "White Lotus Rebellion" Shipment added. Converts all villagers into disciples. 
 - Great Wall now increases wall HP by +150% instead of +100%
 - Dowager Empress multiplier increased to 2.25x from 1.60x
+- 10 INFINITE Manchu industrial shipment added (costs 1k coin).
 
 
 

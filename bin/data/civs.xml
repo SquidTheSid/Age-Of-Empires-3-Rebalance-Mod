@@ -1859,13 +1859,13 @@
         <unit>ypConsulateSiberianCossack</unit>
       </units>
       <units>
-        <unit>ypConsulateCulverin</unit>
+        <unit>ypConsulateTartarLoyalist</unit>
       </units>
       <unitcounts>
         <count>5</count>
       </unitcounts>
       <unitcounts>
-        <count>1</count>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -4539,13 +4539,13 @@
         <unit>ypConsulateSiberianCossack</unit>
       </units>
       <units>
-        <unit>ypConsulateCulverin</unit>
+        <unit>ypConsulateTartarLoyalist</unit>
       </units>
       <unitcounts>
         <count>5</count>
       </unitcounts>
       <unitcounts>
-        <count>1</count>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
