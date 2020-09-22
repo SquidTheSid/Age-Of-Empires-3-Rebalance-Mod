@@ -43112,15 +43112,17 @@
 	</Tech>
 	<Tech name ='YPHCShipDaimyoAizu' type ='Normal'>
 		<DBID>4531</DBID>
-		<DisplayNameID>64333</DisplayNameID>
+		<DisplayNameID>62208</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\japanese\daimyo_Kiyomasa\daimyo_kiyomasa_icon_64</Icon>
-		<RolloverTextID>64334</RolloverTextID>
+		<RolloverTextID>62207</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypDaimyoKiyomasa' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypNaginataRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypDaimyoKiyomasa</Target></Effect>
@@ -48593,6 +48595,8 @@
 				<Target type ='ProtoUnit'>AbstractDaimyo</Target></Effect>
 			<Effect type ='Data' amount ='20.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractDaimyo</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractDaimyo</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCDojoGenbukan' type ='Normal'>
@@ -50598,7 +50602,7 @@
 	<Tech name ='YPHCMercsRonin2' type ='Normal'>
 		<DBID>5151</DBID>
 		<DisplayNameID>69415</DisplayNameID>
-		<Cost resourcetype ='Gold'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>3000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
@@ -50717,7 +50721,11 @@
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 			<Effect type ='TextOutput'>69653</Effect>
-			<Effect type ='TechStatus' status ='active'>ypSaloonYojimbo</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ypNatSohei' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
+			<Effect type ='TextOutput'>49042</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>NativeEmbassy</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
