@@ -37887,7 +37887,6 @@
 			<Effect type ='TechStatus' status ='active'>ypFakeImperialAge</Effect>
 			<Effect type ='Data' action ='SabotageAttack' amount ='1500.00' subtype ='Damage' relativity ='Assign'>
 				<Target type ='ProtoUnit'>AbstractJapaneseMonk</Target></Effect>
-			<Effect type ='TechStatus' status ='active'>ypConsulateJapaneseMeijiRestoration</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateJapaneseMeijiRestoration</Effect>
 		</Effects>
 	</Tech>
@@ -42875,7 +42874,6 @@
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
-		<Flag>CheckWaterHCGatherPoint</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -43196,7 +43194,6 @@
 		<Icon>ui\techs\native\Llama_Ranching</Icon>
 		<Flag>YPConsulateImprovement</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Flag>CheckWaterHCGatherPoint</Flag>
 		<Flag>YPNeverObtainableAfterUse</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>

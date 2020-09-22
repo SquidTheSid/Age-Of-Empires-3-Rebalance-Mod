@@ -1625,10 +1625,10 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyPortuguese1</multipleblockunit>
       <units>
-        <unit>ypConsulateBestieros</unit>
+        <unit>ypConsulateCacadore</unit>
       </units>
       <unitcounts>
-        <count>7</count>
+        <count>5</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -1638,13 +1638,13 @@
         <unit>ypConsulateCulverin</unit>
       </units>
       <units>
-        <unit>ypConsulateBestieros</unit>
+        <unit>ypConsulateCacadore</unit>
       </units>
       <unitcounts>
         <count>1</count>
       </unitcounts>
       <unitcounts>
-        <count>10</count>
+        <count>8</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -1667,7 +1667,7 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyRussian1</multipleblockunit>
       <units>
-        <unit>ypConsulateTartarLoyalist</unit>
+        <unit>ypConsulateSiberianCossack</unit>
       </units>
       <unitcounts>
         <count>4</count>
@@ -4610,10 +4610,10 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyPortuguese1</multipleblockunit>
       <units>
-        <unit>ypConsulateBestieros</unit>
+        <unit>ypConsulateCacadore</unit>
       </units>
       <unitcounts>
-        <count>7</count>
+        <count>5</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -4623,13 +4623,13 @@
         <unit>ypConsulateCulverin</unit>
       </units>
       <units>
-        <unit>ypConsulateBestieros</unit>
+        <unit>ypConsulateCacadore</unit>
       </units>
       <unitcounts>
         <count>1</count>
       </unitcounts>
       <unitcounts>
-        <count>10</count>
+        <count>8</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>

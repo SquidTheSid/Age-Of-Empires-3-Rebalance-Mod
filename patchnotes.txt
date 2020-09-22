@@ -426,7 +426,13 @@ Japanese Consulate:
 - Meiji Restoration Tech now additionally ships 1 factory wagon and 4 Gatling Guns on ageup
 - Clan Offerrings (Koujou) cost reduced to 200 export. Now lets you train Yamabushi from barracks and Daimyo
 - Bushido Principles cost increased to 300 export from 250.
-- Intervention now ships 9 Shinobi instead of 10 Yamabushi
+- Intervention now ships 5 Ninja instead of 10 Yamabushi
+- Now trains consulate Yojimbo (Sanjuro) instead of Consulate Shinobi.
+
+Dutch Consulate:
+- 5 Nassauer Halberdiers replace 6 Stadhouders in Dutch Expeditionary Company and Dutch Expeditionary Force
+- Intervention now ships 7 Nassauers instead of 9 Stadhouders. 
+
 
 Military rickshaws now can build castles. 
 
@@ -437,7 +443,7 @@ Wonders:
   -- Now ships 2/4/6/10 Naginata Riders on Age up, up from 1/3/5/9
 - Torii Gates: like Buddha, very underwhelming and seldom used. Been buffed to improve rush options. No longer provides free units as well.
   -- Build time reduced to 75 seconds from 135 seconds (85 seconds for fortress from 145)
-  -- XP bounty improved to 
+  -- XP bounty improved to 1.75x from 1.5x
 
 Shogunate: Had very weird XP scaling. Fortress age was strictly worse than colonial, and industrial was the same as imperial.
 - Now provides 400/400/1000/1600 XP on Age up instead of 400/300/1600/1600
