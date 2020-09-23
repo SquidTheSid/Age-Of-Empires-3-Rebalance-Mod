@@ -39444,7 +39444,7 @@
 		<RolloverTextID>61886</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
 			<Effect type ='TextOutput'>62573</Effect>
 		</Effects>

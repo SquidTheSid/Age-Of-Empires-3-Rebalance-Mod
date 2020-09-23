@@ -1577,7 +1577,9 @@
       <tech x="7.2" y="3.0">HCXPMayanAllies2</tech>
       <tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
     </obtainabletechs>
-    <activetechs/>
+    <activetechs>
+	<tech>HCXPSpanishGold</tech>
+    </activetechs>
     <validunits/>
     <units/>
     <trainbuilding>1</trainbuilding>
