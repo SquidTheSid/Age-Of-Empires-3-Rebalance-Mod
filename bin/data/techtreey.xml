@@ -6101,7 +6101,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypExaltedDaimyoShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedAshigaru</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredMorutaru</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedYabusame</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ypDisciplinedYabusameShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPHonoredYamabushiShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>YPExaltedYamabushiShadow</Effect>
 		</Effects>
@@ -36188,7 +36188,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>ypDisciplinedYabusame</TechStatus>
+			<TechStatus status ='Active'>ypDisciplinedYabusameShadow</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='SetName' proto ='ypYabusame' culture ='none' newName ='63081'></Effect>
@@ -39444,7 +39444,7 @@
 		<RolloverTextID>61886</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
 			<Effect type ='TextOutput'>62573</Effect>
 		</Effects>
@@ -40903,7 +40903,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -41127,7 +41127,7 @@
 		<Flag>HomeCity</Flag>
 		<Flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='ypSepoy' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='ypSepoy' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -51872,17 +51872,11 @@
 			<Effect type ='SetName' proto ='ypChangdao' culture ='none' newName ='70446'></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='ypDisciplinedYabusame' type ='Normal'>
+	<Tech name ='ypDisciplinedYabusameShadow' type ='Normal'>
 		<DBID>3579</DBID>
-		<DisplayNameID>70870</DisplayNameID>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>100.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<ResearchPoints>00.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\asians\disciplined_cavalry</Icon>
-		<RolloverTextID>60590</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
