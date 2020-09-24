@@ -39493,18 +39493,16 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\home_city\hc_Ashigaru_Anti_Cavalry_Damage</Icon>
+		<Icon>ui\techs\asians\tech_free_samurai</Icon>
 		<RolloverTextID>61897</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='TextOutput'>70434</Effect>
-			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
-
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCNaginataHitpoints' type ='Normal'>
