@@ -47674,8 +47674,8 @@
 	<Tech name ='ypDojoUpgrade1' type ='Normal'>
 		<DBID>4884</DBID>
 		<DisplayNameID>66443</DisplayNameID>
-		<Cost resourcetype ='Food'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<Cost resourcetype ='Food'>350.0000</Cost>
+		<Cost resourcetype ='Gold'>350.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\tech_dojo_upgrade2</Icon>
@@ -47686,15 +47686,15 @@
 		<Effects>
 			<Effect type ='Data' action ='TacticXP' amount ='1.30' subtype ='WorkRate' unittype ='XP' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypDojo</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.65' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypDojoNaginataRiderArmy</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.65' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypDojoKenseiArmy</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.65' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypDojoYabusameArmy</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.65' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypDojoYumiArmy</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.65' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypDojoAshigaruArmy</Target></Effect>
 		</Effects>
 	</Tech>
