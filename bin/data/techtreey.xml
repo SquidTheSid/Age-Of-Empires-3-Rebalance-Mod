@@ -39508,7 +39508,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
 			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
