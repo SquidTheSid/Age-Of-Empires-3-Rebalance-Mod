@@ -18536,6 +18536,8 @@
 				<Target type ='ProtoUnit'>ypConsulateRedcoat</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypConsulateStadhouders</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCShipHussars3' type ='Normal'>
@@ -19291,6 +19293,8 @@
 				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCNavigationSchool' type ='Normal'>
