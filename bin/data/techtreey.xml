@@ -43209,7 +43209,7 @@
 	<Tech name ='ypConsulatePortugueseLlamas' type ='Normal'>
 		<DBID>4538</DBID>
 		<DisplayNameID>64349</DisplayNameID>
-		<Cost resourcetype ='Trade'>300.0000</Cost>
+		<Cost resourcetype ='Trade'>350.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Llama_Ranching</Icon>
@@ -46320,19 +46320,13 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyGerman3</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyGerman2</Target></Effect>
-			<Effect type ='Data' amount ='-15.00' subtype ='Cost' resource ='Food' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractBannerArmy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateGermansBrigade</Effect>
 			<Effect type ='TechStatus' status ='active'>ypBigTradeTaxEnable</Effect>
 			<Effect civ ='Germans' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateRelationsGermans</Effect>
-			<Effect type ='Data' amount ='-15.00' subtype ='Cost' resource ='Wood' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractBannerArmy</Target></Effect>
-			<Effect type ='Data' amount ='-15.00' subtype ='Cost' resource ='Gold' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractBannerArmy</Target></Effect>
-			<Effect type ='Data' amount ='-15.00' subtype ='Cost' resource ='Gold' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypMandarinArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypBigSequesterGermans' type ='Normal'>
@@ -46357,19 +46351,13 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyGerman2</Target></Effect>
 			<Effect type ='Data' amount ='-1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypConsulateArmyGerman3</Target></Effect>
-			<Effect type ='Data' amount ='15.00' subtype ='Cost' resource ='Food' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractBannerArmy</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateGermansBrigade</Effect>
 			<Effect type ='TechStatus' status ='active'>ypBigTradeTaxRemove</Effect>
 			<Effect civ ='none' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRelationsGermans</Effect>
-			<Effect type ='Data' amount ='15.00' subtype ='Cost' resource ='Gold' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractBannerArmy</Target></Effect>
-			<Effect type ='Data' amount ='15.00' subtype ='Cost' resource ='Wood' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbstractBannerArmy</Target></Effect>
-			<Effect type ='Data' amount ='15.00' subtype ='Cost' resource ='Gold' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypMandarinArmy</Target></Effect>
+			<Effect type ='Data' amount ='0.95' subtype ='MaximumVelocity' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypConsulateGermansCoinTrickle' type ='Normal'>
