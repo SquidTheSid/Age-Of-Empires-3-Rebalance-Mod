@@ -6229,6 +6229,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ProfessionalGunners</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Trunion</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Rifling</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Bujutsu</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPAge0JapaneseSPC' type ='Normal'>
@@ -8482,8 +8483,8 @@
 	<Tech name ='Bayonet' type ='Normal'>
 		<DBID>129</DBID>
 		<DisplayNameID>23335</DisplayNameID>
-		<Cost resourcetype ='Wood'>175.0000</Cost>
-		<Cost resourcetype ='Gold'>175.0000</Cost>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\bayonet\bayonet</Icon>
@@ -8556,12 +8557,17 @@
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Strelet</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Strelet</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
 			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypShinobiHorse</Target></Effect>
+
 
 		</Effects>
 	</Tech>
@@ -56104,6 +56110,28 @@
 		<Effects>
 			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='MercManchu' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='Bujutsu' type ='Normal'>
+		<DBID>3189</DBID>
+		<DisplayNameID>70901</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>10.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_Ashigaru_Anti_Cavalry_Damage</Icon>
+		<RolloverTextID>70900</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractHandInfantry</Target></Effect></Effects>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
+			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
+			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
 	</Tech>
 
 </TechTree>
