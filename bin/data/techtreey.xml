@@ -55298,13 +55298,13 @@
 	</Tech>
 	<Tech name ='PoliticianMarksmanAmericans' type ='Normal'>
 		<DBID>2142</DBID>
-		<DisplayNameID>35489</DisplayNameID>
+		<DisplayNameID>34405</DisplayNameID>
 		<Cost resourcetype ='Food'>1200.0000</Cost>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<ResearchPoints>110.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\ingame\icon_age_iii</Icon>
-		<RolloverTextID>70780</RolloverTextID>
+		<RolloverTextID>70902</RolloverTextID>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
@@ -55721,7 +55721,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\spc\amelia_black\amelia_black_icon_64x64</Icon>
+		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Shotgunner' relativity ='Absolute'>
@@ -55733,7 +55733,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\spc\amelia_black\amelia_black_icon_64x64</Icon>
+		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Shotgunner' relativity ='Absolute'>
@@ -55745,7 +55745,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\spc\amelia_black\amelia_black_icon_64x64</Icon>
+		<Icon>units\infantry_ranged\grenadier\grenadier_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='Shotgunner' relativity ='Absolute'>
@@ -55839,7 +55839,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>units\spc\beaumont\beaumont_icon_64x64</Icon>
+		<Icon>ui\home_city\hc_Ashigaru_Anti_Cavalry_Damage</Icon>
 		<RolloverTextID>70847</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>

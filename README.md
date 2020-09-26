@@ -28,7 +28,7 @@ sure to view the readme first. Click "Install Mod" to copy over files, and if
 you're done, click "Remove Mod" to go back to RE.
 
 NOTE: The Installer requires an updated version of Java on your system to work.
-This program was built with OpenJDK 14. If you don't have Java installed, go to
+This program was built with OpenJDK 8. If you don't have Java installed, go to
 oracle.com/java
 
 <b><i>MANUAL:</i></b>

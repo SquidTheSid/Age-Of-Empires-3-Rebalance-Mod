@@ -112,6 +112,7 @@ Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
 - Advanced Wonders now additionally reduces Age Up/Wonder cost by 15% (note: This does NOT stack with the Portuguese consulate)
 - Villagemasons now additionally reduces building wood cost by 25%
+- Castle's cost reduced from 250 Wood/100 Gold to 200 Wood/100 Gold
 
 Consulate Changes:
 - Portuguese:
@@ -212,7 +213,7 @@ Politician Changes:
 	-- Now ships 1 farm travois in colonial (up from 0) and 2 farm travois in fortress (up from 1)
 	-- Industrial Age gather rate bonus improved to 15% from 10%
 
-Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to India's Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
+Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
 - Siege: Lowered to 24 Siege Damage from 36
 - Armor: Changed from 10% melee to 20% ranged
@@ -389,17 +390,32 @@ Sacred Field: Very underwhelming for India's XP source. Too expensive for what y
 - Goraksha and Sacred Syllable shipments now additionally ship 2 sacred cows.
 - Sacred Syllable heal rate increased to 15 from 8
 
-Ottoman Consulate LOS bonus reduced to 8 from 10
+House: Given all of the buffs India's received, houses have had their hitpoints reduced to help compensate
+- HP: Reduced to 1000 from 1200
+
+Mansabdar: A very underwhelming civ bonus/tech. Not only do they cost twice as much as regular units, they take up double population and don't even have increased damage. Ottoman Consulate LOS bonus reduced to 8 from 10
+- Aura strength improved to 15% from 10%
+- Population increase reduced to base +1 from 2x base (i.e. TAD Mansabdar Mahout costs 14 population, whereas it's 7 here. Mansabdar Howdah cost 12 population on RE, whereas it's 6 here. Mansabdar Sowar costs 4 population on RE, where it's 3 here, etc.) 
+- Mansabdar Urumi can be retrained at Charminar Gate once Brigade is sent. 
+
 Exalted (Imperial) Infantry and Camel upgrades now additionally reduces train time by 20%.
 
 Flail Elephants: Awful redundant units. needs a complete overhaul, but I've just given them some buffs in the meantime.
-- Infantry multiplier increased to 3.0x from 1.5x
+- Infantry multiplier increased to 2.0x from 1.5x
+- Heavy Infantry penalty increased to 0.5x from 0.67x. 
 - Villager damage penalty removed. 
-- Population Cost: Reduced to 4 from 3 (mansabdar reduced to 6)
+- Population Cost: Reduced to 4 from 3.
 - Speed: Increased to 4.5 from 4.0
 
-Sepoy: The best colonial age musketeer. They're a bit too strong, I find, so their HP has been slightly lowered to adjust Town Center fire breakpoints (7 vills now 3 shot a sepoy instead of 8).
-- HP: Lowered to 185 from 190
+Sepoy: The best colonial age musketeer. They're a bit too strong, I find, so their HP has been lowered to adjust Town Center fire breakpoints. 
+- HP: Lowered to 180 from 190
+
+Gurkha: They struggle a bit in skirm wars due to their low base range. It's been buffed to compensate
+- Range: Increased to 19 from 18 (caps out at 22 in Imperial)
+- No longer autoheals.
+
+Urumi: Given that they're HC units, it doesn't make sense that they don't autoheal, which Gurkha do.
+- 0.25 HP/s autoheal added (moved from Gurkha). 
 
 Rajput: Infamously terrible on vanilla, they're pretty much a worse version of Sepoy. To help them out, I've incorporated ESOC's changes
 - Siege: Increased to 25 damage up from 20
@@ -412,7 +428,6 @@ Siege Elephant: Siege elephants struggled greatly on vanilla due to being easily
 - Honored upgrade increases range to 30 from 28
 - LOS increased to 34 from 29
 - Removed villager damage penalty
-- Mansabdar population cost reduced to 9 from 14
 
 Mahout Lancer: In vanilla, Mahout are easily kited, making them very hard to use. They've been buffed to make them better at chasing down skirmishers.
 - Population Cost: Reduced to 6 from 7
@@ -420,18 +435,16 @@ Mahout Lancer: In vanilla, Mahout are easily kited, making them very hard to use
 - Range: Melee range increased to 2
 - Removed villager damage penalty
 - Damage: Melee attack improved to 35 from 28
-- Mansabdar population cost reduced to 9 from 14
 
 Howdah: Howdah, much like Mahout, as slow and are population inefficient. They've been adjusted as such
 - Population Cost: Reduced to 5 from 6
 - Speed: Increased to 6 from 5.5
-- Mansabdar population cost reduced to 8 from 12
 
 Sowar: They're India's version of cossacks, but with a focus on countering skirms. However, they're paper thin, so I've made them a little beefier
 - HP: Increased to 250 from 225 (might include ESOC's damage multipliers down the line or maybe slightly reduce speed and buff attack).
 
 Zamburak: While they're solid anti-cav early game, they struggle midgame due to their reliance on cards. 
-- Discipline upgrade now increases Heavy Cavalry and CoyoteMan damage multiplier by 0.5x.
+- Disciplined upgrade now increases Heavy Cavalry and CoyoteMan damage multiplier by 0.5x.
 
 
 Terror Charge Monastery tech cost reduced to 450 Food/Gold from 500. Train time reduction reduced to 15% from 20.
@@ -441,6 +454,8 @@ Shipments:
  - Tame Elephants train time and cost reduction improved to -15% from -10%.
  - TEAM 5 Urumi reduced to TEAM 4 Urumi; cost decreased to 500 food from 600.
  - Mughal Architecture now decreases building wood cost by 50% (from 20%) and build time by 20% (from 50%)
+ - 5 Sepoy increased to 6 Sepoy
+ - 600 Wood replaced with 700 wood
 
 Japan:
 
@@ -458,6 +473,9 @@ Dutch Consulate:
 
 Military rickshaws now can build castles. 
 
+Dojo: Very slow payoff. Tech's been improved to help provide payout faster.
+- Dojo Train Time tech improved to 35% reduced army time from 25%, but cost increased to 350F/350G from 300F/300G
+
 Wonders: 
 - Golden Pavillion ranged attack buff reduced to 10% from 15%
 - Giant Buddha: a very underwhelming wonder that saw little use in most games. Shipments and power have been buffed to be more competitive.
@@ -473,11 +491,11 @@ Shogunate: Had very weird XP scaling. Fortress age was strictly worse than colon
 Yabusame: An overall solid unit with ridiculously heavy cost and low damage. Slightly buffed to help
 - Cost: Reduced to 50 food/150 gold from 60 food/150 gold. 
 - Damage: Increased to 9 from 8
-- Now available in age 2, no longer shadowtechs
+- Now available in age 2
 
 Samurai: Samurai have always been iffy anti-cav units, now they're just a generic melee unit without weird AoE or multipliers. 
 - HP: Increased to 235 from 230
-- Cost: Reduced to 50 food, 60 coin from 100/100, shipments adjusted accordingly, build bountry adjusted accordingly (20 --> 11)
+- Cost: Reduced to 50 food, 65 coin from 100/100, shipments adjusted accordingly, build bountry adjusted accordingly (20 --> 11)
 - Train Points: Reduced to 36 from 45
 - All multipliers removed
 - AoE removed
@@ -488,7 +506,7 @@ Samurai: Samurai have always been iffy anti-cav units, now they're just a generi
 
 Shinobi: Kind of underwhelming and redundant units. I've reworked them to be fast and stealthy grenadier units.
 - 20% ranged armor increased to 30%
-- Ranged damage reduced to 16 from 20
+- Ranged damage reduced to 16 from 20 and changed to siege damage
 - 1.5x Heavy Infantry and Light Cavalry multipliers added.
 - 0.5x Cavalry penalty added
 - Cost increased to 70 food/80 gold from 30 food/85 gold
@@ -511,9 +529,9 @@ Ashigaru Musketeer: Insanely cheesy musketeer unit that lets Japan turtle. Rebal
 - Siege damage reduced to 11 from 22
 - All multipliers removed 
 - Range increased to 14 from 12
-- Damage reduced to 22 from 24
-- Hitpoints reduced to 160 from 170
-- Cost: Reduced to 75 food from 80
+- Damage reduced to 20 from 24
+- Hitpoints reduced to 150 from 170
+- Melee attack reduced from 10 to 8
 
 Yumi Archers: They hit like trucks and have insane range. I've changed them to be less toxic in turtles
 - Moved to age 3 from age 2
@@ -528,12 +546,13 @@ Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been tone
 
 Shipments:
 - Yojimbo shipment increased to 5 from 4.
-- Zen Diet shipment Vill wood cost decreased to 45 from 60.
+- Zen Diet shipment Vill wood cost decreased to 40 from 60.
 - TEAM Cheap unit upgrades increased to -25% cost from -20%
 - Yabusame Attack improved to +40% damage from +20%
-- In-Yo Rush no longer provides a damage bonus; now grants a 1.0x multiplier vs. artillery and heavy cavalry.
-- Close Combat changed to Sashimono. Instead of a 1.0x artillery multiplier, it makes Ashigaru Matchlocks 15% cheaper.
+- In-Yo Rush no longer provides a damage bonus; now grants a 1.0x multiplier vs. artillery and heavy cavalry, now available in age 2.
+- Close Combat changed to Sashimono. Adds 2 LOS, +5% speed, and reduces train time by 20%.
 - Ashigaru damage increased to 20% from 15%
+- Yumi Damage moved to age 3 from colonial. Increased to 25% damage from 20%
 
 France:
 
