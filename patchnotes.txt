@@ -568,7 +568,7 @@ China:
 
 Wonders:
 Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216
-White Pagoda - build time reduced to 75 seconds (reduced from 135 seconds; fortress age reduced to 85 seconds from 145), no longer provides free disciples. 
+White Pagoda - build time reduced to 75 seconds (reduced from 135 seconds; fortress age reduced to 85 seconds from 145), no longer provides free disciples. Now provides a scaling XP trickle depending on which age it was built (1.0/s at base and +0.5/s each age thereafter)
 
 German consulate Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25 (parity with trickle buffs)
 

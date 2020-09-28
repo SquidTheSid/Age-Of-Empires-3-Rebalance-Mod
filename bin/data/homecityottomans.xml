@@ -465,6 +465,13 @@
       <age>2</age>
     </card>
     <card>
+      <name>HCArcherOttomanRange</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCXPIrregulars</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
       <name>HCCavalryCombatOttoman</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1416,6 +1423,7 @@
       <tech x="3.4" y="3.0">HCShipCavArchers3</tech>
       <tech x="3.4" y="4.0">HCCavalryCombatOttoman</tech>
       <tech x="3.4" y="5.0">HCXPIrregulars</tech>
+      <tech x="3.4" y="6.0">HCArcherOttomanRange</tech>
       <tech x="4.4" y="1.0">HCShipAbusGuns1</tech>
       <tech x="4.4" y="2.0">HCShipAbusGuns2</tech>
       <tech x="4.4" y="3.0">HCLightArtilleryHitpointsOttoman</tech>

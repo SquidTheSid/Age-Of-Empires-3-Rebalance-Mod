@@ -1099,11 +1099,11 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Yaya</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardJanissaries</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>GuardZighir</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardZihgir</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranJanissaries</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranZighir</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranZihgir</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Sheep</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranHussars</Effect>
@@ -1113,7 +1113,7 @@
 				<Target type ='ProtoUnit'>HouseMed</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialGardener</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialJanissaries</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>ImperialZighir</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialZihgir</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCavalryArchers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialCavalryArchers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialBaratcu</Effect>
@@ -56184,7 +56184,7 @@
 				<Target type ='ProtoUnit'>Yaya</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='VeteranZighir' type ='Normal'>
+	<Tech name ='VeteranZihgir' type ='Normal'>
 		<DBID>3094</DBID>
 		<DisplayNameID>70916</DisplayNameID>
 		<Cost resourcetype ='Wood'>200.0000</Cost>
@@ -56200,13 +56200,13 @@
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
-			<Effect type ='SetName' proto ='Zighir' culture ='none' newName ='70916'></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
+			<Effect type ='SetName' proto ='Zihgir' culture ='none' newName ='70916'></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='GuardZighir' type ='Normal'>
+	<Tech name ='GuardZihgir' type ='Normal'>
 		<DBID>1026</DBID>
 		<DisplayNameID>70917</DisplayNameID>
 		<Cost resourcetype ='Wood'>600.0000</Cost>
@@ -56219,17 +56219,17 @@
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
-			<TechStatus status ='Active'>VeteranZighir</TechStatus>
+			<TechStatus status ='Active'>VeteranZihgir</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
-			<Effect type ='SetName' proto ='Zighir' culture ='none' newName ='70917'></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
+			<Effect type ='SetName' proto ='Zihgir' culture ='none' newName ='70917'></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='ImperialZighir' type ='Normal'>
+	<Tech name ='ImperialZihgir' type ='Normal'>
 		<DBID>3094</DBID>
 		<DisplayNameID>70918</DisplayNameID>
 		<Cost resourcetype ='Wood'>1500.0000</Cost>
@@ -56242,17 +56242,17 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
-			<TechStatus status ='Active'>GuardZighir</TechStatus>
+			<TechStatus status ='Active'>GuardZihgir</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
-			<Effect type ='SetName' proto ='Zighir' culture ='none' newName ='70909'></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
+			<Effect type ='SetName' proto ='Zihgir' culture ='none' newName ='70918'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='YPHCYumiRange' type ='Normal'>
+	<Tech name ='HCArcherOttomanRange' type ='Normal'>
 		<DBID>4034</DBID>
 		<DisplayNameID>70922</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -56263,15 +56263,15 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' action ='BowAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
