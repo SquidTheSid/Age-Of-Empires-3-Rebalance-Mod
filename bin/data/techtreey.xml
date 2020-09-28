@@ -1096,8 +1096,14 @@
 			<Effect type ='TechStatus' status ='obtainable'>ChurchMilletSystem</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Hussar</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardJanissaries</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardZighir</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranJanissaries</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranZighir</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Sheep</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranHussars</Effect>
@@ -1107,12 +1113,14 @@
 				<Target type ='ProtoUnit'>HouseMed</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialGardener</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialJanissaries</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialZighir</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCavalryArchers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialCavalryArchers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialBaratcu</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGBaratcuCorps</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranGrenadiers</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialAbusGun</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialYaya</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Capitol</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChurchAbbassidMarket</Effect>
@@ -1192,10 +1200,12 @@
 				<Target type ='ProtoUnit'>Galleon</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FieldHospital</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranAbusGuns</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranAbusGunsShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranYaya</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bayonet</Effect>
 			<Effect type ='TechStatus' status ='active'>Levy</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardAbusGuns</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardYaya</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Imam</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -3026,7 +3036,7 @@
 			<Effect type ='TechStatus' status ='active'>StarFort</Effect>
 			<Effect type ='TechStatus' status ='active'>FortifiedOutpost</Effect>
 			<Effect type ='TechStatus' status ='active'>ChurchMassCavalry</Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranAbusGuns</Effect>
+			<Effect type ='TechStatus' status ='active'>VeteranAbusGunsShadow</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranJanissaries</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranHussars</Effect>
 			<Effect type ='TechStatus' status ='active'>VeteranGrenadiers</Effect>
@@ -13525,17 +13535,11 @@
 			<Effect type ='SetName' proto ='NatClubmanLoyal' culture ='none' newName ='70502'></Effect>
 		</Effects>
 	</Tech>
-	<Tech name ='VeteranAbusGuns' type ='Normal'>
+	<Tech name ='VeteranAbusGunsShadow' type ='Normal'>
 		<DBID>1567</DBID>
-		<DisplayNameID>32066</DisplayNameID>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<ResearchPoints>00.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\veteran_artillery\veteran_artillery</Icon>
-		<RolloverTextID>32065</RolloverTextID>
-		<Flag>UpgradeTech</Flag>
-		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
 		<Effects>
@@ -13546,15 +13550,6 @@
 			<Effect type ='SetName' proto ='AbusGun' culture ='none' newName ='36747'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='AbusGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
-			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
-			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
-			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
-
 		</Effects>
 	</Tech>
 	<Tech name ='ImperialAbusGun' type ='Normal'>
@@ -21572,7 +21567,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>VeteranAbusGuns</TechStatus>
+			<TechStatus status ='Active'>VeteranAbusGunsShadow</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -33124,7 +33119,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractVillager' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractLightCavalry</Target></Effect>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 
@@ -56120,6 +56115,170 @@
 				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArcher</Target></Effect>
+	</Tech>
+	<Tech name ='VeteranYaya' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70907</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>70910</RolloverTextID>
+		<Icon>ui\techs\veteran_infantry\veteran_infantry</Icon>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='SetName' proto ='Yaya' culture ='none' newName ='70907'></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='GuardYaya' type ='Normal'>
+		<DBID>1026</DBID>
+		<DisplayNameID>70908</DisplayNameID>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
+		<RolloverTextID>70910</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>VeteranYaya</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='SetName' proto ='Yaya' culture ='none' newName ='70908'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialYaya' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70909</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
+		<RolloverTextID>70911</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>GuardYaya</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='SetName' proto ='Yaya' culture ='none' newName ='70909'></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='VeteranZighir' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70916</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<RolloverTextID>70919</RolloverTextID>
+		<Icon>ui\techs\veteran_infantry\veteran_infantry</Icon>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='SetName' proto ='Zighir' culture ='none' newName ='70916'></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='GuardZighir' type ='Normal'>
+		<DBID>1026</DBID>
+		<DisplayNameID>70917</DisplayNameID>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
+		<RolloverTextID>70919</RolloverTextID>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>VeteranZighir</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='SetName' proto ='Zighir' culture ='none' newName ='70917'></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='ImperialZighir' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70918</DisplayNameID>
+		<Cost resourcetype ='Wood'>1500.0000</Cost>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\imperial_infantry\imperial_infantry</Icon>
+		<RolloverTextID>70920</RolloverTextID>
+		<Flag>UpgradeTech</Flag>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Imperialize</TechStatus>
+			<TechStatus status ='Active'>GuardZighir</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='SetName' proto ='Zighir' culture ='none' newName ='70909'></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='YPHCYumiRange' type ='Normal'>
+		<DBID>4034</DBID>
+		<DisplayNameID>70922</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_Yumi_Range</Icon>
+		<RolloverTextID>70921</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zighir</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
+			<Effect type ='Data' action ='BowAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
+		</Effects>
 	</Tech>
 
 </TechTree>
