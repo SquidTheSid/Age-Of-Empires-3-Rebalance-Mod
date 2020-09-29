@@ -1303,6 +1303,36 @@
       <command>tis("Janissary",5)</command>
     </keymapdata>
     <keymapdata>
+      <name>Yaya</name>
+      <displayname>$$70931$$Yaya</displayname>
+      <event>y</event>
+      <context>BarracksAccel</context>
+      <command>tis("Yaya")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Yaya</name>
+      <displayname>$$70931$$Yaya</displayname>
+      <displayformat>$$70932$$Multiple %s</displayformat>
+      <event>shift-y</event>
+      <context>BarracksAccel</context>
+      <command>tis("Yaya",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Zihgir</name>
+      <displayname>$$70933$$Zihgir</displayname>
+      <event>z</event>
+      <context>BarracksAccel</context>
+      <command>tis("Zihgir")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Zihgir</name>
+      <displayname>$$70933$$Zihgir</displayname>
+      <displayformat>$$70934$$Multiple %s</displayformat>
+      <event>shift-z</event>
+      <context>BarracksAccel</context>
+      <command>tis("Zihgir",5)</command>
+    </keymapdata>
+    <keymapdata>
       <name>Cree Tracker</name>
       <displayname>$$24185$$Cree Tracker</displayname>
       <event>k</event>

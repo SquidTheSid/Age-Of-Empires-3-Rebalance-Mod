@@ -18708,11 +18708,11 @@
 		<Flag>HomeCity</Flag>
 		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.90' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.90' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.90' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>70511</Effect>
 		</Effects>

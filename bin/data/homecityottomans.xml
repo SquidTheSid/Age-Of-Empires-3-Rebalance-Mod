@@ -198,7 +198,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCShipCoinCrates3</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCShipSheep1</name>
