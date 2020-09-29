@@ -199,7 +199,7 @@
 				<Target type ='ProtoUnit'>ypPetOrangutan</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Capitol</Target></Effect>
-
+			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='NativeAztec' type ='Normal'>
@@ -483,6 +483,7 @@
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
+			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0British' type ='Normal'>
@@ -631,7 +632,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
 			<Effect type ='Data' amount ='-6.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypVillage</Target></Effect>
-
+			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0Dutch' type ='Normal'>
@@ -790,6 +791,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0German' type ='Normal'>
@@ -931,6 +933,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0Portuguese' type ='Normal'>
@@ -1073,6 +1076,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpSpy</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
+			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0Ottoman' type ='Normal'>
@@ -1131,10 +1135,6 @@
 				<Target type ='ProtoUnit'>ArtilleryDepot</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Barracks</Target></Effect>
-			<Effect type ='Data' action ='MaintainSettlersOttoman' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='23.00' subtype ='TrainPoints' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Stable</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1210,8 +1210,6 @@
 				<Target type ='ProtoUnit'>Imam</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
-			<Effect type ='Data' amount ='-74.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect>
 			<Effect type ='Data' action ='SpawnBombard' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialBombard</Effect>
@@ -1240,8 +1238,35 @@
 			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Church</Target></Effect>
-
-			
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CrateofCoin</Target></Effect>
+			<Effect type ='TextOutput'>70511</Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CrateofCoinLarge</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CrateofFood</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CrateofWood</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CrateofFoodLarge</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>CrateofWoodLarge</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypCrateofCoin</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypCrateofFood</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypCrateofWood</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypCrateofCoin1</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypCrateofWood1</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypCrateofFood1</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='Market' component ='BuyFactor' relativity ='Percent'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Market' component ='SellFactor' relativity ='Percent'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Age0Spanish' type ='Normal'>
@@ -1397,7 +1422,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>ShipHowitzers</Effect>
 			<Effect type ='Data' amount ='0.750' subtype ='ResearchPoints' relativity ='Percent'>
 				<Target type ='techWithFlag'>HomeCity</Target></Effect>
-
+			<Effect type ='TechStatus' status ='active'>ypOttomanMosqueFaith</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='NativeCherokee' type ='Normal'>
@@ -8508,14 +8533,18 @@
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpSPCColonialMilitia</Target></Effect>
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Janissary</Target></Effect>
-			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>MercHighlander</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
+			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
+			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>MercHighlander</Target></Effect>
@@ -8526,13 +8555,9 @@
 			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>MercHighlander</Target></Effect>
 			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Janissary</Target></Effect>
-			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Musketeer</Target></Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>MercHighlander</Target></Effect>
 			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
@@ -9704,7 +9729,7 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='13.00' subtype ='FreeHomeCityUnit' unittype ='Halberdier' relativity ='Absolute'>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Halberdier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>GuardHalberdiers</Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='Halberdier' relativity ='Absolute'>
@@ -9938,17 +9963,21 @@
 	<Tech name ='ChurchMilletSystem' type ='Normal'>
 		<DBID>352</DBID>
 		<DisplayNameID>23959</DisplayNameID>
-		<Cost resourcetype ='Food'>0.0000</Cost>
-		<Cost resourcetype ='Wood'>50.0000</Cost>
+		<Cost resourcetype ='Food'>225.0000</Cost>
+		<Cost resourcetype ='Wood'>225.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\millet_system\millet_system_64x64</Icon>
 		<RolloverTextID>23958</RolloverTextID>
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Colonialize</TechStatus>
+		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='-5.00' subtype ='TrainPoints' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ChurchWallensteinsContracts' type ='Normal'>
 		<DBID>357</DBID>
@@ -13600,8 +13629,8 @@
 	<Tech name ='ChurchAbbassidMarket' type ='Normal'>
 		<DBID>1669</DBID>
 		<DisplayNameID>32343</DisplayNameID>
-		<Cost resourcetype ='Food'>0.0000</Cost>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
+		<Cost resourcetype ='Food'>675.0000</Cost>
+		<Cost resourcetype ='Wood'>675.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\abbasid_common_market\abbasid_common_market_64x64</Icon>
@@ -13609,18 +13638,19 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Colonialize</TechStatus>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
 			<TechStatus status ='Active'>ChurchKopruluViziers</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='-8.00' subtype ='TrainPoints' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect></Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ChurchTopkapi' type ='Normal'>
 		<DBID>1670</DBID>
 		<DisplayNameID>32346</DisplayNameID>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<Cost resourcetype ='Food'>450.0000</Cost>
+		<Cost resourcetype ='Gold'>450.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\topkapi\topkapi</Icon>
@@ -13632,8 +13662,9 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='25.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect></Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ImpDeforestation' type ='Normal'>
 		<DBID>1673</DBID>
@@ -14556,24 +14587,30 @@
 		<RolloverTextID>33492</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='25.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='110.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchMilletSystem</Target></Effect>
-			<Effect type ='Data' amount ='150.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='110.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ChurchMilletSystem</Target></Effect>
+			<Effect type ='Data' amount ='340.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>ChurchAbbassidMarket</Target></Effect>
+			<Effect type ='Data' amount ='340.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchAbbassidMarket</Target></Effect>
 			<Effect type ='TextOutput'>41876</Effect>
-			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='340.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='340.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
-				<Target type ='Tech'>ChurchTanzimat</Target></Effect>
-			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='225.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopkapi</Target></Effect>
-			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='225.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopkapi</Target></Effect>
-			<Effect type ='Data' amount ='50.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='110.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>ChurchGalataTowerDistrict</Target></Effect>
-			<Effect type ='Data' amount ='60.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+			<Effect type ='Data' amount ='110.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ChurchGalataTowerDistrict</Target></Effect>
+			<Effect type ='Data' amount ='225.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>ChurchKopruluViziers</Target></Effect>
+			<Effect type ='Data' amount ='225.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>ChurchKopruluViziers</Target></Effect>
 			<Effect type ='Data' amount ='1000.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>ChurchTopcuCorps</Target></Effect>
@@ -18663,38 +18700,15 @@
 		<Icon>ui\techs\hc_team_silk_road\hc_team_silk_road</Icon>
 		<RolloverTextID>36012</RolloverTextID>
 		<Flag>HomeCity</Flag>
+		<Flag>TeamTech</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>CrateofCoin</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>70511</Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>CrateofCoinLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>CrateofFood</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>CrateofWood</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>CrateofFoodLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>CrateofWoodLarge</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypCrateofCoin</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypCrateofFood</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypCrateofWood</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypCrateofCoin1</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypCrateofWood1</Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='InventoryAmount' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypCrateofFood1</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoin' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWood' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCExplorerOttoman' type ='Normal'>
@@ -18772,15 +18786,21 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_gunpowder_infantry_combat\hc_gunpowder_infantry_combat</Icon>
+		<Icon>ui\techs\hc_hand_infantry_damage\hc_hand_infantry_damage</Icon>
 		<RolloverTextID>36024</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Janissary</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Janissary</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Hussar</Target></Effect>
 			<Effect type ='TextOutput'>41866</Effect>
+			<Effect type ='Data' action ='VolleyHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
+			<Effect type ='Data' action ='DefendHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
+			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
+			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.20' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCCavalryHitpointsOttomanTeam' type ='Normal'>
@@ -18848,7 +18868,7 @@
 		<Icon>units\artillery\abus_gun\abus_gun_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='AbusGun' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='AbusGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipAbusGuns2' type ='Normal'>
@@ -18860,7 +18880,7 @@
 		<Icon>units\artillery\abus_gun\abus_gun_icon_64x64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='AbusGun' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='AbusGun' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCLightArtilleryHitpointsOttoman' type ='Normal'>
@@ -22426,12 +22446,12 @@
 		<RolloverTextID>37299</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 			<Effect type ='TextOutput'>41867</Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Janissary</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Janissary</Target></Effect>
 		</Effects>
 	</Tech>
@@ -23310,7 +23330,8 @@
 	<Tech name ='ChurchKopruluViziers' type ='Normal'>
 		<DBID>2666</DBID>
 		<DisplayNameID>41958</DisplayNameID>
-		<Cost resourcetype ='Wood'>125.0000</Cost>
+		<Cost resourcetype ='Food'>450.0000</Cost>
+		<Cost resourcetype ='Wood'>450.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\koprulu_viziers\koprulu_viziers_icon_64x64</Icon>
@@ -23318,16 +23339,19 @@
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
 			<TechStatus status ='Active'>ChurchMilletSystem</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='-5.00' subtype ='TrainPoints' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect></Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ChurchGalataTowerDistrict' type ='Normal'>
 		<DBID>2667</DBID>
 		<DisplayNameID>41960</DisplayNameID>
-		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<Cost resourcetype ='Food'>225.0000</Cost>
+		<Cost resourcetype ='Gold'>225.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\galata_tower_district\galata_tower_district_icon_64x64</Icon>
@@ -23337,15 +23361,15 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='20.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect></Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='ChurchTanzimat' type ='Normal'>
 		<DBID>2668</DBID>
 		<DisplayNameID>41962</DisplayNameID>
-		<Cost resourcetype ='Food'>200.0000</Cost>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<Cost resourcetype ='Food'>675.0000</Cost>
+		<Cost resourcetype ='Gold'>675.0000</Cost>
 		<ResearchPoints>15.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\tanzimat\tanzimat_icon_64x64</Icon>
@@ -23357,8 +23381,9 @@
 			<TechStatus status ='Active'>Fortressize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='29.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Settler</Target></Effect></Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
 	</Tech>
 	<Tech name ='SPCBetterCulverin' type ='Normal'>
 		<DBID>2669</DBID>
@@ -54438,7 +54463,7 @@
 		<RolloverTextID>70719</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
@@ -56192,7 +56217,7 @@
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<RolloverTextID>70919</RolloverTextID>
-		<Icon>ui\techs\veteran_infantry\veteran_infantry</Icon>
+		<Icon>ui\techs\veteran_archer_infantry\veteran_archer_infantry</Icon>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
@@ -56213,7 +56238,7 @@
 		<Cost resourcetype ='Gold'>600.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\guard_infantry\guard_infantry</Icon>
+		<Icon>ui\techs\guard_archer_infantry\guard_archer_infantry</Icon>
 		<RolloverTextID>70919</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
@@ -56270,15 +56295,107 @@
 				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' action ='BowAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='HCMaceCombatOttoman' type ='Normal'>
+		<DBID>2346</DBID>
+		<DisplayNameID>70924</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_hand_infantry_combat\hc_hand_infantry_combat</Icon>
+		<RolloverTextID>70923</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Spahi</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Spahi</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCShipYaya1' type ='Normal'>
+		<DBID>2188</DBID>
+		<DisplayNameID>70925</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry\boneguard\boneguard_age1_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Yaya' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipYaya2' type ='Normal'>
+		<DBID>2232</DBID>
+		<DisplayNameID>70926</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry\boneguard\boneguard_age1_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Yaya' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipYaya3' type ='Normal'>
+		<DBID>2318</DBID>
+		<DisplayNameID>70927</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\infantry\boneguard\boneguard_age1_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='13.00' subtype ='FreeHomeCityUnit' unittype ='Yaya' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipZihgir1' type ='Normal'>
+		<DBID>2188</DBID>
+		<DisplayNameID>70928</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\boneguard\boneguard_age2_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Zihgir' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipZihgir2' type ='Normal'>
+		<DBID>2232</DBID>
+		<DisplayNameID>70929</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\boneguard\boneguard_age2_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Zihgir' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipZihgir3' type ='Normal'>
+		<DBID>2318</DBID>
+		<DisplayNameID>70930</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\spc\boneguard\boneguard_age2_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='Zihgir' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>

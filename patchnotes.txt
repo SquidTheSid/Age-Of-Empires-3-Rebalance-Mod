@@ -724,9 +724,10 @@ Ottoman:
 Mosque changes:
 - Mosque now generates 0.6xp/s up from 0.4xp/s;
 - Mosque build limit increased by 1 each Age, for a total of 5 in Imperial.
-- Build cost increased to 150W from 100
+- Build cost increased to 125W from 100
 - All villager techs have had their cost halved (they're punitively expensive in RE) [ESOC]
 - Mosque construction cost reduction for villager techs improved to -50% from -33% (this totals up to -75%). 
+- Mosque villager techs moved up an age
 
 Spahi: Great units, but low armor for cav, been adjusted as such. Age IV shipments are also underwhelming.
 - Armor: Increased to 20% from 10% [ESOC]
@@ -736,19 +737,42 @@ Spahi: Great units, but low armor for cav, been adjusted as such. Age IV shipmen
 Great Bombard: Powerful artillery, but they train too slowly [ESOC]
 - Train time reduced to 100 seconds from 115
 
-Abus Guns: Absolutely ridiculous for Age 2 units. Their range has been lowered to give other civs' skirmisher units a little bit more of a change. 
-- Range: Base range and LOS reduced to 16/20 from 18/22.
-- Veteran/Guard upgrades now increase range and LOS by 2 each, for a maximum of 20 range and 24 LOS
-- Abuse Guns now have 0.5x multipliers vs AbstractCoyoteMan and AbstractSiegeTrooper. Artillery damage penalty increased to 0.5x from 0.75x
+Abus Guns: Absolutely ridiculous for Age 2 units.
+- Now available in age 3 instead of Age 2. 
+- Veteran upgrade is now a shadowtech
+- Guard upgrade now increase range and LOS by 2 each, for a maximum of 20 range and 24 LOS
+- Ranged attacks now deal Ranged damage, instead of siege damage. 
+- Abuse Guns artillery penalty removed. Cavalry and Light Infantry/Coyoteman penalties improved to 0.75x from 0.5x. Villager damage penalty improved to 0.5x from 0.25x
+- 1 AOE splash effect added to ranged attack, with 80 damage cap.
+- Ranged armor increased to 30% from 20%
 
 Janissary: Exceptionally beefy musks, a bit too much so. Their HP has been lowered to adjust breakpoints, but Janissary combat has been buffed to compensate
-- HP: Lowered from 235 to 225
-- Janissary Combat improved to +20% HP/Damage from +15% each [ESOC]
-- Acemi Olglan School now additionally reduces Janissary train points by 20% [aqwer]
+- HP: Lowered from 235 to 210
+- Ranged damage improved to 22 from 20
+
+Zihgur: Age 2 Ottoman archer unit. Hybrid of a Yumi and Longbowman. 
+- Cost: 70 Food/40 Wood
+- 105 base HP
+- 30 ranged armor
+- 22 range
+- 15 base damage with same multipliers as a skirmisher (2.0x vs Heavy Infantry and light Cavalry, 0.75x vs Cavalry and Light Infantry) and 3.0
+- 0.3 second firing delay (compared to 0.14 on Yumi and 0.98 on Longbowman)
+
+Yaya: Age 2 Ottoman pikeman unit. Costly, but has a splash attack and higher melee armor
+- Cost: 80 Food/40 Wood
+- 145 base HP
+- 10 melee damage with 5x Cavalary and 3.5x Light Infantry multipliers, and a 2 AoE splash effect (with 20 damage cap). 
+- 40 Siege damage
+- 20 melee armor
 
 Shipments:
 - Irregulars now additionally increases Cavalry Archers' attack by 15% [Garja]
 - Silk Road moved to discovery age; now provides +25% resources and is no longer a team tech. Now additionally provides a crate of 100 of each resource (F/W/G) (ESOC)
+- Janissary Combat reworked to Yatagan Combat. Improved melee attack of Hussars and Janissaries by 20% each.
+- Siper added. Increases range and LOS of archers (Zihgur and Cavalry Archer) by 2 and improves their damage by 15% (age 4)
+- Bozdogan added. Increases damage and hitpoints of Yaya and Spahi by 15%. (age 3)
+- Fencing school added.
+- Acemi Olglan School now additionally improves Janissary hitpoints by 20%
 
 
 Britain:

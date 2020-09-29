@@ -598,10 +598,11 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>ypMarketWagon</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <townstartingunit>CrateofWood</townstartingunit>
-    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityottomans.xml</homecityfilename>
