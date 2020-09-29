@@ -348,7 +348,7 @@
       <name>HCShipYaya2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipYaya2</prereqtech>
+      <prereqtech>HCShipYaya1</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
