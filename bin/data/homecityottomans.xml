@@ -1297,6 +1297,25 @@
       <age>1</age>
     </card>
     <card>
+      <name>YPHCMercsWarElephant1</name>
+      <maxcount>-1</maxcount>
+      <level>40</level>
+      <prereqtech>YPHCMercsWarElephant2</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>YPHCMercsWarElephant2</name>
+      <maxcount>-1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
+    <card>
       <name>HCREVShipGatlingGuns</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1674,6 +1693,8 @@
       <tech x="5.4" y="5.0">HCMercsAsian</tech>
       <tech x="6.1" y="3.0">HCMercsStradiots</tech>
       <tech x="6.1" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="6.8" y="5.0">YPHCMercsWarElephant2</tech>
+      <tech x="6.8" y="7.0">YPHCMercsWarElephant1</tech>
       <tech x="6.8" y="1.0">HCPrivateers</tech>
       <tech x="6.8" y="3.0">HCPrivateers2</tech>
     </obtainabletechs>

@@ -9976,7 +9976,6 @@
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofCoinLarge' relativity ='Absolute'>
@@ -13663,7 +13662,7 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>ChurchGalataTowerDistrict</TechStatus>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
+			<TechStatus status ='Active'>Colonialize</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
@@ -23347,7 +23346,7 @@
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Fortressize</TechStatus>
+			<TechStatus status ='Active'>Colonialize</TechStatus>
 			<TechStatus status ='Active'>ChurchMilletSystem</TechStatus>
 		</Prereqs>
 		<Effects>
@@ -23366,8 +23365,6 @@
 		<RolloverTextID>41959</RolloverTextID>
 		<Flag>UniqueTech</Flag>
 		<Flag>CountsTowardEconomicScore</Flag>
-		<Prereqs>
-			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='CrateofWoodLarge' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -56422,6 +56419,20 @@
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='YPHCMercsWarElephant2' type ='Normal'>
+		<DBID>4782</DBID>
+		<DisplayNameID>70936</DisplayNameID>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\asians\natives\war_elephant\war_elephant_icon_64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypNatMercWarElephant' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
