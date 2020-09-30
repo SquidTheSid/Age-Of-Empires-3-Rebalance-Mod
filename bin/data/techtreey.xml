@@ -56409,5 +56409,21 @@
 			<Effect type ='Data' amount ='15.00' subtype ='FreeHomeCityUnit' unittype ='Zihgir' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
+	<Tech name ='HCShipFoodCrates6' type ='Normal'>
+		<DBID>2268</DBID>
+		<DisplayNameID>70935</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\infinite_food</Icon>
+		<RolloverTextID>42114</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFood' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='CrateofFoodLarge' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
 
 </TechTree>
