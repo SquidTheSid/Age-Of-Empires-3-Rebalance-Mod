@@ -73,7 +73,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>300</displayunitcount>
+      <displayunitcount>360</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -82,7 +82,7 @@
       <level>0</level>
       <prereqtech>HCShipFoodCrates1</prereqtech>
       <age>1</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -91,7 +91,7 @@
       <level>10</level>
       <prereqtech>HCShipFoodCrates2</prereqtech>
       <age>1</age>
-      <displayunitcount>700</displayunitcount>
+      <displayunitcount>840</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -100,7 +100,16 @@
       <level>10</level>
       <prereqtech>HCShipFoodCrates3</prereqtech>
       <age>1</age>
-      <displayunitcount>1000</displayunitcount>
+      <displayunitcount>1200</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipFoodCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1920</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -109,7 +118,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>300</displayunitcount>
+      <displayunitcount>360</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -118,7 +127,7 @@
       <level>0</level>
       <prereqtech>HCShipWoodCrates1</prereqtech>
       <age>1</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -127,7 +136,7 @@
       <level>10</level>
       <prereqtech>HCShipwoodCrates2</prereqtech>
       <age>1</age>
-      <displayunitcount>700</displayunitcount>
+      <displayunitcount>840</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -136,7 +145,16 @@
       <level>10</level>
       <prereqtech>HCShipWoodCrates3</prereqtech>
       <age>2</age>
-      <displayunitcount>1000</displayunitcount>
+      <displayunitcount>1200</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipWoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipWoodCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1920</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -145,7 +163,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>300</displayunitcount>
+      <displayunitcount>360</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -154,7 +172,7 @@
       <level>0</level>
       <prereqtech>HCShipCoinCrates1</prereqtech>
       <age>1</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -163,7 +181,7 @@
       <level>10</level>
       <prereqtech>HCShipCoinCrates2</prereqtech>
       <age>3</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -172,7 +190,7 @@
       <level>25</level>
       <prereqtech>HCTeamCoinCrates1</prereqtech>
       <age>3</age>
-      <displayunitcount>1000</displayunitcount>
+      <displayunitcount>1200</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -181,7 +199,7 @@
       <level>10</level>
       <prereqtech>HCShipCoinCrates2</prereqtech>
       <age>1</age>
-      <displayunitcount>700</displayunitcount>
+      <displayunitcount>840</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -190,7 +208,7 @@
       <level>10</level>
       <prereqtech>HCShipCoinCrates3</prereqtech>
       <age>2</age>
-      <displayunitcount>1000</displayunitcount>
+      <displayunitcount>1200</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1423,11 +1441,13 @@
       <tech x="3.0" y="2.0">HCShipCoinCrates2</tech>
       <tech x="1.3" y="3.0">HCShipFoodCrates3</tech>
       <tech x="1.3" y="4.0">HCShipFoodCrates4</tech>
+      <tech x="1.3" y="5.0">HCShipFoodCrates5</tech>
       <tech x="2.0" y="3.0">HCShipWoodCrates3</tech>
       <tech x="2.7" y="3.0">HCShipCoinCrates3</tech>
       <tech x="3.4" y="3.0">HCTeamCoinCrates1</tech>
       <tech x="3.4" y="5.0">HCTeamCoinCrates2</tech>
       <tech x="2.0" y="4.0">HCShipWoodCrates4</tech>
+      <tech x="2.0" y="5.0">HCShipWoodCrates5</tech>
       <tech x="2.7" y="4.0">HCShipCoinCrates4</tech>
       <tech x="2.7" y="5.0">HCSilkRoadTeam</tech>
       <tech x="4.7" y="1.0">HCShipSheep1</tech>
