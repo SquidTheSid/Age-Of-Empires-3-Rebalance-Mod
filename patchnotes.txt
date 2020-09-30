@@ -14,7 +14,7 @@ Incoporated ESOC's fixed starting crates:
 - Dutch: 400 coin + 200 wood
 - Russia: 600 Food + 200 wood
 - Germany: 300 Food + 100 Wood + 100 Coin
-- Ottoman: 100 Food + 400 Wood
+- Ottoman: 300 Food + 200 Wood
 - Iroquois: 500 Food + 100 wood
 - Sioux: 400 Food + 100 Wood
 - Aztec: 400 Food + 300 Wood (might reduce to 200 wood, feels a bit strong)
@@ -146,11 +146,12 @@ European:
 - Crossbowmen ranged damage increased to 17 from 16, hand damage increased to 8 from 7, accuracy improved, and HeavyInfantry multiplier increased to 1.5x from 1.25x
 - Cavalry Archer speed increased to 7.25 from 6.75
 - Mameluke shipment reduced to 4 units from 5; cost reduced to 800 gold from 1000
-- Bayonet Arsenal tech cost reduced to 150 Wood/Coin from 400 Wood/Coin
+- Bayonet Arsenal tech cost reduced to 200 Wood/Coin from 400 Wood/Coin
 - Advanced Artillery shipment now affects culverins and horse artillery
 - Advanced Arsenal now additionally ships an Arsenal Wagon
 - 4 Grenadier shipment moved to colonial. 5 Grenadier shipment increased to 6, and 7 grenadier shipment increased to 8
 - 5 Cavalry Archer shipment increased to 6
+- All churches now generate 0.6 xp/s
 
 Colonial Politician Reworks/Changes: Based on Smackdown's ideas, lesser used politicians have been buffed to be more competitive.
 - Naturalist: Additionally ships 3 settlers. 
@@ -725,9 +726,14 @@ Mosque changes:
 - Mosque now generates 0.6xp/s up from 0.4xp/s;
 - Mosque build limit increased by 1 each Age, for a total of 5 in Imperial.
 - Build cost increased to 125W from 100
-- All villager techs have had their cost halved (they're punitively expensive in RE) [ESOC]
-- Mosque construction cost reduction for villager techs improved to -50% from -33% (this totals up to -75%). 
-- Mosque villager techs moved up an age
+- Mosque construction cost reduction for unique techs improved to -50% from -33%
+- Villager techs replaced. 
+ -- Millet System. Costs 225 Food/Wood and ships a crate of 500 Gold
+ -- Koprulu Viziers. Costs 450 Food/Wood and ships 2 crates of 500 Gold
+ -- Abbasid Market. Costs 675 Food/Wood and ships 3 crates of 500 Gold. 
+ -- Galata Tower District. Costs 225 Food/Gold and ships a crate of 500 Wood.
+ -- Topkapi. Costs 450 Food/Gold and ships 2 crates of 500 wood.
+ -- Tanzimat. Costs 675 Food/Gold and ships 3 crates of 500 wood.
 
 Spahi: Great units, but low armor for cav, been adjusted as such. Age IV shipments are also underwhelming.
 - Armor: Increased to 20% from 10% [ESOC]
@@ -740,13 +746,12 @@ Great Bombard: Powerful artillery, but they train too slowly [ESOC]
 Abus Guns: Absolutely ridiculous for Age 2 units.
 - Now available in age 3 instead of Age 2. 
 - Veteran upgrade is now a shadowtech
-- Guard upgrade now increase range and LOS by 2 each, for a maximum of 20 range and 24 LOS
 - Ranged attacks now deal Ranged damage, instead of siege damage. 
 - Abuse Guns artillery penalty removed. Cavalry and Light Infantry/Coyoteman penalties improved to 0.75x from 0.5x. Villager damage penalty improved to 0.5x from 0.25x
 - 1 AOE splash effect added to ranged attack, with 80 damage cap.
 - Ranged armor increased to 30% from 20%
 
-Janissary: Exceptionally beefy musks, a bit too much so. Their HP has been lowered to adjust breakpoints, but Janissary combat has been buffed to compensate
+Janissary: Exceptionally beefy musks, a bit too much so. Their HP has been lowered to adjust breakpoints, but damage has been buffed to compensate
 - HP: Lowered from 235 to 210
 - Ranged damage improved to 22 from 20
 
@@ -755,7 +760,7 @@ Zihgur: Age 2 Ottoman archer unit. Hybrid of a Yumi and Longbowman.
 - 105 base HP
 - 30 ranged armor
 - 22 range
-- 15 base damage with same multipliers as a skirmisher (2.0x vs Heavy Infantry and light Cavalry, 0.75x vs Cavalry and Light Infantry) and 3.0
+- 15 base damage with same multipliers as a skirmisher (2.0x vs Heavy Infantry and light Cavalry, 0.75x vs Cavalry and Light Infantry) and 3.0 ROF
 - 0.3 second firing delay (compared to 0.14 on Yumi and 0.98 on Longbowman)
 
 Yaya: Age 2 Ottoman pikeman unit. Costly, but has a splash attack and higher melee armor
@@ -767,12 +772,16 @@ Yaya: Age 2 Ottoman pikeman unit. Costly, but has a splash attack and higher mel
 
 Shipments:
 - Irregulars now additionally increases Cavalry Archers' attack by 15% [Garja]
-- Silk Road moved to discovery age; now provides +25% resources and is no longer a team tech. Now additionally provides a crate of 100 of each resource (F/W/G) (ESOC)
+- Silk Road now provides a 0.9 trickle of Food,Wood,and Gold every second to all allies. 
 - Janissary Combat reworked to Yatagan Combat. Improved melee attack of Hussars and Janissaries by 20% each.
 - Siper added. Increases range and LOS of archers (Zihgur and Cavalry Archer) by 2 and improves their damage by 15% (age 4)
 - Bozdogan added. Increases damage and hitpoints of Yaya and Spahi by 15%. (age 3)
 - Fencing school added.
+- Advanced Market removed
 - Acemi Olglan School now additionally improves Janissary hitpoints by 20%
+- Colonial 4 Sufi War Elephants (500 gold) and Industrial 8 sufi war elephants INFINITE (1000 gold) added.
+- Avariz shipment added (Removes food cost from plantation upgrades, and gold cost from mill upgrades)
+- Industrial 1400 Food INFINITE shipment added. 
 
 
 Britain:

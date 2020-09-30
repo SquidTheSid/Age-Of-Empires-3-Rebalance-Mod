@@ -848,10 +848,17 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCRidingSchool</name>
+      <name>HCFencingSchool</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCRidingSchool</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCFencingSchool</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -1062,6 +1069,13 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
+    </card>
+    <card>
+      <name>HCAvariz</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCCigarRoller</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>HCStonemasons</name>
@@ -1307,7 +1321,7 @@
     </card>
     <card>
       <name>YPHCMercsWarElephant2</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
@@ -1582,8 +1596,9 @@
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="0.7" y="3.0">HCRidingSchool</tech>
-      <tech x="0.7" y="4.0">HCEngineeringSchool</tech>
+      <tech x="0.7" y="4.0">HCFencingSchool</tech>
+      <tech x="0.7" y="5.0">HCRidingSchool</tech>
+      <tech x="0.7" y="3.0">HCEngineeringSchool</tech>
       <tech x="1.6" y="1.0">HCXPShipSpies1</tech>
       <tech x="1.6" y="3.0">HCXPShipSpies2</tech>
       <tech x="1.6" y="5.0">HCBattlefieldConstruction</tech>
@@ -1650,6 +1665,7 @@
       <tech x="6.1" y="1.0">HCFurrier</tech>
       <tech x="6.1" y="3.0">HCSpiceTrade</tech>
       <tech x="7.0" y="1.0">HCCigarRoller</tech>
+      <tech x="7.0" y="2.0">HCAvariz</tech>
     </obtainabletechs>
     <activetechs/>
     <validunits/>

@@ -56436,5 +56436,27 @@
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='HCAvariz' type ='Normal'>
+		<DBID>5059</DBID>
+		<DisplayNameID>70938</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\asians\HC_farmland_conservation_icon_64</Icon>
+		<RolloverTextID>70937</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>SeedDrill</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>ArtificialFertilizer</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>Bookkeeping</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>Homesteading</Target></Effect>
+			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>OreRefining</Target></Effect>
+		</Effects>
+	</Tech>
 
 </TechTree>
