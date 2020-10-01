@@ -98,7 +98,7 @@ Sufi War Elephant - Build limit increased to 9 from 6
 Udasi Chakram - LOS and range increased to 16 and 14; siege damage improved to 30 from 15
 
 Mercenary changes:
-Fusilier - range increased to 14 from 12; armor increased to 30% from 10%; 
+Fusilier - range increased to 14 from 12; armor increased to 20% from 10%; 
 Landsknecht - Speed increased to 4.5 from 4.0
 Swiss Pikemen - Melee range increased to 1.0
 Jaeger - Ranged armor reduced to 30% from 40%
@@ -870,3 +870,5 @@ MISC (bug fixes):
 KNOWN ISSUES:
 
 - Ballasteros RG/Imperial upgrades offset barracks upgrades one position to the right.
+
+

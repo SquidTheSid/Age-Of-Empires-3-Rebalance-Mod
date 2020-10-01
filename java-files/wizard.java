@@ -184,14 +184,10 @@ public class wizard extends JFrame implements ActionListener
 					try
 					{
 					//delete the modified directory and replace it with the default one
-<<<<<<< HEAD
-            					deleteDirectoryJava8(dataPath.toString());
-=======
 						JOptionPane.showMessageDialog(null, "File Restore has started, this may take a little while. \n Click on OK to proceed.", "Message", JOptionPane.INFORMATION_MESSAGE); 
             					deleteDirectoryJava8(dataPath.toString());
 						deleteDirectoryJava8(artPath.toString());
 						deleteDirectoryJava8(aiPath.toString());
->>>>>>> experimental
 						copyDirectoryFileVisitor(backupData.toString(), dataPath.toString());
 						copyDirectoryFileVisitor(backupART.toString(), artPath.toString());
  						copyDirectoryFileVisitor(backupAI.toString(), aiPath.toString());
@@ -243,8 +239,8 @@ public class wizard extends JFrame implements ActionListener
 		if (thisOS.contains("Windows") || thisOS.contains("windows"))
 		{
 			System.out.println("User's current OS is a Windows variant, setting default directory");
-			currentPath = Paths.get("C:/Program Files (x86)/Steam/steamapps/common/Age of Empires 3/");
-			testPath = Paths.get("C:/Program Files (x86)/Steam/steamapps/common/Age of Empires 3/");
+			currentPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
+			testPath = Paths.get("C:/Program Files (x86)/Steam/Steamapps/Common/Age of Empires 3/");
 			sysMapPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/RM3"); 
 			sysSavPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/Savegame");
 			sysDocPath = Paths.get(home + "/Documents/My Games/Age of Empires 3/");
