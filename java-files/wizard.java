@@ -1,4 +1,4 @@
-//special thanks to Derek Banas' tutorial, mkyong's recursive file copying, Nambi's image drawing, and Oracle's documentation 
+//special thanks to Derek Banas' youtube tutorials, mkyong's recursive file copying, Nambi's image drawing, and Oracle's documentation 
 // https://stackoverflow.com/questions/18777893/jframe-background-image for putting on background image. 
 
 import java.awt.event.*; 
@@ -101,8 +101,8 @@ public class wizard extends JFrame implements ActionListener
 	public void actionPerformed(ActionEvent e)
 	{
 		Path backupData = Paths.get(currentPath + "/bin/databak");
-		Path mapPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/RM3");
-		Path savePath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/Savegame");
+		Path modMapPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/RM3");
+		Path modSavPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/Savegame");
 		Path backupSAV = Paths.get(sysDocPath + "/SavegameBAK");
 		Path dataPath = Paths.get(currentPath + "/bin/data"); 
 		Path artPath = Paths.get(currentPath + "/bin/art"); 
@@ -112,7 +112,9 @@ public class wizard extends JFrame implements ActionListener
 		Path modPath = Paths.get(FileSystems.getDefault().getPath(".").toAbsolutePath() + "/bin");
 		Path binPath = Paths.get(currentPath +"/bin");
 		Path deleteCheckPath = Paths.get(currentPath +"/bin/data/civs.xml");
-
+		Path deleteSavFile = Paths.get(sysSavPath +"/sp_Washington_homecity.xml");
+		System.out.println("Save file path is: " + deleteSavFile); 
+		System.out.println(Files.exists(deleteSavFile));
 
 		if (e.getSource() == itemHelp)
 			//show the read me once the user clicks on the menu button
@@ -137,6 +139,7 @@ public class wizard extends JFrame implements ActionListener
 					{
 						//backup files before we do anything else
 						//if the user has already installed the mod and tries to reinstall it, we don't create a backup
+						JOptionPane.showMessageDialog(null, "Installation has begun, this may take a little while. \n Click on OK to proceed. \n If installation fails, run the program in cmd.exe or terminal to see any error messages", "Message", JOptionPane.INFORMATION_MESSAGE); 
 						if (Files.exists(deleteCheckPath) && Files.isRegularFile(deleteCheckPath))
 							System.out.println("Data files have been modified. Skipping backup.");
 						//if the user hasn't installed the mod, then we create a backup
@@ -145,12 +148,12 @@ public class wizard extends JFrame implements ActionListener
 							copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
 							copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
 							copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
-							copyDirectoryFileVisitor(savePath.toString(), backupSAV.toString());
+							copyDirectoryFileVisitor(sysSavPath.toString(), backupSAV.toString());
 						}
 						//in either case, we still copy over the mod install files
 							copyDirectoryFileVisitor(modPath.toString(), binPath.toString()); 
-							copyDirectoryFileVisitor(mapPath.toString(), sysMapPath.toString()); 
-							copyDirectoryFileVisitor(savePath.toString(), sysSavPath.toString()); 
+							copyDirectoryFileVisitor(modMapPath.toString(), sysMapPath.toString()); 
+							copyDirectoryFileVisitor(modSavPath.toString(), sysSavPath.toString()); 
 							JOptionPane.showMessageDialog(null, "File Copy has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
 						
 					}
@@ -181,11 +184,15 @@ public class wizard extends JFrame implements ActionListener
 					try
 					{
 					//delete the modified directory and replace it with the default one
+						JOptionPane.showMessageDialog(null, "File Restore has started, this may take a little while. \n Click on OK to proceed.", "Message", JOptionPane.INFORMATION_MESSAGE); 
             					deleteDirectoryJava8(dataPath.toString());
+						deleteDirectoryJava8(artPath.toString());
+						deleteDirectoryJava8(aiPath.toString());
 						copyDirectoryFileVisitor(backupData.toString(), dataPath.toString());
 						copyDirectoryFileVisitor(backupART.toString(), artPath.toString());
  						copyDirectoryFileVisitor(backupAI.toString(), aiPath.toString());
-						copyDirectoryFileVisitor(backupSAV.toString(), savePath.toString());
+						copyDirectoryFileVisitor(backupSAV.toString(), sysSavPath.toString());
+						Files.deleteIfExists(deleteSavFile); 
 						JOptionPane.showMessageDialog(null, "File Restore has completed", "Message", JOptionPane.INFORMATION_MESSAGE); 
 
 					}
@@ -201,7 +208,7 @@ public class wizard extends JFrame implements ActionListener
 						copyDirectoryFileVisitor(dataPath.toString(), backupData.toString());
 						copyDirectoryFileVisitor(artPath.toString(), backupART.toString());
  						copyDirectoryFileVisitor(aiPath.toString(), backupAI.toString());
-						copyDirectoryFileVisitor(savePath.toString(), backupSAV.toString());
+						copyDirectoryFileVisitor(sysSavPath.toString(), backupSAV.toString());
 
 					}
 					catch(IOException ex)

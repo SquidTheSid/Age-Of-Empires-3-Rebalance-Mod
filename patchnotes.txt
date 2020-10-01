@@ -362,11 +362,14 @@ Ram: They're niche units, and the slow movement speed doesn't help. Normalizing 
 Tomahawk: though they get a lot of upgrades, they have a pretty terrible base attack for a musketeer (being slightly better than a rusket, without being cheaper) and are very expensive. 
 - Ranged Damage increased to 20 from 19
 
+Kanya: Since Iroquois don't have access to cannons in Age 3, I've given Kanya a multiplier vs siege troopers (Grens, Shinobi, Mantlets, etc.) to help compensate, especially since they have an artillery multiplier
+- 1.50x AbstractSiegeTrooper damage multiplier added. 
+
 Shipments:
 - Tuscarora Support now ships 2 Warrior priests instead of medicine men
 - 6 Musket Rider shipment increased to 7 (Terrible age IV shipment resourcewise)
 - Age 4 Cavalry Combat shipment added. (helps with their mediocre lategame kanya)
-- 2 Light Cannons increased to 3
+- 2 Light Cannons changed into Iroquois Expeditionary Brigade. Ships 8 Tomahawks and 2 Light Cannons
 - Age 3 Iroquois Expeditionary Force added. Ships 5 Tomahawks and 1 Light Cannon
 - Advanced Market additionally reduces the cost of markets by 50% and doubles build limit to 10.
 - Advanced Farm additionally reduces the cost of farms by 60%, increases gather rate by 10%, and doubles build limit to 12.
@@ -694,10 +697,11 @@ Shipments:
 - Hand Infantry Hitpoints renamed to Archaic Infantry Hitpoints. Now additionally boosts AbstractArcher HP by 15%.
 - TEAM Hand Infantry Attack renamed to TEAM Archaic Infantry Attack. Now additionally boosts AbstractArcher attack by 15%. 
 - Caballeros additionally increases Lancer melee range by 1
-- Tecio Tactics now additionally upgrades Rodeleros to veteran status for free
+- Tercio Tactics now additionally upgrades Rodeleros to veteran status for free; all Hussars turn into Lancers as well
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
 - Spanish Gold moved to age 2 and now provides a 2.75 Gold/s trickle.
 - Colonial Estancias now provides an additional 20 population (each TC now provides 100 population)
+- TEAM Archaic Infantry Train time now affects War Clubs, Puma Spearmen, and Ottoman's new Infantry (Yaya and Zihgir)
 
 Dutch:
 

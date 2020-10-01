@@ -55822,7 +55822,7 @@
 	</Tech>
 	<Tech name ='HCXPNavajoAllies2' type ='Normal'>
 		<DBID>2868</DBID>
-		<DisplayNameID>70842</DisplayNameID>
+		<DisplayNameID>70843</DisplayNameID>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
@@ -55836,7 +55836,7 @@
 	</Tech>
 	<Tech name ='HCXPNavajoAlliesRepeat' type ='Normal'>
 		<DBID>2868</DBID>
-		<DisplayNameID>70842</DisplayNameID>
+		<DisplayNameID>70844</DisplayNameID>
 		<Cost resourcetype ='Gold'>2000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
