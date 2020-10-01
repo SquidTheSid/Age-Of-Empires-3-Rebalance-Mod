@@ -20867,6 +20867,10 @@
 				<Target type ='ProtoUnit'>Yaya</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpPumaMan</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpWarClub</Target></Effect>
 			<Effect type ='TextOutput'>49012</Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
