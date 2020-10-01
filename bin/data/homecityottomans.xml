@@ -12,7 +12,7 @@
   <camera>ottoman\ottoman_homecity_widescreencamera.cam</camera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>100</level>
+  <level>130</level>
   <skillpoints>999</skillpoints>
   <lightset>Constantinople</lightset>
   <watertype>Constantinople</watertype>
@@ -73,7 +73,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>300</displayunitcount>
+      <displayunitcount>360</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -82,7 +82,7 @@
       <level>0</level>
       <prereqtech>HCShipFoodCrates1</prereqtech>
       <age>1</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -91,7 +91,25 @@
       <level>10</level>
       <prereqtech>HCShipFoodCrates2</prereqtech>
       <age>1</age>
-      <displayunitcount>700</displayunitcount>
+      <displayunitcount>840</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFoodCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFoodCrates3</prereqtech>
+      <age>1</age>
+      <displayunitcount>1200</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFoodCrates6</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipFoodCrates4</prereqtech>
+      <age>3</age>
+      <displayunitcount>1680</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -100,7 +118,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>300</displayunitcount>
+      <displayunitcount>360</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -109,7 +127,7 @@
       <level>0</level>
       <prereqtech>HCShipWoodCrates1</prereqtech>
       <age>1</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -118,7 +136,7 @@
       <level>10</level>
       <prereqtech>HCShipwoodCrates2</prereqtech>
       <age>1</age>
-      <displayunitcount>700</displayunitcount>
+      <displayunitcount>840</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -127,7 +145,7 @@
       <level>10</level>
       <prereqtech>HCShipWoodCrates3</prereqtech>
       <age>2</age>
-      <displayunitcount>1000</displayunitcount>
+      <displayunitcount>1200</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -136,7 +154,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>300</displayunitcount>
+      <displayunitcount>360</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -145,7 +163,7 @@
       <level>0</level>
       <prereqtech>HCShipCoinCrates1</prereqtech>
       <age>1</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -154,7 +172,7 @@
       <level>10</level>
       <prereqtech>HCShipCoinCrates2</prereqtech>
       <age>3</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>720</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -163,7 +181,7 @@
       <level>25</level>
       <prereqtech>HCTeamCoinCrates1</prereqtech>
       <age>3</age>
-      <displayunitcount>1000</displayunitcount>
+      <displayunitcount>1200</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -172,7 +190,7 @@
       <level>10</level>
       <prereqtech>HCShipCoinCrates2</prereqtech>
       <age>1</age>
-      <displayunitcount>700</displayunitcount>
+      <displayunitcount>840</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -181,7 +199,7 @@
       <level>10</level>
       <prereqtech>HCShipCoinCrates3</prereqtech>
       <age>2</age>
-      <displayunitcount>1000</displayunitcount>
+      <displayunitcount>1200</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -189,7 +207,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCShipCoinCrates3</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCShipSheep1</name>
@@ -324,6 +342,60 @@
       <prereqtech>HCShipJanissaries3</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipYaya1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipYaya2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipYaya1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipYaya3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipYaya2</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipZihgir1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipZihgir2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipZihgir1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipZihgir3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipZihgir2</prereqtech>
+      <age>3</age>
+      <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -465,10 +537,24 @@
       <age>2</age>
     </card>
     <card>
+      <name>HCArcherOttomanRange</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCXPIrregulars</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
       <name>HCCavalryCombatOttoman</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipCavArchers3</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCMaceCombatOttoman</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipSpahisTeam</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -477,7 +563,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -486,7 +572,7 @@
       <level>0</level>
       <prereqtech>HCShipAbusGuns1</prereqtech>
       <age>3</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -762,10 +848,17 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCRidingSchool</name>
+      <name>HCFencingSchool</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCRidingSchool</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCFencingSchool</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -798,13 +891,6 @@
     </card>
     <card>
       <name>HCAdvancedMill</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
-      <name>HCAdvancedMarket</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -983,6 +1069,13 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
+    </card>
+    <card>
+      <name>HCAvariz</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCCigarRoller</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>HCStonemasons</name>
@@ -1218,6 +1311,25 @@
       <age>1</age>
     </card>
     <card>
+      <name>YPHCMercsWarElephant1</name>
+      <maxcount>-1</maxcount>
+      <level>40</level>
+      <prereqtech>YPHCMercsWarElephant2</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>YPHCMercsWarElephant2</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
+    <card>
       <name>HCREVShipGatlingGuns</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1352,6 +1464,8 @@
       <tech x="2.0" y="2.0">HCShipWoodCrates2</tech>
       <tech x="3.0" y="2.0">HCShipCoinCrates2</tech>
       <tech x="1.3" y="3.0">HCShipFoodCrates3</tech>
+      <tech x="1.3" y="4.0">HCShipFoodCrates4</tech>
+      <tech x="1.3" y="5.0">HCShipFoodCrates6</tech>
       <tech x="2.0" y="3.0">HCShipWoodCrates3</tech>
       <tech x="2.7" y="3.0">HCShipCoinCrates3</tech>
       <tech x="3.4" y="3.0">HCTeamCoinCrates1</tech>
@@ -1399,8 +1513,14 @@
       <tech x="0.5" y="2.0">HCShipJanissaries2</tech>
       <tech x="0.5" y="3.0">HCShipJanissaries3</tech>
       <tech x="0.5" y="5.0">HCShipJanissaries4</tech>
-      <tech x="1.2" y="1.0">HCJanissaryCombatOttoman</tech>
-      <tech x="1.2" y="5.0">HCJanissaryCost</tech>
+      <tech x="0.5" y="6.0">HCJanissaryCombatOttoman</tech>
+      <tech x="0.5" y="7.0">HCJanissaryCost</tech>
+      <tech x="1.2" y="1.0">HCShipYaya1</tech>
+      <tech x="1.2" y="2.0">HCShipYaya2</tech>
+      <tech x="1.2" y="3.0">HCShipYaya3</tech>
+      <tech x="1.2" y="5.0">HCShipZihgir1</tech>
+      <tech x="1.2" y="6.0">HCShipZihgir2</tech>
+      <tech x="1.2" y="7.0">HCShipZihgir3</tech>
       <tech x="2.0" y="1.0">HCShipHussars1</tech>
       <tech x="2.0" y="2.0">HCShipHussars2</tech>
       <tech x="2.0" y="3.0">HCShipHussars3</tech>
@@ -1410,12 +1530,14 @@
       <tech x="2.7" y="3.0">HCShipSpahis2</tech>
       <tech x="2.7" y="4.0">HCShipSpahis3</tech>
       <tech x="2.7" y="5.0">HCShipSpahis4</tech>
-      <tech x="2.7" y="7.0">HCShipSpahisTeam</tech>
+      <tech x="2.7" y="6.0">HCShipSpahisTeam</tech>
+      <tech x="2.7" y="7.0">HCMaceCombatOttoman</tech>
       <tech x="3.4" y="1.0">HCShipCavArchers1</tech>
       <tech x="3.4" y="2.0">HCShipCavArchers2</tech>
       <tech x="3.4" y="3.0">HCShipCavArchers3</tech>
       <tech x="3.4" y="4.0">HCCavalryCombatOttoman</tech>
       <tech x="3.4" y="5.0">HCXPIrregulars</tech>
+      <tech x="3.4" y="6.0">HCArcherOttomanRange</tech>
       <tech x="4.4" y="1.0">HCShipAbusGuns1</tech>
       <tech x="4.4" y="2.0">HCShipAbusGuns2</tech>
       <tech x="4.4" y="3.0">HCLightArtilleryHitpointsOttoman</tech>
@@ -1474,8 +1596,9 @@
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
-      <tech x="0.7" y="3.0">HCRidingSchool</tech>
-      <tech x="0.7" y="4.0">HCEngineeringSchool</tech>
+      <tech x="0.7" y="4.0">HCFencingSchool</tech>
+      <tech x="0.7" y="5.0">HCRidingSchool</tech>
+      <tech x="0.7" y="3.0">HCEngineeringSchool</tech>
       <tech x="1.6" y="1.0">HCXPShipSpies1</tech>
       <tech x="1.6" y="3.0">HCXPShipSpies2</tech>
       <tech x="1.6" y="5.0">HCBattlefieldConstruction</tech>
@@ -1542,6 +1665,7 @@
       <tech x="6.1" y="1.0">HCFurrier</tech>
       <tech x="6.1" y="3.0">HCSpiceTrade</tech>
       <tech x="7.0" y="1.0">HCCigarRoller</tech>
+      <tech x="7.0" y="2.0">HCAvariz</tech>
     </obtainabletechs>
     <activetechs/>
     <validunits/>
@@ -1585,6 +1709,8 @@
       <tech x="5.4" y="5.0">HCMercsAsian</tech>
       <tech x="6.1" y="3.0">HCMercsStradiots</tech>
       <tech x="6.1" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="6.8" y="5.0">YPHCMercsWarElephant2</tech>
+      <tech x="6.8" y="7.0">YPHCMercsWarElephant1</tech>
       <tech x="6.8" y="1.0">HCPrivateers</tech>
       <tech x="6.8" y="3.0">HCPrivateers2</tech>
     </obtainabletechs>

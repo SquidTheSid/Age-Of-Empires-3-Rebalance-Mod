@@ -12,7 +12,7 @@
   <widescreencamera>iroquois\iroquois_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>100</level>
+  <level>130</level>
   <skillpoints>999</skillpoints>
   <lightset>hc_iroquois1</lightset>
   <watertype>Berlin</watertype>
@@ -436,7 +436,7 @@
       <level>0</level>
       <prereqtech>HCXPShipMusketRiders1</prereqtech>
       <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -948,13 +948,6 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
-      <name>HCFullingMills</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCStockyards</prereqtech>
       <age>0</age>
     </card>
     <card>
@@ -1524,7 +1517,6 @@
       <tech x="6.5" y="5.0">HCXPIroquoisWoodworking</tech>
       <tech x="6.5" y="6.0">HCXPLandGrab</tech>
       <tech x="7.3" y="1.0">HCStockyards</tech>
-      <tech x="7.3" y="3.0">HCFullingMills</tech>
     </obtainabletechs>
     <activetechs>
       <tech>HCXPShipTravois1</tech>

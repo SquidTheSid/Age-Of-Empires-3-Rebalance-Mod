@@ -3,6 +3,8 @@
   <politicianadmiral portraitfilename="ui\ingame\politicians\politician_admiral"/>
   <politicianadmiralottoman portraitfilename="ui\ingame\politicians\politician_admiral"/>
   <politicianadventurerbritish portraitfilename="ui\ingame\politicians\politician_adventurer"/>
+  <politicianadventureramericans portraitfilename="ui\ingame\politicians\politician_adventurer"/>
+  <politicianmarksmanamericans portraitfilename="ui\ingame\politicians\politician_marksman"/>
   <politicianadventurerrussian portraitfilename="ui\ingame\politicians\politician_adventurer"/>
   <politicianadventurerspanish portraitfilename="ui\ingame\politicians\politician_adventurer"/>
   <politicianbishop portraitfilename="ui\ingame\politicians\politician_bishop"/>
@@ -13,8 +15,10 @@
   <politiciancavalierottoman portraitfilename="ui\ingame\politicians\politician_cavalier"/>
   <politiciancavalierrussian portraitfilename="ui\ingame\politicians\politician_cavalier"/>
   <politiciancavalierspanish portraitfilename="ui\ingame\politicians\politician_cavalier"/>
+  <politiciancavalieramericans portraitfilename="ui\ingame\politicians\politician_cavalier"/>
   <politicianengineer portraitfilename="ui\ingame\politicians\politician_engineer"/>
   <politicianengineerportuguese portraitfilename="ui\ingame\politicians\politician_engineer"/>
+  <politicianengineeramericans portraitfilename="ui\ingame\politicians\politician_engineer"/>
   <politicianexiledprince portraitfilename="ui\ingame\politicians\politician_exiled_prince"/>
   <politiciangeneral portraitfilename="ui\ingame\politicians\politician_general"/>
   <politiciangeneralbritish portraitfilename="ui\ingame\politicians\politician_general"/>
@@ -34,9 +38,11 @@
   <politicianmusketeerspanish portraitfilename="ui\ingame\politicians\politician_kings_musketeer"/>
   <politiciannaturalist portraitfilename="ui\ingame\politicians\politician_naturalist"/>
   <politiciannaturalistfrench portraitfilename="ui\ingame\politicians\politician_naturalist"/>
+  <politiciannaturalistamericans portraitfilename="ui\ingame\politicians\politician_naturalist"/>
   <politicianphilosopherprince portraitfilename="ui\ingame\politicians\politician_philosopher_prince"/>
   <politicianpirate portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate"/>
   <politicianpresidente portraitfilename="ui\ingame\politicians\politician_el_presidente"/>
+  <politicianpresidenteamericans portraitfilename="ui\ingame\politicians\politician_el_presidente"/>
   <politicianquartermaster portraitfilename="ui\ingame\politicians\politician_quarter_master"/>
   <politicianscout portraitfilename="ui\ingame\politicians\politician_scout"/>
   <politicianscoutrussian portraitfilename="ui\ingame\politicians\politician_scout"/>

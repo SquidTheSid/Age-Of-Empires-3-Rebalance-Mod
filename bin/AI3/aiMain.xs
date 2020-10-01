@@ -329,10 +329,10 @@ void initArrays(void)
       
      gTargetSettlerCounts = xsArrayCreateInt(cAge5+1, 0, "Target Settler Counts");
         xsArraySetInt(gTargetSettlerCounts, cAge1, 20);
-        xsArraySetInt(gTargetSettlerCounts, cAge2, 40);
+        xsArraySetInt(gTargetSettlerCounts, cAge2, 45);
         xsArraySetInt(gTargetSettlerCounts, cAge3, 60);
-        xsArraySetInt(gTargetSettlerCounts, cAge4, 80);
-        xsArraySetInt(gTargetSettlerCounts, cAge5, 99);
+        xsArraySetInt(gTargetSettlerCounts, cAge4, 70);
+        xsArraySetInt(gTargetSettlerCounts, cAge5, 70);
      
      //BHG: JFR: if we are in deatmatch we dont want to research the consulate tech that takes us to age 5
      if (aiGetGameMode() == cGameModeDeathmatch) {
@@ -366,8 +366,8 @@ void initArrays(void)
         xsArraySetInt(gConsulateTechs, 20, cTechypConsulateOttomansSettlerCombat);
         xsArraySetInt(gConsulateTechs, 21, cTechypConsulatePortugueseBrigade);
         xsArraySetInt(gConsulateTechs, 22, cTechypConsulatePortugueseExpeditionaryFleet);
-        xsArraySetInt(gConsulateTechs, 23, cTechypConsulatePortugueseExplorationFleet);
-        xsArraySetInt(gConsulateTechs, 24, cTechypConsulatePortugueseFishingFleet);
+        xsArraySetInt(gConsulateTechs, 23, cTechypConsulatePortugueseTownCenter);
+        xsArraySetInt(gConsulateTechs, 24, cTechypConsulatePortugueseLlamas);
         xsArraySetInt(gConsulateTechs, 25, cTechypConsulateRussianBrigade);
         xsArraySetInt(gConsulateTechs, 26, cTechypConsulateRussianFactoryWagon);
         xsArraySetInt(gConsulateTechs, 27, cTechypConsulateRussianFortWagon);
@@ -387,16 +387,16 @@ void initArrays(void)
      if ((cMyCiv == cCivJapanese) || (cMyCiv == cCivSPCJapanese) || (cMyCiv == cCivSPCJapaneseEnemy)) {
      //Giant Buddha, Golden Pavillion, Shogunate, Torii Gates, Toshogu Shrine 
         if (wonderchoice == 0) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJToshoguShrine2);
+          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJGiantBuddha2);
           xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJGoldenPavillion3);
           xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJShogunate4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJGiantBuddha5);
+          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJToshoguShrine5);
         }
         else if (wonderchoice == 1) {
           xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJGoldenPavillion2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJToshoguShrine3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJShogunate4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJGiantBuddha5);
+          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWJGiantBuddha3);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWJToshoguShrine4);
+          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWJShogunate5);
         }
         else if (wonderchoice == 2) {
           xsArraySetInt(gAsianWonders, 0, cUnitTypeypWJShogunate2);
@@ -414,9 +414,9 @@ void initArrays(void)
       if ((cMyCiv == cCivChinese) || (cMyCiv == cCivSPCChinese)) {
       //Confucian Academy, Porcelain Tower, Summer Palace, Temple of Heaven, White Pagoda
         if (wonderchoice == 0) {
-          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWCSummerPalace2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCConfucianAcademy3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCPorcelainTower4);
+          xsArraySetInt(gAsianWonders, 0, cUnitTypeypWCConfucianAcademy2);
+          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWCPorcelainTower3);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWCSummerPalace4);
           xsArraySetInt(gAsianWonders, 3, cUnitTypeypWCTempleOfHeaven5);
         }
         else if (wonderchoice == 1) {
@@ -442,9 +442,9 @@ void initArrays(void)
      //Agra Fort, Charminar Gate, Karni Mata, Taj Mahal, Tower of Victory
         if (wonderchoice == 0) {
           xsArraySetInt(gAsianWonders, 0, cUnitTypeypWIAgraFort2);
-          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWITajMahal3);
-          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWICharminarGate4);
-          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWIKarniMata5);
+          xsArraySetInt(gAsianWonders, 1, cUnitTypeypWICharminarGate3);
+          xsArraySetInt(gAsianWonders, 2, cUnitTypeypWIKarniMata4);
+          xsArraySetInt(gAsianWonders, 3, cUnitTypeypWITajMahal5);
         }
         else if (wonderchoice == 1) {
           xsArraySetInt(gAsianWonders, 0, cUnitTypeypWITowerOfVictory2);
@@ -531,14 +531,14 @@ bool agingUp()
 int getWonderToBuild(int the_age=-1)
 {
   if ((cMyCiv == cCivJapanese) || (cMyCiv == cCivSPCJapanese) || (cMyCiv == cCivSPCJapanese)) {
-    //Toshugu Shrine, Golden Pavillion, Shogunate, Toshogu Shrine
+    //Giant Buddha, Golden Pavillion, Shogunate, Torii Gates, Toshogu Shrine
     //age2
     if (the_age == cAge2) {
-      return (cUnitTypeypWJToshoguShrine2);
+      return (cUnitTypeypWJGiantBuddha2);
     }
     //age3
     else if (the_age == cAge3) {
-      return (cUnitTypeypWJGoldenPavillion3);
+      return (cUnitTypeypWJToriiGates3);
     }
     //age4
     else if (the_age == cAge4) {
@@ -546,45 +546,43 @@ int getWonderToBuild(int the_age=-1)
     }
     //age5
     else if (the_age == cAge5) {
-      return (cUnitTypeypWJGiantBuddha5);
+      return (cUnitTypeypWJToshoguShrine5);
     }
   }
   if ((cMyCiv == cCivChinese) || (cMyCiv == cCivSPCChinese)) {
-    //Summer Palace, Confucian Academy, Porcelain Tower, Temple of Heaven
     //age2
     if (the_age == cAge2) {
-      return (cUnitTypeypWCSummerPalace2);
+      return (cUnitTypeypWCPorcelainTower2);
     }
     //age3
     else if (the_age == cAge3) {
-      return (cUnitTypeypWCConfucianAcademy3);
+      return (cUnitTypeypWCSummerPalace3);
     }
     //age4
     else if (the_age == cAge4) {
-      return (cUnitTypeypWCPorcelainTower4);
+      return (cUnitTypeypWCTempleOfHeaven4);
     }
     //age5
     else if (the_age == cAge5) {
-      return (cUnitTypeypWCTempleOfHeaven5);
+      return (cUnitTypeypWCWhitePagoda5);
     }
   }
   if ((cMyCiv == cCivIndians) || (cMyCiv == cCivSPCIndians)) {
-    //Agra Fort, Taj Mahal, Charminar Gate, Karni Mata
     //age2
     if (the_age == cAge2) {
-      return (cUnitTypeypWIAgraFort2);
+      return (cUnitTypeypWICharminarGate2);
     }
     //age3
     else if (the_age == cAge3) {
-      return (cUnitTypeypWITajMahal3);
+      return (cUnitTypeypWIKarniMata3);
     }
     //age4
     else if (the_age == cAge4) {
-      return (cUnitTypeypWICharminarGate4);
+      return (cUnitTypeypWITajMahal4);
     }
     //age5
     else if (the_age == cAge5) {
-      return (cUnitTypeypWIKarniMata5);
+      return (cUnitTypeypWIAgraFort5);
     }
   }
   
@@ -1317,7 +1315,7 @@ void setConsulateArmyPreference() {
   }
   if (kbTechGetStatus(cTechypBigConsulateJapanese) == cTechStatusActive) {
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateYamabushi, 0.6);
-    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateShinobi, 0.6);
+    kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateYojimbo, 0.6);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateNinja, 0.6);
     kbUnitPickSetPreferenceFactor(gLandUnitPicker, cUnitTypeypConsulateRonin, 0.6);
   }
@@ -5486,8 +5484,8 @@ minInterval 10
    if ( (aiRandInt(100) < needToRoll) && (cvOkToBuildWalls == true) )
    {
       //aiEcho("Decided to do walls.");
-      gBuildWalls = true;
-      xsEnableRule("delayWalls");   // Start walls once we have housing room
+      //gBuildWalls = true;
+      //xsEnableRule("delayWalls");   // Start walls once we have housing room
    }
    
    if (gNumTowers < 0)

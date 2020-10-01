@@ -12,7 +12,7 @@
   <widescreencamera>japan\japan_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>100</level>
+  <level>130</level>
   <skillpoints>999</skillpoints>
   <lightset>Japan</lightset>
   <watertype>Japan_HC</watertype>
@@ -172,7 +172,7 @@
       <level>10</level>
       <prereqtech>YPHCShipShrineWagon</prereqtech>
       <age>1</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -213,15 +213,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>YPHCShipMonitorLizard2</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>YPHCShipMonitorLizard1</prereqtech>
-      <age>0</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>YPHCShipMissionary1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -240,35 +231,17 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>YPHCShipYumi1</name>
-      <maxcount>2</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>YPHCShipYumi2</name>
-      <maxcount>2</maxcount>
-      <level>0</level>
-      <prereqtech>YPHCShipYumi1</prereqtech>
-      <age>3</age>
-      <displayunitcount>14</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>YPHCYumiDamage</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipYumi2</prereqtech>
-      <age>1</age>
+      <prereqtech>YPHCShipYumi3</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>YPHCShipYumi3</name>
       <maxcount>2</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipYumi2</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -290,19 +263,51 @@
       <age>2</age>
     </card>
     <card>
-      <name>YPHCShipAshigaru1</name>
+      <name>YPHCShipShinobi1</name>
       <maxcount>2</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>YPHCShinobiDamage</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>YPHCShipShinobi1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>YPHCShipShinobi2</name>
+      <maxcount>2</maxcount>
+      <level>10</level>
+      <prereqtech>YPHCShipShinobi1</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>YPHCShipShinobi3</name>
+      <maxcount>2</maxcount>
+      <level>25</level>
+      <prereqtech>YPHCShipShinobi2</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>YPHCShinobiSplash</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>YPHCShinobiDamage</prereqtech>
+      <age>1</age>
     </card>
     <card>
       <name>YPHCShipAshigaru2</name>
       <maxcount>2</maxcount>
       <level>0</level>
-      <prereqtech>YPHCShipAshigaru1</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>1</age>
       <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -430,15 +435,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>YPHCShipNaginataRider4</name>
-      <maxcount>-1</maxcount>
-      <level>25</level>
-      <prereqtech>YPHCShipNaginataRider3</prereqtech>
-      <age>2</age>
-      <displayunitcount>4</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>YPHCShipYabusame1</name>
       <maxcount>2</maxcount>
       <level>0</level>
@@ -448,19 +444,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>YPHCShipYabusame2</name>
-      <maxcount>2</maxcount>
-      <level>0</level>
-      <prereqtech>YPHCShipYabusame1</prereqtech>
-      <age>3</age>
-      <displayunitcount>6</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>YPHCShipYabusame3</name>
       <maxcount>2</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipYabusame2</prereqtech>
+      <prereqtech>YPHCShipYabusame1</prereqtech>
       <age>3</age>
       <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -477,7 +464,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>YPHCYabusameDamage</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>YPHCjapanesesiege</name>
@@ -496,19 +483,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>YPHCShipFlamingArrow2</name>
-      <maxcount>2</maxcount>
-      <level>0</level>
-      <prereqtech>YPHCShipFlamingArrow1</prereqtech>
-      <age>3</age>
-      <displayunitcount>3</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>YPHCShipFlamingArrow3</name>
       <maxcount>2</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipFlamingArrow2</prereqtech>
+      <prereqtech>YPHCShipFlamingArrow1</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -517,7 +495,7 @@
       <name>YPHCArtilleryHitpointsJapanese</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipFlamingArrow2</prereqtech>
+      <prereqtech>YPHCShipFlamingArrow3</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -528,19 +506,10 @@
       <age>3</age>
     </card>
     <card>
-      <name>YPHCShipMorutaru1</name>
-      <maxcount>2</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>3</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>YPHCShipMorutaru2</name>
       <maxcount>2</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipMorutaru1</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -579,6 +548,13 @@
       <level>10</level>
       <prereqtech>YPHCNativeIncorporation</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>HCXPBloodBrothers</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>YPHCNativeDamage</prereqtech>
+      <age>3</age>
     </card>
     <card>
       <name>YPHCExpandedTradingPost</name>
@@ -628,7 +604,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -646,27 +622,11 @@
       <age>3</age>
     </card>
     <card>
-      <name>YPHCShipCastleWagons2</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>YPHCShipCastleWagons1</prereqtech>
-      <age>2</age>
-      <displayunitcount>1</displayunitcount>
-    </card>
-    <card>
-      <name>YPHCShipCastleWagons3</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>YPHCShipCastleWagons2</prereqtech>
-      <age>3</age>
-      <displayunitcount>2</displayunitcount>
-    </card>
-    <card>
       <name>YPHCShipCastleWagonsTeam</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCShipCastleWagons3</prereqtech>
-      <age>1</age>
+      <prereqtech>YPHCShipCastleWagons1</prereqtech>
+      <age>0</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -675,7 +635,7 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>YPHCShipCastleWagonsTeam</prereqtech>
-      <age>2</age>
+      <age>1</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1214,7 +1174,7 @@
         <card>YPHCShipNaginataRider1</card>
         <card>YPHCShipNaginataRider2</card>
         <card>YPHCShipSamurai1</card>
-        <card>YPHCShipMorutaru1</card>
+        <card>YPHCShipMorutaru2</card>
         <card>YPHCWokouJapanese1</card>
         <card>YPHCShipShrineWagon</card>
         <card>YPHCShipBerryWagon1</card>
@@ -1235,7 +1195,7 @@
         <card>YPHCShipNaginataRider1</card>
         <card>YPHCShipNaginataRider2</card>
         <card>YPHCShipSamurai1</card>
-        <card>YPHCShipMorutaru1</card>
+        <card>YPHCShipMorutaru2</card>
         <card>YPHCWokouJapanese1</card>
         <card>YPHCShipShrineWagon</card>
         <card>YPHCShipBerryWagon1</card>
@@ -1312,7 +1272,6 @@
       <tech x="7" y="1">YPHCShipMissionary1</tech>
       <tech x="7" y="3">YPHCShipMissionary2</tech>
       <tech x="7.7" y="1">YPHCShipMonitorLizard1</tech>
-      <tech x="7.7" y="3">YPHCShipMonitorLizard2</tech>
     </obtainabletechs>
     <activetechs>
       <tech>YPHCShipSettlersAsian1</tech>
@@ -1338,17 +1297,14 @@
     <displaynamestringid>63357</displaynamestringid>
     <rolloverstringid>29002</rolloverstringid>
     <obtainabletechs>
-      <tech x="0" y="1">YPHCShipYumi1</tech>
-      <tech x="0" y="2">YPHCShipYumi2</tech>
-      <tech x="0.7" y="3">YPHCYumiDamage</tech>
-      <tech x="0" y="4">YPHCShipYumi3</tech>
-      <tech x="0" y="6">YPHCShipYumi4</tech>
-      <tech x="0.7" y="5">YPHCYumiRange</tech>
-      <tech x="1.5" y="1">YPHCShipAshigaru1</tech>
-      <tech x="1.5" y="2">YPHCShipAshigaru2</tech>
-      <tech x="1.5" y="4">YPHCShipAshigaru3</tech>
+      <tech x="0" y="1">YPHCShipYumi3</tech>
+      <tech x="0.7" y="2">YPHCYumiDamage</tech>
+      <tech x="0" y="5">YPHCShipYumi4</tech>
+      <tech x="0.7" y="4">YPHCYumiRange</tech>
+      <tech x="1.5" y="1">YPHCShipAshigaru2</tech>
+      <tech x="1.5" y="2">YPHCShipAshigaru3</tech>
       <tech x="2.2" y="3">YPHCAshigaruDamage</tech>
-      <tech x="1.5" y="6">YPHCShipAshigaru4</tech>
+      <tech x="1.5" y="4">YPHCShipAshigaru4</tech>
       <tech x="2.2" y="5">YPHCAshigaruAntiCavalryDamage</tech>
       <tech x="3.0" y="1">YPHCShipSamurai1</tech>
       <tech x="3.0" y="2">YPHCShipSamurai2</tech>
@@ -1361,7 +1317,6 @@
       <tech x="5.2" y="3">YPHCnaginatahitpoints</tech>
       <tech x="5.2" y="5">YPHCNaginataAntiInfantryDamage</tech>
       <tech x="4.5" y="4">YPHCShipNaginataRider3</tech>
-      <tech x="4.5" y="6">YPHCShipNaginataRider4</tech>
       <tech x="6.0" y="1">YPHCShipYabusame1</tech>
       <tech x="6.0" y="2">YPHCShipYabusame2</tech>
       <tech x="6.0" y="3">YPHCShipYabusame3</tech>
@@ -1369,13 +1324,16 @@
       <tech x="6.0" y="5">YPHCYabusameAntiArtilleryDamage</tech>
       <tech x="6.0" y="7">YPHCjapanesesiege</tech>
       <tech x="6.8" y="1">YPHCShipFlamingArrow1</tech>
-      <tech x="6.8" y="2">YPHCShipFlamingArrow2</tech>
       <tech x="6.8" y="3">YPHCShipFlamingArrow3</tech>
       <tech x="6.8" y="4">YPHCArtilleryHitpointsJapanese</tech>
       <tech x="6.8" y="6">YPHCArtilleryCostJapanese</tech>
-      <tech x="7.6" y="1">YPHCShipMorutaru1</tech>
-      <tech x="7.6" y="3">YPHCShipMorutaru2</tech>
-      <tech x="7.6" y="5">YPHCMorutaruRangeJapanese</tech>
+      <tech x="7.6" y="1">YPHCShipMorutaru2</tech>
+      <tech x="7.6" y="3">YPHCMorutaruRangeJapanese</tech>
+      <tech x="8.4" y="1">YPHCShipShinobi1</tech>
+      <tech x="9.2" y="3">YPHCShinobiDamage</tech>
+      <tech x="8.4" y="2">YPHCShipShinobi2</tech>
+      <tech x="8.4" y="4">YPHCShipShinobi3</tech>
+      <tech x="9.2" y="5">YPHCShinobiSplash</tech>
     </obtainabletechs>
     <activetechs>
       <tech>YPHCShipAshigaru1</tech>
@@ -1383,6 +1341,12 @@
       <tech>YPHCShipNaginataRider2</tech>
       <tech>YPHCShipSamurai1</tech>
       <tech>YPHCShipMorutaru1</tech>
+      <tech>YPHCShipShinobi1</tech>
+      <tech>YPHCShinobiDamage</tech>
+      <tech>YPHCShipShinobi2</tech>
+      <tech>YPHCShipShinobi3</tech>
+      <tech>YPHCShinobiSplash</tech>
+
     </activetechs>
     <validunits/>
     <units/>
@@ -1406,7 +1370,8 @@
       <tech x="0.45" y="1">YPHCNativeLearning</tech>
       <tech x="0.45" y="2">YPHCNativeIncorporation</tech>
       <tech x="0.8" y="4">YPHCNativeTradeTax</tech>
-      <tech x="0.1" y="3">YPHCNativeDamage</tech>
+      <tech x="0.1" y="4">YPHCNativeDamage</tech>
+      <tech x="0.1" y="5">HCXPBloodBrothers</tech>
       <tech x="0.8" y="5">YPHCExpandedTradingPost</tech>
       <tech x="1.6" y="2">YPHCCheapUnitUpgradesTeam</tech>
       <tech x="2.5" y="1">YPHCEnlistIrregulars</tech>
@@ -1416,8 +1381,6 @@
       <tech x="4.1" y="2">YPHCShipCastleWagons1</tech>
       <tech x="3.4" y="3">ypHCExtensiveFortificationsJapan</tech>
       <tech x="3.4" y="7">YPHCStoneCastles</tech>
-      <tech x="4.1" y="4">YPHCShipCastleWagons2</tech>
-      <tech x="4.1" y="5">YPHCShipCastleWagons3</tech>
       <tech x="4.1" y="6">YPHCShipCastleWagonsTeam</tech>
       <tech x="4.1" y="7">YPHCShipCastleWagonsTeam2</tech>
       <tech x="5.7" y="2">YPHCDojoGenbukan</tech>

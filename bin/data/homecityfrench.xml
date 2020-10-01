@@ -12,7 +12,7 @@
   <widescreencamera>french\french_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>100</level>
+  <level>130</level>
   <skillpoints>999</skillpoints>
   <lightset>Paris</lightset>
   <watertype>Paris</watertype>
@@ -531,7 +531,7 @@
       <level>0</level>
       <prereqtech>HCShipDragoons1</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>

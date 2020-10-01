@@ -12,7 +12,7 @@
   <widescreencamera>china\china_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>100</level>
+  <level>130</level>
   <skillpoints>999</skillpoints>
   <lightset>China</lightset>
   <watertype>China_HC</watertype>
@@ -961,13 +961,6 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCFullingMills</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCStockyards</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>HCFurrier</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1141,6 +1134,15 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCMercsManchuINFINITE</name>
+      <maxcount>-1</maxcount>
+      <level>25</level>
+      <prereqtech>YPHCShipManchuTeam</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1499,7 +1501,6 @@
       <tech x="4.5" y="3">HCTextileMills</tech>
       <tech x="6.3" y="6">YPHCRainbowTrickle</tech>
       <tech x="5.4" y="1">HCStockyards</tech>
-      <tech x="5.4" y="3">HCFullingMills</tech>
       <tech x="6.3" y="1">HCFurrier</tech>
       <tech x="6.3" y="3">HCSpiceTrade</tech>
       <tech x="6.3" y="4">YPHCSpawnSaigaHerd</tech>
@@ -1540,6 +1541,7 @@
       <tech x="4.2" y="3">HCMercsManchu</tech>
       <tech x="4.2" y="5">YPHCMercsMandarinArmy1</tech>
       <tech x="4.2" y="6">YPHCShipManchuTeam</tech>
+      <tech x="4.2" y="7">HCMercsManchuINFINITE</tech>
       <tech x="3.4" y="5">HCMercenaryLoyalty</tech>
       <tech x="3.4" y="1">YPHCAtonementChinese</tech>
       <tech x="5.0" y="3">YPHCMercsIronTroop1</tech>

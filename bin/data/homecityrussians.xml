@@ -12,7 +12,7 @@
   <widescreencamera>russian\russian_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>100</level>
+  <level>130</level>
   <skillpoints>999</skillpoints>
   <lightset>st_petersburg</lightset>
   <watertype>Berlin</watertype>
@@ -712,7 +712,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCColonialMilitia</prereqtech>
-      <age>2</age>
+      <age>1</age>
       <displayunitcount>2</displayunitcount>
     </card>
     <card>

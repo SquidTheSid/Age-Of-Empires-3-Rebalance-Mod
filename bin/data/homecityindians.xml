@@ -12,7 +12,7 @@
   <widescreencamera>india\india_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
-  <level>100</level>
+  <level>130</level>
   <skillpoints>999</skillpoints>
   <lightset>India</lightset>
   <watertype>India_HC</watertype>
@@ -91,7 +91,7 @@
       <level>0</level>
       <prereqtech>YPHCShipWoodCrates1Indians</prereqtech>
       <age>1</age>
-      <displayunitcount>600</displayunitcount>
+      <displayunitcount>700</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -344,7 +344,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
