@@ -19787,7 +19787,7 @@
 				<Target type ='ProtoUnit'>xpRifleRider</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>xpMusketRider</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypYabusame</Target></Effect>
 			<Effect type ='Data' amount ='0.85' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypZamburak</Target></Effect>
@@ -19939,6 +19939,8 @@
 				<Target type ='ProtoUnit'>Cacadore</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>xpMusketWarrior</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
@@ -20862,10 +20864,14 @@
 		<Flag>TeamTech</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Yaya</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='TextOutput'>49012</Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Longbowman</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Zihgir</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -34848,6 +34854,10 @@
 			<Effect type ='Data' action ='Stealth' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
 			<Effect type ='Data' amount ='1.00' tactic ='Stealth' subtype ='TacticEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractSiegeTrooper' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
 		</Effects>
 	</Tech>
