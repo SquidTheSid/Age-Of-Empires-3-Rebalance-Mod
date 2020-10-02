@@ -1,0 +1,111 @@
+First off I wanna give a huge shoutout to Squid for making this mod possible,
+he's been amazing at making my crazy ideas come together, and at helping me
+expand on my ideas. The idea of this mod all started around the idea of making
+aztec have a more balanced roster and kind of just snowballed from there. We
+haven't been afraid to radically overhaul civs that we've felt are poorly
+designed or one dimensional, rather than just tweak some unit costs or hp by 5
+or whatever.  A note on standardising: several ranged infantry units have  been
+nerfed/buffed to be more in line with standard euro skirms, with Yumi being
+especially notable. The reason for this is that skirms/skirm type units tend
+to define midgame skirmishes and big fights, and when one player has a
+skirmisher type that just radically outclasses the other, regardless of
+investment into upgrades, the game becomes extremely skewed in one players
+favour. While making civs MORE unique has been our goal, a few units have been
+made more standard in order to keep this particular issue in check.
+
+A few civ specific notese:
+
+Otto. Looking at otto it was clear immediately that the civ lacks options, and
+is always on a clock. Every single other civ outscales them economically within
+just minutes, and thus, all ottoman builds are focused on winning as soon as
+possible, with all in builds and minimal economic investment. The major issues
+that were focused on were, firstly, free villagers is terrible design. The rate
+you get these vills constantly puts you behind, while also making for far to
+quick of an ageup. The other issue is just a general lack of unit diversity.
+You have to build an entire new building to train a unit type. Barracks just
+has jans, stable just has huss, and foundry has abus (technically grens too but
+RE grens are so awful in comparison to abus). To address this we've removed the
+free vills in favour of trained vills, and added two new units: a unique bow
+unit and a unique pike unit. As a secondary bonus, Fencing School has been
+added to their HC, as they now have enough infantry for this card to be
+relevant.
+
+To compensate, and to make the civ more true to its history, its new bonus is
+now “Masters of Trade” where they get more resources from crates,
+stagecoach tps, and have a better market exchange rate. (Note that the card
+“TEAM Silk Road” has been changed to a team trickle” as its tech has
+now become the inherent civ bonus).
+
+An infinite Spahi card has been added as well.
+
+Abus have been changed to deal “ranged” damage instead of “siege”
+damage. This might sound controversial, a massive nerf, or downright destroying
+the unit. It's not. Abus have SO MANY penalty multipliers in order to negate the
+siege damage, that in many instances they perform Identically to how they do
+now. Doing siege damage to cav, but with half damage is more or less the same
+as a regular skirm doing 0.75x then cut by the cav's ranged resist as well. By
+dealing ranged damage we were able to remove a vast majority of the penalties,
+making them behave more predictably and more consistently. The big buff we
+added, to justify the price, was to give them a small aoe attack instead. The
+unit that abus are primarily made to counter is Heavy infantry. With extremely
+odd exception of Yamabushi, all have melee armour, thus abus are not being
+nerfed in any way against the units they are intended to counter. In fact, with
+the splash damage, they may actually be a bit better. 
+
+Additionally the civ now features archers more heavily (the ottoman empire
+fielded archers well into the 19th century), with several techs to boost them
+in battle. Religion features lightly, with the mosque(s) trickling xp, as a nod
+to the empire's religious roots. The card “sublime port” is an exchange
+card that otto has always had access to, but now can be used to ensure a large
+wood reserve for archers, just like the brits.
+
+The net result is that they now age up at a much more reasonable time, scale on
+a much more normal level, have strong options with trade routes and stronger
+crate shipments, and with the ability to create more balanced compositions in
+all ages. 
+
+
+
+
+Japan was especially tricky to work with. The problems we identified were
+twofold: Japan can sit in base until they have a critical mass of yumis and a
+few ashi and basically just z-move and win every time the game goes longer than
+about 11 or 12 minutes. To address this we fixed a few things. Firstly, yumi
+are now age 3, shadowtech, and have much more similar damage to standard
+skirms. The rest of the military has been reworked, and is more coin heavy, to
+force japan to contest and hold coin mines on the map earlier. Without a
+wood/food unit age 2 they cannot just camp on berries for ages.  To synergize
+with these changes, we reworked the roster to be more historically accurate and
+requiring more unit micro. Ashi are now essentially just gunpowder shinobi, a
+soft counter to infantry. The japanese ashigaru never actually fought with
+bayonets and thus the unit felt out of place. Samurai are now just the standard
+unit form of Wokou Ronin, a soft counter to cavalry with a lot of hp and
+armour, high base damage but no multis. We removed the AOE as well. They're
+quite a bit cheaper now too. This soft-counter version of a bow-pike combo
+takes much more effort to micro rather than z-moving a big drag box of
+ashi-yumi and just beating essentially most things.  The other big change was
+to more closely mirror the other 2 tad civs on the following: an age 2 ranged
+cav that has a mulitplier related card in colo, and having an anti-infantry
+siege unit in the castle age 2. Shinobi are now in the castle, and are simply a
+longer ranged grenadier, but with a smaller splash area. Yabusame are now
+available age 2, if you prefer not to use samurai.  The result is that Japan
+now has to move out onto the map earlier, and has to have a much better use of
+micro in big fights in order to prevail. They still boom powerfully, scale hard
+into midgame, but now require much more map control to do it.
+
+
+A few notes on aztec: Azzy has, in total, 4 units exclusively dedicated to
+countering cavalry, one ranged infantry, and one kind of mediocre cavalry unit.
+The whole roster is reworked now so that JPK are now melee skirms, Skull
+knights are now coyote type units, but with splash damage, and ERKs have been
+toned down to reduce dependence on erk exclusive compositions.  You might say,
+hey hold up, arent jpk gonna be like Urumi now? In a word, No. They do not have
+splash damage, are still quite slow, and very vulnerable to cavalry now. They
+don't take bonus damage from skirms, but are quite vulnerable at a distance.
+Additionally, they're still competing with the cost effective mace, though of
+course they do shadowtech to III. Skull knights are now truly berserker units,
+able to clean up swaths of unprotected infantry and artillery, but are
+extremely vulnerable to dragoons and heavy infantry. Arrow knights got a small
+bump up in HP, so that they can take a direct hit from a single falconet,
+allowing them to actually do their job.  Result? A much more well rounded
+roster with more variety and unit variation.
