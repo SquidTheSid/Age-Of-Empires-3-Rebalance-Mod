@@ -319,7 +319,6 @@ Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overa
 
 War Club - War Clubs are the Sioux's equivalent of pikemen, except they're not particularly great vs. cavalry or buildings. Since Sioux have access to Bow Riders age 2, anti-cav isn't usually a problem, but the lack of siege is. Therefore, I've made them deal far more siege damage, in addition to being a bit tankier and hit harder. Now, they're roughly equivalent to the Aztec's Puma Spearmen, but with slightly less damage and slightly more HP
 -HP: Increased from 120 to 140
-- Damage: Base attack increased to 11 from 10
 - Siege: Increased to 35 damage from 27
 - Cost: Increased to 55F/40W from 50F/40W
 
@@ -739,8 +738,7 @@ Mosque changes:
  -- Topkapi. Costs 450 Food/Gold and ships 2 crates of 500 wood.
  -- Tanzimat. Costs 675 Food/Gold and ships 3 crates of 500 wood.
 
-Spahi: Great units, but low armor for cav, been adjusted as such. Age IV shipments are also underwhelming.
-- Armor: Increased to 20% from 10% [ESOC]
+Spahi: Great units, but poor shipments.
 - 6 Spahi shipment food cost reduced to 1000 from 1200
 - 4 Spahi shipment changed into 5 Spahi INFINITE. Now costs 1000 Food. [here's your infinite spahi aqwer]
 

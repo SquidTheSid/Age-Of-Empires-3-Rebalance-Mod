@@ -20,7 +20,7 @@ is always on a clock. Every single other civ outscales them economically within
 just minutes, and thus, all ottoman builds are focused on winning as soon as
 possible, with all in builds and minimal economic investment. The major issues
 that were focused on were, firstly, free villagers is terrible design. The rate
-you get these vills constantly puts you behind, while also making for far to
+you get these vills constantly puts you behind, while also making for far too
 quick of an ageup. The other issue is just a general lack of unit diversity.
 You have to build an entire new building to train a unit type. Barracks just
 has jans, stable just has huss, and foundry has abus (technically grens too but
@@ -85,7 +85,7 @@ quite a bit cheaper now too. This soft-counter version of a bow-pike combo
 takes much more effort to micro rather than z-moving a big drag box of
 ashi-yumi and just beating essentially most things.  The other big change was
 to more closely mirror the other 2 tad civs on the following: an age 2 ranged
-cav that has a mulitplier related card in colo, and having an anti-infantry
+cav that has a multiplier related card in colo, and having an anti-infantry
 siege unit in the castle age 2. Shinobi are now in the castle, and are simply a
 longer ranged grenadier, but with a smaller splash area. Yabusame are now
 available age 2, if you prefer not to use samurai.  The result is that Japan
@@ -99,7 +99,7 @@ countering cavalry, one ranged infantry, and one kind of mediocre cavalry unit.
 The whole roster is reworked now so that JPK are now melee skirms, Skull
 knights are now coyote type units, but with splash damage, and ERKs have been
 toned down to reduce dependence on erk exclusive compositions.  You might say,
-hey hold up, arent jpk gonna be like Urumi now? In a word, No. They do not have
+hey hold up, aren't jpk gonna be like Urumi now? In a word, No. They do not have
 splash damage, are still quite slow, and very vulnerable to cavalry now. They
 don't take bonus damage from skirms, but are quite vulnerable at a distance.
 Additionally, they're still competing with the cost effective mace, though of
