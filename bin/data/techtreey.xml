@@ -892,7 +892,7 @@
 				<Target type ='ProtoUnit'>FishingBoat</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianViceroyGerman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerGerman</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMarksmanGerman</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianMarksmanGerman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianExiledPrinceGerman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianQuartermasterGerman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianNaturalistGerman</Effect>
@@ -56510,6 +56510,23 @@
 				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianMarksmanGerman' type ='Normal'>
+		<DBID>2142</DBID>
+		<DisplayNameID>34405</DisplayNameID>
+		<Cost resourcetype ='Food'>1200.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>110.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iii</Icon>
+		<RolloverTextID>70952</RolloverTextID>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age2</Effect>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Schutze' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 

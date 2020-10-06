@@ -22,7 +22,9 @@
         <choice name="Portuguese">
           <soundset name="PortugueseDragoonSelect"/>
         </choice>
-        <choice name="Germans"/>
+	<choice name="Germans">
+	  <soundset name="GermanBlackRiderSelect"/>
+	</choice>
         <choice name="Aztecs"/>
         <choice name="Incas"/>
         <choice name="Maya"/>
@@ -130,8 +132,12 @@
         </choice>
         <choice name="Germans">
           <targetlogic>
-            <choice name="default"/>
-            <choice name="enemy"/>
+		  <choice name="default">
+		    <soundset name="GermanBlackRiderAcknowledge"/>
+		  </choice>
+		  <choice name="enemy">
+		    <soundset name="GermanBlackRiderAttack"/>
+		  </choice>
           </targetlogic>
         </choice>
         <choice name="Aztecs">
