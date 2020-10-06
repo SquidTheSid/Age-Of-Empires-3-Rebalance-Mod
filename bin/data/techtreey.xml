@@ -817,11 +817,16 @@
 				<Target type ='ProtoUnit'>Mill</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Settler</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>GuardDragoons</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImperialDragoons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGPrussianNeedleGun</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranDopplesoldners</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardDopplesoldners</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialDopplesoldner</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranCrossbowmen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranSchutzen</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>VeteranDragoonsShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialWarWagons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardWarWagons</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialCzapkaUhlans</Effect>
@@ -874,9 +879,7 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Pikeman</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -915,7 +918,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImperialCannon</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialFieldGun</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>FieldGun</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>VeteranSkirmishersShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialManOWar</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImperialMonitors</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -8627,6 +8629,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Ranger</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Cacadore</Target></Effect>
@@ -9613,14 +9617,14 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
 		<Prereqs>
-			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
+			<TechStatus status ='Active'>Industrialize</TechStatus>
+			<TechStatus status ='Active'>VeteranSchutzen</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
-			<Effect type ='TechStatus' status ='active'>GuardSkirmishers</Effect>
-			<Effect type ='SetName' proto ='Skirmisher' culture ='none' newName ='37009'></Effect>
-			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='SetName' proto ='Schutze' culture ='none' newName ='37009'></Effect>
+			<Effect type ='Data' amount ='1.40' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='RGLifeGuardHussars' type ='Normal'>
@@ -16639,9 +16643,9 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>41808</Effect>
@@ -18008,7 +18012,7 @@
 		<Icon>units\cavalry\uhlan\uhlan_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipUhlans2' type ='Normal'>
@@ -18020,7 +18024,7 @@
 		<Icon>units\cavalry\uhlan\uhlan_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCShipUhlans3' type ='Normal'>
@@ -18044,7 +18048,7 @@
 		<Icon>units\cavalry\uhlan\uhlan_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCCavalryDamageGermanTeam' type ='Normal'>
@@ -18078,7 +18082,7 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+				<Target type ='ProtoUnit'>Dragoon</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Uhlan</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
@@ -19019,10 +19023,6 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>41826</Effect>
-			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
-			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Cannon</Target></Effect>
 			<Effect type ='Data' amount ='0.60' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -19948,6 +19948,8 @@
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpMacehualtin</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypNatMercGurkha</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AllowedAge' relativity ='Assign'>
 				<Target type ='ProtoUnit'>ypYumi</Target></Effect>
@@ -20109,8 +20111,6 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='SettlerWagon' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -20314,9 +20314,9 @@
 		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='Schutze' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -20329,9 +20329,9 @@
 		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='Schutze' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -20344,7 +20344,7 @@
 		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Schutze' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -22122,12 +22122,10 @@
 		<RolloverTextID>36933</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 			<Effect type ='TextOutput'>41895</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -22144,15 +22142,14 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>RGPrussianNeedleGun</TechStatus>
-			<TechStatus status ='Active'>GuardSkirmishers</TechStatus>
 			<TechStatus status ='Active'>Imperialize</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type ='SetName' proto ='Skirmisher' culture ='none' newName ='37013'></Effect>
+			<Effect type ='SetName' proto ='Schutze' culture ='none' newName ='37013'></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PoliticianGeneralSkirmisher' type ='Normal'>
@@ -23080,7 +23077,7 @@
 		<Icon>units\infantry_ranged\skirmisher\skirmisher_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='Skirmisher' relativity ='Absolute'>
+			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='Schutze' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -33348,13 +33345,11 @@
 		<RolloverTextID>46892</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
-			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
 			<Effect type ='TextOutput'>46895</Effect>
-			<Effect type ='Data' amount ='0.85' subtype ='MaximumVelocity' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Dopplesoldner</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
@@ -54540,14 +54535,10 @@
 		<Effects>
 			
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractLightCavalry' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>Skirmisher</Target></Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -56470,6 +56461,53 @@
 				<Target type ='Tech'>Homesteading</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
 				<Target type ='Tech'>OreRefining</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='VeteranSchutzen' type ='Normal'>
+		<DBID>3094</DBID>
+		<DisplayNameID>70945</DisplayNameID>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<RolloverTextID>70946</RolloverTextID>
+		<Icon>ui\techs\veteran_infantry\veteran_infantry</Icon>
+		<Flag>CountsTowardMilitaryScore</Flag>
+		<Flag>UpgradeTech</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='SetName' proto ='Schutze' culture ='none' newName ='70947'></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCSkirmisherRangeGerman' type ='Normal'>
+		<DBID>4034</DBID>
+		<DisplayNameID>70950</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\home_city\hc_Yumi_Range</Icon>
+		<RolloverTextID>70951</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractLightCavalry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 		</Effects>
 	</Tech>
 

@@ -1423,6 +1423,22 @@
       <command>tis("Skirmisher",5)</command>
     </keymapdata>
     <keymapdata>
+      <name>Schutze</name>
+      <displayname>$$70948$$Skirmisher</displayname>
+      <event>s</event>
+      <context>BarracksAccel</context>
+      <command>tis("Schutze")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Schutzen</name>
+      <displayname>$$70948$$Skirmisher</displayname>
+      <displayformat>$$70949$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>BarracksAccel</context>
+      <command>tis("Schutze",5)</command>
+    </keymapdata>
+
+    <keymapdata>
       <name>Ranger</name>
       <displayname>$$70823$$Ranger</displayname>
       <event>r</event>

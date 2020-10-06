@@ -290,42 +290,10 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCShipCrossbowmen2German</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>10</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipCrossbowmen3German</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipCrossbowmen2German</prereqtech>
-      <age>1</age>
-      <displayunitcount>8</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCHandInfantryDamageGerman</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipDopplesoldners2</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>HCHandInfantryHitpointsGerman</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCHandInfantryDamageGerman</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
       <name>HCHandInfantryCombatGerman</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCHandInfantryHitpointsGerman</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -403,7 +371,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCShipSkirmishers1German</prereqtech>
-      <age>3</age>
+      <age>2</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -412,8 +380,8 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipSkirmishers2German</prereqtech>
-      <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <age>1</age>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -422,15 +390,15 @@
       <level>10</level>
       <prereqtech>HCShipSkirmishers3German</prereqtech>
       <age>3</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>16</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCRangedInfantryCombatGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCrossbowmen3German</prereqtech>
-      <age>3</age>
+      <prereqtech>HCShipSkirmishers4German</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>HCShipUhlans1</name>
@@ -1419,9 +1387,7 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="2.0">HCShipCrossbowmen2German</tech>
-      <tech x="0.0" y="3.0">HCShipCrossbowmen3German</tech>
-      <tech x="0.0" y="4.0">HCRangedInfantryCombatGerman</tech>
+      <tech x="1.0" y="5.0">HCRangedInfantryCombatGerman</tech>
       <tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
       <tech x="1.0" y="2.0">HCShipSkirmishers2German</tech>
       <tech x="1.0" y="3.0">HCShipSkirmishers3German</tech>
@@ -1433,8 +1399,6 @@
       <tech x="2.0" y="4.0">HCShipDopplesoldners4</tech>
       <tech x="2.0" y="5.0">HCShipDopplesoldners5</tech>
       <tech x="2.0" y="7.0">HCShipDopplesoldners6</tech>
-      <tech x="2.7" y="3.0">HCHandInfantryDamageGerman</tech>
-      <tech x="2.7" y="4.0">HCHandInfantryHitpointsGerman</tech>
       <tech x="2.7" y="5.0">HCHandInfantryCombatGerman</tech>
       <tech x="3.6" y="1.0">HCShipWarWagons1</tech>
       <tech x="3.6" y="2.0">HCShipWarWagons2</tech>
