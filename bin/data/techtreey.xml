@@ -23027,6 +23027,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>41903</Effect>
@@ -56492,7 +56494,7 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\home_city\hc_Yumi_Range</Icon>
+		<Icon>ui\home_city\hc_Ashigaru_Anti_Cavalry_Damage</Icon>
 		<RolloverTextID>70951</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>

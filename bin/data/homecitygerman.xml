@@ -293,7 +293,7 @@
       <name>HCHandInfantryCombatGerman</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>HCShipDopplesoldners3</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -354,7 +354,7 @@
       <name>HCXPSolingenSteel</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipDopplesoldners4</prereqtech>
+      <prereqtech>HCHandInfantryCombatGerman</prereqtech>
       <age>3</age>
     </card>
     <card>
@@ -398,6 +398,13 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipSkirmishers4German</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCSkirmisherRangeGerman</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCRangedInfantryCombatGerman</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -1388,18 +1395,19 @@
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
       <tech x="1.0" y="5.0">HCRangedInfantryCombatGerman</tech>
+      <tech x="1.0" y="6.0">HCSkirmisherRangeGerman</tech>
       <tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
       <tech x="1.0" y="2.0">HCShipSkirmishers2German</tech>
       <tech x="1.0" y="3.0">HCShipSkirmishers3German</tech>
       <tech x="1.0" y="4.0">HCShipSkirmishers4German</tech>
-      <tech x="1.0" y="5.0">HCXPSolingenSteel</tech>
+      <tech x="2.7" y="4.0">HCXPSolingenSteel</tech>
       <tech x="2.3" y="1.0">HCShipDopplesoldners1</tech>
       <tech x="2.3" y="2.0">HCShipDopplesoldners2</tech>
       <tech x="2.0" y="3.0">HCShipDopplesoldners3</tech>
       <tech x="2.0" y="4.0">HCShipDopplesoldners4</tech>
       <tech x="2.0" y="5.0">HCShipDopplesoldners5</tech>
       <tech x="2.0" y="7.0">HCShipDopplesoldners6</tech>
-      <tech x="2.7" y="5.0">HCHandInfantryCombatGerman</tech>
+      <tech x="2.7" y="4.0">HCHandInfantryCombatGerman</tech>
       <tech x="3.6" y="1.0">HCShipWarWagons1</tech>
       <tech x="3.6" y="2.0">HCShipWarWagons2</tech>
       <tech x="3.6" y="4.0">HCCavalryDamageGermanTeam</tech>
