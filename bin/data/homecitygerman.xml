@@ -363,7 +363,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1145,7 +1145,7 @@
       <level>40</level>
       <prereqtech>HCMercsHolyRomanGerman</prereqtech>
       <age>3</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1408,7 +1408,7 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="5.0">HCRangedInfantryHitpointsGerman</tech>
+      <tech x="0.3" y="5.0">HCRangedInfantryHitpointsGerman</tech>
       <tech x="1.0" y="5.0">HCRangedInfantryCombatGerman</tech>
       <tech x="1.0" y="6.0">HCSkirmisherRangeGerman</tech>
       <tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
@@ -1435,7 +1435,7 @@
       <tech x="4.9" y="3.0">HCShipUhlans3</tech>
       <tech x="5.2" y="4.0">HCShipUhlans4</tech>
       <tech x="4.9" y="5.0">HCShipUhlans5</tech>
-      <tech x="4.9" y="5.0">HCShipWingedHussars</tech>
+      <tech x="5.6" y="6.0">HCShipWingedHussars</tech>
       <tech x="5.6" y="5.0">HCUhlanCombatGerman</tech>
       <tech x="5.6" y="7.0">HCXPShipDemolitionSquadGerman</tech>
       <tech x="6.4" y="1.0">HCShipFalconets2German</tech>
