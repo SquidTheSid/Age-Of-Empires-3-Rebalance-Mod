@@ -56510,6 +56510,8 @@
 				<Target type ='ProtoUnit'>Schutze</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Schutze</Target></Effect>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PoliticianMarksmanGerman' type ='Normal'>
@@ -56525,9 +56527,37 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Effects>
 			<Effect type ='SetAge'>Age2</Effect>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='Schutze' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Schutze' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
+	</Tech>
+	<Tech name ='HCShipDragoons3German' type ='Normal'>
+		<DBID>9034</DBID>
+		<DisplayNameID>70953</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\dragoon\dragoon_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='Dragoon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
+	</Tech>
+	<Tech name ='HCShipDragoons4German' type ='Normal'>
+		<DBID>9035</DBID>
+		<DisplayNameID>70954</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>units\cavalry\dragoon\dragoon_icon_64x64</Icon>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Uhlan' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Dragoon' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 
 </TechTree>

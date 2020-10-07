@@ -394,6 +394,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCRangedInfantryHitpointsGerman</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipSkirmishers4German</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>HCRangedInfantryCombatGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -453,6 +460,24 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipDragoons3German</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipDragoons4German</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipDragoons3German</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCUhlanCombatGerman</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -470,7 +495,7 @@
       <name>HCShipWingedHussars</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCCavalryDamageGermanTeam</prereqtech>
+      <prereqtech>HCShipUhlans5</prereqtech>
       <age>3</age>
       <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -479,7 +504,7 @@
       <name>HCCavalryHitpointsGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>HCShipDragoons4German</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -508,19 +533,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFalconets1German</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>1</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCShipFalconets2German</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipFalconets1German</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -563,7 +579,7 @@
       <name>HCXPShipCannonsRepeat</name>
       <maxcount>-1</maxcount>
       <level>10</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>HCShipCulverins1German</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
     </card>
@@ -1266,7 +1282,6 @@
         <card>HCShipUhlans1</card>
         <card>HCShipUhlans2</card>
         <card>HCShipWarWagons1</card>
-        <card>HCShipFalconets1German</card>
         <card>HCAdvancedArtilleryGerman</card>
         <card>HCMercsLandsknecht1German</card>
         <card>HCFoodSilosTeam</card>
@@ -1287,7 +1302,6 @@
         <card>HCShipUhlans1</card>
         <card>HCShipUhlans2</card>
         <card>HCShipWarWagons1</card>
-        <card>HCShipFalconets1German</card>
         <card>HCAdvancedArtilleryGerman</card>
         <card>HCMercsLandsknecht1German</card>
         <card>HCFoodSilosTeam</card>
@@ -1394,6 +1408,7 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
+      <tech x="0.0" y="5.0">HCRangedInfantryHitpointsGerman</tech>
       <tech x="1.0" y="5.0">HCRangedInfantryCombatGerman</tech>
       <tech x="1.0" y="6.0">HCSkirmisherRangeGerman</tech>
       <tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
@@ -1410,21 +1425,22 @@
       <tech x="2.7" y="4.0">HCHandInfantryCombatGerman</tech>
       <tech x="3.6" y="1.0">HCShipWarWagons1</tech>
       <tech x="3.6" y="2.0">HCShipWarWagons2</tech>
-      <tech x="3.6" y="4.0">HCCavalryDamageGermanTeam</tech>
-      <tech x="3.6" y="5.0">HCShipWingedHussars</tech>
-      <tech x="3.6" y="3.0">HCCavalryHitpointsGerman</tech>
-      <tech x="4.3" y="4.0">HCCavalryCombatGerman</tech>
+      <tech x="3.6" y="3.0">HCShipDragoons3German</tech>
+      <tech x="3.6" y="4.0">HCShipDragoons4German</tech>
+      <tech x="3.6" y="6.0">HCCavalryDamageGermanTeam</tech>
+      <tech x="3.6" y="5.0">HCCavalryHitpointsGerman</tech>
+      <tech x="4.3" y="6.0">HCCavalryCombatGerman</tech>
       <tech x="4.9" y="1.0">HCShipUhlans1</tech>
       <tech x="4.9" y="2.0">HCShipUhlans2</tech>
       <tech x="4.9" y="3.0">HCShipUhlans3</tech>
       <tech x="5.2" y="4.0">HCShipUhlans4</tech>
       <tech x="4.9" y="5.0">HCShipUhlans5</tech>
+      <tech x="4.9" y="5.0">HCShipWingedHussars</tech>
       <tech x="5.6" y="5.0">HCUhlanCombatGerman</tech>
-      <tech x="5.6" y="3.0">HCXPShipCannonsRepeat</tech>
       <tech x="5.6" y="7.0">HCXPShipDemolitionSquadGerman</tech>
-      <tech x="6.4" y="1.0">HCShipFalconets1German</tech>
-      <tech x="6.4" y="2.0">HCShipFalconets2German</tech>
-      <tech x="6.4" y="3.0">HCShipCulverins1German</tech>
+      <tech x="6.4" y="1.0">HCShipFalconets2German</tech>
+      <tech x="6.4" y="3.0">HCXPShipCannonsRepeat</tech>
+      <tech x="6.4" y="2.0">HCShipCulverins1German</tech>
       <tech x="6.4" y="4.0">HCXPShipHorseArtillery1German</tech>
       <tech x="6.4" y="7.0">HCXPShipHorseArtillery2German</tech>
       <tech x="7.1" y="1.0">HCAdvancedArtilleryGerman</tech>
