@@ -822,32 +822,63 @@ Germany:
 
 New civ bonus: Now has early access to mercenaries. Mercenary shipments enable that respective unit at the saloon. 
 
+Shipment penalty reduced from 1.10 to 1.08. 
+
 Can build an additional saloon in the fortress, industrial and imperial ages (for a total of 4)
 
-Settler Wagon huntable multiplier increased to 6.0 from 4.0
+Misc:
+- Settler Wagon huntable multiplier increased to 6.0 from 4.0
+- Can now train Dragoons as their anti-cavalry unit.
+
+Schutze: cheaper but weaker German skirmisher that scales well into the lategame. Replaces crossbowmen and regular skirmishers
+- Cost: 40 Food/60 Gold
+- 100 base HP
+- 40 ranged armor
+- 18 range
+- 14 base ranged damage
+- 7 melee, 12 siege damage
+
+War Wagon: It's unusual that an armored wagon with cannons is an anti-cav unit. I've changed it to be a hybrid anti-artillery/anti-infantry unit.
+- Cost: Increased to 100 wood, 200 gold from 150 F/G.
+- All cavalry tags removed. Now classified as "AbstractArtillery"
+- HP: Reduced to 320 from 500
+- Speed: Reduced to 5.0 from 6.0
+- Armor: Increased to 60 ranged from 20 melee. 
+- Damage: Changed to 40 Siege from 42 ranged.
+- Multipliers: 3x AbstractInfantry multiplier added, 3x and 2.25 cavalry and coyote runner damage multipliers removed.
+- 0.5x cavalry and light infantry damage penalties added. 
 
 Politician Changes:
 - Sergeant At Arms Fortress Politician now ships 4 Doppelsoldners instead of 3
 - Cavalry Marshall now additionally upgrades Uhlans to Veteran for free
+- Marksman now ships 8 Schutzen instead of 6 skirmishers.
 
 Shipments:
-- 8/7 skirmisher + 3 uhlans reduced to 7/6 skirmishers + 3 uhlans
+- Colonial 6 Schutzen added, fortress age 7/9 Schutzen added, industrial 16 Schutzen added
 - 13 Jaeger shipment reduced to 12
+- 2 free Uhlans removed from 3 Settler Wagons colonial shipment.
+- 5 Colonial Uhlans increased to 6 Uhlans, 8/7 fortress age Uhlans reduced to 7/6 each.
 - Colonial 3 Hackapell for 400 gold shipment added. 
 - Colonial 6 Swiss Pikemen for 400 gold shipment added. 
 - Colonial 8 Cree and Industrial 22 Cree mercenary shipments added.
-- Ranged infantry hitpoints replaced with Skirmisher combat (+15% HP/Damage, adds a 0.5x bonus versus light cavalry)
-- Solingen Steel speed reduction decreased to 15% from 33%; HP/Damage bonuses reduced to 30% from 50%
-- Hand Infantry hitpoints/attack/combat cards now affect AbstractHandInfantry 
+- Ranged infantry hitpoints moved to colonial and now provides +20% HP to Schutze.
+- Ranged infantry combat added to fortress age (+15% HP/Damage).
+- Sharfschutzen shipment added to fortress age. Increases Schutze range by 2 and Light Cavalry damage multiplier by 1 (to 3.0x). 
+- Solingen Steel speed reduction removed; HP/Damage bonuses reduced to 25% from 50%
+- Hand Infantry combat card now affect AbstractHandInfantry 
+- Hand Infantry hitpoints and attack removed.
 - 2 Culverin shipment moved to Fortress age. Now provides 3 Uhlans instead of 4
+- Fortress Age 5 Dragoons +3 Uhlans and Industrial Age 8 Dragoons +4 Uhlans added. 
+- 1 Falconet +3 Uhlans shipment removed. 
 - Zweihander church tech now additionally increases Doppelsoldner damage by 10%
-
-War Wagon: Very awkward goon units. They help them out, they have slightly faster speed now, so Spanish Riding school lets them outrun hussars
-- Speed: increased to 6.25 from 6.00
-
-Uhlans: Very controversial units due to their breakpoints. Due to the increased strength of colonial germany, I've reduced their HP, but increased their industrial combat card buff to compensate.
-- HP: Reduced to 185 from 190
 - Lipizzaner Cavalry buff increased to +25% HP/Damage from +15%
+- 1 Covered Wagon +3 Uhlans improved to 1 Covered Wagon, 2 Settler Wagons +3 Uhlans.
+
+
+Uhlans: Very controversial units due to their breakpoints. Due to the increased strength of colonial germany, I've reduced their HP and damage, but make them slightly cheaper to compensate.
+- HP: Reduced to 185 from 190
+- Melee Damage: Reduced to 36 from 37.
+- Cost: Reduced to 45 Food/100 Gold from 50F/100G
 
 MISC (bug fixes):
 
@@ -864,9 +895,4 @@ MISC (bug fixes):
 - Corrected Royal Green Jacket description
 - German Advanced Dock now has stat parity with other advanced dock shipments
 - Ending Japanese isolation no longer has a permanent damage penalty 
-
-KNOWN ISSUES:
-
-- Ballasteros RG/Imperial upgrades offset barracks upgrades one position to the right.
-
 

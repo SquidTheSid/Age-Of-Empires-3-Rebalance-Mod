@@ -380,8 +380,8 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCShipSkirmishers2German</prereqtech>
-      <age>1</age>
-      <displayunitcount>6</displayunitcount>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
