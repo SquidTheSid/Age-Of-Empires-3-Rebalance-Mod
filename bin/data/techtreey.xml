@@ -8280,23 +8280,23 @@
 	<Tech name ='GuardWarWagons' type ='Normal'>
 		<DBID>99</DBID>
 		<DisplayNameID>23230</DisplayNameID>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
-		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<Cost resourcetype ='Food'>250.0000</Cost>
+		<Cost resourcetype ='Wood'>250.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\guard_cavalry\guard_cavalry</Icon>
+		<Icon>ui\techs\guard_artillery\guard_artillery</Icon>
 		<RolloverTextID>23229</RolloverTextID>
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='SetName' proto ='WarWagon' culture ='none' newName ='36746'></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='UpdateVisual' unittype ='WarWagon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 		</Effects>
 	</Tech>
@@ -12826,7 +12826,7 @@
 		<Cost resourcetype ='Gold'>1500.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\imperial_cavalry\imperial_cavalry</Icon>
+		<Icon>ui\techs\imperial_artillery\imperial_artillery</Icon>
 		<RolloverTextID>31061</RolloverTextID>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>UpgradeTech</Flag>
