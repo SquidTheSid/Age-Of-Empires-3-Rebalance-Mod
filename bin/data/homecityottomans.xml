@@ -604,7 +604,7 @@
       <name>HCShipGrenadiers2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipGrenadiers1</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1378,7 +1378,6 @@
         <card>HCShipHussars1</card>
         <card>HCShipHussars2</card>
         <card>HCShipSpahis1</card>
-        <card>HCShipGrenadiers1</card>
         <card>HCShipFalconets1</card>
         <card>HCShipGreatBombards1</card>
         <card>HCShipGalleys1</card>
@@ -1399,7 +1398,6 @@
         <card>HCShipHussars1</card>
         <card>HCShipHussars2</card>
         <card>HCShipSpahis1</card>
-        <card>HCShipGrenadiers1</card>
         <card>HCShipFalconets1</card>
         <card>HCShipGreatBombards1</card>
         <card>HCShipGalleys1</card>
@@ -1542,7 +1540,6 @@
       <tech x="4.4" y="2.0">HCShipAbusGuns2</tech>
       <tech x="4.4" y="3.0">HCLightArtilleryHitpointsOttoman</tech>
       <tech x="4.4" y="7.0">HCShipAbusGuns3</tech>
-      <tech x="5.1" y="1.0">HCShipGrenadiers1</tech>
       <tech x="5.1" y="2.0">HCShipGrenadiers2</tech>
       <tech x="5.1" y="3.0">HCXPShipGrenadiersRepeat</tech>
       <tech x="5.1" y="4.0">HCArtilleryHitpointsOttomanTeam</tech>
@@ -1565,7 +1562,6 @@
       <tech>HCShipJanissaries2</tech>
       <tech>HCShipHussars1</tech>
       <tech>HCShipHussars2</tech>
-      <tech>HCShipGrenadiers1</tech>
       <tech>HCShipSpahis1</tech>
       <tech>HCShipFalconets1</tech>
       <tech>HCShipGreatBombards1</tech>
