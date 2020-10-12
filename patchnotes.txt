@@ -300,6 +300,7 @@ Shipments:
 - Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 50%, in addition to letting infantry build War Huts, Teepees, and Corrals
 - Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 25% from 50%. Now additionally increases Teepee LOS by 5. Now available in Age 1
 - Sioux now has access to the water dance shipment
+- Town Dance moved to colonial age. Now lets Sioux build walls in any age (starting from colonial) and research bastion.
 - Adoption train time reduction improved to -40% from -25% [ESOC]
 - Onikare moved to Age 4 from Age 2; now additionally reduces Dog Soldier train time by 20% [thanks to gamevideo113]
 - 4 villager shipment increased to 5

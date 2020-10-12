@@ -691,17 +691,17 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCXPTownDance</name>
+      <name>HCXPTownDanceSioux</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCXPNewWaysSioux</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCXPTownDance</prereqtech>
+      <prereqtech>HCXPTownDanceSioux</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -1459,7 +1459,7 @@
       <tech x="1.6" y="4.0">HCXPBlackArrow</tech>
       <tech x="1.6" y="5.0">HCXPBloodBrothers</tech>
       <tech x="1.6" y="7.0">HCXPKinshipTies</tech>
-      <tech x="2.5" y="1.0">HCXPTownDance</tech>
+      <tech x="2.5" y="1.0">HCXPTownDanceSioux</tech>
       <tech x="2.5" y="3.0">HCXPNewWaysSioux</tech>
       <tech x="2.5" y="4.0">HCRidingSchool</tech>
       <tech x="3.4" y="1.0">HCPioneers</tech>

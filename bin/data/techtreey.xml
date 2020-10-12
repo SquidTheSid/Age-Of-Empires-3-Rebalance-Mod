@@ -8469,6 +8469,8 @@
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='MaximumVelocity' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='ProfessionalGunners' type ='Normal'>
@@ -8485,6 +8487,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect></Effects>
 	</Tech>
@@ -8674,6 +8678,8 @@
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HeatedShot' type ='Normal'>
@@ -8694,6 +8700,8 @@
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='Data' action ='AntiShipAttack' amount ='1.50' subtype ='DamageBonus' unittype ='Ship' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Building</Target></Effect>
+			<Effect type ='Data' action ='CannonAttack' amount ='1.50' subtype ='DamageBonus' unittype ='Ship' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='GrapeShot' type ='Normal'>
@@ -10943,6 +10951,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
@@ -15852,6 +15862,10 @@
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='TextOutput'>41797</Effect>
 		</Effects>
 	</Tech>
@@ -18922,6 +18936,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='TextOutput'>36037</Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
@@ -18941,6 +18957,8 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='TextOutput'>41798</Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
@@ -19315,6 +19333,8 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='TextOutput'>36089</Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbusGun</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -24568,6 +24588,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect></Effects>
 	</Tech>
@@ -24634,8 +24656,8 @@
 	<Tech name ='BigFirepitBattleAnger' type ='Normal'>
 		<DBID>2774</DBID>
 		<DisplayNameID>43696</DisplayNameID>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>250.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -24647,6 +24669,8 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
+			<Effect type ='Data' amount ='10.00' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect></Effects>
 	</Tech>
@@ -30558,6 +30582,8 @@
 			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 			<Effect type ='Data' amount ='1.05' subtype ='MaximumVelocity' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractLightInfantry</Target></Effect>
@@ -34859,6 +34885,8 @@
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractSiegeTrooper' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoyoteMan</Target></Effect>
 		</Effects>
@@ -35737,6 +35765,10 @@
 				<Target type ='ProtoUnit'>ypZamburak</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypZamburakMansabdar</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypZamburak</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypZamburakMansabdar</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypZamburak</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
@@ -36381,6 +36413,8 @@
 			<Effect type ='SetName' proto ='ypKeshik' culture ='none' newName ='60669'></Effect>
 			<Effect type ='Data' amount ='0.75' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
+			<Effect type ='Data' amount ='0.75' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredChuKoNu' type ='Normal'>
@@ -38696,7 +38730,7 @@
 			<Effect type ='Data' amount ='2.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
 			<Effect type ='TextOutput'>61587</Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='BuildPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='4.50' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
 		</Effects>
 	</Tech>
@@ -39089,6 +39123,10 @@
 			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
+			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractZamburak</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSowar</Target></Effect>
 			<Effect type ='TextOutput'>70356</Effect>
 			<Effect tech ='ypFreeIndianVillager' type ='Data' amount ='1.00' subtype ='FreeHomeCityUnitIfTechObtainable' unittype ='ypSettlerIndian' relativity ='Absolute'>
@@ -39659,6 +39697,8 @@
 			<Effect type ='TextOutput'>70367</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypYabusame</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypYabusame</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypYabusame</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' allactions ='1' relativity ='Absolute'>
@@ -39669,8 +39709,8 @@
 				<Target type ='ProtoUnit'>ypYabusame</Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='-1.00' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypYabusame</Target></Effect>
-
-
+			<Effect type ='Data' action ='BuildingAttack' amount ='-1.00' subtype ='DamageBonus' unittype ='WarWagon' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypYabusame</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypVillagePopCapIncrease2' type ='Normal'>
@@ -42526,6 +42566,8 @@
 			<Effect type ='Data' amount ='1.08' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.08' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.08' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
 		</Effects>
 	</Tech>
@@ -43144,6 +43186,10 @@
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCDojoRenpeikan' type ='Normal'>
@@ -45022,6 +45068,8 @@
 				<Target type ='ProtoUnit'>ypConsulateArmyOttoman1</Target></Effect>
 			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateOttomansSettlerCombat</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateOttomansInfantrySpeed</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateOttomansGunpowderSiege</Effect>
@@ -45339,13 +45387,15 @@
 			<Effect civ ='none' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRelationsBritish</Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.92' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.92' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='0.92' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.92' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
-			<Effect type ='Data' amount ='0.90' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.92' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Surgeon</Target></Effect>
 		</Effects>
 	</Tech>
@@ -45445,6 +45495,8 @@
 				<Target type ='ProtoUnit'>Building</Target></Effect>
 			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='-8.00' subtype ='LOS' relativity ='Absolute'>
@@ -46004,6 +46056,11 @@
 				<Target type ='ProtoUnit'>ypFlameThrower</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFlameThrower</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='ypSettlerHPNugget' type ='Normal'>
@@ -46850,10 +46907,10 @@
 				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
 			<Effect type ='Data' action ='CannonAttack' amount ='2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>AbstractSiegeElephant</Target></Effect>
-
-
 		</Effects>
 	</Tech>
 	<Tech name ='YPHonoredFlamingArrow' type ='Normal'>
@@ -46877,6 +46934,8 @@
 				<Target type ='ProtoUnit'>ypFlamingArrow</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypFlamingArrow</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='ypFrontierCastle' type ='Normal'>
@@ -48469,6 +48528,8 @@
 			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
@@ -48505,6 +48566,8 @@
 			<Effect type ='TechStatus' status ='unobtainable'>ypConsulateRelationsJapanese</Effect>
 			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='0.95' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -51739,6 +51802,8 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
 			<Effect type ='TextOutput'>70492</Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -51758,6 +51823,8 @@
 			<Effect type ='TextOutput'>70349</Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractArtillery</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>WarWagon</Target></Effect>
 			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypFlameThrower</Target></Effect>
 		</Effects>
@@ -54482,6 +54549,8 @@
 		<RolloverTextID>70719</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>CavalryArcher</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -55880,6 +55949,8 @@
 		<RolloverTextID>70847</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='WarWagon' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractArtillery' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 			<Effect type ='Data' amount ='0.25' subtype ='DamageBonus' unittype ='AbstractHeavyCavalry' allactions ='1' relativity ='Absolute'>
@@ -55892,8 +55963,8 @@
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='-0.25' subtype ='DamageBonus' unittype ='AbstractCoyoteMan' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
-
-
+			<Effect type ='Data' action ='BuildingAttack' amount ='-0.50' subtype ='DamageBonus' unittype ='WarWagon' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>SpurRider</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPRanchingAmericans' type ='Normal'>
@@ -56560,5 +56631,26 @@
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Dragoon' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
-
+	<Tech name ='HCXPTownDanceSioux' type ='Normal'>
+		<DBID>3285</DBID>
+		<DisplayNameID>46092</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\HC_town_dance</Icon>
+		<RolloverTextID>70955</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WallConnector</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WallStraight5</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>CWallGate</Target></Effect>
+			<Effect type ='TechStatus' status ='obtainable'>Bastion</Effect>
+			<Effect type ='Data' amount ='1.00' tactic ='CityDance' subtype ='TacticEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>FirePit</Target></Effect></Effects>
+	</Tech>
 </TechTree>
