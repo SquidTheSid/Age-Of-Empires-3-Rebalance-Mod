@@ -17,9 +17,9 @@ Incoporated ESOC's fixed starting crates:
 - Ottoman: 300 Food + 200 Wood
 - Iroquois: 500 Food + 100 wood
 - Sioux: 400 Food + 100 Wood
-- Aztec: 400 Food + 300 Wood (might reduce to 200 wood, feels a bit strong)
+- Aztec: 400 Food + 300 Wood
 - Japan: 500 Food + 300 Wood
-- China: 200 Food + 300 Wood (no change)
+- China: 300 Food + 300 Wood (increased by 100 from ESOC)
 - India: 200 Food + 400 Wood
 
 - All skirmisher/archers now possess a 0.75x multiplier against AbstractLightInfantry on top of AbstractCoyoteMan. This makes Coyote Runners and other light infantry more durable against them.
@@ -332,11 +332,12 @@ Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a s
 
 Iroquois:
 
+Added in a 15% wood chopping bonus to villagers by default (this helps compensate for the new secondary civ bonus). 
 
 Secondary civ bonus: economic buildings now generate resource trickles but are more expensive to construct.
-- Market cost increased to 180 from 100; built limit set to 5; generates 0.5 Wood/s
-- Plantation cost increased to 650 from 500; build limit set to 6; generates 0.75 Gold/s
-- Farm cost increased to 525 from 400; build limit set to 6; generates 1.0 Food/s
+- Market cost increased to 180 from 100; built limit set to 6; generates 0.6 Wood/s; HP increased by 25%
+- Plantation cost increased to 600 from 500; build limit set to 8; generates 0.80 Gold/s; HP increased by 20%
+- Farm cost increased to 480 from 400; build limit set to 10; generates 1.0 Food/s; HP increased by 20%
 
 Crates of 200 F/W/C increased to 300 Food and 300 Wood.
 
@@ -371,9 +372,9 @@ Shipments:
 - Age 4 Cavalry Combat shipment added. (helps with their mediocre lategame kanya)
 - 2 Light Cannons changed into Iroquois Expeditionary Brigade. Ships 8 Tomahawks and 2 Light Cannons
 - Age 3 Iroquois Expeditionary Force added. Ships 5 Tomahawks and 1 Light Cannon
-- Advanced Market additionally reduces the cost of markets by 50% and doubles build limit to 10.
-- Advanced Farm additionally reduces the cost of farms by 60%, increases gather rate by 10%, and doubles build limit to 12.
-- Advanced Plantation added. Now additionally reduced costs of plantations by 60%, increases gather rate by 10% and doubles build limit to 12.
+- Advanced Market additionally reduces the cost of markets by 50% and increases build limit by 5.
+- Advanced Farm additionally reduces the cost of farms by 60%, increases gather rate by 10%, and increases build limit by 5.
+- Advanced Plantation added. Now additionally reduced costs of plantations by 60%, increases gather rate by 10% and increases build limit by 5.
 - War Houses now additionally increases Longhouse HP by 25%
 - TEAM Cheap Outposts cost reduction increased to 60% from 30%
 
@@ -566,7 +567,7 @@ Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so 
 - HP: Reduced to 400 from 500
 - Damage: Reduced to 24 from 30
 - Thoroughbreds: No longer reduces train points.
-- Now shadowtechs by 20% upon hitting fortress age.
+- Now shadowtechs by 25% upon hitting fortress age.
 
 China:
 
@@ -687,6 +688,19 @@ War Minister Industrial Politician now additionally upgrades Rodeleros to vetera
 Crossbowmen: Due to Spain's focus on archaic units (Imperial Tercios), I've added Royal Guard and Imperial Upgrades for Crossbowmen.
 - Added Ballestero Royal Guard (increases range by 2) and Imperial Ballestero upgrades (adds 0.5x heavy infantry multiplier).
 
+Rodelero: Reworked to be a melee skirmisher units - this gives spain skirmisher shipments in a unique way and is a bit more historically accurate
+- Armor: Changed to 40 Ranged from 40 Melee
+- Melee/Siege Attack: Improved to 12 from 11
+- 0.75x multiplier vs Cavalry and CoyoteMan added (with a further 0.75x vs light infantry), 2.0x light cavalry multiplier/xpEagleKnight multipliers added, 3x AbstractHeavyInfantry damage multiplier added.
+- AbstractHeavyInfantry unit tag removed. 
+
+Lancer: Reworked to be a melee dragoon - this gives spain dragoon shipments in a unique way and compensates for the rod change.
+- Armor: Improved to 40 Melee resist from 30 Ranged
+- Speed: Improved to 7.5 from 6.5
+- Melee/Siege Attack: Reduced to 12 from 20
+- 3x AbstractHeavyInfantry damage multiplier removed. 
+- 5x AbstractHeavyCavalry, 3.5x AbstractCoyoteMan, and 2.5x AbstractArtillery damage multipliers added.
+- AbstractHeavyCavalry unit tag replaced with AbstractLightCavalry
 
 - Corselet Church tech reworked. Now adds +0.1 armor to heavy infantry, but increases cost by 10%
 
@@ -716,12 +730,12 @@ Banks:
 
 Shipments:
 - Banks of Amsterdam and Rotterdam no longer increase bank limits, but increase their coin production rate by 5% each
-- Coffee trade no longer decreases military speed, but now increases the cost of banks by 15% and costs 500 food
+- Coffee trade now costs 300 Wood and exchanges all food for 1.25x gold (same as fur trade)
+- Industrial Age 2 Banks + 2 Bank Build Limit shipment added
 - Tulip Speculation trickle buff increased to +20% from 15%
 - Military Reforms now boosts Halberdier speed by 10% (down from 20%) and applies a 0.8x Infantry damage penalty (down from 0.75x)
 - Dutch East India company shipment cost decrease improved to 30% from 15%
 - Infantry combat cards now affect AbstractInfantry.
-- 2 Culverin shipment moved to Fortress Age
 - Stadhouder TC cost reduction improved to 60% (now 200 Wood)
 
 Ottoman:
