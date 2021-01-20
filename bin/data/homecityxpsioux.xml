@@ -1159,6 +1159,7 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCXPSiouxSanteeSupport</name>

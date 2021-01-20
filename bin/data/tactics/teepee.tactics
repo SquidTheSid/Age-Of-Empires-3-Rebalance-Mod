@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tactics>
+  <action>
+    <name>GreatHeart</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48959">SpawnWarbow</name>
+    <type>Maintain</type>
+    <rate type="xpWarBow">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="48958">ExtraDamage</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<action>GreatHeart</action><action>ExtraDamage</action><action>SpawnWarbow</action></tactic>
+</tactics>

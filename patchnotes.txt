@@ -26,7 +26,7 @@ Incoporated ESOC's fixed starting crates:
 - Trading post HP reduced to 2000 from 3000; advanced trading post HP bonus reduced to 25% from 50%; Trade Empire HP bonus reduced to 15% from 33%
 - Pikemen (units with the AbstractPikeman tag) have +1.0 melee range to better chase down cavalry
 - Fast Age up politicians (Messenger, Exiled Prince) now age up in 35 seconds instead of 30. Fortress Age takes 45 seconds instead of 40
-- Wall HP reduced to 2000 from 3000
+- Wall HP reduced to 2000 from 3000; wall segment cost increased to 7 wood from 5; wall pillar cost reduced to 3 from 5 (now provides only 2 LOS instead of 4)
 - Town Center wood cost reduced to 500 from 600 (ESOC); plantation cost reduced to 500 from 800
 - Non-shipment train time improvements have been weakened, but are now cheaper:
 	-- Mass Cavalry gold cost reduced to 350 from 750; train time improvement reduced to 25% from 50%
@@ -37,6 +37,7 @@ Incoporated ESOC's fixed starting crates:
 
 Shipments: 
 - Ranching shipments now increase livestock gather fatten rate by 25%
+- Stonemasons build rate improved increased to +85% from +65%
 - Land Grab shipment cost reduction improved to 70% from 40%
 - Offshore support bonus Range/LOS reduced to 2 from 5
 - Advanced Farm and Mill now provide a 10% gather rate bonus instead of extra hitpoints
@@ -46,7 +47,7 @@ Shipments:
 - Spice Trade and Furrier now provide an increased bonus to berry gathering (+40/30%)
 - Singular resource economic upgrades (such as Ironmonger, sawmills, food silos, etc.) have been buffed to be more effective (generally by 5%). 
 
-Siege Trooper tag changes: This tag is very inconsistent, so I've reduced the number of arbitrary units on there (Shinobi, Puma Spearman, Mongol Scout) to primarily focus on units that mostly deal siege damage (Rams, Failiphants, Flamethrowers, etc.)
+Siege Trooper tag changes: This tag is very inconsistent, so I've reduced the number of arbitrary units on there (Puma Spearman, Mongol Scout) to primarily focus on units that mostly deal siege damage (Rams, Failiphants, Flamethrowers, etc.)
 
 Native: 
 - Natives now have a 75% damage penalty vs. villagers in discovery age. This goes away in colonial. [ESOC]
@@ -102,7 +103,7 @@ Fusilier - range increased to 14 from 12; armor increased to 20% from 10%;
 Landsknecht - Speed increased to 4.5 from 4.0
 Swiss Pikemen - Melee range increased to 1.0
 Jaeger - Ranged armor reduced to 30% from 40%
-Li'l Bombard - Cost reduced to 900 gold from 1200; Limber speed increased to 3.5 from 2.5
+Li'l Bombard - Cost reduced to 1000 gold from 1200; Limber speed increased to 3.5 from 2.5
 Arsonist - LOS increased to 20 from 15; range increased to 14 from 12; HP increased to 300 from 250; damage cap raised to 56 from 48
 Ninja - population cost reduced from 4 to 2 
 Blink Monk - ROF increased to 1.5 from 2.0; villager multiplier reduced to 2.0 from 2.5x 
@@ -122,15 +123,15 @@ Consulate Changes:
   --Exploration Fleet replaced with 1 Covered Wagon for 400 export. Fortress Age. 
 - British: Bonus reduced to 8% increased land unit HP from 10%
  -- 2 Surgeons replaced with Virginia Company (-25% village/house cost) for 200 export. Colonial Age. 
- -- 4 Spies replaced with Medicine (-20% villager train time) for 300 export. Colonual Age. 
+ -- 4 Spies replaced with Medicine (-20% villager train time) for 300 export. Colonial Age. 
  -- 5 Petards replaced Estates (2x villager train time, can train villagers in housing) for 700 export. Industrial Age. 
 - Dutch:
  -- 6 Stadhouders replaced with 5 Nassauer Halberdiers
  -- 6 Stadhouders + 7 Carabineers replaced with 5 Nassauers + 7 Carabineers
 - Germany:
- -- 3 Dopps + 6 Skirmishers replaced with 3 Dopps + 2 War Wagons
- -- 11 Skirms + 2 Heavy Cannons replaced with 4 War Wagons + 2 Heavy Cannons
- -- 19 Uhlans + 15 Skirmishers replaced with 15 War Wagons
+ -- 3 Dopps + 6 Skirmishers replaced with 3 Dopps + 2 Black Riders (these shadowtech much like Consulate Hatamoto Samurai and Sanjuro)
+ -- 11 Skirms + 2 Heavy Cannons replaced with 4 Black Riders + 2 Heavy Cannons
+ -- 19 Uhlans + 15 Skirmishers replaced with 12 Black Riders
 - Russia: 10% faster villager train time replaced with 10% reduced villager cost
  -- 5 Cossacks + 1 Culverin replaced with 5 Cossacks + 3 Tartar Loyalists.
 - Spain: 
@@ -143,11 +144,11 @@ European:
 - Spy population cost reduced from 2 to 1
 - Artillery Foundry wood cost reduced to 250 wood from 300
 - Livestock Pen wood cost reduced to 150 wood from 200
-- Crossbowmen ranged damage increased to 17 from 16, hand damage increased to 8 from 7, accuracy improved, and HeavyInfantry multiplier increased to 1.5x from 1.25x
+- Crossbowmen ranged damage increased to 17 from 16, hand damage increased to 8 from 7, accuracy improved.
 - Cavalry Archer speed increased to 7.25 from 6.75
 - Mameluke shipment reduced to 4 units from 5; cost reduced to 800 gold from 1000
 - Bayonet Arsenal tech cost reduced to 200 Wood/Coin from 400 Wood/Coin
-- Advanced Artillery shipment now affects culverins and horse artillery
+- Advanced Artillery shipment now moves up mortars and horse artillery to the fortress age (DE)
 - Advanced Arsenal now additionally ships an Arsenal Wagon
 - 4 Grenadier shipment moved to colonial. 5 Grenadier shipment increased to 6, and 7 grenadier shipment increased to 8
 - 5 Cavalry Archer shipment increased to 6
@@ -159,7 +160,7 @@ Colonial Politician Reworks/Changes: Based on Smackdown's ideas, lesser used pol
 - Bishop: Now grants 1 free shipment instead of 2 settlers. 
 
 Fortress Politician Reworks/Changes: Incorporated many of Smackdown's ideas to improve lesser used politicians.
-- Mohawk Statesman: 2 Native Scouts replaced with 4 Native Tomahawks
+- Mohawk Statesman: 2 Native Scouts replaced with 4 Native Tomahawks 
 - Gentleman Pirate: Now ships a crate of 700G
 
 Industrial Politician Reworks/Changes: Smackdown changes integrated.
@@ -197,7 +198,7 @@ Imam/Priest: Do you ever see them? Healing as a mechanic in AoE3 is pretty terri
 Water Changes:
 
 Fishing boat cost reduced to 80W from 100W. 
-- Schooners cost reduction lowered to 50% from 60%
+- Schooners cost reduction lowered to 50% from 60%, now provides 20% train time reduction to fishing boats
 - Asian Schooners cost reduction lowered to 25% from 30%
 
 Aztec: 
@@ -205,6 +206,13 @@ Aztec:
 Aztec can now build a single Nobles' Hut in colonial age (but it cannot train any units), this is raised to 7 (RE cap) on fortress age.
 
 Warrior Priest - no longer costs population (gives more flexibility for Aztec's lategame army) 
+
+New Building Added: Great Temple
+Cost: 500 Food/Wood/Gold
+Build Time: 60 Seconds
+HP: 4500
+Effect: Generates 7.5 gold/s while alive. 
+Age: IV
 
 Politician Changes:
 - Shaman: instead of granting a HP/Damage bonus to war/noble huts, now provides Warrior Priests. 1 in Colonial and Fortress ages and 2 in Industrial and Imperial ages (additionally provide +5/10% gather rates to fire pits as well). 
@@ -272,27 +280,48 @@ Overall: Aztec's vanilla roster was heavily weighted in favor of anti-cav, with 
 
 Sioux :
 
++1 Starting villager added. 
+
 Teepee: A very controversial building (given how ESOC added then removed an economic aura a la karni mata).
-- Aura: AOE increased to 18 from 12
+- Aura: AOE increased to 16 from 12
 - Cost: Reduced to 40W from 50, bounties adjusted accordingly (20/10 --> 16/8)
-- HP: Increased to 400 from 300
 
 Civ Bonus Changes:
 - Sioux get free bison every Age (4 colonial, 8 fortress, 16 industrial, 30 imperial)
-- Sioux can now build regular walls in the Industrial Age (cannot be upgraded)
+- Sioux can now build regular walls in the Industrial Age (Bastion becomes available in Imperial Age)
 - Sioux's town centers cost 400 wood instead of 500 [ESOC]
 
 Politician Reworks/Changes:
 - Wise woman: now ships more bison (8,15,25, 40 up from 6,12,20,30) and grants a larger buff to hunting (20/30/40/50% up from 10/20/30/40%)
 - Warrior: Colonial Age now ships 2 Axe Riders (up from 1). Industrial Age ships 3 Dog Soldiers, and Imperial ships 6 Dog Soldiers.
 
+
+Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
+- HP: Reduced to 230 from 250
+- Cost: Reduced to 100F/70G from 100F/75G
+
+Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
+- HP: Increased to 200 from 170
+- Attack: Improved to 20 from 15
+- Armor: Ranged armor increased to 30% from 10%
+- 5x Hero, 5x mercenary, and 2.5x native unit damage multipliers added. 
+- LOS increased to 28 from 12
+
+War Club - War Clubs are the Sioux's equivalent of pikemen, except they're not particularly great vs. cavalry or buildings. Since Sioux have access to Bow Riders age 2, anti-cav isn't usually a problem, but the lack of siege is. Therefore, I've made them deal far more siege damage, in addition to hitting a bit harder.
+- Melee: Improved to 11 from 10
+- Siege: Increased to 33 damage from 27
+
+Cetan Bow: Incorporated ESOC Changes
+- HP: Increased to 100 from 90
+- Speed: Increased to 4.5 from 4.0
+
 Shipments: 
 - Earth Bounty shipment moved to colonial age and now provides 1.25 Food, Wood, and Gold trickles instead of 0.65 Wood and Gold trickles
 - Burnt Thigh Support Shipment now sends 8 Rifle Riders (up from 7) and 2 aztec warrior priests instead of medicine men
 - Lakota Support now ships 8 axe riders (up from 7) and 15 bison (up from 9)
 - Nakota Support now ships 5 Dog Soldiers instead of 4
-- San Arc Support no longer ships wood, but increases the hitpoints of all War Clubs by 20%
-- Oglala Support no longer ships food, but increases the damage of all Cetan Bows by 20%
+- San Arc Support no longer ships wood, but increases the hitpoints of all War Clubs by 25% and their armor by +0.10
+- Oglala Support no longer ships food, but increases the siege range of Cetan Bows by +10 (from 6 to 16) and triples their siege damage (via a 3x building multiplier, like Seminole Guerilla Wars).
 - Dakota Support now ships 6 Tashunke Prowlers (up from 5) and increases the hitpoints of all Tashunke Prowlers by 30% (up from 25%)
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and cost 2 less population
 - Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
@@ -304,28 +333,6 @@ Shipments:
 - Adoption train time reduction improved to -40% from -25% [ESOC]
 - Onikare moved to Age 4 from Age 2; now additionally reduces Dog Soldier train time by 20% [thanks to gamevideo113]
 - 4 villager shipment increased to 5
-
-Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
-- HP: Reduced to 230 from 250
-- Cost: Reduced to 100F/70G from 100F/75G
-
-Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
-- HP: Increased to 200 from 170
-- Armor: Ranged armor increased to 30% from 10%
-- Damage: Base attack increased to 20 from 15
-- 5x Hero, 5x mercenary, and 2.5x native unit damage multipliers added. 
-- LOS increased to 18 from 12
-- Marauders shipment additionally increased LOS by 6. 
-- Cavalry Damage/Hitpoint shipments buff Tashunke Prowlers by 20% instead of 15 (like Chinese Flamethrowers)
-
-War Club - War Clubs are the Sioux's equivalent of pikemen, except they're not particularly great vs. cavalry or buildings. Since Sioux have access to Bow Riders age 2, anti-cav isn't usually a problem, but the lack of siege is. Therefore, I've made them deal far more siege damage, in addition to being a bit tankier and hit harder. Now, they're roughly equivalent to the Aztec's Puma Spearmen, but with slightly less damage and slightly more HP
--HP: Increased from 120 to 140
-- Siege: Increased to 35 damage from 27
-- Cost: Increased to 55F/40W from 50F/40W
-
-Cetan Bow: Incorporated ESOC Changes
-- HP: Increased to 100 from 90
-- Speed: Increased to 4.5 from 4.0
 
 
 Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a splash attack and an aura gimmick. They still require heavy resource investment to maximize, but they should be usable in small numbers, no longer being completely outclassed by the cheap steppe rider. While they might not see use in every game, they're no longer a joke unit. War Clubs help provide the raw siege damage that Sioux lacks early on, and Cetan Bows are more versatile archer units, especially with their reworked mercenary shipments. Outlaw units are situationally more useful in lategame now, thanks to a buffed repeatable Bandit Gang, and Outlaw Combat replacing the non repeatable variant (combining the effects of European's Wild West saloon tech and Dance Hall population reduction)
@@ -366,6 +373,9 @@ Tomahawk: though they get a lot of upgrades, they have a pretty terrible base at
 Kanya: Since Iroquois don't have access to cannons in Age 3, I've given Kanya a multiplier vs siege troopers (Grens, Shinobi, Mantlets, etc.) to help compensate, especially since they have an artillery multiplier
 - 1.50x AbstractSiegeTrooper damage multiplier added. 
 
+Light Cannon: To account for the advanced artillery shipment, base range has been reduced, but now shadowtechs to original value in industrial.
+- Range: Reduced to 28 from 32, shadowtechs by 4 in industrial age. 
+
 Shipments:
 - Tuscarora Support now ships 2 Warrior priests instead of medicine men
 - 6 Musket Rider shipment increased to 7 (Terrible age IV shipment resourcewise)
@@ -375,6 +385,7 @@ Shipments:
 - Advanced Market additionally reduces the cost of markets by 50% and increases build limit by 5.
 - Advanced Farm additionally reduces the cost of farms by 60%, increases gather rate by 10%, and increases build limit by 5.
 - Advanced Plantation added. Now additionally reduced costs of plantations by 60%, increases gather rate by 10% and increases build limit by 5.
+- Advanced Artillery shipment added. Allows Iroquois to train light cannons in the fortress age. 
 - War Houses now additionally increases Longhouse HP by 25%
 - TEAM Cheap Outposts cost reduction increased to 60% from 30%
 
@@ -445,12 +456,26 @@ Howdah: Howdah, much like Mahout, as slow and are population inefficient. They'v
 - Population Cost: Reduced to 5 from 6
 - Speed: Increased to 6 from 5.5
 
-Sowar: They're India's version of cossacks, but with a focus on countering skirms. However, they're paper thin, so I've made them a little beefier
-- HP: Increased to 250 from 225 (might include ESOC's damage multipliers down the line or maybe slightly reduce speed and buff attack).
+Sowar: They're India's version of cossacks, but with a focus on countering skirms. However, they're quite terrible as is, so I've reworked them. 
+- HP: Reduced to 180 from 225.
+- Attack: Improved to 24 from 20.
+- Multipliers: Infantry multipliers removed. 1.25x AbstractHeavyCavalry and 1.15x AbstractCoyoteMan damage multipliers added.
+- Population: Reduced to 1 from 2
+- Train Points: Reduced to 33 from 35
+- Cost: Reduced to 65 Food/Gold from 80/80
 
 Zamburak: While they're solid anti-cav early game, they struggle midgame due to their reliance on cards. 
 - Disciplined upgrade now increases Heavy Cavalry and CoyoteMan damage multiplier by 0.5x.
 
+Jat Lancers: Very underwhelming mercenaries. Often available too late, and they already heavily overlap with the role of gurkha/urumi. I've reworked them to be like stradiots, but based off of naginata riders rather than hussars.
+- Population Cost: Reduced to 3 from 4
+- Speed: Increased to 7.25 from 7.00
+- Cost: Reduced to 300 from 400 (bounties updated accordingly)
+- HP: Reduced to 550 from 600
+- Train points: Reduced to 50 from 60
+- Siege Damage: Reduced to 33 from 45.
+- Melee Attack: Improved to 52 from 35.
+- Multipliers: AbstractInfantry multiplier reduced to 1.5x from 4.0x; 0.67x AbstractHeavyInfantry multiplier added.
 
 Terror Charge Monastery tech cost reduced to 450 Food/Gold from 500. Train time reduction reduced to 15% from 20.
 
@@ -460,7 +485,11 @@ Shipments:
  - TEAM 5 Urumi reduced to TEAM 4 Urumi; cost decreased to 500 food from 600.
  - Mughal Architecture now decreases building wood cost by 50% (from 20%) and build time by 20% (from 50%)
  - 5 Sepoy increased to 6 Sepoy
+ - 4 Sowar increased to 5 Sowar
+ - Sowar Regiment increased to 10 Sowar from 8
  - 600 Wood replaced with 700 wood
+ - 8 Jat Lancers reduced to 6; cost reduced to 1000 from 1500. Now available in Fortress Age instead of Industrial. 
+ - Indian Mercenary Army (5 Jats, 7 Arsonists) have +1 Jat Lancer (for a total of 6 Jats, 7 Arsonists).
 
 Japan:
 
@@ -470,6 +499,9 @@ Japanese Consulate:
 - Bushido Principles cost increased to 300 export from 250.
 - Intervention now ships 5 Ninja instead of 10 Yamabushi
 - Now trains consulate Yojimbo (Sanjuro) instead of Consulate Shinobi.
+
+Shrine: To compensate for the numerous nerfs, cost has been reduced slightly.
+- Cost: Reduced to 120 wood from 125 (bounties adjusted accordingly).
 
 Dutch Consulate:
 - 5 Nassauer Halberdiers replace 6 Stadhouders in Dutch Expeditionary Company and Dutch Expeditionary Force
@@ -545,7 +577,7 @@ Yumi Archers: They hit like trucks and have insane range. I've changed them to b
 - Disciplined Yumi is now a free shadowtech upgrade
 
 Daimyo: Insanely good mobile barracks, especially with Bakufu. They've been toned down a lot 
-- Shogun Tokugawa cost increased to 500 gold from 350 (bounty rescaled accordingly 35 --> 50xp)
+- Shogun Tokugawa cost increased to 500 gold from 350 (bounty rescaled accordingly 35 --> 50xp) and HP aura nerfed to 15% from 20%
 - Bakufu train bonus reduced to 50%
 - Daimyo are no longer HC shipment points (this leads to very dumb cheese like instaspawning 10 ninja or sohei armies to instantly change tempo of a fight). Tokugawa can still receive shipments, though.
 
@@ -719,6 +751,7 @@ Shipments:
 
 Dutch:
 
+New civ bonus: Now gains a free envoy every age (thanks dutchdude117)
 Now has access to Halberdiers in age 2 (with a 20% HP/damage penalty until fortress age). 
 
 

@@ -30,6 +30,7 @@ public class wizard extends JFrame implements ActionListener
 	private Path sysMapPath;
 	private Path sysSavPath;
 	private Path sysDocPath;
+	private String versionNum; 
 	private JLabel background;  
 
 	public static void main(String[] args){
@@ -39,6 +40,7 @@ public class wizard extends JFrame implements ActionListener
 
 
 	public wizard(){
+		versionNum = "1.2";
 		instantiateFields(); 
 		//set a layout and basic size and window properties. 
 		panel.setLayout(new BorderLayout()); 
@@ -46,7 +48,7 @@ public class wizard extends JFrame implements ActionListener
 		this.setLocationRelativeTo(null); 
 		this.setResizable(false);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
-		this.setTitle("Age of Empires 3: Overhauled");
+		this.setTitle("Age of Empires 3: Overhauled - " + versionNum);
 		setUI(); 
 		//add the components to each other, then to the panel
 		jvBar.add(menu, BorderLayout.PAGE_START); 

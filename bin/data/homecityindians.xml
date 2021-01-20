@@ -1165,8 +1165,8 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>8</displayunitcount>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1184,7 +1184,7 @@
       <level>25</level>
       <prereqtech>YPHCMercsArsonist1</prereqtech>
       <age>3</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>13</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>

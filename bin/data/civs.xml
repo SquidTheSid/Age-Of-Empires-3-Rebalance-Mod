@@ -1159,6 +1159,7 @@
     <townstartingunit>SettlerNative</townstartingunit>
     <townstartingunit>SettlerNative</townstartingunit>
     <townstartingunit>SettlerNative</townstartingunit>
+    <townstartingunit>SettlerNative</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
@@ -1984,7 +1985,7 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyGerman2</multipleblockunit>
       <units>
-        <unit>ypConsulateWarWagon</unit>
+        <unit>ypConsulateBlackRider</unit>
       </units>
       <units>
         <unit>ypConsulateZweihander</unit>
@@ -2000,7 +2001,7 @@
       <building>ypConsulate</building>
       <multipleblockunit>ypConsulateArmyGerman3</multipleblockunit>
       <units>
-        <unit>ypConsulateWarWagon</unit>
+        <unit>ypConsulateBlackRider</unit>
       </units>
       <units>
         <unit>ypConsulateCannon</unit>
