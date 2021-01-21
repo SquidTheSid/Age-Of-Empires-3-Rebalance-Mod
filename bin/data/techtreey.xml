@@ -3856,9 +3856,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='Tree' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
-			<Effect type ='Data' action ='Gather' amount ='1.15' subtype ='WorkRate' unittype ='ypGroveBuilding' relativity ='BasePercent'>
+			<Effect type ='Data' action ='Gather' amount ='1.10' subtype ='WorkRate' unittype ='ypGroveBuilding' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>

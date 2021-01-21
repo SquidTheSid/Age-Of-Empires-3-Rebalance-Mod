@@ -339,7 +339,7 @@ Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a s
 
 Iroquois:
 
-Added in a 15% wood chopping bonus to villagers by default (this helps compensate for the new secondary civ bonus). 
+Added in a 10% wood chopping bonus to villagers by default (this helps compensate for the new secondary civ bonus). 
 
 Secondary civ bonus: economic buildings now generate resource trickles but are more expensive to construct.
 - Market cost increased to 180 from 100; built limit set to 6; generates 0.6 Wood/s; HP increased by 25%
