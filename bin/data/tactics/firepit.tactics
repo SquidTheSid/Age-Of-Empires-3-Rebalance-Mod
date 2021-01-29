@@ -206,7 +206,7 @@
     <active>1</active>
     <persistent>1</persistent>
     <dancebonustype>Gathering</dancebonustype>
-    <modifymultiplier>0.60</modifymultiplier>
+    <modifymultiplier>0.025</modifymultiplier>
     <modifyexponent>1.0</modifyexponent>
     <modifybase>1.0</modifybase>
   </action>
