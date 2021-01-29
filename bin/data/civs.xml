@@ -2702,7 +2702,7 @@
       <multipleblockunit>ypMigrantArmyLarge</multipleblockunit>
       <units>
         <unit>ypSettlerAsian</unit>
-        <unit>ypGoatFat</unit>
+        <unit>ypGoat</unit>
       </units>
       <unitcounts>
         <count>1</count>
@@ -2714,7 +2714,7 @@
       <multipleblockunit>ypMigrantArmyLarge</multipleblockunit>
       <units>
         <unit>ypSettlerAsian</unit>
-        <unit>ypGoatFat</unit>
+        <unit>ypGoat</unit>
       </units>
       <unitcounts>
         <count>1</count>
@@ -2788,7 +2788,7 @@
         <unit>ypSettlerAsian</unit>
       </units>
       <unitcounts>
-        <count>1</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -2798,7 +2798,7 @@
         <unit>ypSettlerAsian</unit>
       </units>
       <unitcounts>
-        <count>1</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>

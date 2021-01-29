@@ -618,41 +618,58 @@ Cuirassier: It's not secret that Gendarmes are hilariously broken lategames, so 
 
 China:
 
+Civ Bonus:
+- Great Wall shipment removed, now an innate civ bonus
+- +20 pop cap civ bonus removed, now a shipment
+
 Wonders:
-Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216
+Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216; heal increased to 9999 hitpoints from 1000; now ships wood crates instead of villagers as follows:
+- Colonial - ships 400 wood
+- Fortress - ships 800 Wood
+- Industrial - ships 1200 Wood
+- Imperial - ships 2000 Wood
 White Pagoda - build time reduced to 75 seconds (reduced from 135 seconds; fortress age reduced to 85 seconds from 145), no longer provides free disciples. Now provides a scaling XP trickle depending on which age it was built (1.0/s at base and +0.5/s each age thereafter)
 Porcelain Tower - Age V trickles buffed:
-Food: 6.0 --> 8.0/s 
-Wood/Gold: 5.5 --> 7.5/s
-Rainbow: Export/Trade 0.4 --> 0.55/s 
+- Food: 6.0 --> 8.0/s 
+- Wood/Gold: 5.5 --> 7.5/s
+- Rainbow: Export/Trade 0.4 --> 0.55/s 
+Summer Palace - now costs less food to age up than other buildings (regular gold):
+- Colonial - 700 Food
+- Fortress - 1000 Food
+- Industrial - 1700 Food
+- Imperial -  3400 Food
+
 German consulate Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25 (parity with trickle buffs)
 
-Qiang Pikeman: They've got a terribly low light infantry multiplier for a pike, so I've gone ahead and fixed it
-- Light Infantry damage multiplier increased to 3.5x from 2.25x
+Qiang Pikemen, Steppe Riders, and Chu Ko Nu have been removed to reduce unit redundancy.
 
-Changdao: Changao are exceptionally cost effective units. A bit too much so, with their melee death ball. Thus, they are now more specialized towards cavalry
-- Damage: Reduced to 13 from 15
+Changdao: Solid, but redundant melee anti-cav infantry. With the removal of Qiang, they've been moved up to colonial age. 
+- Age: Moved to colonial age from fortress age; no longer shadowtechs. 
 - Cavalry multiplier increased to 2.75x from 2.25x, Light Infantry multiplier increased to 2.0x from 1.5x
+
+Iron Flails: With the removal of Steppe, Iron Flails have been moved to the colonial age.
+- Age: Moved to colonial age from fortress age; no longer shadowtechs. 
+- Cost: Reduced to 200 Food from 240.
+- Melee/Siege Damage: Improved to 20/20 from 19(Melee)/17(Siege).
+- Speed: Improved to 6.75 from 6.5
 
 Flamethrower: They're solid units with great upgrades, but their slow speed and high population cost hurt their lategame usage.
 - Speed: Improved to 4.5 from 4.25
 - Population Cost: Reduced to 3 from 4
-- 2 Flamethrower shipment now upgrades them to disciplined for free. 
-- 4 Flamethrower shipment now upgrades them to be honored for free. 
+- Cost: Reduced to 150 Food/ 150 Wood from 170 Wood / 170 Gold
 
-Keshik: China's dragoon/cav archer option is quite pathetic due to its pitiful base health. They've been buffed to be more survivable vs. cav, especially with old han 2.0
-- HP: Increased to 140 from 110
+Hand Mortar: Painfully slow units. Sped up a bit to compensate for the lack of Trunion.
+- Speed: Increased to 3.5 from 3.0, bombard multiplier improved to 0.6 from 0.4 (2.1 net speed instead of 1.2). 
+
+
+Keshik: China's dragoon/cav archer option is quite pathetic due to its pitiful base health. They've been reworked to be a non-mercenary version of a Black Rider.
+- Cost: Increased to 200 Food from 115
+- Population: Increased to 2 from 1
+- HP: Increased to 240 from 110
 - Armor: Changed from 30% Ranged to 30% Melee
-- Multipliers: Heavy Cav and CoyoteMan innate damage multipliers increased to 3.5x and 3.0x from 3.0 and 2.5x; Mongolian Scourge bonus reduced to +0.5x from 1.0x (same net multiplier, but less reliant on the card)
+- Damage: Increased to 16 from 8 
+- Multipliers: Heavy Cav and CoyoteMan innate damage multipliers reduced to 2.5x from 3.0 and 2.0x from 2.5x; Mongolian Scourge bonus now additionally provides +2 range and +10% damage (to replace Ranged Cavalry Caracole).
 - Obstruction radius reduced to .65 from .79
-- Now affected by reworked Old Han Reforms
-
-Steppe Rider: China's age 2 raider does not scale well. To help old han 2.0 now affects them
-- Obstruction radius reduced to .65 from .79
-- 1.5x villager multiplier added (Mongolian Scourge reduced to +0.5x multiplier)
-- HP increased to 155 from 150
-- Siege increased to 30 from 25
-- Now affected by reworked Old Han Reforms
 
 Banner Armies:
 - Iron Cap Prince now ships 12 changdao, 3 flamethrowers, and upgrades flamethrowers to disciplined. 
@@ -667,7 +684,6 @@ Shipments:
 - Year of the OX now available in Age 2 (from fortress)
 - Confuscious' Gift now available in Age 2 (from fortress)
 - Industrial "White Lotus Rebellion" Shipment added. Converts all villagers into disciples. 
-- Great Wall now increases wall HP by +150% instead of +100%
 - Dowager Empress multiplier increased to 2.25x from 1.60x
 - 10 INFINITE Manchu industrial shipment added (costs 1k coin).
 
