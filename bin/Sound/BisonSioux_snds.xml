@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<protounitsounddef>
+  <protounit name="BisonSioux">
+    <soundtype name="Death">
+      <soundset name="BisonDie"/>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth"/>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

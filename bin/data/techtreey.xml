@@ -4400,10 +4400,10 @@
 			<Effect type ='TechStatus' status ='obtainable'>BigDockFlamingArrows</Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='Cost' resource ='Wood' relativity ='Percent'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-
-
-
-
+			<Effect type ='Data' amount ='0.80' subtype ='BuildBounty' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PostIndustrialXPSioux' type ='Normal'>
@@ -24507,7 +24507,8 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='FortressizeXPAztec' type ='Normal'>
@@ -24548,7 +24549,8 @@
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='IndustrializeXPAztec' type ='Normal'>
@@ -24587,6 +24589,8 @@
 				<Target type ='ProtoUnit'>CWallGate</Target></Effect>
 			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 
 
 		</Effects>
@@ -24622,6 +24626,8 @@
 			<Effect type ='Data' amount ='30.00' subtype ='FreeHomeCityUnit' unittype ='Bison' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>Bastion</Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.10' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='BigCorralBonepipeArmor' type ='Normal'>
@@ -27217,9 +27223,6 @@
 				<Target type ='ProtoUnit'>xpJaguarKnight</Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpSkullKnight</Target></Effect>
-
-
-
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPKnightDamage' type ='Normal'>
@@ -28637,7 +28640,7 @@
 				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
 			<Effect type ='Data' action ='DefendHandAttack' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractInfantry' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
 
 		</Effects>
@@ -33750,7 +33753,9 @@
 		<Effects>
 			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
-			<Effect type ='Data' amount ='1.33' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.75' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Teepee</Target></Effect>
+			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
@@ -35088,14 +35093,12 @@
 				<Target type ='ProtoUnit'>xpWarRifle</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Teepee' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpWarClub</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
 			<Effect type ='Data' amount ='0.66' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Teepee</Target></Effect>
-			<Effect type ='Data' amount ='0.60' subtype ='BuildPoints' relativity ='Percent'>
-				<Target type ='ProtoUnit'>Teepee</Target></Effect>
-
-
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPShipCoyotesTeam' type ='Normal'>
@@ -56766,5 +56769,23 @@
 			<Effect type ='TextOutput'>37238</Effect>
 		</Effects>
 	</Tech>
-
+	<Tech name ='HCXPScorchedEarthSioux' type ='Normal'>
+		<DBID>2942</DBID>
+		<DisplayNameID>44255</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\Scorched_Earth</Icon>
+		<RolloverTextID>44254</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpWarBow</Target></Effect>
+			<Effect type ='TextOutput'>44257</Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpWarClub</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+		</Effects>
+	</Tech>
 </TechTree>

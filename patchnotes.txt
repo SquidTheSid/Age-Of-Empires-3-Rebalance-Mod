@@ -108,6 +108,10 @@ Arsonist - LOS increased to 20 from 15; range increased to 14 from 12; HP increa
 Ninja - population cost reduced from 4 to 2 
 Blink Monk - ROF increased to 1.5 from 2.0; villager multiplier reduced to 2.0 from 2.5x 
 
+Warchiefs:
+- Attack dance now affects siege damage.
+- Medicine Man dance replaced with Sun Dance. Fortress Age dance that improves gather rates by 
+
 
 Asian:
 - Fixed gold gather rates at rice paddies (previously, this had a 0.9x multiplier for some reason)
@@ -126,6 +130,7 @@ Consulate Changes:
  -- 4 Spies replaced with Medicine (-20% villager train time) for 300 export. Colonial Age. 
  -- 5 Petards replaced Estates (2x villager train time, can train villagers in housing) for 700 export. Industrial Age. 
 - Dutch:
+ -- 0.8 Gold/s trickle improved to 1.0 Gold/s
  -- 6 Stadhouders replaced with 5 Nassauer Halberdiers
  -- 6 Stadhouders + 7 Carabineers replaced with 5 Nassauers + 7 Carabineers
 - Germany:
@@ -284,32 +289,40 @@ Sioux :
 
 Teepee: A very controversial building (given how ESOC added then removed an economic aura a la karni mata).
 - Aura: AOE increased to 16 from 12
-- Cost: Reduced to 40W from 50, bounties adjusted accordingly (20/10 --> 16/8)
+- Cost: Reduced to 25F/25W from 50 Wood
 
 Civ Bonus Changes:
 - Sioux get free bison every Age (4 colonial, 8 fortress, 16 industrial, 30 imperial)
 - Sioux can now build regular walls in the Industrial Age (Bastion becomes available in Imperial Age)
 - Sioux's town centers cost 400 wood instead of 500 [ESOC]
+- Sioux infantry gain +10% increased siege damage each age, starting in discovery age. 
+
+Fire Pit Changes:
+- Fire Dance replaced with Buffalo dance (available in discovery age). Spawns free bison over time. 
 
 Politician Reworks/Changes:
 - Wise woman: now ships more bison (8,15,25, 40 up from 6,12,20,30) and grants a larger buff to hunting (20/30/40/50% up from 10/20/30/40%)
 - Warrior: Colonial Age now ships 2 Axe Riders (up from 1). Industrial Age ships 3 Dog Soldiers, and Imperial ships 6 Dog Soldiers.
 
 
-Bow Rider - They're pretty ridiculous on RE, so I've incorporated Garja's HP nerf
-- HP: Reduced to 230 from 250
-- Cost: Reduced to 100F/70G from 100F/75G
+Bow Rider - They're pretty ridiculous on RE, so I've incorporated EP'/DE's HP nerf, but with an armor buff to help compensate
+- HP: Reduced to 225 from 250
+- Amor: Improved to 40% melee from 30%
 
-Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. They've been buffed significantly across the board and have been given a new role to help round out a specific weakness of the Sioux. 
-- HP: Increased to 200 from 170
-- Attack: Improved to 20 from 15
-- Armor: Ranged armor increased to 30% from 10%
-- 5x Hero, 5x mercenary, and 2.5x native unit damage multipliers added. 
-- LOS increased to 28 from 12
+Tashunke Prowler - Arguably the worst and weirdest unit in the game. Their overall design is terrible, and the buff in numbers is a terrible mechanic. Combined with their stealth (which only carded coyote runners share) and AoE, and this is a unit that is massively conflicted in design. I've reworked them into being tanky siege cav, kind of like flail elephants, but much faster (and less tanky). 
+- Now shadowtechs by 25% in the fortress age, and Industrial/Imperial unit upgrades added. 
+- Cost: Reduced to 100 Food/100 Gold from 150 Food/75 Gold
+- HP: Increased to 240 from 170
+- Attack: Reduced to 12 from 15
+- Multipliers: 2x AbstractArtillery, 2x AbstractInfantry, and 0.5x AbstractHeavyInfantry multipliers added (1x HI net, 2x Skirms net)
+- Armor: Ranged armor increased to 40% from 10%
+- LOS: Increased to 18 from 12
+- Speed: Reduced to 6.5 from 6.75
+- No longer enters stealth by default. 
 
 War Club - War Clubs are the Sioux's equivalent of pikemen, except they're not particularly great vs. cavalry or buildings. Since Sioux have access to Bow Riders age 2, anti-cav isn't usually a problem, but the lack of siege is. Therefore, I've made them deal far more siege damage, in addition to hitting a bit harder.
 - Melee: Improved to 11 from 10
-- Siege: Increased to 33 damage from 27
+- Siege: Increased to 30 damage from 27
 
 Cetan Bow: Incorporated ESOC Changes
 - HP: Increased to 100 from 90
@@ -320,22 +333,22 @@ Shipments:
 - Burnt Thigh Support Shipment now sends 8 Rifle Riders (up from 7) and 2 aztec warrior priests instead of medicine men
 - Lakota Support now ships 8 axe riders (up from 7) and 15 bison (up from 9)
 - Nakota Support now ships 5 Dog Soldiers instead of 4
-- San Arc Support no longer ships wood, but increases the hitpoints of all War Clubs by 25% and their armor by +0.10
+- San Arc Support no longer ships wood, but increases the hitpoints of all War Clubs by 25% and their armor by +0.10 (30% net melee resist)
 - Oglala Support no longer ships food, but increases the siege range of Cetan Bows by +10 (from 6 to 16) and triples their siege damage (via a 3x building multiplier, like Seminole Guerilla Wars).
-- Dakota Support now ships 6 Tashunke Prowlers (up from 5) and increases the hitpoints of all Tashunke Prowlers by 30% (up from 25%)
+- Dakota Support now ships 6 Tashunke Prowlers (up from 5), increases their attack by 20%, and lets them use stealth. 
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and cost 2 less population
 - Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
-- Cav combat cards affect Tashunke Prowlers by an extra 5% (for a total of 20% each)
-- Aggressive policy now reduces the cost of Teepees by 50% and build time by 40%, but reduces their hitpoints by 50%, in addition to letting infantry build War Huts, Teepees, and Corrals
-- Nomadic Expansion cost reduction reduced to 25% from 30%, hitpoint increase reduced to 25% from 50%. Now additionally increases Teepee LOS by 5. Now available in Age 1
+- Aggressive policy now reduces the cost of Teepees by 50% but reduces their hitpoints by 33%, in addition to letting infantry build War Huts, Teepees, and Corrals
+- Nomadic Expansion cost reduction reduced to 25% from 30%. Now additionally increases Teepee LOS by 5. Now available in Age 1
 - Sioux now has access to the water dance shipment
 - Town Dance moved to colonial age. Now lets Sioux build walls in any age (starting from colonial) and research bastion.
 - Adoption train time reduction improved to -40% from -25% [ESOC]
 - Onikare moved to Age 4 from Age 2; now additionally reduces Dog Soldier train time by 20% [thanks to gamevideo113]
+- Marauders reworked to give Tashunke Prowlers +10x damage vs. Explorers and Mercenaries and +4x damage vs. Native Warriors
 - 4 villager shipment increased to 5
+- Scorched Earth Shipment added in Age IV. Increases Tashunke Prowler, Cetan Bow, and War Club siege damage by +50%. 
 
 
-Overall, Tashunke Prowlers are now the cavalry equivalent of spies, but with a splash attack and an aura gimmick. They still require heavy resource investment to maximize, but they should be usable in small numbers, no longer being completely outclassed by the cheap steppe rider. While they might not see use in every game, they're no longer a joke unit. War Clubs help provide the raw siege damage that Sioux lacks early on, and Cetan Bows are more versatile archer units, especially with their reworked mercenary shipments. Outlaw units are situationally more useful in lategame now, thanks to a buffed repeatable Bandit Gang, and Outlaw Combat replacing the non repeatable variant (combining the effects of European's Wild West saloon tech and Dance Hall population reduction)
 
 Iroquois:
 
@@ -500,8 +513,9 @@ Japanese Consulate:
 - Intervention now ships 5 Ninja instead of 10 Yamabushi
 - Now trains consulate Yojimbo (Sanjuro) instead of Consulate Shinobi.
 
-Shrine: To compensate for the numerous nerfs, cost has been reduced slightly.
-- Cost: Reduced to 120 wood from 125 (bounties adjusted accordingly).
+Shrine: To compensate for the numerous nerfs, cost has been reduced slightly, but have a more complicated macro and less HP.
+- Cost: Reduced to 95 wood, 20 Gold from 125 Wood (bounties adjusted accordingly).
+- HP: Reduced to 1500 from 1600
 
 Dutch Consulate:
 - 5 Nassauer Halberdiers replace 6 Stadhouders in Dutch Expeditionary Company and Dutch Expeditionary Force
@@ -561,6 +575,7 @@ Naginata Riders:
 
 Ashigaru Musketeer: Insanely cheesy musketeer unit that lets Japan turtle. Rebalanced to be more like a Shinobi unit (more historically accurate). 
 - Renamed to Ashigaru Matchlock (as they're no longer musketeers)
+- Cost: Increased to 70 Food, 50 Gold from 80 Food, 40 Gold.
 - 20% hand armor replaced with 20% ranged armor
 - Heavy infantry tag removed (no longer affected by bayonet and musketeer hitpoints)
 - Siege damage reduced to 11 from 22
@@ -606,7 +621,10 @@ China:
 Wonders:
 Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216
 White Pagoda - build time reduced to 75 seconds (reduced from 135 seconds; fortress age reduced to 85 seconds from 145), no longer provides free disciples. Now provides a scaling XP trickle depending on which age it was built (1.0/s at base and +0.5/s each age thereafter)
-
+Porcelain Tower - Age V trickles buffed:
+Food: 6.0 --> 8.0/s 
+Wood/Gold: 5.5 --> 7.5/s
+Rainbow: Export/Trade 0.4 --> 0.55/s 
 German consulate Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25 (parity with trickle buffs)
 
 Qiang Pikeman: They've got a terribly low light infantry multiplier for a pike, so I've gone ahead and fixed it
@@ -625,16 +643,15 @@ Flamethrower: They're solid units with great upgrades, but their slow speed and 
 Keshik: China's dragoon/cav archer option is quite pathetic due to its pitiful base health. They've been buffed to be more survivable vs. cav, especially with old han 2.0
 - HP: Increased to 140 from 110
 - Armor: Changed from 30% Ranged to 30% Melee
-- Multipliers: Heavy Cav and CoyoteMan innate damage multipliers increased to 3.5x and 3.0x from 3.0 and 2.5x; Mongololian Scourge bonus reduced to +0.5x from 1.0x (same net multiplier, but less reliant on the card)
+- Multipliers: Heavy Cav and CoyoteMan innate damage multipliers increased to 3.5x and 3.0x from 3.0 and 2.5x; Mongolian Scourge bonus reduced to +0.5x from 1.0x (same net multiplier, but less reliant on the card)
 - Obstruction radius reduced to .65 from .79
 - Now affected by reworked Old Han Reforms
 
 Steppe Rider: China's age 2 raider does not scale well. To help old han 2.0 now affects them
 - Obstruction radius reduced to .65 from .79
 - 1.5x villager multiplier added (Mongolian Scourge reduced to +0.5x multiplier)
-- HP increased to 160 from 150
+- HP increased to 155 from 150
 - Siege increased to 30 from 25
-- Cost increased to 90 gold from 85
 - Now affected by reworked Old Han Reforms
 
 Banner Armies:
@@ -943,4 +960,5 @@ MISC (bug fixes):
 - Corrected Royal Green Jacket description
 - German Advanced Dock now has stat parity with other advanced dock shipments
 - Ending Japanese isolation no longer has a permanent damage penalty 
+- Outpost Wagons can now build war huts for native civs. 
 

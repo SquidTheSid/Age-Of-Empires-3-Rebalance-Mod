@@ -36,15 +36,14 @@
   <action>
     <name stringid="38118">BuildingAttack</name>
     <type>Attack</type>
-    <rangedlogic>1</rangedlogic>
-    <maxrange>6</maxrange>
+    <maxrange>1.75</maxrange>
+    <handlogic>1</handlogic>
     <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
     <attackaction>1</attackaction>
     <speedboost>1</speedboost>
-    <anim>Raze_attack</anim>
-    <idleanim>Raze_idle</idleanim>
-    <projectile>TorchProjectile</projectile>
-    <impacteffect>effects\impacts\torch</impacteffect>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
   </action>
   <action>
     <name stringid="38142">TrampleHandAttack</name>
