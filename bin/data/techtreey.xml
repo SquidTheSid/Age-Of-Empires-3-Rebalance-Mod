@@ -4008,17 +4008,17 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImpImmigrantsNative</Effect>
 			<Effect type ='Data' action ='Gather' amount ='0.75' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Herdable</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Farm</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='BuildBounty' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='BuildBounty' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
 			<Effect type ='Data' amount ='1.80' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Market</Target></Effect>
@@ -4293,6 +4293,8 @@
 			<Effect type ='TechStatus' status ='obtainable'>ImpLegendaryRifleRiders</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>EliteAxeRiders</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ImpLegendaryAxeRiders</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ChampionCoupRiders</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>ImpLegendaryCoupRiders</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>WarHut</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -4350,6 +4352,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>TribalSiouxYouth2</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>TribalSiouxWisewoman4</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>EliteWarRifleShadow</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>EliteCoupRiderShadow</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>EliteRifleRiderShadow</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
@@ -4444,7 +4447,9 @@
 			<Effect type ='TechStatus' status ='active'>ChampionWarBows</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionWarClubs</Effect>
 			<Effect type ='TechStatus' status ='active'>ChampionWarRifles</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionCoupRiders</Effect>
 			<Effect type ='TechStatus' status ='active'>EliteWarRifleShadow</Effect>
+			<Effect type ='TechStatus' status ='active'>EliteCoupRiderShadow</Effect>
 			<Effect type ='TechStatus' status ='active'>EliteWarClubs</Effect>
 			<Effect type ='TechStatus' status ='active'>EliteWarBows</Effect>
 			<Effect type ='TechStatus' status ='active'>EliteRifleRiderShadow</Effect>
@@ -4551,6 +4556,7 @@
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryRifleRiders</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryAxeRiders</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryBowRider</Effect>
+			<Effect type ='TechStatus' status ='active'>ImpLegendaryCoupRiders</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpLegendaryNativesNatives</Effect>
 			<Effect type ='TechStatus' status ='active'>ImpExcessiveTributeNative</Effect>
 			<Effect type ='TechStatus' status ='active'>Bastion</Effect>
@@ -28491,7 +28497,7 @@
 		<Icon>ui\units\coup_rider_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipCoupRiders2' type ='Normal'>
@@ -28503,7 +28509,7 @@
 		<Icon>ui\units\coup_rider_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='5.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipCoupRiders3' type ='Normal'>
@@ -28515,7 +28521,7 @@
 		<Icon>ui\units\coup_rider_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='7.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipCoupRiders4' type ='Normal'>
@@ -28527,7 +28533,7 @@
 		<Icon>ui\units\coup_rider_icon</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCXPShipDogsoldiers1' type ='Normal'>
@@ -28905,8 +28911,6 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>48882</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='xpCoupRider' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' action ='Stealth' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.00' tactic ='Stealth' subtype ='TacticEnable' relativity ='Absolute'>
@@ -29143,7 +29147,11 @@
 		<Effects>
 			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='xpCoupRider' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' action ='Stealth' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' amount ='1.00' tactic ='Stealth' subtype ='TacticEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
 			<Effect type ='TextOutput'>44673</Effect>
 		</Effects>
@@ -31380,6 +31388,22 @@
 				<Target type ='ProtoUnit'>xpWarRifle</Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='EliteCoupRiderShadow' type ='Normal'>
+		<DBID>3257</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status ='Active'>Fortressize</TechStatus></Prereqs>
+		<Effects>
+			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='SetName' proto ='xpCoupRider' culture ='none' newName ='70960'></Effect>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+		</Effects>
+	</Tech>
+
 	<Tech name ='BigWarHutWarDrums' type ='Normal'>
 		<DBID>3259</DBID>
 		<DisplayNameID>45887</DisplayNameID>
@@ -34907,11 +34931,18 @@
 		<RolloverTextID>47167</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.50' subtype ='BuildLimit' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='10.00' subtype ='DamageBonus' unittype ='Mercenary' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
-			<Effect type ='Data' amount ='6.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='10.00' subtype ='DamageBonus' unittype ='Hero' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
-
+			<Effect type ='Data' amount ='4.00' subtype ='DamageBonus' unittype ='AbstractNativeWarrior' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='-10.00' subtype ='DamageBonus' unittype ='Mercenary' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='-10.00' subtype ='DamageBonus' unittype ='Hero' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
+			<Effect type ='Data' action ='BuildingAttack' amount ='-4.00' subtype ='DamageBonus' unittype ='AbstractNativeWarrior' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
 			<Effect type ='TextOutput'>47170</Effect>
 		</Effects>
 	</Tech>
@@ -35238,12 +35269,12 @@
 		<RolloverTextID>47222</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.75' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.75' subtype ='ResourceTrickleRate' resource ='Wood' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TextOutput'>69793</Effect>
-			<Effect type ='Data' amount ='1.25' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.75' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -39641,7 +39672,7 @@
 		<RolloverTextID>61897</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='4.00' subtype ='LOS' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='LOS' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
 			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypAshigaru</Target></Effect>
@@ -42839,7 +42870,7 @@
 			<Effect civ ='Dutch' type ='Data' amount ='0.00' subtype ='SetCivRelation' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypConsulateRelationsDutch</Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
+			<Effect type ='Data' amount ='1.00' subtype ='ResourceTrickleRate' resource ='Gold' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -54603,7 +54634,7 @@
 		<Effects>
 			<Effect type ='Data' action ='AutoGather' amount ='0.80' subtype ='WorkRate' unittype ='Gold' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
-			<Effect type ='Data' amount ='8.00' subtype ='BuildLimit' relativity ='Assign'>
+			<Effect type ='Data' amount ='10.00' subtype ='BuildLimit' relativity ='Assign'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect></Effects>
 	</Tech>
 	<Tech name ='HCCavalryArcherAntiArtilleryDamage' type ='Normal'>
@@ -56727,7 +56758,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\field_gun\shot_tower</Icon>
-		<RolloverTextID>70958</RolloverTextID>
+		<RolloverTextID>70961</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='-1.00' subtype ='AllowedAge' relativity ='Absolute'>

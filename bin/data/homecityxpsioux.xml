@@ -491,7 +491,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -500,7 +500,7 @@
       <level>10</level>
       <prereqtech>HCXPShipCoupRiders1</prereqtech>
       <age>2</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -509,7 +509,7 @@
       <level>10</level>
       <prereqtech>HCXPShipCoupRiders2</prereqtech>
       <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -518,7 +518,7 @@
       <level>25</level>
       <prereqtech>HCXPShipCoupRiders3</prereqtech>
       <age>3</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -905,7 +905,7 @@
     </card>
     <card>
       <name>HCXPEarthBounty</name>
-      <maxcount>2</maxcount>
+      <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCXPGreatHunter</prereqtech>
       <age>0</age>
