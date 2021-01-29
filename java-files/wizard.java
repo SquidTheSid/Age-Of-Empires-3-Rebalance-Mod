@@ -40,7 +40,7 @@ public class wizard extends JFrame implements ActionListener
 
 
 	public wizard(){
-		versionNum = "1.2";
+		versionNum = "1.3";
 		instantiateFields(); 
 		//set a layout and basic size and window properties. 
 		panel.setLayout(new BorderLayout()); 
