@@ -6639,6 +6639,7 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type ='TechStatus' status ='active'>XPTrickle</Effect>
+			<Effect type ='TechStatus' status ='active'>YPHCGreatWall</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypVillagePopCapIncrease2</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypVillagePopCapIncrease3</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypVillagePopCapIncrease</Effect>
@@ -6650,8 +6651,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>ypMarketHuntingDogs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypVillagePopCapIncrease4</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ypMarketWheelbarrow2</Effect>
-			<Effect type ='Data' amount ='20.00' subtype ='PopulationCapExtra' relativity ='Absolute'>
-				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='CopyUnitPortraitAndIcon' unittype ='CoveredWagon' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>YPCoveredWagonAsian</Target></Effect>
 			<Effect type ='Data' amount ='0.00' subtype ='CopyUnitPortraitAndIcon' unittype ='ypMarketWagon' relativity ='Absolute'>
@@ -29321,7 +29320,7 @@
 		<Effects>
 			<Effect type ='Data' amount ='14.00' subtype ='FreeHomeCityUnit' unittype ='xpWarRifle' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.25' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpWarRifle</Target></Effect>
 			<Effect type ='TextOutput'>44711</Effect>
 		</Effects>
@@ -56776,7 +56775,7 @@
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Scorched_Earth</Icon>
-		<RolloverTextID>44254</RolloverTextID>
+		<RolloverTextID>70962</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
