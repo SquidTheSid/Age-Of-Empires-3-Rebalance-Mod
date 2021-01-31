@@ -6,7 +6,7 @@ General:
 
 Included new maps made by Dansil92 
 
-Incoporated ESOC's fixed starting crates:
+Incoporated most of ESOC's fixed starting crates:
 - Spain: 300 Food + 200 wood
 - Britain: 300 Food + 300 Wood
 - France: 400 Food + 200 Wood
@@ -18,7 +18,7 @@ Incoporated ESOC's fixed starting crates:
 - Iroquois: 500 Food + 100 wood
 - Sioux: 400 Food + 100 Wood
 - Aztec: 400 Food + 300 Wood
-- Japan: 500 Food + 300 Wood
+- Japan: 400 Food + 300 Wood + 100 Coin
 - China: 300 Food + 300 Wood (increased by 100 from ESOC)
 - India: 200 Food + 400 Wood
 
@@ -118,6 +118,7 @@ Asian:
 - Advanced Wonders now additionally reduces Age Up/Wonder cost by 15% (note: This does NOT stack with the Portuguese consulate)
 - Villagemasons now additionally reduces building wood cost by 25%
 - Castle's cost reduced from 250 Wood/100 Gold to 200 Wood/100 Gold
+- Native Crafts reworked, now increases Export gather rate by 35%. Discovery age shipment. 
 
 Consulate Changes:
 - Portuguese:
@@ -134,6 +135,7 @@ Consulate Changes:
  -- 6 Stadhouders replaced with 5 Nassauer Halberdiers
  -- 6 Stadhouders + 7 Carabineers replaced with 5 Nassauers + 7 Carabineers
 - Germany:
+ -- Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25 (parity with trickle buffs) and all available in colonial age.
  -- 3 Dopps + 6 Skirmishers replaced with 3 Dopps + 2 Black Riders (these shadowtech much like Consulate Hatamoto Samurai and Sanjuro)
  -- 11 Skirms + 2 Heavy Cannons replaced with 4 Black Riders + 2 Heavy Cannons
  -- 19 Uhlans + 15 Skirmishers replaced with 12 Black Riders
@@ -229,7 +231,8 @@ Politician Changes:
 
 Jaguar Prowl Knight - The JPK is now a melee skirmisher, similar to Urumi, but without AoE. His heavy infantry tag has been removed, but he's much weaker vs. cavalry to compensate. 
 - HP: Lowered to 200 from 230
-- Siege: Lowered to 24 Siege Damage from 36
+- Siege: Lowered to 30 Siege Damage from 36
+- Melee: Improved to 20 from 18
 - Armor: Changed from 10% melee to 20% ranged
 - 0.75x multiplier vs Cavalry and CoyoteMan added (with a further 0.75x vs light infantry), 2.0x light cavalry multiplier/xpEagleKnight multipliers added
 - Heavy infantry unit tag removed
@@ -329,12 +332,13 @@ Cetan Bow: Incorporated ESOC Changes
 - Speed: Increased to 4.5 from 4.0
 
 Shipments: 
-- Earth Bounty shipment moved to colonial age and now provides 1.25 Food, Wood, and Gold trickles instead of 0.65 Wood and Gold trickles
+- Earth Bounty shipment now provides 0.75 Food, Wood, and Gold trickles instead of 0.65 Wood and Gold trickles
 - Burnt Thigh Support Shipment now sends 8 Rifle Riders (up from 7) and 2 aztec warrior priests instead of medicine men
 - Lakota Support now ships 8 axe riders (up from 7) and 15 bison (up from 9)
 - Nakota Support now ships 5 Dog Soldiers instead of 4
-- San Arc Support no longer ships wood, but increases the hitpoints of all War Clubs by 25% and their armor by +0.10 (30% net melee resist)
-- Oglala Support no longer ships food, but increases the siege range of Cetan Bows by +10 (from 6 to 16) and triples their siege damage (via a 3x building multiplier, like Seminole Guerilla Wars).
+- San Arc Support no longer ships wood, but increases the hitpoints of all War Clubs by 25% and their armor by +0.10 (30% net melee resist). Now only ships 11 War Clubs (-5), but only costs 500 gold to send
+- Oglala Support no longer ships food, but increases the siege range of Cetan Bows by +10 (from 6 to 16) and triples their siege damage (via a 3x building multiplier, like Seminole Guerilla Wars). Now only ships 9 Cetan (-5) but only costs 500 gold to ship). 
+- Two Kettle Support now increases Wakina damage by +25% instead of HP by +20%.
 - Dakota Support now ships 6 Tashunke Prowlers (up from 5), increases their attack by 20%, and lets them use stealth. 
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and cost 2 less population
 - Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
@@ -620,7 +624,7 @@ China:
 
 Civ Bonus:
 - Great Wall shipment removed, now an innate civ bonus
-- +20 pop cap civ bonus removed, now a shipment
+- +20 pop cap civ bonus removed (now 200 like all other civs).
 
 Wonders:
 Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216; heal increased to 9999 hitpoints from 1000; now ships wood crates instead of villagers as follows:
@@ -639,7 +643,6 @@ Summer Palace - now costs less food to age up than other buildings (regular gold
 - Industrial - 1700 Food
 - Imperial -  3400 Food
 
-German consulate Food trickle improved to 2/s from 1.5 and Coin trickle improved to 1.5/s from 1.25 (parity with trickle buffs)
 
 Qiang Pikemen, Steppe Riders, and Chu Ko Nu have been removed to reduce unit redundancy.
 
@@ -667,8 +670,10 @@ Keshik: China's dragoon/cav archer option is quite pathetic due to its pitiful b
 - Population: Increased to 2 from 1
 - HP: Increased to 240 from 110
 - Armor: Changed from 30% Ranged to 30% Melee
-- Damage: Increased to 16 from 8 
-- Multipliers: Heavy Cav and CoyoteMan innate damage multipliers reduced to 2.5x from 3.0 and 2.0x from 2.5x; Mongolian Scourge bonus now additionally provides +2 range and +10% damage (to replace Ranged Cavalry Caracole).
+- Ranged Damage: Increased to 27 from 8
+- Melee Damage: Improved to 13 from 8
+- ROF: Slowed to 3.0 from 1.5
+- Multipliers: Heavy Cav and CoyoteMan innate damage multipliers reduced to 2.5x from 3.0 and 2.0x from 2.5x; 
 - Obstruction radius reduced to .65 from .79
 
 Banner Armies:
@@ -681,12 +686,13 @@ Banner Armies:
 - Emperor's Army now ships 10 hand mortars, up from 8
 
 Shipments:
+- Mongolian Scourge bonus now additionally provides +2 range and +10% damage to Keshiks (to replace Ranged Cavalry Caracole). Now adds +50% Siege damage and +0.5x AbstractVillager multipliers to Iron Flails (in addition to skirmishers). 
 - Year of the OX now available in Age 2 (from fortress)
-- Confuscious' Gift now available in Age 2 (from fortress)
+- Confuscious' Gift now available in Age 1 (from fortress)
 - Industrial "White Lotus Rebellion" Shipment added. Converts all villagers into disciples. 
 - Dowager Empress multiplier increased to 2.25x from 1.60x
 - 10 INFINITE Manchu industrial shipment added (costs 1k coin).
-
+- Industrial Economic Theory added. Increases gather rates from all sources by +25%
 
 
 Portugal:
@@ -921,7 +927,7 @@ Schutze: cheaper but weaker German skirmisher that scales well into the lategame
 
 War Wagon: It's unusual that an armored wagon with cannons is an anti-cav unit. I've changed it to be a hybrid anti-artillery/anti-infantry unit.
 - Cost: Increased to 100 wood, 200 gold from 150 F/G.
-- All cavalry tags removed. Now classified as "AbstractArtillery"
+- All cavalry tags removed. Now classified as "AbstractArtillery" (this is technically incorrect due to engine limitations. War Wagons have no unit tags but units have hard-coded damage multipliers)
 - HP: Reduced to 320 from 500
 - Speed: Reduced to 5.0 from 6.0
 - Armor: Increased to 60 ranged from 20 melee. 

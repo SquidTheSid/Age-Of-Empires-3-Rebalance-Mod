@@ -1051,7 +1051,7 @@
       <level>10</level>
       <prereqtech>HCXPSiouxLakotaSupport</prereqtech>
       <age>2</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1078,7 +1078,7 @@
       <level>10</level>
       <prereqtech>HCXPSiouxBurntThighSupport</prereqtech>
       <age>2</age>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1174,7 +1174,7 @@
       <level>10</level>
       <prereqtech>HCXPSiouxDakotaSupport</prereqtech>
       <age>2</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>4</displayunitcount>
     </card>
     <card>
       <name>HCXPSiouxYanktonSupport</name>

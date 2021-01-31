@@ -216,7 +216,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -225,7 +225,7 @@
       <level>0</level>
       <prereqtech>YPHCShipVillageWagon1</prereqtech>
       <age>1</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -675,7 +675,7 @@
       <age>2</age>
     </card>
     <card>
-      <name>YPHCNativeTradeTax</name>
+      <name>YPHCNativeTradeCraft</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>YPHCNativeLearning</prereqtech>
@@ -692,7 +692,7 @@
       <name>YPHCExpandedTradingPost</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCNativeTradeTax</prereqtech>
+      <prereqtech>YPHCNativeTradeCraft</prereqtech>
       <age>0</age>
       <displayunitcount>1</displayunitcount>
     </card>
@@ -736,7 +736,7 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>YPHCEngineeringSchoolTeam</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>HCPioneers</name>
@@ -952,6 +952,13 @@
       <level>25</level>
       <prereqtech>HCSustainableAgriculture</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>YPHCEconomicTheoryChinese</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCRefrigeration</prereqtech>
+      <age>3</age>
     </card>
     <card>
       <name>HCStockyards</name>
@@ -1434,7 +1441,7 @@
     <obtainabletechs>
       <tech x="0.35" y="1">YPHCNativeLearning</tech>
       <tech x="0" y="4">YPHCNativeHitpoints</tech>
-      <tech x="0.7" y="3">YPHCNativeTradeTax</tech>
+      <tech x="0.7" y="3">YPHCNativeTradeCraft</tech>
       <tech x="0" y="3">YPHCNativeDamage</tech>
       <tech x="0.7" y="5">YPHCExpandedTradingPost</tech>
       <tech x="3.5" y="1">YPHCRanchingWaterBuffalo</tech>
@@ -1496,6 +1503,7 @@
       <tech x="3.6" y="2">HCFoodSilos</tech>
       <tech x="3.6" y="4">HCSustainableAgriculture</tech>
       <tech x="3.6" y="6">HCRefrigeration</tech>
+      <tech x="3.6" y="7">YPHCEconomicTheoryChinese</tech>
       <tech x="4.5" y="2">HCCigarRoller</tech>
       <tech x="4.5" y="3">HCTextileMills</tech>
       <tech x="6.3" y="6">YPHCRainbowTrickle</tech>

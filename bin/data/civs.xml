@@ -1380,10 +1380,10 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
-    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofCoin</townstartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityjapanese.xml</homecityfilename>
     <homecityflagtexture>objects\flags\japan</homecityflagtexture>
@@ -2041,20 +2041,20 @@
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypOldHanArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypMeteorHammer</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>

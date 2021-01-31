@@ -643,7 +643,7 @@
       <age>2</age>
     </card>
     <card>
-      <name>YPHCNativeTradeTaxIndians</name>
+      <name>YPHCNativeTradeCraftIndians</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>YPHCNativeIncorporationIndians</prereqtech>
@@ -653,7 +653,7 @@
       <name>YPHCExpandedTradingPostIndians</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCNativeTradeTaxIndians</prereqtech>
+      <prereqtech>YPHCNativeTradeCraftIndians</prereqtech>
       <age>0</age>
       <displayunitcount>1</displayunitcount>
     </card>
@@ -1436,7 +1436,7 @@
       <tech x="0.4" y="1">YPHCNativeLearningIndians</tech>
       <tech x="0.4" y="2">YPHCNativeIncorporationIndians</tech>
       <tech x="0" y="3">YPHCNativeHitpointsIndians</tech>
-      <tech x="0.8" y="3">YPHCNativeTradeTaxIndians</tech>
+      <tech x="0.8" y="3">YPHCNativeTradeCraftIndians</tech>
       <tech x="0.8" y="5">YPHCExpandedTradingPostIndians</tech>
       <tech x="2.5" y="3">YPHCFencingSchoolIndians</tech>
       <tech x="2.5" y="4">YPHCRidingSchoolIndians</tech>
