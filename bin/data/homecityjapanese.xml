@@ -359,7 +359,7 @@
       <level>0</level>
       <prereqtech>YPHCShipSamurai1</prereqtech>
       <age>3</age>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>15</displayunitcount>
     </card>
     <card>
       <name>YPHCShipSamurai3</name>

@@ -2029,11 +2029,11 @@
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -2065,8 +2065,8 @@
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2125,11 +2125,11 @@
       <building>ypWCSummerPalace3</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -2161,8 +2161,8 @@
       <building>ypWCSummerPalace3</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2221,11 +2221,11 @@
       <building>ypWCSummerPalace4</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -2257,8 +2257,8 @@
       <building>ypWCSummerPalace4</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2317,11 +2317,11 @@
       <building>ypWCSummerPalace5</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -2353,8 +2353,8 @@
       <building>ypWCSummerPalace5</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2413,11 +2413,11 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypBlackFlagArmy</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -2449,8 +2449,8 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypMingArmy</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2509,11 +2509,11 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypBlackFlagArmy</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -2545,8 +2545,8 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypMingArmy</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2605,11 +2605,11 @@
       <building>ypCastle</building>
       <multipleblockunit>ypBlackFlagArmy</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -2641,8 +2641,8 @@
       <building>ypWarAcademy</building>
       <multipleblockunit>ypMingArmy</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2694,7 +2694,7 @@
       </units>
       <unitcounts>
         <count>2</count>
-        <count>1</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -3627,11 +3627,11 @@
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -3663,8 +3663,8 @@
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -3723,11 +3723,11 @@
       <building>ypWCSummerPalace3</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -3759,8 +3759,8 @@
       <building>ypWCSummerPalace3</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -3819,11 +3819,11 @@
       <building>ypWCSummerPalace4</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -3855,8 +3855,8 @@
       <building>ypWCSummerPalace4</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -3915,11 +3915,11 @@
       <building>ypWCSummerPalace5</building>
       <multipleblockunit>ypBlackFlagArmySpawn</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -3951,8 +3951,8 @@
       <building>ypWCSummerPalace5</building>
       <multipleblockunit>ypMingArmySpawn</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -4011,11 +4011,11 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypBlackFlagArmy</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -4047,8 +4047,8 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypMingArmy</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -4107,11 +4107,11 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypBlackFlagArmy</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -4143,8 +4143,8 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypMingArmy</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -4203,11 +4203,11 @@
       <building>ypCastle</building>
       <multipleblockunit>ypBlackFlagArmy</multipleblockunit>
       <units>
-        <unit>ypArquebusier</unit>
+        <unit>ypChangdao</unit>
         <unit>ypFlameThrower</unit>
       </units>
       <unitcounts>
-        <count>3</count>
+        <count>4</count>
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
@@ -4239,8 +4239,8 @@
       <building>ypWarAcademy</building>
       <multipleblockunit>ypMingArmy</multipleblockunit>
       <units>
-        <unit>ypKeshik</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypChangdao</unit>
+        <unit>ypIronFlail</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -4292,7 +4292,7 @@
       </units>
       <unitcounts>
         <count>2</count>
-        <count>1</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>

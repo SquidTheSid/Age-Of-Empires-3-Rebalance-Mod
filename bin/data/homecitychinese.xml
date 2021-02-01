@@ -52,14 +52,14 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>YPHCSpawnRefugees1</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>YPHCSpawnMigrants1</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>YPHCSpawnRefugees2</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCShipFoodCrates1</name>
@@ -419,7 +419,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -437,7 +437,7 @@
       <level>25</level>
       <prereqtech>YPHCShipKeshik3</prereqtech>
       <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1230,13 +1230,9 @@
         <card>HCShipFoodCrates1</card>
         <card>HCShipFoodCrates2</card>
         <card>YPHCShipCoveredWagonsAsian</card>
-        <card>YPHCShipChuKoNu1</card>
-        <card>YPHCShipQiangPikeman1</card>
-        <card>YPHCShipQiangPikeman2</card>
         <card>YPHCShipChangdao1</card>
         <card>YPHCShipArquebusier1</card>
         <card>YPHCShipArquebusier2</card>
-        <card>YPHCShipSteppeRider1</card>
         <card>YPHCShipFlameThrower2</card>
         <card>HCFurrier</card>
         <card>ypHCShipCastleWagons1</card>
@@ -1251,13 +1247,9 @@
         <card>HCShipFoodCrates1</card>
         <card>HCShipFoodCrates2</card>
         <card>YPHCShipCoveredWagonsAsian</card>
-        <card>YPHCShipChuKoNu1</card>
-        <card>YPHCShipQiangPikeman1</card>
-        <card>YPHCShipQiangPikeman2</card>
         <card>YPHCShipChangdao1</card>
         <card>YPHCShipArquebusier1</card>
         <card>YPHCShipArquebusier2</card>
-        <card>YPHCShipSteppeRider1</card>
         <card>YPHCShipFlameThrower2</card>
         <card>HCFurrier</card>
         <card>ypHCShipCastleWagons1</card>
@@ -1364,15 +1356,9 @@
     <displaynamestringid>63357</displaynamestringid>
     <rolloverstringid>29002</rolloverstringid>
     <obtainabletechs>
-      <tech x="0" y="1">YPHCShipChuKoNu1</tech>
-      <tech x="0" y="2">YPHCShipChuKoNu2</tech>
-      <tech x="0" y="4">YPHCShipChuKoNu3</tech>
       <tech x="0.4" y="3">YPHCStandardArmyHitpoints</tech>
       <tech x="0" y="5">YPHCShipMandarinDuckSquad</tech>
       <tech x="0.4" y="7">YPHCBannerReforms</tech>
-      <tech x="1.1" y="1">YPHCShipQiangPikeman1</tech>
-      <tech x="1.1" y="2">YPHCShipQiangPikeman2</tech>
-      <tech x="1.1" y="4">YPHCShipQiangPikeman3</tech>
       <tech x="1.1" y="7">YPHCOldHanArmyReforms</tech>
       <tech x="1.8" y="1">YPHCShipArquebusier1</tech>
       <tech x="1.8" y="2">YPHCShipArquebusier2</tech>
@@ -1384,14 +1370,10 @@
       <tech x="3.6" y="3">YPHCShipKeshik3</tech>
       <tech x="3.6" y="5">YPHCShipKeshik4</tech>
       <tech x="3.6" y="7">YPHCWesternReforms</tech>
-      <tech x="4.3" y="1">YPHCShipSteppeRider1</tech>
-      <tech x="4.3" y="2">YPHCShipSteppeRider2</tech>
-      <tech x="4.3" y="3">YPHCShipSteppeRider3</tech>
       <tech x="4.3" y="5">YPHCMongolianScourge</tech>
       <tech x="5.0" y="2">YPHCShipIronFlail1</tech>
       <tech x="5.0" y="4">YPHCShipIronFlail2</tech>
       <tech x="5.4" y="5">YPHCForbiddenArmyArmor</tech>
-      <tech x="5.0" y="6">YPHCShipBeiyangArmy</tech>
       <tech x="5.0" y="7">YPHCShipEverVictoriousArmy</tech>
       <tech x="5.9" y="2">YPHCShipMeteorHammer1</tech>
       <tech x="5.9" y="3">YPHCShipMeteorHammer2</tech>
@@ -1411,13 +1393,9 @@
       <tech x="7.8" y="7">YPHCShipFlyingCrow2</tech>
     </obtainabletechs>
     <activetechs>
-      <tech>YPHCShipChuKoNu1</tech>
-      <tech>YPHCShipQiangPikeman1</tech>
-      <tech>YPHCShipQiangPikeman2</tech>
       <tech>YPHCShipChangdao1</tech>
       <tech>YPHCShipArquebusier1</tech>
       <tech>YPHCShipArquebusier2</tech>
-      <tech>YPHCShipSteppeRider1</tech>
       <tech>YPHCShipFlameThrower2</tech>
     </activetechs>
     <validunits/>

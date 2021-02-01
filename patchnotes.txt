@@ -580,14 +580,15 @@ Naginata Riders:
 Ashigaru Musketeer: Insanely cheesy musketeer unit that lets Japan turtle. Rebalanced to be more like a Shinobi unit (more historically accurate). 
 - Renamed to Ashigaru Matchlock (as they're no longer musketeers)
 - Cost: Increased to 70 Food, 50 Gold from 80 Food, 40 Gold.
-- 20% hand armor replaced with 20% ranged armor
+- 20% hand armor increased to with 30% ranged armor
 - Heavy infantry tag removed (no longer affected by bayonet and musketeer hitpoints)
 - Siege damage reduced to 11 from 22
 - All multipliers removed 
 - Range increased to 14 from 12
 - Damage reduced to 20 from 24
-- Hitpoints reduced to 150 from 170
+- Hitpoints reduced to 130 from 170
 - Melee attack reduced from 10 to 8
+- Speed: Reduced to 4 from 4.5
 
 Yumi Archers: They hit like trucks and have insane range. I've changed them to be less toxic in turtles
 - Moved to age 3 from age 2
@@ -606,9 +607,9 @@ Shipments:
 - TEAM Cheap unit upgrades increased to -25% cost from -20%
 - Yabusame Attack improved to +40% damage from +20%
 - In-Yo Rush no longer provides a damage bonus; now grants a 1.0x multiplier vs. artillery and heavy cavalry, now available in age 2.
-- Close Combat changed to Sashimono. Adds 2 LOS, +5% speed, and reduces train time by 20%.
-- Ashigaru damage increased to 20% from 15%
+- Close Combat changed to Sashimono. Adds 2 LOS, +0.75 speed (for a total of 4.76), and reduces train time by 25%.
 - Yumi Damage moved to age 3 from colonial. Increased to 25% damage from 20%
+- Samurai shipments deliver more units to account for the cheaper cost. 3 Samurai --> 5; 5 Samurai --> 8; 7 Samurai --> 15 (no longer buffs ATK or HP). 6 Samurai INF --> 12 Samurai INF
 
 France:
 
@@ -625,6 +626,7 @@ China:
 Civ Bonus:
 - Great Wall shipment removed, now an innate civ bonus
 - +20 pop cap civ bonus removed (now 200 like all other civs).
+- Livestock now gain full fattening rate in Fortress (rather than Industrial)
 
 Wonders:
 Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216; heal increased to 9999 hitpoints from 1000; now ships wood crates instead of villagers as follows:
@@ -632,17 +634,28 @@ Temple of Heaven - Transcendence cooldown reduced to 180 seconds from 216; heal 
 - Fortress - ships 800 Wood
 - Industrial - ships 1200 Wood
 - Imperial - ships 2000 Wood
-White Pagoda - build time reduced to 75 seconds (reduced from 135 seconds; fortress age reduced to 85 seconds from 145), no longer provides free disciples. Now provides a scaling XP trickle depending on which age it was built (1.0/s at base and +0.5/s each age thereafter)
+White Pagoda - build time reduced to 75 seconds (reduced from 135 seconds; fortress age reduced to 85 seconds from 145), no longer provides free disciples. Now provides a scaling XP trickle depending on which age it was built 
+- Colonial - 1.0 XP/s 
+- Fortress - 1.5 XP/s
+- Industrial - 2.0 XP/s
+- Imperial - 3.0 XP/s 
 Porcelain Tower - Age V trickles buffed:
 - Food: 6.0 --> 8.0/s 
 - Wood/Gold: 5.5 --> 7.5/s
 - Rainbow: Export/Trade 0.4 --> 0.55/s 
-Summer Palace - now costs less food to age up than other buildings (regular gold):
+Summer Palace - now costs less food to age up than other buildings (regular gold cost):
 - Colonial - 700 Food
 - Fortress - 1000 Food
 - Industrial - 1700 Food
 - Imperial -  3400 Food
+Confucian Academy - No longer automatically trains free Flying Crows. Now provides a scaling Export trickle depending on which age it was built and can train the Mandarin and Wokou Banner Armies:
+- Colonial - 1.25 Export/s
+- Fortress - 2.00 Export/s
+- Industrial - 2.75 Export/s
+- Imperial - 3.75 Export/s
 
+Mandarin Banner Army - 2 Ming Iron Troops and 2 Manchu
+Wokou Banner Army - 3 Wokou Pirates and 3 Wokou Blind Monks 
 
 Qiang Pikemen, Steppe Riders, and Chu Ko Nu have been removed to reduce unit redundancy.
 
@@ -675,6 +688,27 @@ Keshik: China's dragoon/cav archer option is quite pathetic due to its pitiful b
 - ROF: Slowed to 3.0 from 1.5
 - Multipliers: Heavy Cav and CoyoteMan innate damage multipliers reduced to 2.5x from 3.0 and 2.0x from 2.5x; 
 - Obstruction radius reduced to .65 from .79
+- Windup: sped up to 0.14 from 0.28
+
+Flying Crows: Really terrible base stats, and scaling from colonial means it's weaker than other heavy artillery like Rockets or Heavy Cannons. 
+- No longer shadowtechs, Imperial Age upgrade added to Castle. 
+- Population: Reduced to 6 from 7
+- Train time: Reduced to 100 seconds from 240
+- HP: Increased to 350 from 225
+- Damage: Increased to 300 from 190
+- Range: Increased to 28 from 18
+- AoE: Increased to 5 from 3
+- Speed: Increased to 3.5 from 3.0 
+- Multipliers: 0.75x AbstractArtillery damage penalty added. 
+- Now trainable at the Castle. No longer autospawns from Confucian Academy.
+
+Iron Troop: Great archer unit, but you can't use them very often. I've turned them into China's super unit, a la Urumi for India. 
+- Now shadowtechs by 30% in Industrial and 50% in Imperial ages. 
+- Mercenary unit tag removed
+- HP: Reduced to 175 from 225
+- Melee Attack: Reduced to 13 from 16
+- Ranged Attack: Reduced to 19 from 25
+- Siege: Reduced to 17 from 21
 
 Banner Armies:
 - Iron Cap Prince now ships 12 changdao, 3 flamethrowers, and upgrades flamethrowers to disciplined. 
@@ -687,6 +721,8 @@ Banner Armies:
 
 Shipments:
 - Mongolian Scourge bonus now additionally provides +2 range and +10% damage to Keshiks (to replace Ranged Cavalry Caracole). Now adds +50% Siege damage and +0.5x AbstractVillager multipliers to Iron Flails (in addition to skirmishers). 
+- Age 1 Nomadic Settlement now additionally ships 5 goats (1 village wagon + 1 build limit).
+- Age 2 Nomadic Expansion now additionally ships 10 goats and village built limit increased to +2 (originally 2 village wagons + 1 build limit). 
 - Year of the OX now available in Age 2 (from fortress)
 - Confuscious' Gift now available in Age 1 (from fortress)
 - Industrial "White Lotus Rebellion" Shipment added. Converts all villagers into disciples. 
