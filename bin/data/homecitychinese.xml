@@ -310,14 +310,14 @@
       <name>YPHCStandardArmyHitpoints</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>YPHCShipChuKoNu2</prereqtech>
+      <prereqtech>YPHCShipChangdao2</prereqtech>
       <age>1</age>
     </card>
     <card>
       <name>YPHCShipMandarinDuckSquad</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCShipChuKoNu3</prereqtech>
+      <prereqtech>YPHCShipArquebusier3</prereqtech>
       <age>1</age>
       <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -360,13 +360,23 @@
       <name>YPHCOldHanArmyReforms</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>YPHCShipQiangPikeman3</prereqtech>
+      <prereqtech>YPHCShipEmperorsArmy</prereqtech>
       <age>3</age>
+    </card>
+    <card>
+      <name>YPHCShipArquebusier3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>YPHCShipArquebusier1</name>
       <maxcount>1</maxcount>
       <level>0</level>
+      <prereqtech>YPHCShipArquebusier3</prereqtech>
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>10</displayunitcount>
@@ -400,10 +410,18 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>YPHCShipChangdao3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>YPHCTerritorialArmyCombat</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCShipChangdao2</prereqtech>
+      <prereqtech>YPHCHanAntiCavalryBonus</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -471,16 +489,25 @@
       <name>YPHCMongolianScourge</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>YPHCShipSteppeRider3</prereqtech>
+      <prereqtech>YPHCShipIronFlail2</prereqtech>
       <age>1</age>
+    </card>
+    <card>
+      <name>YPHCShipIronFlail3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>YPHCShipIronFlail1</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>YPHCShipIronFlail3</prereqtech>
       <age>2</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -489,7 +516,7 @@
       <level>10</level>
       <prereqtech>YPHCShipIronFlail1</prereqtech>
       <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -512,7 +539,7 @@
       <name>YPHCShipEverVictoriousArmy</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>YPHCShipBeiyangArmy</prereqtech>
+      <prereqtech>YPHCShipIronFlail2</prereqtech>
       <age>3</age>
       <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -552,12 +579,21 @@
       <age>3</age>
     </card>
     <card>
-      <name>YPHCShipFlameThrower2</name>
+      <name>YPHCShipFlameThrower1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
       <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>YPHCShipFlameThrower2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>YPHCShipFlameThrower1</prereqtech>
+      <age>2</age>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -566,7 +602,7 @@
       <level>0</level>
       <prereqtech>YPHCShipFlameThrower2</prereqtech>
       <age>3</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -620,7 +656,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1356,36 +1392,39 @@
     <displaynamestringid>63357</displaynamestringid>
     <rolloverstringid>29002</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.4" y="3">YPHCStandardArmyHitpoints</tech>
-      <tech x="0" y="5">YPHCShipMandarinDuckSquad</tech>
-      <tech x="0.4" y="7">YPHCBannerReforms</tech>
-      <tech x="1.1" y="7">YPHCOldHanArmyReforms</tech>
-      <tech x="1.8" y="1">YPHCShipArquebusier1</tech>
-      <tech x="1.8" y="2">YPHCShipArquebusier2</tech>
+      <tech x="2.9" y="5">YPHCStandardArmyHitpoints</tech>
+      <tech x="1.1" y="2">YPHCShipMandarinDuckSquad</tech>
+      <tech x="1.8" y="7">YPHCOldHanArmyReforms</tech>
+      <tech x="1.8" y="1">YPHCShipArquebusier3</tech>
+      <tech x="1.8" y="2">YPHCShipArquebusier1</tech>
+      <tech x="1.8" y="3">YPHCShipArquebusier2</tech>
+      <tech x="2.9" y="1">YPHCShipChangdao3</tech>
       <tech x="2.9" y="2">YPHCShipChangdao1</tech>
       <tech x="2.9" y="3">YPHCShipChangdao2</tech>
-      <tech x="2.9" y="5">YPHCTerritorialArmyCombat</tech>
-      <tech x="2.2" y="3">YPHCHanAntiCavalryBonus</tech>
-      <tech x="3.6" y="2">YPHCShipKeshik2</tech>
-      <tech x="3.6" y="3">YPHCShipKeshik3</tech>
+      <tech x="2.2" y="5">YPHCTerritorialArmyCombat</tech>
+      <tech x="2.2" y="4">YPHCHanAntiCavalryBonus</tech>
+      <tech x="3.6" y="1">YPHCShipKeshik2</tech>
+      <tech x="3.6" y="2">YPHCShipKeshik3</tech>
       <tech x="3.6" y="5">YPHCShipKeshik4</tech>
       <tech x="3.6" y="7">YPHCWesternReforms</tech>
       <tech x="4.3" y="5">YPHCMongolianScourge</tech>
+      <tech x="5.0" y="1">YPHCShipIronFlail3</tech>
       <tech x="5.0" y="2">YPHCShipIronFlail1</tech>
       <tech x="5.0" y="4">YPHCShipIronFlail2</tech>
       <tech x="5.4" y="5">YPHCForbiddenArmyArmor</tech>
       <tech x="5.0" y="7">YPHCShipEverVictoriousArmy</tech>
-      <tech x="5.9" y="2">YPHCShipMeteorHammer1</tech>
-      <tech x="5.9" y="3">YPHCShipMeteorHammer2</tech>
+      <tech x="5.9" y="1">YPHCShipMeteorHammer1</tech>
+      <tech x="5.9" y="2">YPHCShipMeteorHammer2</tech>
       <tech x="5.9" y="4">YPHCShipMeteorHammer3</tech>
       <tech x="5.9" y="6">YPHCManchuCombat</tech>
-      <tech x="6.6" y="1">YPHCShipFlameThrower2</tech>
-      <tech x="6.6" y="2">YPHCShipFlameThrower3</tech>
-      <tech x="6.6" y="4">YPHCShipIronCapPrincesArmy</tech>
+      <tech x="6.6" y="1">YPHCShipFlameThrower1</tech>
+      <tech x="6.6" y="2">YPHCShipFlameThrower2</tech>
+      <tech x="6.6" y="3">YPHCShipFlameThrower3</tech>
+      <tech x="6.6" y="5">YPHCShipIronCapPrincesArmy</tech>
       <tech x="7.3" y="2">YPHCShipHandMortar1</tech>
       <tech x="7.3" y="6">YPHCShipHandMortar2</tech>
       <tech x="6.6" y="6">YPHCShipHandMortarTeam</tech>
-      <tech x="1.8" y="7">YPHCShipEmperorsArmy</tech>
+      <tech x="1.8" y="6">YPHCShipEmperorsArmy</tech>
       <tech x="7.8" y="1">YPHCShipFlyingCrow1</tech>
       <tech x="7.8" y="3">YPHCArtilleryHitpointsChinese</tech>
       <tech x="7.8" y="4">YPHCArtilleryDamageChinese</tech>
@@ -1394,9 +1433,13 @@
     </obtainabletechs>
     <activetechs>
       <tech>YPHCShipChangdao1</tech>
+      <tech>YPHCShipChangdao3</tech>
+      <tech>YPHCShipArquebusier3</tech>
       <tech>YPHCShipArquebusier1</tech>
       <tech>YPHCShipArquebusier2</tech>
       <tech>YPHCShipFlameThrower2</tech>
+      <tech>YPHCShipFlameThrower1</tech>
+      <tech>YPHCShipIronFlail3</tech>
     </activetechs>
     <validunits/>
     <units/>

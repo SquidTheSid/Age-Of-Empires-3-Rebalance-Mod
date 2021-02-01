@@ -2149,8 +2149,8 @@
       <building>ypWCSummerPalace3</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2245,8 +2245,8 @@
       <building>ypWCSummerPalace4</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2341,8 +2341,8 @@
       <building>ypWCSummerPalace5</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2437,8 +2437,8 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypStandardArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2533,8 +2533,8 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypStandardArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2629,8 +2629,8 @@
       <building>ypWarAcademy</building>
       <multipleblockunit>ypStandardArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -3651,8 +3651,8 @@
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -3747,8 +3747,8 @@
       <building>ypWCSummerPalace3</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -3843,8 +3843,8 @@
       <building>ypWCSummerPalace4</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -3939,8 +3939,8 @@
       <building>ypWCSummerPalace5</building>
       <multipleblockunit>ypStandardArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -4035,8 +4035,8 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypStandardArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -4131,8 +4131,8 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypStandardArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -4227,8 +4227,8 @@
       <building>ypWarAcademy</building>
       <multipleblockunit>ypStandardArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypSteppeRider</unit>
+        <unit>ypArquebusier</unit>
+        <unit>ypKeshik</unit>
       </units>
       <unitcounts>
         <count>3</count>

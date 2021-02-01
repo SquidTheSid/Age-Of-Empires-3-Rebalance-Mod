@@ -729,6 +729,10 @@ Shipments:
 - Dowager Empress multiplier increased to 2.25x from 1.60x
 - 10 INFINITE Manchu industrial shipment added (costs 1k coin).
 - Industrial Economic Theory added. Increases gather rates from all sources by +25%
+- Western Reforms increased from +8% unit HP/ATK to +10% HP/ATK
+- Atonement now trains Manchu instead of Iron Troops
+- 2 Flying Crows (one time) increased to 3 Flying Crows
+- Standard Army Hitpoints renamed to Ming Army hitpoints. Now increases Changdao and Iron Flail HP by +15%
 
 
 Portugal:

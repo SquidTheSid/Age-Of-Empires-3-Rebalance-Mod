@@ -38463,13 +38463,13 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\home_city\hc_chinese_mandarin_duck_squad</Icon>
+		<Icon>units\asians\chinese\old_han_army\old_han_icon_64</Icon>
 		<RolloverTextID>63694</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='1.00' subtype ='FreeHomeCityUnit' unittype ='ypFlameThrower' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='ypChuKoNu' relativity ='Absolute'>
+			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypArquebusier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
@@ -38598,7 +38598,7 @@
 		<Icon>units\asians\chinese\flying_crow\flying_crow_icon_64</Icon>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.00' subtype ='FreeHomeCityUnit' unittype ='ypFlyingCrow' relativity ='Absolute'>
+			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='ypFlyingCrow' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
 	<Tech name ='YPHCShipFlyingCrow2' type ='Normal'>
@@ -38640,15 +38640,15 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\home_city\hc_standard_army_reforms</Icon>
+		<Icon>ui\techs\hc_hand_infantry_hitpoints\hc_hand_infantry_hitpoints</Icon>
 		<RolloverTextID>61538</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>69929</Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
+				<Target type ='ProtoUnit'>ypIronFlail</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
+				<Target type ='ProtoUnit'>ypChangdao</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCTerritorialArmyCombat' type ='Normal'>
@@ -38723,59 +38723,35 @@
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\home_city\hc_old_han_heavy_infantry_bonus</Icon>
+		<Icon>ui\home_city\hc_banner_reforms</Icon>
 		<RolloverTextID>61557</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypOldHanArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypTerritorialArmy</Target></Effect>
 			<Effect type ='TextOutput'>70482</Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypOldHanArmy</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypTerritorialArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypChangdao</Target></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypChangdao</Target></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypChangdao</Target></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
+			<Effect type ='Data' amount ='1.06' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypMingArmy</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypMingArmy</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypStandardArmy</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypStandardArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.15' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypImperialArmy</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypMongolianArmy</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypSteppeRider</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
-			<Effect type ='Data' amount ='1.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypKeshik</Target></Effect>
-
-
+				<Target type ='ProtoUnit'>ypBlackFlagArmy</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCBannerReforms' type ='Normal'>
@@ -49957,9 +49933,9 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypMeteorHammer</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
+				<Target type ='ProtoUnit'>MercManchu</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypQiangPikeman</Target></Effect>
+				<Target type ='ProtoUnit'>MercManchu</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypMeteorHammer</Target></Effect>
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -49978,21 +49954,21 @@
 		<RolloverTextID>68948</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractLightCavalry' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractLightCavalry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMercIronTroop</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractLightCavalry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMercIronTroop</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='xpEagleKnight' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
 			<Effect type ='TextOutput'>70483</Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
+			<Effect type ='Data' amount ='0.50' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMercIronTroop</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='DamageBonus' unittype ='AbstractHeavyInfantry' allactions ='1' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>ypChuKoNu</Target></Effect>
+				<Target type ='ProtoUnit'>ypMercIronTroop</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
 		</Effects>
@@ -50643,9 +50619,9 @@
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='TextOutput'>69219</Effect>
-			<Effect type ='Data' amount ='1.08' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
-			<Effect type ='Data' amount ='1.08' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Unit</Target></Effect>
 		</Effects>
 	</Tech>
@@ -51013,7 +50989,7 @@
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
 			<Effect type ='TextOutput'>69657</Effect>
-			<Effect type ='TechStatus' status ='active'>ypSaloonIronTroop</Effect>
+			<Effect type ='TechStatus' status ='active'>MercManchu</Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypDacoit</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
