@@ -1226,7 +1226,7 @@
       <name>YPHCMercsIronTroop2</name>
       <maxcount>-1</maxcount>
       <level>10</level>
-      <prereqtech>-1</prereqtech>
+      <prereqtech>YPHCMercsIronTroop1</prereqtech>
       <age>3</age>
       <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1419,12 +1419,12 @@
       <tech x="3.6" y="2">YPHCShipKeshik3</tech>
       <tech x="3.6" y="5">YPHCShipKeshik4</tech>
       <tech x="3.6" y="7">YPHCWesternReforms</tech>
-      <tech x="4.3" y="5">YPHCMongolianScourge</tech>
-      <tech x="4.7" y="1">YPHCShipIronFlail3</tech>
-      <tech x="4.7" y="2">YPHCShipIronFlail1</tech>
-      <tech x="4.7" y="4">YPHCShipIronFlail2</tech>
-      <tech x="5.1" y="5">YPHCForbiddenArmyArmor</tech>
-      <tech x="4.7" y="7">YPHCShipEverVictoriousArmy</tech>
+      <tech x="4.4" y="5">YPHCMongolianScourge</tech>
+      <tech x="4.8" y="1">YPHCShipIronFlail3</tech>
+      <tech x="4.8" y="2">YPHCShipIronFlail1</tech>
+      <tech x="4.8" y="4">YPHCShipIronFlail2</tech>
+      <tech x="5.2" y="5">YPHCForbiddenArmyArmor</tech>
+      <tech x="4.8" y="7">YPHCShipEverVictoriousArmy</tech>
       <tech x="5.9" y="1">YPHCShipMeteorHammer1</tech>
       <tech x="5.9" y="2">YPHCShipMeteorHammer2</tech>
       <tech x="5.9" y="4">YPHCShipMeteorHammer3</tech>

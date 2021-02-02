@@ -47574,13 +47574,13 @@
 	</Tech>
 	<Tech name ='YPHCMercsIronTroop2' type ='Normal'>
 		<DBID>4835</DBID>
-		<DisplayNameID>66167</DisplayNameID>
+		<DisplayNameID>70671</DisplayNameID>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>units\asians\mercenaries\iron_troop\iron_troop_icon_64</Icon>
-		<RolloverTextID>66168</RolloverTextID>
+		<RolloverTextID>70672</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
 			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='ypMercIronTroop' relativity ='Absolute'>
