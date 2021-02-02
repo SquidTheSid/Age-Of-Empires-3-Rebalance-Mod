@@ -36577,6 +36577,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
+			<TechStatus status ='Active'>ypDisciplinedArquebusierShadow</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='SetName' proto ='ypArquebusier' culture ='none' newName ='61762'></Effect>
@@ -36623,6 +36624,7 @@
 		<Flag>UpgradeTech</Flag>
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Prereqs>
+			<TechStatus status ='Active'>ypDisciplinedIronFlailShadow</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -36798,7 +36800,7 @@
 		<DisplayNameID>60707</DisplayNameID>
 		<Cost resourcetype ='Wood'>1000.0000</Cost>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\exalted_siege</Icon>
 		<RolloverTextID>60706</RolloverTextID>
@@ -36821,7 +36823,7 @@
 		<DisplayNameID>60711</DisplayNameID>
 		<Cost resourcetype ='Wood'>1000.0000</Cost>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\exalted_siege</Icon>
 		<RolloverTextID>60710</RolloverTextID>
@@ -38806,10 +38808,10 @@
 		<RolloverTextID>61584</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='2.50' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
 			<Effect type ='TextOutput'>61587</Effect>
-			<Effect type ='Data' amount ='4.50' subtype ='BuildPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='3.00' subtype ='BuildPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWall</Target></Effect>
 		</Effects>
 	</Tech>
@@ -40154,7 +40156,7 @@
 		<DisplayNameID>62078</DisplayNameID>
 		<Cost resourcetype ='Wood'>1000.0000</Cost>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\exalted_siege</Icon>
 		<RolloverTextID>62077</RolloverTextID>
@@ -40354,7 +40356,7 @@
 		<DisplayNameID>62364</DisplayNameID>
 		<Cost resourcetype ='Wood'>1000.0000</Cost>
 		<Cost resourcetype ='Gold'>1000.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\imperial_navy\imperial_navy</Icon>
 		<RolloverTextID>62363</RolloverTextID>
@@ -44460,7 +44462,7 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy5</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypChuKoNu' relativity ='Absolute'>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypArquebusier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace2</Effect>
@@ -48346,9 +48348,9 @@
 	<Tech name ='YPHonoredMeteorHammer' type ='Normal'>
 		<DBID>4915</DBID>
 		<DisplayNameID>67141</DisplayNameID>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<Cost resourcetype ='Wood'>450.0000</Cost>
+		<Cost resourcetype ='Gold'>450.0000</Cost>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\honored_meteorhammer</Icon>
 		<RolloverTextID>67140</RolloverTextID>
@@ -48392,9 +48394,9 @@
 	<Tech name ='YPHonoredChangdao' type ='Normal'>
 		<DBID>4917</DBID>
 		<DisplayNameID>67149</DisplayNameID>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<Cost resourcetype ='Wood'>450.0000</Cost>
+		<Cost resourcetype ='Gold'>450.0000</Cost>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\honored_changdao</Icon>
 		<RolloverTextID>67148</RolloverTextID>
@@ -48402,6 +48404,7 @@
 		<Flag>CountsTowardMilitaryScore</Flag>
 		<Flag>YPGridShiftRowRightOne</Flag>
 		<Prereqs>
+			<TechStatus status ='Active'>ypDisciplinedChangdaoShadow</TechStatus>
 			<TechStatus status ='Active'>Industrialize</TechStatus></Prereqs>
 		<Effects>
 			<Effect type ='Data' amount ='1.30' subtype ='Hitpoints' relativity ='BasePercent'>
@@ -48438,9 +48441,9 @@
 	<Tech name ='YPExaltedMeteorHammer' type ='Normal'>
 		<DBID>4919</DBID>
 		<DisplayNameID>67157</DisplayNameID>
-		<Cost resourcetype ='Wood'>750.0000</Cost>
-		<Cost resourcetype ='Gold'>750.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\exalted_meteorhammer</Icon>
 		<RolloverTextID>67156</RolloverTextID>
@@ -48510,9 +48513,9 @@
 	<Tech name ='YPExaltedChangdao' type ='Normal'>
 		<DBID>4922</DBID>
 		<DisplayNameID>67169</DisplayNameID>
-		<Cost resourcetype ='Wood'>750.0000</Cost>
-		<Cost resourcetype ='Gold'>750.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>20.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\asians\exalted_changdao</Icon>
 		<RolloverTextID>67168</RolloverTextID>

@@ -2686,7 +2686,43 @@
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
-      <building>ypVillage</building>
+      <building>ypWCConfucianAcademy2</building>
+      <multipleblockunit>ypMandarinArmy</multipleblockunit>
+      <units>
+        <unit>ypMercIronTroop</unit>
+        <unit>MercManchu</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy3</building>
+      <multipleblockunit>ypMandarinArmy</multipleblockunit>
+      <units>
+        <unit>ypMercIronTroop</unit>
+        <unit>MercManchu</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy4</building>
+      <multipleblockunit>ypMandarinArmy</multipleblockunit>
+      <units>
+        <unit>ypMercIronTroop</unit>
+        <unit>MercManchu</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy5</building>
       <multipleblockunit>ypMandarinArmy</multipleblockunit>
       <units>
         <unit>ypMercIronTroop</unit>
@@ -2802,7 +2838,43 @@
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
-      <building>ypVillage</building>
+      <building>ypWCConfucianAcademy2</building>
+      <multipleblockunit>ypWokouArmy</multipleblockunit>
+      <units>
+        <unit>ypWokouPirate</unit>
+        <unit>ypWokouBlindMonk</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy3</building>
+      <multipleblockunit>ypWokouArmy</multipleblockunit>
+      <units>
+        <unit>ypWokouPirate</unit>
+        <unit>ypWokouBlindMonk</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy4</building>
+      <multipleblockunit>ypWokouArmy</multipleblockunit>
+      <units>
+        <unit>ypWokouPirate</unit>
+        <unit>ypWokouBlindMonk</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy5</building>
       <multipleblockunit>ypWokouArmy</multipleblockunit>
       <units>
         <unit>ypWokouPirate</unit>
@@ -4284,7 +4356,43 @@
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
-      <building>ypVillage</building>
+      <building>ypWCConfucianAcademy2</building>
+      <multipleblockunit>ypMandarinArmy</multipleblockunit>
+      <units>
+        <unit>ypMercIronTroop</unit>
+        <unit>MercManchu</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy3</building>
+      <multipleblockunit>ypMandarinArmy</multipleblockunit>
+      <units>
+        <unit>ypMercIronTroop</unit>
+        <unit>MercManchu</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy4</building>
+      <multipleblockunit>ypMandarinArmy</multipleblockunit>
+      <units>
+        <unit>ypMercIronTroop</unit>
+        <unit>MercManchu</unit>
+      </units>
+      <unitcounts>
+        <count>2</count>
+        <count>2</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy5</building>
       <multipleblockunit>ypMandarinArmy</multipleblockunit>
       <units>
         <unit>ypMercIronTroop</unit>
@@ -4400,7 +4508,7 @@
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
-      <building>ypVillage</building>
+      <building>ypWCConfucianAcademy2</building>
       <multipleblockunit>ypWokouArmy</multipleblockunit>
       <units>
         <unit>ypWokouPirate</unit>
@@ -4411,6 +4519,43 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy3</building>
+      <multipleblockunit>ypWokouArmy</multipleblockunit>
+      <units>
+        <unit>ypWokouPirate</unit>
+        <unit>ypWokouBlindMonk</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy4</building>
+      <multipleblockunit>ypWokouArmy</multipleblockunit>
+      <units>
+        <unit>ypWokouPirate</unit>
+        <unit>ypWokouBlindMonk</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypWCConfucianAcademy5</building>
+      <multipleblockunit>ypWokouArmy</multipleblockunit>
+      <units>
+        <unit>ypWokouPirate</unit>
+        <unit>ypWokouBlindMonk</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
     <key>C</key>
