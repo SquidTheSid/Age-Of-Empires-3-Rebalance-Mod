@@ -1407,7 +1407,7 @@
       <tech x="3.6" y="2">YPHCShipKeshik3</tech>
       <tech x="3.6" y="5">YPHCShipKeshik4</tech>
       <tech x="3.6" y="7">YPHCWesternReforms</tech>
-      <tech x="4.3" y="5">YPHCMongolianScourge</tech>
+      <tech x="4.6" y="5">YPHCMongolianScourge</tech>
       <tech x="5.0" y="1">YPHCShipIronFlail3</tech>
       <tech x="5.0" y="2">YPHCShipIronFlail1</tech>
       <tech x="5.0" y="4">YPHCShipIronFlail2</tech>
@@ -1417,12 +1417,12 @@
       <tech x="5.9" y="2">YPHCShipMeteorHammer2</tech>
       <tech x="5.9" y="4">YPHCShipMeteorHammer3</tech>
       <tech x="5.9" y="6">YPHCManchuCombat</tech>
-      <tech x="6.6" y="1">YPHCShipFlameThrower1</tech>
-      <tech x="6.6" y="2">YPHCShipFlameThrower2</tech>
-      <tech x="6.6" y="3">YPHCShipFlameThrower3</tech>
-      <tech x="6.6" y="5">YPHCShipIronCapPrincesArmy</tech>
-      <tech x="7.3" y="2">YPHCShipHandMortar1</tech>
-      <tech x="7.3" y="6">YPHCShipHandMortar2</tech>
+      <tech x="0.0" y="1">YPHCShipFlameThrower1</tech>
+      <tech x="0.0" y="2">YPHCShipFlameThrower2</tech>
+      <tech x="0.0" y="3">YPHCShipFlameThrower3</tech>
+      <tech x="0.0" y="5">YPHCShipIronCapPrincesArmy</tech>
+      <tech x="6.6" y="2">YPHCShipHandMortar1</tech>
+      <tech x="6.6" y="5">YPHCShipHandMortar2</tech>
       <tech x="6.6" y="6">YPHCShipHandMortarTeam</tech>
       <tech x="1.8" y="6">YPHCShipEmperorsArmy</tech>
       <tech x="7.8" y="1">YPHCShipFlyingCrow1</tech>

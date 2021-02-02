@@ -40601,36 +40601,38 @@
 		<Effects>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractWonder</Target></Effect>
-			<Effect type ='Data' amount ='0.80' subtype ='BuildPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractAgraFort</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='BuildPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractWonder</Target></Effect>
 			<Effect type ='TextOutput'>66510</Effect>
-			<Effect type ='Data' amount ='680.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='techWithFlag'>YPWondersColonial</Target></Effect>
-			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='techWithFlag'>YPWondersFortress</Target></Effect>
-			<Effect type ='Data' amount ='1700.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='techWithFlag'>YPWondersIndustrial</Target></Effect>
-			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='techWithFlag'>YPWondersImperial</Target></Effect>
-			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='Tech'>ypFakeImperialAge</Target></Effect>
-			<Effect type ='Data' amount ='1700.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='Tech'>ypFakeIndustrialAge</Target></Effect>
-			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='Tech'>ypFakeFortressAge</Target></Effect>
-			<Effect type ='Data' amount ='680.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Food' relativity ='BasePercent'>
 				<Target type ='Tech'>ypFakeColonialAge</Target></Effect>
-			<Effect type ='Data' amount ='850.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='techWithFlag'>YPWondersFortress</Target></Effect>
-			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='techWithFlag'>YPWondersIndustrial</Target></Effect>
-			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='techWithFlag'>YPWondersImperial</Target></Effect>
-			<Effect type ='Data' amount ='3400.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='Tech'>ypFakeImperialAge</Target></Effect>
-			<Effect type ='Data' amount ='1020.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='Tech'>ypFakeIndustrialAge</Target></Effect>
-			<Effect type ='Data' amount ='850.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='0.85' subtype ='Cost' resource ='Gold' relativity ='BasePercent'>
 				<Target type ='Tech'>ypFakeFortressAge</Target></Effect>
 		</Effects>
 	</Tech>
@@ -49597,7 +49599,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.15' subtype ='ResourceTrickleRate' resource ='Trade' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.15' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.30' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.30' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -49620,7 +49622,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.15' subtype ='ResourceTrickleRate' resource ='Trade' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.15' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.30' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.30' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
@@ -49892,7 +49894,7 @@
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.10' subtype ='ResourceTrickleRate' resource ='Trade' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='0.10' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
+			<Effect type ='Data' amount ='0.20' subtype ='ResourceTrickleRate' resource ='XP' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='Data' amount ='0.20' subtype ='ResourceTrickleRate' resource ='Food' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
