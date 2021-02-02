@@ -1223,6 +1223,16 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>YPHCMercsIronTroop2</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
+    <card>
       <name>HCMercenaryLoyalty</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1394,6 +1404,8 @@
     <obtainabletechs>
       <tech x="2.9" y="5">YPHCStandardArmyHitpoints</tech>
       <tech x="1.1" y="2">YPHCShipMandarinDuckSquad</tech>
+      <tech x="1.1" y="4">YPHCMercsIronTroop1</tech>
+      <tech x="1.1" y="5">YPHCMercsIronTroop2</tech>
       <tech x="1.8" y="7">YPHCOldHanArmyReforms</tech>
       <tech x="1.8" y="1">YPHCShipArquebusier3</tech>
       <tech x="1.8" y="2">YPHCShipArquebusier1</tech>
@@ -1407,12 +1419,12 @@
       <tech x="3.6" y="2">YPHCShipKeshik3</tech>
       <tech x="3.6" y="5">YPHCShipKeshik4</tech>
       <tech x="3.6" y="7">YPHCWesternReforms</tech>
-      <tech x="4.6" y="5">YPHCMongolianScourge</tech>
-      <tech x="5.0" y="1">YPHCShipIronFlail3</tech>
-      <tech x="5.0" y="2">YPHCShipIronFlail1</tech>
-      <tech x="5.0" y="4">YPHCShipIronFlail2</tech>
-      <tech x="5.4" y="5">YPHCForbiddenArmyArmor</tech>
-      <tech x="5.0" y="7">YPHCShipEverVictoriousArmy</tech>
+      <tech x="4.3" y="5">YPHCMongolianScourge</tech>
+      <tech x="4.7" y="1">YPHCShipIronFlail3</tech>
+      <tech x="4.7" y="2">YPHCShipIronFlail1</tech>
+      <tech x="4.7" y="4">YPHCShipIronFlail2</tech>
+      <tech x="5.1" y="5">YPHCForbiddenArmyArmor</tech>
+      <tech x="4.7" y="7">YPHCShipEverVictoriousArmy</tech>
       <tech x="5.9" y="1">YPHCShipMeteorHammer1</tech>
       <tech x="5.9" y="2">YPHCShipMeteorHammer2</tech>
       <tech x="5.9" y="4">YPHCShipMeteorHammer3</tech>
@@ -1572,7 +1584,6 @@
       <tech x="4.2" y="7">HCMercsManchuINFINITE</tech>
       <tech x="3.4" y="5">HCMercenaryLoyalty</tech>
       <tech x="3.4" y="1">YPHCAtonementChinese</tech>
-      <tech x="5.0" y="3">YPHCMercsIronTroop1</tech>
       <tech x="5.8" y="3">YPHCMercsRattanShield1</tech>
       <tech x="5.8" y="5">YPHCMercsRattanShield2</tech>
       <tech x="5.8" y="7">YPHCMercsRattanShield3</tech>
