@@ -6753,6 +6753,8 @@
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMercIronTroop</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypChangdao</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypHandMortar</Target></Effect>
@@ -6786,6 +6788,10 @@
 				<Target type ='ProtoUnit'>Factory</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypMongolianArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypMandarinArmy</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='YPAge0ChineseWonders' type ='Normal'>
@@ -44464,6 +44470,12 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy5</Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypArquebusier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercManchu</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouBlindMonk</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace2</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseTempleOfHeaven2</Effect>
@@ -44487,6 +44499,12 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy5</Effect>
 			<Effect type ='Data' amount ='8.00' subtype ='FreeHomeCityUnit' unittype ='ypArquebusier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercManchu</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouBlindMonk</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace3</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseTempleOfHeaven3</Effect>
@@ -44509,6 +44527,12 @@
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseConfucianAcademy5</Effect>
 			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='ypArquebusier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercManchu</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouBlindMonk</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace4</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseTempleOfHeaven4</Effect>
@@ -44530,6 +44554,12 @@
 			<Effect type ='SetAge'>Age4</Effect>
 			<Effect type ='Data' amount ='21.00' subtype ='FreeHomeCityUnit' unittype ='ypArquebusier' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>MercManchu</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouBlindMonk</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypWokouPirate</Target></Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChinesePorcelainTower5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseSummerPalace5</Effect>
 			<Effect type ='TechStatus' status ='unobtainable'>YPWonderChineseTempleOfHeaven5</Effect>
@@ -49989,6 +50019,11 @@
 				<Target type ='ProtoUnit'>ypMercIronTroop</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
+			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypArquebusier</Target></Effect>
+			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>ypMercIronTroop</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPHCHouseHitpointsTeam' type ='Normal'>
@@ -55369,22 +55404,22 @@
 			<Effect type ='Data' amount ='16.00' subtype ='FreeHomeCityUnit' unittype ='xpSPCColonialMilitia' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect></Effects>
 	</Tech>
-	<Tech name ='HCRangedInfantryHitpointsAmericans' type ='Normal'>
+	<Tech name ='HCRangedInfantryDamageAmericans1' type ='Normal'>
 		<DBID>2373</DBID>
 		<DisplayNameID>70808</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
 		<ResearchPoints>40.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>ui\techs\hc_ranged_infantry_hitpoints\hc_ranged_infantry_hitpoints</Icon>
+		<Icon>ui\techs\hc_gunpowder_infantry_damage\hc_gunpowder_infantry_damage</Icon>
 		<RolloverTextID>70809</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.15' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractRangedInfantry</Target></Effect>
 
 		</Effects>
 	</Tech>
-	<Tech name ='HCRangedInfantryDamageAmericans' type ='Normal'>
+	<Tech name ='HCRangedInfantryDamageAmericans2' type ='Normal'>
 		<DBID>2374</DBID>
 		<DisplayNameID>70810</DisplayNameID>
 		<Cost resourcetype ='Ships'>1.0000</Cost>
@@ -55948,13 +55983,11 @@
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
 			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
-			<Effect type ='Data' action ='StaggerHandAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
+			<Effect type ='Data' action ='StaggerRangedAttack' amount ='1.00' subtype ='DamageArea' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
-			<Effect type ='Data' action ='MeleeHandAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+			<Effect type ='Data' action ='VolleyRangedAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
-			<Effect type ='Data' action ='CoverHandAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
-			<Effect type ='Data' action ='DefendHandAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
+			<Effect type ='Data' action ='DefendRangedAttack' amount ='1.50' subtype ='DamageCap' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
 			<Effect type ='Data' action ='StaggerRangedAttack' amount ='-2.00' subtype ='MaximumRange' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Shotgunner</Target></Effect>
@@ -56904,4 +56937,35 @@
 				<Target type ='Tech'>ypBigConsulateFrench</Target></Effect>
 		</Effects>
 	</Tech>
+	<Tech name ='HCCavalryHitpointsAmericans1' type ='Normal'>
+		<DBID>2084</DBID>
+		<DisplayNameID>35320</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_cavalry_hitpoints\hc_cavalry_hitpoints</Icon>
+		<RolloverTextID>35319</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+			<Effect type ='TextOutput'>41815</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCCavalryHitpointsAmericans2' type ='Normal'>
+		<DBID>2084</DBID>
+		<DisplayNameID>35320</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\hc_cavalry_hitpoints\hc_cavalry_hitpoints</Icon>
+		<RolloverTextID>35319</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+			<Effect type ='TextOutput'>41815</Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>

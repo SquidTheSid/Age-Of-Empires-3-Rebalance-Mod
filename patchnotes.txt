@@ -1007,6 +1007,14 @@ Uhlans: Very controversial units due to their breakpoints. Due to the increased 
 - Melee Damage: Reduced to 36 from 37.
 - Cost: Reduced to 45 Food/100 Gold from 50F/100G
 
+NEW CIV: USA
+
+Civ Bonus: All units heal over time when idle. Pilgrims replace Settlers, who gather more quickly and have more hitpoints. Can call American Patriots to convert all Pilgrims into Colonial Militia in any age. 
+
+Unique units: Shotgunner, Ranger, Colonial Militia, Spur Rider, Texas Ranger
+
+Royal Guard units: Ranger, Spur Rider
+
 MISC (bug fixes):
 
 - 8 Gatherer limit added to berry bushes (to prevent idle vills)
