@@ -11,6 +11,7 @@
   <politicianbishop portraitfilename="ui\ingame\politicians\politician_bishop"/>
   <politicianbishopgerman portraitfilename="ui\ingame\politicians\politician_bishop"/>
   <politiciancavalierdutch portraitfilename="ui\ingame\politicians\politician_cavalier"/>
+  <politiciancavalierbritish portraitfilename="ui\ingame\politicians\politician_cavalier"/>
   <politiciancavalierfrench portraitfilename="ui\ingame\politicians\politician_cavalier"/>
   <politiciancavaliergerman portraitfilename="ui\ingame\politicians\politician_cavalier"/>
   <politiciancavalierottoman portraitfilename="ui\ingame\politicians\politician_cavalier"/>
@@ -31,6 +32,10 @@
   <politicianmarksmanottoman portraitfilename="ui\ingame\politicians\politician_marksman"/>
   <politicianmarksmanportuguese portraitfilename="ui\ingame\politicians\politician_marksman"/>
   <politicianmohawk portraitfilename="ui\ingame\politicians\politician_mohawk_statesmen"/>
+  <politicianmohawkportuguese portraitfilename="ui\ingame\politicians\politician_mohawk_statesmen"/>
+  <politicianmohawkottoman portraitfilename="ui\ingame\politicians\politician_mohawk_statesmen"/>
+  <politicianmohawkbritish portraitfilename="ui\ingame\politicians\politician_mohawk_statesmen"/>
+  <politicianmohawkspanish portraitfilename="ui\ingame\politicians\politician_mohawk_statesmen"/>
   <politicianmusketeerbritish portraitfilename="ui\ingame\politicians\politician_kings_musketeer"/>
   <politicianmusketeerdutch portraitfilename="ui\ingame\politicians\politician_kings_musketeer"/>
   <politicianmusketeerfrench portraitfilename="ui\ingame\politicians\politician_kings_musketeer"/>

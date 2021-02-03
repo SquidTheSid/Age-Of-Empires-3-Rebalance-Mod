@@ -299,6 +299,8 @@
 				<Target type ='ProtoUnit'>Explorer</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='20.00' subtype ='PopulationCapExtra' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 			<Effect type ='TechStatus' status ='active'>AAStandardStartingTechs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>GuardCossacks</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>VeteranCossacks</Effect>
@@ -542,9 +544,9 @@
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneralBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidente</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianCavalierBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianNaturalist</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianTycoon</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianViceroyBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGovernor</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Plantation</Target></Effect>
@@ -572,8 +574,8 @@
 				<Target type ='ProtoUnit'>WallStraight2</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianKingsMusketeerBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerBritish</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianGentlemanPirateBritish</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanBritish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianPirate</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianMohawkBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianPhilosopherPrinceBritish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianBishopBritish</Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -1037,7 +1039,7 @@
 				<Target type ='ProtoUnit'>Crossbowman</Target></Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianKingsMusketeerPortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianTycoonPortuguese</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianMohawkStatesmanPortuguese</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianMohawkPortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianAdmiralPortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianQuartermasterPortuguese</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianBishopPortuguese</Effect>
@@ -1192,7 +1194,7 @@
 				<Target type ='ProtoUnit'>Grenadier</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Spahi</Target></Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianCavalierOttoman</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianMohawkOttoman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianEngineer</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianExiledPrinceOttoman</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianScoutOttoman</Effect>
@@ -1332,7 +1334,6 @@
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianAdventurerSpanish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianPresidente</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGeneral</Effect>
-			<Effect type ='TechStatus' status ='obtainable'>PoliticianMusketeerSpanish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianGovernor</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianBishop</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>PoliticianCavalierSpanish</Effect>
@@ -1379,6 +1380,7 @@
 			<Effect type ='TechStatus' status ='obtainable'>RGEspadachins</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>RGGarrochista</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianWarMinisterSpanish</Effect>
+			<Effect type ='TechStatus' status ='obtainable'>PoliticianMohawkSpanish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianEngineerSpanish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianScoutSpanish</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>UnlockPoliticianAdmiralSpanish</Effect>
@@ -4116,6 +4118,16 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='Plantation' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='Mill' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.05' subtype ='WorkRateSpecific' resource ='Gold' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data2' action ='Gather' amount ='1.05' subtype ='WorkRateSpecific' resource ='Food' unittype ='ypRicePaddy' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpIroquoisWarChief</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -4267,6 +4279,8 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.05' subtype ='WorkRate' unittype ='Huntable' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -12083,6 +12097,10 @@
 			<Effect type ='TechStatus' status ='active'>Colonialize</Effect>
 			<Effect type ='Data' amount ='1.25' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>WarDog</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
+			<Effect type ='Data' amount ='0.80' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
 			<Effect type ='Data' action ='ExtraDamage' amount ='1.00' subtype ='ActionEnable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>Missionary</Target></Effect>
 
@@ -14090,8 +14108,11 @@
 			<Effect type ='Data' amount ='3.00' subtype ='FreeHomeCityUnit' unittype ='NatMantlet' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
 			<Effect type ='SetAge'>Age3</Effect>
-			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='NatTomahawk' relativity ='Absolute'>
+			<Effect type ='Data' amount ='6.00' subtype ='FreeHomeCityUnit' unittype ='NatTomahawk' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionIroquois</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyIroquois</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeIroquois</Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='PoliticianMusketeerSpanish' type ='Normal'>
@@ -14995,6 +15016,10 @@
 				<Target type ='ProtoUnit'>WarDog</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
+			<Effect type ='Data' amount ='1.20' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>Lancer</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='Fortressize' type ='Normal'>
@@ -27802,9 +27827,9 @@
 		<RolloverTextID>44334</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' amount ='10.00' subtype ='FreeHomeCityUnit' unittype ='xpArrowKnight' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='xpArrowKnight' relativity ='BasePercent'>
 				<Target type ='Player'></Target></Effect>
-			<Effect type ='Data' amount ='1.20' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='1.30' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpArrowKnight</Target></Effect>
 		</Effects>
 	</Tech>
@@ -34435,8 +34460,6 @@
 			<Effect type ='TextOutput'>47031</Effect>
 			<Effect type ='TransformUnit' toprotoid ='Rodelero' fromprotoid ='Pikeman'></Effect>
 			<Effect type ='TransformUnit' toprotoid ='Lancer' fromprotoid ='Hussar'></Effect>
-			<Effect type ='TechStatus' status ='active'>VeteranRodeleros</Effect>
-
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPTirailleurs' type ='Normal'>
@@ -56854,10 +56877,10 @@
 		<RolloverTextID>70962</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='BuildingAttack' amount ='2.00' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpWarBow</Target></Effect>
 			<Effect type ='TextOutput'>44257</Effect>
-			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
+			<Effect type ='Data' action ='BuildingAttack' amount ='2.00' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpWarClub</Target></Effect>
 			<Effect type ='Data' action ='BuildingAttack' amount ='1.50' subtype ='Damage' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpCoupRider</Target></Effect>
@@ -56965,6 +56988,108 @@
 			<Effect type ='Data' amount ='1.15' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='TextOutput'>41815</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianMohawkBritish' type ='Normal'>
+		<DBID>1723</DBID>
+		<DisplayNameID>70673</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1200.0000</Cost>
+		<ResearchPoints>110.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>70674</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age3</Effect>
+			<Effect type ='Data' amount ='9.00' subtype ='FreeHomeCityUnit' unittype ='NatRifleman' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionCherokee</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyCherokee</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeCherokee</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianMohawkPortuguese' type ='Normal'>
+		<DBID>1723</DBID>
+		<DisplayNameID>70676</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1200.0000</Cost>
+		<ResearchPoints>110.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>70675</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age3</Effect>
+			<Effect type ='Data' amount ='11.00' subtype ='FreeHomeCityUnit' unittype ='NatBlackwoodArcher' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyTupi</Effect>
+			<Effect type ='TechStatus' status ='active'>NativeTupi</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianMohawkOttoman' type ='Normal'>
+		<DBID>7065</DBID>
+		<DisplayNameID>70678</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1200.0000</Cost>
+		<ResearchPoints>110.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>70677</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age3</Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='ypNatWarElephant' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatHonoredSufi</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNatDisciplinedSufi</Effect>
+			<Effect type ='TechStatus' status ='active'>ypNativeSufi</Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='PoliticianMohawkSpanish' type ='Normal'>
+		<DBID>1723</DBID>
+		<DisplayNameID>70680</DisplayNameID>
+		<Cost resourcetype ='Food'>2000.0000</Cost>
+		<Cost resourcetype ='Gold'>1200.0000</Cost>
+		<ResearchPoints>110.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>70679</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age3</Effect>
+			<Effect type ='Data' amount ='12.00' subtype ='FreeHomeCityUnit' unittype ='NatHolcanSpearman' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
+			<Effect type ='TechStatus' status ='active'>NativeMaya</Effect>
+			<Effect type ='TechStatus' status ='active'>ChampionMaya</Effect>
+			<Effect type ='TechStatus' status ='active'>WarriorSocietyMaya</Effect>
+		</Effects>
+		</Tech> 
+		<Tech name ='PoliticianCavalierBritish' type ='Normal'>
+		<DBID>2194</DBID>
+		<DisplayNameID>35680</DisplayNameID>
+		<Cost resourcetype ='Food'>1200.0000</Cost>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\ingame\icon_age_iv</Icon>
+		<RolloverTextID>35475</RolloverTextID>
+		<Flag>Shadow</Flag>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>CountsTowardEconomicScore</Flag>
+		<Effects>
+			<Effect type ='SetAge'>Age2</Effect>
+			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Hussar' relativity ='Absolute'>
+				<Target type ='Player'></Target></Effect>
 		</Effects>
 	</Tech>
 

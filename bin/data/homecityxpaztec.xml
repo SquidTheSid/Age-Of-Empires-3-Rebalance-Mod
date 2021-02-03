@@ -1141,7 +1141,7 @@
     <card>
       <name>HCXPTempleCoatlicue</name>
       <maxcount>1</maxcount>
-      <level>10</level>
+      <level>9</level>
       <prereqtech>HCXPTempleCenteotl</prereqtech>
       <age>2</age>
       <displayunitcount>10</displayunitcount>

@@ -9,7 +9,7 @@ Included new maps made by Dansil92
 Incoporated most of ESOC's fixed starting crates:
 - Spain: 300 Food + 200 wood
 - Britain: 300 Food + 300 Wood
-- France: 400 Food + 200 Wood
+- France: 300 Food + 200 Wood + 100 Coin
 - Portuguese: 300 Food + 200 Wood
 - Dutch: 400 coin + 200 wood
 - Russia: 600 Food + 200 wood
@@ -146,7 +146,7 @@ Consulate Changes:
  -- 10 Tercio replaced with 8 Espadachins
 
 European: 
-- Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15); range increased to 14 from 12. Arsonists adjusted accordingly
+- Grenadier's HeavyInfantry tag removed; LOS improved to 20 (from 15); range increased to 14 from 12. Now has 1.5x HeavyInfantry, 2.0 LightCavalry, 1.75x EagleKnight. Arsonists adjusted accordingly
 - Ironclad HP buffed to 2500, up from 2000
 - Spy population cost reduced from 2 to 1
 - Artillery Foundry wood cost reduced to 250 wood from 300
@@ -822,7 +822,7 @@ Shipments:
 - Hand Infantry Hitpoints renamed to Archaic Infantry Hitpoints. Now additionally boosts AbstractArcher HP by 15%.
 - TEAM Hand Infantry Attack renamed to TEAM Archaic Infantry Attack. Now additionally boosts AbstractArcher attack by 15%. 
 - Caballeros additionally increases Lancer melee range by 1
-- Tercio Tactics now additionally upgrades Rodeleros to veteran status for free; all Hussars turn into Lancers as well
+- Tercio Tactics now additionally turns all Hussars turn into Lancers as well, moved up to colonial age. 
 - Unction now reduces the cost of Missionaries by 40% and reduces their train time by 60% 
 - Spanish Gold moved to age 2 and now provides a 2.75 Gold/s trickle.
 - Colonial Estancias now provides an additional 20 population (each TC now provides 100 population)
