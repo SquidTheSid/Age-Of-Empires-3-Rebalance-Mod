@@ -9,7 +9,7 @@ Included new maps made by Dansil92
 Incoporated most of ESOC's fixed starting crates:
 - Spain: 300 Food + 200 wood
 - Britain: 300 Food + 300 Wood
-- France: 300 Food + 200 Wood + 100 Coin
+- France: 300 Food + 200 Wood + 100 Coin, +1 Sheep
 - Portuguese: 300 Food + 200 Wood
 - Dutch: 400 coin + 200 wood
 - Russia: 600 Food + 200 wood
@@ -297,7 +297,8 @@ Teepee: A very controversial building (given how ESOC added then removed an econ
 Civ Bonus Changes:
 - Sioux get free bison every Age (4 colonial, 8 fortress, 16 industrial, 30 imperial)
 - Sioux can now build regular walls in the Industrial Age (Bastion becomes available in Imperial Age)
-- Sioux's town centers cost 400 wood instead of 500 [ESOC]
+- Sioux's town centers cost 200 Food + 200 Wood, and they can build 3 in discovery age, but they have a 30% HP penalty to all Town Centers. 
+- All of Sioux's building costs are evenly split between wood and food (e.g. a War Hut is 125 Food, 125 Wood instead of 250 wood).
 - Sioux infantry gain +10% increased siege damage each age, starting in discovery age. 
 
 Fire Pit Changes:
@@ -307,6 +308,12 @@ Politician Reworks/Changes:
 - Wise woman: now ships more bison (8,15,25, 40 up from 6,12,20,30) and grants a larger buff to hunting (20/30/40/50% up from 10/20/30/40%)
 - Warrior: Colonial Age now ships 2 Axe Riders (up from 1). Industrial Age ships 3 Dog Soldiers, and Imperial ships 6 Dog Soldiers.
 
+Big Buttons:
+- Battle Anger - cost reduced to 200 Wood, 600 Gold from 300/600
+- War Drums - Now provides a +10% movement speed bonus to infantry and a -20% train time reduction (down from -33%/25% for archaic/wakina). Cost increased to 500 Gold.
+- Bonepipe Armor: cost reduced to 500 Wood, 200 Gold from 500/250
+- Horsemanship: cost reduced to 450 gold from 500
+- Gun Trade: cost reduced to 350 Wood from 400
 
 Bow Rider - They're pretty ridiculous on RE, so I've incorporated EP'/DE's HP nerf, but with an armor buff to help compensate
 - HP: Reduced to 225 from 250
@@ -341,16 +348,16 @@ Shipments:
 - Two Kettle Support now increases Wakina damage by +25% instead of HP by +20%.
 - Dakota Support now ships 6 Tashunke Prowlers (up from 5), increases their attack by 20%, and lets them use stealth. 
 - Bandit Gang - Bandit Gang (Non-repeatable) renamed to Outlaw Combat and no longer ships units nor costs coin. Instead, it increases the HP/damage of Outlaw Comanchero, Outlaw Riflemen, and Outlaw Pistolero by 35% and cost 2 less population
-- Three Sisters - Age 4 Shipment that increases farm gather rate by 40% (currently replaces old ways)
+- Three Sisters - Age 4 Shipment that increases farm gather rate by 40%
 - Aggressive policy now reduces the cost of Teepees by 50% but reduces their hitpoints by 33%, in addition to letting infantry build War Huts, Teepees, and Corrals
 - Nomadic Expansion cost reduction reduced to 25% from 30%. Now additionally increases Teepee LOS by 5. Now available in Age 1
 - Sioux now has access to the water dance shipment
 - Town Dance moved to colonial age. Now lets Sioux build walls in any age (starting from colonial) and research bastion.
 - Adoption train time reduction improved to -40% from -25% [ESOC]
 - Onikare moved to Age 4 from Age 2; now additionally reduces Dog Soldier train time by 20% [thanks to gamevideo113]
-- Marauders reworked to give Tashunke Prowlers +10x damage vs. Explorers and Mercenaries and +4x damage vs. Native Warriors
+- Marauders reworked to give Tashunke Prowlers +10x damage vs. Explorers and Mercenaries and +4x damage vs. Native Warriors, fortress age shipment
 - 4 villager shipment increased to 5
-- Scorched Earth Shipment added in Age IV. Increases Tashunke Prowler, Cetan Bow, and War Club siege damage by +50%. 
+- Scorched Earth Shipment added in Age IV. Increases Tashunke Prowler, Cetan Bow, and War Club siege damage by +100%. 
 
 
 
@@ -518,7 +525,7 @@ Japanese Consulate:
 - Now trains consulate Yojimbo (Sanjuro) instead of Consulate Shinobi.
 
 Shrine: To compensate for the numerous nerfs, cost has been reduced slightly, but have a more complicated macro and less HP.
-- Cost: Reduced to 95 wood, 20 Gold from 125 Wood (bounties adjusted accordingly).
+- Cost: Reduced to 100 wood, 20 Gold from 125 Wood (bounties adjusted accordingly).
 - HP: Reduced to 1500 from 1600
 
 Dutch Consulate:

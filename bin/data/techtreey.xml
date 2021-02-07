@@ -4283,13 +4283,17 @@
 				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
+			<Effect type ='Data' amount ='0.70' subtype ='Hitpoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
+			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>xpAxeRider</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='0.50' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.40' subtype ='Cost' resource ='Wood' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
-			<Effect type ='Data' amount ='250' subtype ='Cost' resource ='Food' relativity ='Absolute'>
+			<Effect type ='Data' amount ='200' subtype ='Cost' resource ='Food' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='TechStatus' status ='active'>AANativeStartingTechs</Effect>
 			<Effect type ='TechStatus' status ='obtainable'>ChampionRifleRiders</Effect>
@@ -6782,8 +6786,6 @@
 				<Target type ='ProtoUnit'>ypWarJunk</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypFireship</Target></Effect>
-			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>ypOldHanArmy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypForbiddenArmy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
@@ -24601,8 +24603,6 @@
 			<Effect type ='TechStatus' status ='active'>Fortressize</Effect>
 			<Effect type ='Data' amount ='1.50' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>WarDog</Target></Effect>
-			<Effect type ='Data' amount ='2.00' subtype ='BuildLimit' relativity ='Absolute'>
-				<Target type ='ProtoUnit'>TownCenter</Target></Effect>
 			<Effect type ='Data' amount ='2.00' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpLakotaWarchief</Target></Effect>
 			<Effect type ='Data' amount ='2.50' subtype ='Damage' allactions ='1' relativity ='BasePercent'>
@@ -24694,7 +24694,7 @@
 		<DBID>2768</DBID>
 		<DisplayNameID>43657</DisplayNameID>
 		<Cost resourcetype ='Wood'>500.0000</Cost>
-		<Cost resourcetype ='Gold'>250.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -24773,8 +24773,8 @@
 	<Tech name ='BigFirepitBattleAnger' type ='Normal'>
 		<DBID>2774</DBID>
 		<DisplayNameID>43696</DisplayNameID>
-		<Cost resourcetype ='Wood'>250.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>600.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -31472,7 +31472,7 @@
 	<Tech name ='BigWarHutWarDrums' type ='Normal'>
 		<DBID>3259</DBID>
 		<DisplayNameID>45887</DisplayNameID>
-		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -31483,13 +31483,14 @@
 		<Prereqs>
 			<TechStatus status ='Active'>Colonialize</TechStatus></Prereqs>
 		<Effects>
-			<Effect type ='Data' amount ='0.67' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpWarBow</Target></Effect>
-			<Effect type ='Data' amount ='0.67' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpWarClub</Target></Effect>
-			<Effect type ='Data' amount ='0.75' subtype ='TrainPoints' relativity ='BasePercent'>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>xpWarRifle</Target></Effect>
-		</Effects>
+			<Effect type ='Data' amount ='1.10' subtype ='MaximumVelocity' relativity ='BasePercent'>				<Target type ='ProtoUnit'>AbstractInfantry</Target></Effect></Effects>
+
 	</Tech>
 	<Tech name ='BigSiouxDogSoldiers' type ='Normal'>
 		<DBID>3265</DBID>
@@ -32128,7 +32129,7 @@
 	<Tech name ='BigFarmHorsemanship' type ='Normal'>
 		<DBID>3301</DBID>
 		<DisplayNameID>46136</DisplayNameID>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype ='Gold'>450.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -32143,7 +32144,7 @@
 	<Tech name ='BigPlantationGunTrade' type ='Normal'>
 		<DBID>3302</DBID>
 		<DisplayNameID>46138</DisplayNameID>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype ='Wood'>350.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance2</Icon>
@@ -33657,8 +33658,32 @@
 		<RolloverTextID>46936</RolloverTextID>
 		<Flag>HomeCity</Flag>
 		<Effects>
-			<Effect type ='Data' action ='Gather' amount ='1.40' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
-				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
+			<Effect type ='Data' amount ='250.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>BigCorralBonepipeArmor</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>BigDockFlamingArrows</Target></Effect>
+			<Effect type ='Data' amount ='200.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>BigDockFlamingArrows</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>BigCorralBonepipeArmor</Target></Effect>
+			<Effect type ='Data' amount ='750.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>BigSiouxDogSoldiers</Target></Effect>
+			<Effect type ='Data' amount ='250.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>BigWarHutWarDrums</Target></Effect>
+			<Effect type ='Data' amount ='175.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>BigPlantationGunTrade</Target></Effect>
+			<Effect type ='Data' amount ='250.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>BigMarketNewYear</Target></Effect>
+			<Effect type ='Data' amount ='250.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>BigMarketNewYear</Target></Effect>
+			<Effect type ='Data' amount ='250.00' subtype ='Cost' resource ='Food' relativity ='Assign'>
+				<Target type ='Tech'>BigMarketNewYear</Target></Effect>
+			<Effect type ='Data' amount ='300.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>BigFirepitBattleAnger</Target></Effect>
+			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
+				<Target type ='Tech'>BigFirepitBattleAnger</Target></Effect>
+			<Effect type ='Data' amount ='225.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+				<Target type ='Tech'>BigFarmHorsemanship</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPOldWaysAztec' type ='Normal'>
@@ -57090,6 +57115,20 @@
 			<Effect type ='SetAge'>Age2</Effect>
 			<Effect type ='Data' amount ='4.00' subtype ='FreeHomeCityUnit' unittype ='Hussar' relativity ='Absolute'>
 				<Target type ='Player'></Target></Effect>
+		</Effects>
+	</Tech>
+	<Tech name ='HCXPThreeSistersSioux' type ='Normal'>
+		<DBID>3401</DBID>
+		<DisplayNameID>46935</DisplayNameID>
+		<Cost resourcetype ='Ships'>1.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>ui\techs\native\green_corn_ceremony</Icon>
+		<RolloverTextID>46936</RolloverTextID>
+		<Flag>HomeCity</Flag>
+		<Effects>
+			<Effect type ='Data' action ='Gather' amount ='1.40' subtype ='WorkRate' unittype ='Farm' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractVillager</Target></Effect>
 		</Effects>
 	</Tech>
 
