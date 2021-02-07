@@ -312,7 +312,7 @@ Big Buttons:
 - Battle Anger - cost reduced to 200 Wood, 600 Gold from 300/600
 - War Drums - Now provides a +10% movement speed bonus to infantry and a -20% train time reduction (down from -33%/25% for archaic/wakina). Cost increased to 500 Gold.
 - Bonepipe Armor: cost reduced to 500 Wood, 200 Gold from 500/250
-- Horsemanship: cost reduced to 450 gold from 500
+- Horsemanship: Now additionally reduces train time by 20% for all cavalry. 
 - Gun Trade: cost reduced to 350 Wood from 400
 
 Bow Rider - They're pretty ridiculous on RE, so I've incorporated EP'/DE's HP nerf, but with an armor buff to help compensate

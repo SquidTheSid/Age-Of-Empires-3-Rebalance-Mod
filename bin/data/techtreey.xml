@@ -29196,7 +29196,13 @@
 				<Target type ='ProtoUnit'>SaloonOutlawRider</Target></Effect>
 			<Effect type ='Data' amount ='-2.00' subtype ='PopulationCount' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>SaloonOutlawRifleman</Target></Effect>
-
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='SaloonOutlawPistol' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarHut</Target></Effect>
+			<Effect type ='TextOutput'>46813</Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='SaloonOutlawRifleman' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>WarHut</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='SaloonOutlawRider' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>Corral</Target></Effect>
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPSiouxDakotaSupport' type ='Normal'>
@@ -32129,7 +32135,7 @@
 	<Tech name ='BigFarmHorsemanship' type ='Normal'>
 		<DBID>3301</DBID>
 		<DisplayNameID>46136</DisplayNameID>
-		<Cost resourcetype ='Gold'>450.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
 		<ResearchPoints>10.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>ui\techs\native\Dance3</Icon>
@@ -32138,8 +32144,12 @@
 		<Flag>CountsTowardEconomicScore</Flag>
 		<Flag>NativeDance</Flag>
 		<Effects>
+			<Effect type ='Data' amount ='0.80' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='1.10' subtype ='Hitpoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect></Effects>
+		<Effect type ='Data' amount ='1.15' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
 	</Tech>
 	<Tech name ='BigPlantationGunTrade' type ='Normal'>
 		<DBID>3302</DBID>
@@ -33682,7 +33692,7 @@
 				<Target type ='Tech'>BigFirepitBattleAnger</Target></Effect>
 			<Effect type ='Data' amount ='100.00' subtype ='Cost' resource ='Wood' relativity ='Assign'>
 				<Target type ='Tech'>BigFirepitBattleAnger</Target></Effect>
-			<Effect type ='Data' amount ='225.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
+			<Effect type ='Data' amount ='250.00' subtype ='Cost' resource ='Gold' relativity ='Assign'>
 				<Target type ='Tech'>BigFarmHorsemanship</Target></Effect>
 		</Effects>
 	</Tech>
@@ -35403,6 +35413,9 @@
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
 			<Effect type ='Data' amount ='0.90' subtype ='TrainPoints' relativity ='BasePercent'>
 				<Target type ='ProtoUnit'>AbstractCavalry</Target></Effect>
+			<Effect type ='Data' amount ='1.05' subtype ='TrainPoints' relativity ='BasePercent'>
+				<Target type ='ProtoUnit'>xpDogSoldier</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='HCXPWindRunner' type ='Normal'>
