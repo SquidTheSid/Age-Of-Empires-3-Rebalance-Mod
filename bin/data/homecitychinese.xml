@@ -715,7 +715,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>YPHCNativeLearning</prereqtech>
-      <age>2</age>
+      <age>0</age>
     </card>
     <card>
       <name>YPHCNativeDamage</name>

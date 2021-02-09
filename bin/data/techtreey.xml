@@ -6808,6 +6808,9 @@
 				<Target type ='ProtoUnit'>ypWokouArmy</Target></Effect>
 			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
 				<Target type ='ProtoUnit'>ypMandarinArmy</Target></Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='Enable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>ypOldHanArmy</Target></Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name ='YPAge0ChineseWonders' type ='Normal'>

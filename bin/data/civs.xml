@@ -2426,12 +2426,12 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypOldHanArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+	<unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -2522,8 +2522,8 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypOldHanArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
         <count>3</count>
@@ -2618,12 +2618,12 @@
       <building>ypWarAcademy</building>
       <multipleblockunit>ypOldHanArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -3712,12 +3712,12 @@
       <building>ypWCSummerPalace2</building>
       <multipleblockunit>ypOldHanArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -3808,13 +3808,14 @@
       <building>ypWCSummerPalace3</building>
       <multipleblockunit>ypOldHanArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
+    </multipleblocktrain>
     </multipleblocktrain>
     <multipleblocktrain>
       <building>ypWCSummerPalace3</building>
@@ -3904,12 +3905,12 @@
       <building>ypWCSummerPalace4</building>
       <multipleblockunit>ypOldHanArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -4000,12 +4001,12 @@
       <building>ypWCSummerPalace5</building>
       <multipleblockunit>ypOldHanArmySpawn</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -4096,12 +4097,12 @@
       <building>ypFuchuan</building>
       <multipleblockunit>ypOldHanArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -4192,12 +4193,12 @@
       <building>FortFrontier</building>
       <multipleblockunit>ypOldHanArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -4288,12 +4289,12 @@
       <building>ypWarAcademy</building>
       <multipleblockunit>ypOldHanArmy</multipleblockunit>
       <units>
-        <unit>ypChuKoNu</unit>
-        <unit>ypQiangPikeman</unit>
+        <unit>ypKeshik</unit>
+        <unit>ypMeteorHammer</unit>
       </units>
       <unitcounts>
-        <count>3</count>
-        <count>3</count>
+        <count>2</count>
+        <count>2</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
